@@ -1,9 +1,167 @@
 {
   "schema_version": 2,
   "month": "2026-09",
-  "updated_at": "2026-09-23T20:34:51.735335+00:00",
-  "item_count": 189,
+  "updated_at": "2026-09-23T20:43:15.195135+00:00",
+  "item_count": 233,
   "items": [
+    {
+      "id": "07a8f7dd10d8be9c6d42",
+      "title": "More signal versus more noise: comparing full text and abstract as inputs for large language model-based classification of oncology trial eligibility criteria.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42761820",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T20:43:14.300262+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical"
+      ],
+      "excerpt": "Large language models (LLMs) offer significant potential for automating clinical trial classification by eligibility criteria. However, the optimal input data remain unclear: while abstracts provide a condensed signal, full-text articles contain substantially more information. Whether this additional signal improves performance or whether accompanying noise negatively affects the…",
+      "authors": [
+        "Julia Weyrich",
+        "Fabio Dennstädt",
+        "Robert Förster",
+        "Christina Schröder",
+        "Daniel M Aebersold",
+        "Daniel R Zwahlen",
+        "Paul Windisch"
+      ],
+      "venue": "JAMIA open",
+      "manual": false,
+      "related": [],
+      "pmid": "42761820",
+      "doi": "10.1093/jamiaopen/ooag179",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.7,
+      "priority_label": "High relevance",
+      "rank": 16
+    },
+    {
+      "id": "23de34fa404e00116a4c",
+      "title": "Deep learning-based detection of focal cortical dysplasia in children: External validation of the MELD Graph and 3D-nnUNet pipelines.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42774684",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T20:43:14.287192+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "To externally validate two recently developed deep-learning approaches for FCD detection, MELD Graph and 3D-nnUNet, in a pediatric cohort. Focal cortical dysplasias (FCDs) are among the most common structural causes of drug-resistant epilepsy in children but are frequently subtle and difficult to detect on MRI. Several automated lesion detection methods have been proposed to support…",
+      "authors": [
+        "Andrea Dell'Orco",
+        "Enrico De Vita",
+        "Felice D'Arco",
+        "Annalena Lange",
+        "Theodor Rüber",
+        "Angela M Kaindl",
+        "Mike P Wattjes",
+        "Ulrich-Wilhelm Thomale"
+      ],
+      "venue": "Neuroimage. Reports",
+      "manual": false,
+      "related": [],
+      "pmid": "42774684",
+      "doi": "10.1016/j.ynirp.2026.100410",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 3
+    },
+    {
+      "id": "8d767ecc8f77a21f157d",
+      "title": "Impact of MRI modality selection on glioma sub-region segmentation using 3D U-Net and Attention U-Net: A comparative evaluation across ten MRI sequences.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42774812",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T20:43:14.285710+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Accurate segmentation of glioma sub-regions is essential for treatment planning and clinical decision-making. The selection of MRI input modality plays a critical role in the performance of deep learning-based segmentation models, as each weighting captures distinct tissue contrasts and physiological characteristics. This study performed a comparative evaluation of the impact of MRI…",
+      "authors": [
+        "Amir Khorasani"
+      ],
+      "venue": "European journal of radiology open",
+      "manual": false,
+      "related": [],
+      "pmid": "42774812",
+      "doi": "10.1016/j.ejro.2026.100817",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "8f5e7f55a2d0a306bc72",
+      "title": "Development to implementation to evaluation: step-by-step approach to embedding a clinical trial of a machine learning algorithm in the electronic health record.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42774289",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Case Reports",
+      "date": "2026-09-23T20:43:14.282865+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "To describe the implementation process for the Precision Resuscitation with Crystalloids in Sepsis (PRECISE) trial, a pragmatic, multihospital randomized controlled trial (RCT) of a machine learning (ML) algorithm integrated into the electronic health record (EHR). Implementing PRECISE involved building 4 key components into the EHR using standard tools within Epic: (1) automated…",
+      "authors": [
+        "Erin Morrison",
+        "Jaes Overley",
+        "Kaitlin Wurm",
+        "Don Mock",
+        "Sivasubramanium V Bhavani"
+      ],
+      "venue": "JAMIA open",
+      "manual": false,
+      "related": [],
+      "pmid": "42774289",
+      "doi": "10.1093/jamiaopen/ooag180",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 2
+    },
     {
       "id": "90912ec5cf462463f6ab",
       "title": "Validate GPU Cluster Readiness Before AI Workloads Land",
@@ -934,6 +1092,81 @@
       "rank": 167
     },
     {
+      "id": "34f8403a9ad5519a9979",
+      "title": "ShowTellArena: Evaluating Business Workflow Understanding from Demonstrations",
+      "url": "https://arxiv.org/abs/2609.25467",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI4Education"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Education"
+      ],
+      "excerpt": "We often teach a colleague by showing the work and explaining the decisions as we go. How can we check what an agent understood from the same lesson? We introduce ShowTellArena, a benchmark protocol and public dataset for comprehension after narrated business demonstrations. The v1.0 release contains 50 business workflow tasks, with recordings, screenshots, narration, fixture seeds, and…",
+      "authors": [
+        "David Garg, Ritobrata Sarkar, Ehsan Azarnasab, Siddhartha Borah"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25467",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 80.2,
+      "priority_label": "High relevance",
+      "rank": 39
+    },
+    {
+      "id": "2a94262ecd76916ebfb5",
+      "title": "Same Chart, Different Story: Bias in Vision-Language Chart Interpretation",
+      "url": "https://arxiv.org/abs/2609.26210",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Agents",
+        "Safety",
+        "Evaluation",
+        "Open Source",
+        "Reasoning"
+      ],
+      "excerpt": "Vision-language models (VLMs) are increasingly used to interpret charts and generate natural-language explanations for socially consequential data. However, they may produce different narratives for the same chart when only the referenced social group changes, reinforcing stereotypes and misleading decisions. Despite these risks, no benchmark exists for systematically evaluating bias in…",
+      "authors": [
+        "Mizanur Rahman, Huan Wu, Arash Asgari, Enamul Hoque Prince, Laleh Seyyed-Kalantari"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.26210",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 56
+    },
+    {
       "id": "4f3e3aeb0c4186691527",
       "title": "Seeing the imagined: latent functional alignment in visual imagery decoding from fMRI data",
       "url": "https://arxiv.org/abs/2604.15374",
@@ -1067,6 +1300,143 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 110
+    },
+    {
+      "id": "b34de8320e636735ad0c",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "url": "https://arxiv.org/abs/2609.26781",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "A multi-agent system can reduce latency on complex tasks by executing work concurrently. Several pioneering harness frameworks support multi-agent systems. However, the scalability of current multi-agent harnesses is often constrained by a central orchestrator's capacity to allocate tasks and coordinate workers. To address this limitation, we introduce Agensh, a scalable self-organized…",
+      "authors": [
+        "Zhihao Zhan, Ting Song, Li Dong, Shaohan Huang, Jianxun Lian, Yan Xia, Furu Wei"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.26781",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 74
+    },
+    {
+      "id": "2a4db59310ecd97688ec",
+      "title": "Multi-View Fair Clustering Guided by Cross-View Sensitive Information Discrepancy",
+      "url": "https://arxiv.org/abs/2609.25811",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Multi-view clustering (MVC) aims to uncover latent cluster structures by exploiting complementary information from multiple views. Despite substantial progress in clustering performance, fairness remains an important concern when MVC is applied to socially sensitive scenarios. Recent fair multi-view clustering methods have introduced fairness constraints into representation learning or…",
+      "authors": [
+        "Mudi Jiang, Jiahui Zhou, Xinying Liu, Zengyou He, Zhikui Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25811",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 87
+    },
+    {
+      "id": "71fec88b173ebc5f5f98",
+      "title": "REDACT: Robust Perceptive Locomotion under Unseen Visual Corruption",
+      "url": "https://arxiv.org/abs/2609.25450",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI4Education",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Depth-conditioned locomotion policies have demonstrated impressive agile maneuvers, but can be steered to unpredictable actions when observations are outside their training distribution. Occlusion, invalid returns, sensor noise, and visual distractors can shift deployment observations away from nominal simulated depth. While synthetic sensor augmentation targets specified degradations,…",
+      "authors": [
+        "Natapat Kirdwichai, Tobias Driskell-Poole, Andrei Sontea, Jadu Dash, Muhammad Burhan Hafez, Danesh Tarapore"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25450",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 88
+    },
+    {
+      "id": "72f51b09233d29efeaf4",
+      "title": "Towards Robust Classroom Attendance: A Comprehensive Evaluation of Face Detection and Recognition Models",
+      "url": "https://arxiv.org/abs/2609.22750",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Evaluation"
+      ],
+      "excerpt": "Manual attendance methods, such as paper or register-based systems, take a lot of time, can lead to errors, and are easy to falsify. Face recognition is more reliable, but it frequently struggles in classrooms because lighting and other conditions can vary. Face recognition datasets are designed for regulated environments and do not capture the actual challenges found in classrooms. To…",
+      "authors": [
+        "Himani Trivedi, Hiren Patel, Ridham Patel, Krutika Patel, Nancy Patel"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.22750",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 75.1,
+      "priority_label": "Relevant",
+      "rank": 140
     },
     {
       "id": "e87684c44f130eb67ba1",
@@ -1405,6 +1775,147 @@
       "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 177
+    },
+    {
+      "id": "c221170a9b1ba02ecb1a",
+      "title": "From Offline Proxies to Online Decisions: A Layered Engagement Evaluation Framework for Conversational AI",
+      "url": "https://arxiv.org/abs/2609.25408",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Online A/B experiments are the decision standard for user engagement, but traffic and readout time limit how many conversational-AI changes can be tested. We ask whether an offline signal designed to be computable without treatment-arm user exposure agrees with the outcomes of those experiments. We contribute a reusable construction and diagnosis checklist that treats an offline proxy…",
+      "authors": [
+        "Xuanyi Li, Vaskar Nath, Hossein Amirkhani, Jay Li, Alex Deng"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25408",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 57
+    },
+    {
+      "id": "a6644adccb2a94ef7de3",
+      "title": "GameReplica: A Benchmark for Black-Box Visual Game Replication by Vision-Language Agents",
+      "url": "https://arxiv.org/abs/2609.22308",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Coding-agent benchmarks usually evaluate implementation after the target behavior has been specified in text, code, or demonstrations. Existing research has extensively evaluated the ability of coding agents to generate programs from textual specifications. However, under black-box conditions where neither source code nor documentation is available, it remains underexplored whether an…",
+      "authors": [
+        "Boyu Qiao, Zixin Tang, Xiaoshuai Hao, Wenbo Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.22308",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 75
+    },
+    {
+      "id": "09a278a89fa08793555a",
+      "title": "Digital Twin-Driven VR Teleoperation with Multi-View Spatial Perception for Surgical Robots",
+      "url": "https://arxiv.org/abs/2609.25527",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Vision"
+      ],
+      "excerpt": "Current robot-assisted minimally-invasive surgery (RMIS) platforms provide a fixed console for the surgeon to view stereo endoscopic images and teleoperate instruments inside the patient. Several researchers have proposed the use of a head-mounted display (HMD) as a portable console, with video pass-through rendering of the endoscope images which, like the fixed console, restricts the…",
+      "authors": [
+        "Chang Liu, Chenhao Yu, Honghao Zhao, Hao Ding, Haochen Wei, Adnan Munawar, Mathias Unberath, Peter Kazanzides"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25527",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 91
+    },
+    {
+      "id": "eee2067ad153443bf913",
+      "title": "Zephyron: Integrated Design and Analytical Evaluation of a Solar-Assisted Mobile Manipulator for Multimodal Environmental Reconnaissance and Distributed Visual Inference",
+      "url": "https://arxiv.org/abs/2609.25709",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Computer Vision"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Environmental reconnaissance needs mobile platforms that carry sensors, preserve measurement context, and return interpretable evidence under limited energy and communication. We present a literature-informed engineering design for Zephyron, a four-wheel rover with a front manipulator, environmental sensors, distributed computer vision, local recording, and a raised rear solar module.…",
+      "authors": [
+        "Sabik Bin Sultan, Shafi Bin Sultan, Safwan Sadad"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25709",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 117
     },
     {
       "id": "4e5c707dca0487ac08e5",
@@ -1783,6 +2294,111 @@
       "rank": 159
     },
     {
+      "id": "d0a2dc2040fe16e63d06",
+      "title": "An Accurate and Interpretable Hyper Graph Neural Network for GBM Survival Prediction",
+      "url": "https://arxiv.org/abs/2609.25088",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI",
+        "AI for Science"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Science"
+      ],
+      "excerpt": "Survival prediction for glioblastoma multiforme (GBM) demands models that are both accurate and interpretable, yet existing approaches treat these objectives as com- peting, where performant models sacrifice transparency, while interpretable models accept degraded predictive power. We argue that this trade-off is not inherent. Graph neural net- works offer a structural foundation for…",
+      "authors": [
+        "Mushahid Intesum"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25088",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 61
+    },
+    {
+      "id": "ad65e457e86396910554",
+      "title": "FineWeb-CLaR: Culture, Language, and Region Annotations for Benchmark-Aligned Corpus Auditing",
+      "url": "https://arxiv.org/abs/2609.25298",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Cultural evaluation coverage and robustness in language models are difficult to diagnose because pretraining corpora and cultural benchmarks are rarely indexed with comparable metadata. Benchmarks increasingly target culturally situated phenomena at the level of languages, regions, and locale-specific practices, while web-scale corpora are usually organized only by language. A shared…",
+      "authors": [
+        "Yusser Al Ghussin, Eva Gavaller, Cristina Espa\\~na-Bonet, Josef van Genabith, Simon Ostermann"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25298",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 62
+    },
+    {
+      "id": "7789e2f164bd3e0700fa",
+      "title": "Extending FunctionGemma for Practical On-Device Mobile Function Calling",
+      "url": "https://arxiv.org/abs/2609.25373",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Privacy"
+      ],
+      "excerpt": "On-device assistants require function-calling models that map natural language to local system actions, but existing resources emphasize web APIs or narrow mobile-action catalogs. We extend FunctionGemma 270M-it to practical Android workflows by introducing MOBILEACTIONSEXTENDED, a synthetic, schema-validated dataset of ~9,500 conversations covering fifteen device-control categories,…",
+      "authors": [
+        "Ali Rezagholizadeh, Soheila Samiee"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25373",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 106
+    },
+    {
       "id": "efee8e99006b8b775f30",
       "title": "Evaluating Coding Agents on Kernel Exploit Generation",
       "url": "https://arxiv.org/abs/2609.25591",
@@ -1916,6 +2532,112 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 104
+    },
+    {
+      "id": "620b185d9c924ee9a3bd",
+      "title": "ICDAR2026 Competition on Multimodal Reasoning over Documents in Multiple Domains",
+      "url": "https://arxiv.org/abs/2609.25055",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Multimodal",
+        "Agents",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "In this report we present results of the ICDAR2026 Competition on Multimodal Reasoning over Documents in Multiple Domains. This competition aimed to advance research in document understanding through the task of Visual Question Answering (VQA). Building upon previous DocVQA benchmarks, this competition introduces challenging reasoning questions over a diverse collection of documents…",
+      "authors": [
+        "Artemis Llabr\\'es, Marc Serra Ortega, Tom\\`as Ockier, Samuel Ortega Cuadra, Amritpal Singh, Christos Georgakilas, Andrey Barsky, Ernest Valveny, Dimosthenis Karatzas"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25055",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 76
+    },
+    {
+      "id": "783b6e3257c2168eb211",
+      "title": "ROAM-ASD: Robust Open-World Active Speaker Detection with Flexible Multimodal Fusion",
+      "url": "https://arxiv.org/abs/2609.26648",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal"
+      ],
+      "excerpt": "Active speaker detection (ASD) requires reliable association between visible faces and acoustic speech, yet existing systems often degrade under challenging domains or incomplete observations. We introduce ROAM-ASD, a robust audiovisual framework that jointly models audio, full-face, and fine-grained mouth representations. A unified joint self-attention mechanism processes all input…",
+      "authors": [
+        "Pu Wang, Yujun Wang, Hugo Van hamme"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.26648",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 112
+    },
+    {
+      "id": "2cb5b33e2a849e48980a",
+      "title": "Entropy Can Flow, or It Can Guide. Be Entropy. LEDFlow: Introducing Entropy-guided Generation Order into Uniform Discrete Flow",
+      "url": "https://arxiv.org/abs/2609.25131",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Multimodal",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Uniform discrete flow permits repeated updates at every generation position. While continued revision supports correction of wrong tokens, it also exposes correct intermediate predictions to later errors. An experiment on Sudoku puzzles shows that 9.4% of generated cells are correct at an intermediate step but incorrect in the final output. We introduce generation order into uniform…",
+      "authors": [
+        "Tung Sum Thomas Kwok, Yidong Ouyang, Yingjia Wan, Ying Nian Wu, Zhijiang Guo, Oscar Leong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25131",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 168
     },
     {
       "id": "a2541ba8358e4fa31532",
@@ -2187,6 +2909,39 @@
       "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 156
+    },
+    {
+      "id": "047f56255d748e9cb8b0",
+      "title": "GINIO: A Geometric SO(3)-Equivariant Interface for Neural Inertial Odometry",
+      "url": "https://arxiv.org/abs/2609.25338",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety"
+      ],
+      "excerpt": "Neural inertial odometry increasingly uses networks as learned measurements inside filtering pipelines. Such measurements should transform consistently under arbitrary IMU mounting conventions: their mean must transform as a vector, and their covariance must transform congruently as a second-order tensor. We present GINIO, a geometric SO(3)-equivariant interface for neural inertial…",
+      "authors": [
+        "Chankyo Kim, Minghan Zhu, Tzu-Yuan Lin, Avantika Rattan, Maani Ghaffari"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25338",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 95
     },
     {
       "id": "1daab460c35b2e3b4eb9",
@@ -2860,6 +3615,41 @@
       "rank": 166
     },
     {
+      "id": "59be2aa7dbe79bb2180c",
+      "title": "Laryngeal Structure Segmentation in High-Speed Videoendoscopy Using Deep Learning",
+      "url": "https://arxiv.org/abs/2609.26636",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Laryngeal high-speed videoendoscopy (HSV) offers an effective means of observing the motion of different laryngeal structures along with vibratory behaviors of the vocal folds under various voicing conditions. Segmentation of laryngeal tissues enables analysis of different tissue structures and their dynamics, helping characterize the involvement of laryngeal muscles in voice…",
+      "authors": [
+        "Sardar Nafis Bin Ali, Mohsen Zayernouri, Dimitar D. Deliyski, Maryam Naghibolhosseini"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.26636",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 145
+    },
+    {
       "id": "f82b2fa1842b77a6d03e",
       "title": "SPACE: Semantic Projection and Alignment of CLIP Embeddings for Domain Adaptation",
       "url": "https://arxiv.org/abs/2609.23248",
@@ -2892,6 +3682,40 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 86
+    },
+    {
+      "id": "bd94c1f33eb3f39a70d4",
+      "title": "An Exploratory Replica-Overlap Probe of the Grokking Transition",
+      "url": "https://arxiv.org/abs/2609.25634",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "We trained 64 independently seeded networks in four configurations, continuing each to sustained convergence or a 40,000-epoch ceiling. We then asked whether an RSB-inspired distribution of pairwise weight overlaps changes across the grokking transition. It is the alignment step, not the overlap statistic, that determines what this registered probe can report. The registered…",
+      "authors": [
+        "A. C. Opus, J. Q. Lu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25634",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 99
     },
     {
       "id": "5e1dbe5c8ee2d59e93fa",
@@ -3351,6 +4175,49 @@
       "rank": 31
     },
     {
+      "id": "6e0cd760021c5697b144",
+      "title": "Three-Dimensional Point-Cloud Learning for Patient-Specific Deep Brain Stimulation Motor Response Prediction in Parkinson Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42774635",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Objective: To develop a patient-specific 3-dimensional (3D) point-cloud deep learning framework for predicting motor improvement after deep brain stimulation (DBS) in Parkinson's disease. Impact Statement: This study introduces an electric-field-aware point-cloud representation that preserves patient anatomy, electrode geometry, and local electric-field distributions for individualized…",
+      "authors": [
+        "Kaiming Liu",
+        "Yinghao Zhu",
+        "Ru Wang",
+        "Zihao Liu",
+        "Gongyi Zhu",
+        "Zice Wang",
+        "Minyan Ge",
+        "Bo Shen"
+      ],
+      "venue": "BME frontiers",
+      "manual": false,
+      "related": [],
+      "pmid": "42774635",
+      "doi": "10.34133/bmef.0276",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.9,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
       "id": "c5d621f7fb4a04ba06d9",
       "title": "Working toward the future of transcatheter aortic valve replacement: integrating computational modeling with patient-specific clinical care.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42745660",
@@ -3389,6 +4256,84 @@
       "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 13
+    },
+    {
+      "id": "5b031efb0478d2ac41ea",
+      "title": "Editor's Highlights-November 2026.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42773563",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Editorial",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Artificial intelligence, noninvasive imaging, and molecular profiling are improving skin cancer assessment, but technological progress alone does not guarantee better care. The papers highlighted in this issue examine digital detection, advanced imaging, melanoma recognition, and molecular prognosis, emphasizing that progress depends on validated tools, timely clinical evaluation, and…",
+      "authors": [
+        "Lajos Kemény"
+      ],
+      "venue": "International journal of dermatology",
+      "manual": false,
+      "related": [],
+      "pmid": "42773563",
+      "doi": "10.1111/ijd.70703",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 15
+    },
+    {
+      "id": "17185bb77b622613f52a",
+      "title": "APOE-centered transcriptional convergence underlying diverse dementia subtypes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42775787",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "BackgroundDementia subtypes exhibit diverse clinical and pathological features, yet may share convergent molecular underpinnings. Identifying these common pathways is critical for unified therapeutic strategies.ObjectiveTo delineate the shared genetic architecture and convergent molecular pathways underlying diverse dementia subtypes, and to mechanistically characterize the structural…",
+      "authors": [
+        "Zhi-Jie Xu",
+        "Jie Ma",
+        "Guido M Giuffrè",
+        "Jia-Jia Wu",
+        "Xin Xue",
+        "Juan-Juan Lu",
+        "Paolo Maria Rossini",
+        "Xu-Yun Hua"
+      ],
+      "venue": "Journal of Alzheimer's disease : JAD",
+      "manual": false,
+      "related": [],
+      "pmid": "42775787",
+      "doi": "10.1177/13872877261489800",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 80.7,
+      "priority_label": "High relevance",
+      "rank": 33
     },
     {
       "id": "596ee964c9459ac8cdeb",
@@ -3430,6 +4375,49 @@
       "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 14
+    },
+    {
+      "id": "8e4325430ac55c473024",
+      "title": "RareCode: An Unsupervised Deep Learning Framework for Anomaly Detection in Colorectal Cancer Histopathological Images.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42775786",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Unsupervised anomaly detection in histopathological images has been widely explored using reconstruction-based approaches that measure reconstruction errors, yet these methods often fail to capture subtle, semantic-level pathological variations due to the inherent heterogeneity of tissue textures. To address this limitation, this study presents RareCode, a vector quantization-based…",
+      "authors": [
+        "Liu Xiang",
+        "Huashun Li",
+        "Xuejia Zheng",
+        "Feng Zhu",
+        "Tianyuan Li",
+        "Yujie Zhang",
+        "Jie Song",
+        "Hongtao Jin"
+      ],
+      "venue": "Journal of visualized experiments : JoVE",
+      "manual": false,
+      "related": [],
+      "pmid": "42775786",
+      "doi": "10.3791/72303",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 5
     },
     {
       "id": "b514d59a7158ff579fb6",
@@ -3543,6 +4531,119 @@
       "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 15
+    },
+    {
+      "id": "11a667245e0516466585",
+      "title": "Artificial Intelligence in Echocardiography: Five Clinical Challenges and a Roadmap Toward Responsible Integration by 2030.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42776068",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Artificial intelligence (AI)-enabled echocardiography has demonstrated strong agreement with expert measurements across a broad range of cardiac functional parameters. However, the transition from technical validation to clinical impact remains incomplete. This structured narrative review employed a systematic literature search to identify the principal structural barriers to AI…",
+      "authors": [
+        "Fatih Aydın"
+      ],
+      "venue": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
+      "manual": false,
+      "related": [],
+      "pmid": "42776068",
+      "doi": "10.5543/tkda.2026.30071",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 12
+    },
+    {
+      "id": "59e0e8a54cfd002f3db5",
+      "title": "The Next Frontier in Quantitative Co-Clinical Imaging to Advance Functional Precision Oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42776062",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "Precision oncology seeks to transform cancer treatment into one tailored for individual patients. Genomic alterations have been the dominant drivers of patient-specific therapeutic strategies. While genomic insights can guide treatment planning, genotype-directed therapies do not guarantee response to therapy. Functional confirmation of target expression, target engagement, and…",
+      "authors": [
+        "Kooresh I Shoghi",
+        "Cristian T Badea",
+        "Donna M Peehl",
+        "Thomas L Chenevert",
+        "Heike E Daldrup-Link",
+        "Douglas S Hawkins",
+        "A McGarry Houghton",
+        "Paul E Kinahan"
+      ],
+      "venue": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+      "manual": false,
+      "related": [],
+      "pmid": "42776062",
+      "doi": "10.1158/1078-0432.CCR-26-0275",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
+      "id": "c41858d0c51abf263e87",
+      "title": "Toward Clinically Interpretable Perioperative Decision Support: Explainable Machine Learning for 30-Day Postoperative Mortality Prediction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42775667",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Medical"
+      ],
+      "excerpt": "Postoperative mortality prediction remains a critical challenge in healthcare, demanding robust and interpretable predictive methods. This study developed and evaluated machine learning (ML) models using the novel Informative Surgical Patient dataset for Innovative Research Environment (INSPIRE), a comprehensive perioperative dataset, to predict 30-day postoperative mortality.…",
+      "authors": [
+        "Mubashir Farooq",
+        "Asif Ali Banka"
+      ],
+      "venue": "The American surgeon",
+      "manual": false,
+      "related": [],
+      "pmid": "42775667",
+      "doi": "10.1177/00031348261484511",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.2,
+      "priority_label": "High relevance",
+      "rank": 14
     },
     {
       "id": "f9027d80e820682e90d7",
@@ -3762,6 +4863,44 @@
       "rank": 37
     },
     {
+      "id": "4aa18653035bc8a31d1e",
+      "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-22T17:18:13+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Multimodal",
+        "Agents",
+        "Safety",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "General-purpose agents handle a broad range of tasks, but you still need them to follow the procedures that run your business: compliance checks, document-processing workflows, escalation policies, engineering conventions. Encoding all of that in one system prompt or in application logic gets hard to maintain and update. Skills are a modular alternative. A skill is a reusable set of…",
+      "authors": [
+        "Sangmin Woo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
+      "priority_label": "Relevant",
+      "rank": 46
+    },
+    {
       "id": "f917779831ad43520462",
       "title": "Topology-Aware Workload Scheduling with NVIDIA Topograph",
       "url": "https://developer.nvidia.com/blog/topology-aware-workload-scheduling-with-nvidia-topograph",
@@ -3794,6 +4933,40 @@
       "rank": 157
     },
     {
+      "id": "f5545f3f8433406a9d04",
+      "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-22T15:46:07+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Vision",
+        "Hardware"
+      ],
+      "excerpt": "Reactiv offers a mobile commerce product that helps Shopify merchants launch and manage native mobile apps, where shoppers convert at 2–4 times the rate of web visitors. For these merchants, a stale homepage or a missed promotional window costs real revenue. Yet keeping an app fresh requires constant manual work: choosing which products to feature, rearranging sections, generating new…",
+      "authors": [
+        "Adam Gibicar"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
+      "priority_label": "Relevant",
+      "rank": 47
+    },
+    {
       "id": "a10857a666ba24b577ff",
       "title": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
       "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai",
@@ -3823,6 +4996,44 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 88
+    },
+    {
+      "id": "c1f8d40f882429932212",
+      "title": "How Tata Elxsi detects industrial safety risks in seconds on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-22T15:19:54+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Vision",
+        "Privacy",
+        "Hardware"
+      ],
+      "excerpt": "Detecting industrial safety risks in seconds, not minutes, is what keeps workers safe on an active plant floor. This is what Tata Elxsi set out to deliver by building IRIS, a real-time industrial safety platform on AWS. In this post, we show how Tata Elxsi built IRIS (Industrial Real-Time Intelligence System). We cover the architecture decisions, the implementation approach, and the…",
+      "authors": [
+        "Abhideep Rastogi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 65.6,
+      "freshness_score": 94.0,
+      "priority_score": 73.3,
+      "priority_label": "Relevant",
+      "rank": 146
     },
     {
       "id": "3412ff426fef6de38dca",
@@ -4011,6 +5222,46 @@
       "priority_score": 82.2,
       "priority_label": "High relevance",
       "rank": 28
+    },
+    {
+      "id": "4ddba5b99c48a3248639",
+      "title": "From Innovation to Implementation: A Scoping Review of Simulation in Otolaryngology Education.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42769303",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-22T00:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI4Education",
+        "Safety",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "To systematically map the otolaryngology simulation literature according to learner stage, primary educational objective, and depth of outcome measurement, and to propose a structured implementation framework for integrating emerging technologies and developing standardized, national simulation curricula. A scoping review was conducted in accordance with the Preferred Reporting Items…",
+      "authors": [
+        "Michael T Yim",
+        "Mackenzie Latour",
+        "Srivatsa Surya Vasudevan"
+      ],
+      "venue": "Laryngoscope investigative otolaryngology",
+      "manual": false,
+      "related": [],
+      "pmid": "42769303",
+      "doi": "10.1002/lio2.70564",
+      "relevance_score": 72.2,
+      "freshness_score": 94.0,
+      "priority_score": 79.8,
+      "priority_label": "Relevant",
+      "rank": 37
     },
     {
       "id": "8d1319a6a2a9081c8d5b",
@@ -4221,6 +5472,81 @@
       "rank": 36
     },
     {
+      "id": "1f462f4963220aae0447",
+      "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-21T18:30:34+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Vision",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Today, we are announcing that xAI’s Grok 4.6 is available in Amazon Bedrock , adding a frontier model built for long-running agents, coding, and knowledge work to the Bedrock model catalog. Grok 4.6 launched on Bedrock on August 18, 2026. It offers a 500K token context window and supports configurable reasoning effort at four levels: low, medium, high, and xhigh. This is xAI’s second…",
+      "authors": [
+        "Suheel Farooq"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 79.2,
+      "priority_label": "Relevant",
+      "rank": 32
+    },
+    {
+      "id": "b7c2312ca45670801225",
+      "title": "Run Positron on Amazon SageMaker AI for data science workflows",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-21T16:34:21+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Agents",
+        "Evaluation",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Data science teams often move among separate tools for governed data access, R analysis, Python model development, deployment, application development, and reporting. Positron, Posit’s integrated development environment (IDE) for data science, now runs on Amazon SageMaker AI. For a data scientist, running Positron on SageMaker AI means: Data access without managing credentials. Positron…",
+      "authors": [
+        "Abhishek Maligehalli Shivalingaiah"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
+      "priority_label": "Relevant",
+      "rank": 48
+    },
+    {
       "id": "4f34f6c24e9c2c7378ba",
       "title": "How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore",
       "url": "https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore",
@@ -4284,6 +5610,43 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 123
+    },
+    {
+      "id": "b5c50a1bc3bd06226948",
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera",
+      "source": "Microsoft Research",
+      "source_id": "microsoft_research",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-09-21T15:30:19+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "Safety",
+        "Evaluation",
+        "Science",
+        "Open Source"
+      ],
+      "excerpt": "At a glance We report on the recent publication of our retrosynthesis model RetroChimera in the journal Nature (opens in new tab) . The paper describes the model’s architecture as well as extensive validation studies, including the model’s ability to recall rare reaction types, and successful zero-shot transfer and fine-tuning on proprietary datasets. We open-source RetroChimera’s…",
+      "authors": [
+        "Felix Pultar, John Gardner, Guoqing Liu, Marwin Segler"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 70.5,
+      "freshness_score": 94.0,
+      "priority_score": 79.7,
+      "priority_label": "Relevant",
+      "rank": 31
     },
     {
       "id": "ae2a66f3c360fd1788ea",
@@ -4688,6 +6051,44 @@
       "rank": 191
     },
     {
+      "id": "fc4c7ba9411e02e660c5",
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "url": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-18T11:29:22+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Safety",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had time to answer in the 30 minute session. So we asked our senior AI editor Will Douglas Heaven and AI reporter Grace Huckins to round up some of the best questions…",
+      "authors": [
+        "Will Douglas Heaven, Grace Huckins"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.0,
+      "priority_label": "Relevant",
+      "rank": 156
+    },
+    {
       "id": "831ceccd5d93dca33891",
       "title": "Cybernetics, interoception, and the art of embodiment",
       "url": "https://www.nature.com/articles/s42256-026-01312-x",
@@ -4868,6 +6269,38 @@
       "rank": 18
     },
     {
+      "id": "e538d279a1ab4018b7b8",
+      "title": "How to Use AI Agents to Prepare 3D Scenes for Simulation",
+      "url": "https://developer.nvidia.com/blog/how-to-use-ai-agents-to-prepare-3d-scenes-for-simulation",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-16T23:20:33+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in... Agentic AI workflows can be used to prepare and validate digital twins for physical AI systems. Agents can inspect 3D scenes, author simulation-relevant data in OpenUSD, add physics properties, render preflight views, and…",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 86.0,
+      "priority_score": 76.5,
+      "priority_label": "Relevant",
+      "rank": 72
+    },
+    {
       "id": "995842a0246984c921f7",
       "title": "TensorRT Edge-LLM Completes the MLPerf Edge Agentic Benchmark 6.4x Faster on Jetson AGX Thor",
       "url": "https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor",
@@ -4898,8 +6331,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 77.6,
+      "freshness_score": 72.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 43
     },
@@ -5026,6 +6459,70 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 93
+    },
+    {
+      "id": "0fd4d9111d18e28795de",
+      "title": "Measure by measure, studying society accurately",
+      "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-16T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "Let’s agree at the outset the world is a complicated place, and social scientists have exacting jobs when it comes to measuring civic phenomena with precision. After all, even careful studies raise follow-up questions: How much do their findings apply in other settings? Do conclusions about politics in one country apply to other countries? If you’re studying voters in a lopsided…",
+      "authors": [
+        "Peter Dizikes | MIT News"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 72.2,
+      "freshness_score": 72.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 172
+    },
+    {
+      "id": "0fa1b8daf138ee7e1be3",
+      "title": "Roundtables: Could AI really kill us all?",
+      "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-15T17:47:51+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so, what we should do. Recorded on September 15, 2026 Speakers :…",
+      "authors": [
+        "MIT Technology Review"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 72.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
+      "rank": 188
     },
     {
       "id": "6aae488b1bb65e59bc91",
@@ -5620,6 +7117,39 @@
       "rank": 60
     },
     {
+      "id": "5a44a5539042946085c2",
+      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+      "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-09T20:40:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education",
+        "Reasoning"
+      ],
+      "excerpt": "This summer, the MIT Schwarzman College of Computing welcomed faculty from colleges and universities across Greater Boston, South Carolina, West Virginia, and Texas to campus for the inaugural AI Educators Pilot, a weeklong workshop aimed at expanding how artificial intelligence is taught across disciplines and learning environments. Inspired by MIT class C01/C51 (Modeling with Machine…",
+      "authors": [
+        "Amanda Diehl | MIT Schwarzman College of Computing"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 72.2,
+      "freshness_score": 56.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
+      "rank": 175
+    },
+    {
       "id": "56bfec926244076beb99",
       "title": "Modernizing complex legacy code with AI agents.",
       "url": "https://mistral.ai/news/legacy-code-modernization",
@@ -5903,6 +7433,44 @@
       "rank": 184
     },
     {
+      "id": "4546ba65600cacfebe05",
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-02T20:25:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Safety",
+        "Education",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "The experience of transitioning from research based in theory to focusing on real-world application can vary significantly for different researchers. However, for two former MIT graduate students and a former postdoc, all now at IBM, working with the MIT-IBM Computing Research Lab (formerly the MIT-IBM Watson AI Lab) during their formative years enabled them to not only close the gap…",
+      "authors": [
+        "Lauren Hinkel | MIT-IBM Computing Research Lab"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
+      "rank": 185
+    },
+    {
       "id": "355be2cf6d2d139c093a",
       "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
@@ -5930,6 +7498,40 @@
       "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 125
+    },
+    {
+      "id": "437ffb23ae2ef611e091",
+      "title": "Walter Torous named executive director of MIT Center for Real Estate",
+      "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-01T21:25:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI4Education"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Education"
+      ],
+      "excerpt": "Walter Torous , senior lecturer in the MIT Department of Urban Studies and Planning (DUSP) and the MIT Sloan School of Management , and director of the Master of Science in Real Estate Development Program (MSRED), was recently named executive director of the MIT Center for Real Estate (CRE) — effective July 1, 2026. In announcing Torous’ appointment, School of Architecture and Planning…",
+      "authors": [
+        "Denise Brehm | MIT Center for Real Estate | Department of Urban Studies and Planning"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 56.0,
+      "priority_score": 70.7,
+      "priority_label": "Relevant",
+      "rank": 179
     },
     {
       "id": "e6646933ca959a5fc8d1",

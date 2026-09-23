@@ -149,6 +149,14 @@ The website shows configured, healthy, empty, and failed sources.
 
 The workflow uses concurrency cancellation plus fetch/rebase/retry logic before pushing refreshed data, which reduces the non-fast-forward failure seen during the original double-trigger setup.
 
+## Safety validation and rollback
+
+Before every deployment, `scripts/validate_site.py` verifies the generated current feed, source-health metadata, archive consistency, future-date guards, concentration limits, duplicate IDs/URLs, source/category diversity, preprint share, and the JavaScript-to-HTML element contract.
+
+GitHub Actions snapshots the last-good `data/` directory before collection. If either collection or validation fails, the snapshot is restored and the workflow stops before commit or deployment. The public site therefore stays on the last successful deployment.
+
+The workflow also runs `node --check app.js` before publishing.
+
 ## Manual WANG-AXIS curation
 
 Manual items live in:

@@ -145,23 +145,55 @@ function createCard(item) {
     return html;
 }
 
+function selectFeatured(items, count) {
+    var pool = items.slice().sort(function(a, b) {
+        return Number(b.priority_score || 0) - Number(a.priority_score || 0);
+    }).slice(0, 60);
+
+    var selected = [];
+
+    while (selected.length < count && pool.length) {
+        var bestIndex = 0;
+        var bestScore = -Infinity;
+
+        pool.forEach(function(item, index) {
+            var score = Number(item.priority_score || 0);
+
+            selected.forEach(function(chosen) {
+                if (item.source === chosen.source) score -= 24;
+                if (item.content_type === chosen.content_type) score -= 7;
+                if (item.category === chosen.category) score -= 6;
+            });
+
+            if (score > bestScore) {
+                bestScore = score;
+                bestIndex = index;
+            }
+        });
+
+        selected.push(pool.splice(bestIndex, 1)[0]);
+    }
+
+    return selected;
+}
+
 function renderFeatured(items) {
     var holder = el("featured");
-    var featured = items.slice().sort(function(a, b) {
-        return Number(b.priority_score || 0) - Number(a.priority_score || 0);
-    }).slice(0, 3);
+    var featured = selectFeatured(items, 3);
+
     if (!featured.length) {
         holder.innerHTML = '<div class="loading-panel">No featured signals available.</div>';
         return;
     }
+
     holder.innerHTML = featured.map(function(item, index) {
         var html = '<article class="featured-card">';
         html += '<div class="featured-number">0' + (index + 1) + "</div>";
         html += '<div class="featured-meta">' + badge(item.content_type, "type-badge") + badge(item.category, "category-badge") + "</div>";
         html += "<h3>" + escapeHTML(item.title) + "</h3>";
         html += "<p>" + escapeHTML(truncateText(item.excerpt || "", 360)) + "</p>";
-        html += '<div class="featured-footer"><span>' + escapeHTML(item.source) + " · " + escapeHTML(formatDate(item.date)) + "</span>";
-        html += '<a target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Read source →</a></div>';
+        html += '<div class="featured-footer"><span>' + escapeHTML(item.source) + " ?? " + escapeHTML(formatDate(item.date)) + "</span>";
+        html += '<a target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Read source ???</a></div>';
         html += "</article>";
         return html;
     }).join("");

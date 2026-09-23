@@ -37,11 +37,29 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install --upgrade pip && python -m pip install -r requirements.txt
 
-      - name: Validate collector syntax
-        run: python -m py_compile scripts/update_news.py
+      - name: Validate Python syntax
+        run: python -m py_compile scripts/update_news.py scripts/validate_site.py
 
-      - name: Refresh AI research intelligence
-        run: python scripts/update_news.py
+      - name: Validate current stable site
+        run: python scripts/validate_site.py
+
+      - name: Snapshot and refresh AI research intelligence
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          rm -rf _last_good_data
+          cp -R data _last_good_data
+
+          if python scripts/update_news.py && python scripts/validate_site.py; then
+            echo "Refresh passed validation."
+            rm -rf _last_good_data
+          else
+            echo "ERROR: refreshed data failed validation; restoring last-good data."
+            rm -rf data
+            mv _last_good_data data
+            exit 1
+          fi
 
       - name: Commit refreshed intelligence data safely
         shell: bash
@@ -80,6 +98,12 @@ jobs:
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
+
+      - name: Validate static JavaScript
+        run: node --check app.js
+
+      - name: Final pre-deploy validation
+        run: python scripts/validate_site.py
 
       - name: Prepare website artifact
         shell: bash

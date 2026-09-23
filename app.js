@@ -270,8 +270,8 @@ function renderFeatured(items) {
         html += '<div class="featured-meta">' + badge(item.content_type, "type-badge") + badge(item.category, "category-badge") + "</div>";
         html += "<h3>" + escapeHTML(item.title) + "</h3>";
         html += "<p>" + escapeHTML(truncateText(item.excerpt || "", 360)) + "</p>";
-        html += '<div class="featured-footer"><span>' + escapeHTML(item.source) + " ?? " + escapeHTML(formatDate(item.date)) + "</span>";
-        html += '<a target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Read source ???</a></div>';
+        html += '<div class="featured-footer"><span>' + escapeHTML(item.source) + " &middot; " + escapeHTML(formatDate(item.date)) + "</span>";
+        html += '<a target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Read source &rarr;</a></div>';
         html += "</article>";
         return html;
     }).join("");

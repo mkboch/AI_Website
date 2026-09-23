@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "sources": [
     {
       "id": "openai_news",
@@ -96,15 +96,16 @@
     {
       "id": "apple_ml",
       "name": "Apple Machine Learning Research",
-      "kind": "rss",
-      "url": "https://machinelearning.apple.com/rss/news.rss",
+      "kind": "html_links",
+      "url": "https://machinelearning.apple.com/highlights",
       "homepage": "https://machinelearning.apple.com/",
       "source_class": "Frontier Lab",
       "content_type": "Research",
       "tier": 1,
       "max_fetch": 60,
       "max_current": 10,
-      "gate": "none"
+      "gate": "none",
+      "link_regex": "^/research/"
     },
     {
       "id": "allenai",
@@ -235,7 +236,9 @@
       "tier": 2,
       "max_fetch": 50,
       "max_current": 8,
-      "gate": "none"
+      "gate": "none",
+      "enabled": false,
+      "disabled_reason": "No stable public feed endpoint currently verified."
     },
     {
       "id": "mit_news_ai",
@@ -353,7 +356,7 @@
       "tier": 1,
       "max_fetch": 60,
       "max_current": 18,
-      "gate": "none",
+      "gate": "medical_ai",
       "days": 10,
       "query": "((artificial intelligence[Title/Abstract] OR machine learning[Title/Abstract] OR deep learning[Title/Abstract] OR large language model[Title/Abstract] OR foundation model[Title/Abstract]) AND (radiology[Title/Abstract] OR medical imaging[Title/Abstract] OR clinical[Title/Abstract] OR medicine[Title/Abstract] OR healthcare[Title/Abstract] OR biomedical[Title/Abstract]))"
     },

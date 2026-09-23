@@ -36,7 +36,7 @@ ARCHIVE_INDEX = ARCHIVE_DIR / "index.json"
 SOURCE_HEALTH = DATA_DIR / "source_health.json"
 
 SCHEMA_VERSION = 2
-PIPELINE_VERSION = "2.0"
+PIPELINE_VERSION = "2.1"
 MAX_CURRENT_ITEMS = 240
 CURRENT_WINDOW_DAYS = 45
 RECENT_ARCHIVE_MONTHS = 4
@@ -271,6 +271,31 @@ MONTH_NAME_MAP.update({
 
 def now_utc() -> datetime:
     return datetime.now(timezone.utc)
+
+
+def sanitize_date(value: datetime | None) -> datetime | None:
+    """
+    Prevent future issue/publication dates from being interpreted as
+    future news events.
+
+    Bibliographic databases may expose a future journal issue date for
+    an article that is already indexed online. For freshness ranking
+    and archive partitioning, such dates are clamped to collection time.
+    """
+    if value is None:
+        return None
+
+    if value.tzinfo is None:
+        value = value.replace(tzinfo=timezone.utc)
+
+    value = value.astimezone(timezone.utc)
+
+    now = now_utc()
+
+    if value > now + timedelta(hours=12):
+        return now
+
+    return value
 
 
 def clean_text(value: Any) -> str:
@@ -616,15 +641,34 @@ def make_item(
 ) -> dict[str, Any] | None:
     title = clean_text(title)
     url = canonical_url(url)
-    summary = excerpt(summary)
+
+    # Classification and relevance checks should use the complete
+    # available source text. Truncation is only for website display.
+    full_summary = clean_text(summary)
+    display_summary = excerpt(full_summary)
+
+    date = sanitize_date(date)
+
     if not title or not url:
         return None
 
-    primary, categories, category_scores = score_category(title, summary)
-    if not passes_gate(source, title, summary, primary):
+    primary, categories, category_scores = score_category(
+        title,
+        full_summary,
+    )
+
+    if not passes_gate(
+        source,
+        title,
+        full_summary,
+        primary,
+    ):
         return None
 
-    ids = extract_external_ids(url, f"{title} {summary}")
+    ids = extract_external_ids(
+        url,
+        f"{title} {full_summary}",
+    )
     if external_ids:
         ids.update({k: clean_text(v) for k, v in external_ids.items() if clean_text(v)})
 
@@ -642,8 +686,12 @@ def make_item(
         "date": iso(date),
         "category": primary,
         "categories": categories,
-        "tags": derive_tags(title, summary, primary),
-        "excerpt": summary,
+        "tags": derive_tags(
+            title,
+            full_summary,
+            primary,
+        ),
+        "excerpt": display_summary,
         "authors": authors or [],
         "venue": clean_text(venue),
         "manual": bool(manual),
@@ -750,10 +798,14 @@ def pubmed_text(node: ET.Element | None) -> str:
 
 
 def pubmed_date(article: ET.Element) -> datetime | None:
+    # Prefer record availability/index dates for freshness ranking.
+    # Journal issue dates can legitimately point months into the future.
     paths = [
-        ".//Article/Journal/JournalIssue/PubDate",
         ".//PubMedPubDate[@PubStatus='pubmed']",
         ".//PubMedPubDate[@PubStatus='entrez']",
+        ".//PubMedPubDate[@PubStatus='medline']",
+        ".//Article/ArticleDate",
+        ".//Article/Journal/JournalIssue/PubDate",
     ]
     for path in paths:
         node = article.find(path)
@@ -1275,6 +1327,28 @@ def month_key_for_item(item: dict[str, Any]) -> str:
     return dt.strftime("%Y-%m")
 
 
+def remove_future_archive_files() -> None:
+    """
+    Remove archive partitions whose month lies in the future.
+
+    This repairs archives produced from bibliographic future issue
+    dates while preserving those records through the normalized
+    current/seed pool.
+    """
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+
+    current_month = now_utc().strftime("%Y-%m")
+
+    for candidate in ARCHIVE_DIR.glob("????-??.json"):
+        if candidate.stem > current_month:
+            print(
+                "Removing future archive partition:",
+                candidate.name,
+                flush=True,
+            )
+            candidate.unlink(missing_ok=True)
+
+
 def archive_selected(selected: list[dict[str, Any]]) -> None:
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -1431,8 +1505,17 @@ def main() -> int:
         print("No current items selected; preserving existing feed.", file=sys.stderr)
         return 0
 
+    remove_future_archive_files()
+
     archive_selected(selected)
-    archive_index = load_json(ARCHIVE_INDEX, {"total_items": 0, "months": []})
+
+    archive_index = load_json(
+        ARCHIVE_INDEX,
+        {
+            "total_items": 0,
+            "months": [],
+        },
+    )
 
     category_counts = Counter(item.get("category", "General AI") for item in selected)
     type_counts = Counter(item.get("content_type", "Other") for item in selected)

@@ -47,7 +47,6 @@ Sources are configured in `config/sources.json` and grouped by source class and 
 - Meta AI
 - Mila
 - Vector Institute
-- EleutherAI
 - Hugging Face
 - AWS Machine Learning Blog
 

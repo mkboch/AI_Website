@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "month": "2026-09",
-  "updated_at": "2026-09-23T20:43:15.195135+00:00",
-  "item_count": 233,
+  "updated_at": "2026-09-23T20:51:39.924737+00:00",
+  "item_count": 240,
   "items": [
     {
       "id": "07a8f7dd10d8be9c6d42",
@@ -1167,6 +1167,39 @@
       "rank": 56
     },
     {
+      "id": "c37bc13b82457e2131c2",
+      "title": "HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing",
+      "url": "https://arxiv.org/abs/2609.26368",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Long-horizon and multi-turn agents typically generate short actions and process long observations from tools and environments. This growing context demands efficient prefill, compact KV-cache storage, and accurate long-context retrieval. To meet these demands, we introduce HySparse2, a hybrid sparse attention architecture with two-level KV sharing. At the outer level, KV Bridging adopts…",
+      "authors": [
+        "Jianyu Wei, Yizhao Gao, Qihao Zhang, Shimao Chen, Zhengju Tang, Yu Cheng, Shengjie Zhou, Zihan Jiang, Yifan Song, Hailin Zhang, Liang Zhao, Bo Yang, Gang Wang, Shijie Cao, Fuli Luo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.26368",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 108
+    },
+    {
       "id": "4f3e3aeb0c4186691527",
       "title": "Seeing the imagined: latent functional alignment in visual imagery decoding from fMRI data",
       "url": "https://arxiv.org/abs/2604.15374",
@@ -1916,6 +1949,42 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 117
+    },
+    {
+      "id": "61ce09e4431ca7a65653",
+      "title": "Recording Hand-Held Laparoscopic Instrument Motion in the Operating Room: Magnetometer-Free Fusion of Inertial, Range and Visual Sensing",
+      "url": "https://arxiv.org/abs/2609.25577",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-23T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Vision"
+      ],
+      "excerpt": "Most minimally invasive procedures are still performed with hand-held laparoscopic instruments, yet only the endoscopic video is retained; the instrument motion that expresses surgical skill, and that could support skill assessment and robot learning, is lost. Pose from video alone remains millimeters to centimeters off, and an instrument-mounted inertial measurement unit (IMU) cannot…",
+      "authors": [
+        "Jiyul Lee, Dongho Yee, Juahn Oh, Jinseok Lee, Yechan Seo, Seong Jeong, Minsung Kim, Seonho Shim, Younghoon Noh, Hyuk Choi, Youngbin Kong, Hyoun-Joong Kong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "arxiv_id": "2609.25577",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 124
     },
     {
       "id": "4e5c707dca0487ac08e5",
@@ -4032,6 +4101,35 @@
       "rank": 176
     },
     {
+      "id": "0765deb144589280c16b",
+      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "url": "https://openai.com/index/airbnb-gpt-6-astra",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-09-23T01:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 23
+    },
+    {
       "id": "645b43d5f1958456922a",
       "title": "Guiding large language models to predict edit sequences for molecular synthesizability optimization",
       "url": "https://www.nature.com/articles/s42256-026-01304-x",
@@ -4420,6 +4518,42 @@
       "rank": 5
     },
     {
+      "id": "c9a464d81882f8650a8d",
+      "title": "Artificial intelligence and perioperative nurses in error detection during operating room transfers: A simulation-based comparison.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42775780",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "BackgroundThe safe and efficient transfer of patients to the operating room is a critical component of surgical care. The growing integration of artificial intelligence (AI) in healthcare introduces new possibilities for enhancing clinical decision-making.ObjectiveThis study compared the performance of AI and perioperative nurses with varying experience levels in identifying errors…",
+      "authors": [
+        "Mahmut Dağcı",
+        "Kardelen Yıldırım",
+        "Kerem Toker"
+      ],
+      "venue": "Work (Reading, Mass.)",
+      "manual": false,
+      "related": [],
+      "pmid": "42775780",
+      "doi": "10.1177/10519815261488809",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 85.0,
+      "priority_label": "High relevance",
+      "rank": 17
+    },
+    {
       "id": "b514d59a7158ff579fb6",
       "title": "Evaluation of U-Net based architectures for synthetic CT generation from dual-contrast MRI.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42722001",
@@ -4454,6 +4588,47 @@
       "priority_score": 84.1,
       "priority_label": "High relevance",
       "rank": 7
+    },
+    {
+      "id": "6e7bea1c52680ccc3304",
+      "title": "Predicting relapse in pediatric IgA vasculitis in the era of machine learning: an explainable hybrid ensemble model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42776039",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-23T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "This study aimed to develop an explainable hybrid ensemble machine learning (ML) model to predict relapse in pediatric IgA vasculitis (IgAV) using routine clinical and laboratory data. This retrospective cohort study included 653 children diagnosed with IgAV according to EULAR/PRINTO/PRES criteria. Demographic, clinical, laboratory data, and the Pediatric Vasculitis Activity Score…",
+      "authors": [
+        "Eda Nur Dizman",
+        "Zeynep Turgut",
+        "Sema Yildirim",
+        "Feray Kaya",
+        "Elif Kucuk",
+        "Lutfiye Koru",
+        "Zelal Aydin",
+        "Hatice Kubra Dursun"
+      ],
+      "venue": "Rheumatology (Oxford, England)",
+      "manual": false,
+      "related": [],
+      "pmid": "42776039",
+      "doi": "10.1093/rheumatology/keag533",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 14
     },
     {
       "id": "bf604dce62913989166c",
@@ -7500,6 +7675,40 @@
       "rank": 125
     },
     {
+      "id": "cde6039f103f885c5a6c",
+      "title": "System helps humans predict when self-driving cars will make mistakes",
+      "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-02T15:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics",
+        "Reasoning"
+      ],
+      "excerpt": "Self-driving cars are often controlled by deep learning models that sometimes fail in unexpected situations. For instance, the car might inexplicably brake and block the path of an oncoming emergency vehicle. A human driver or passenger may need to react rapidly to prevent a collision. To help humans better anticipate a vehicle’s mistakes, researchers from MIT and autonomous vehicle…",
+      "authors": [
+        "Adam Zewe | MIT News"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 65.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
+      "priority_label": "Latest",
+      "rank": 204
+    },
+    {
       "id": "437ffb23ae2ef611e091",
       "title": "Walter Torous named executive director of MIT Center for Real Estate",
       "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
@@ -7691,6 +7900,39 @@
       "priority_score": 71.6,
       "priority_label": "Relevant",
       "rank": 152
+    },
+    {
+      "id": "7121e737b53f5c8f3a57",
+      "title": "Ila Kumar: Innovating with communities",
+      "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-01T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Before Ila Kumar thinks about how to build technology, she asks a different question: What is the context that technology will operate in, and who needs to be involved in the design? For Kumar, meaningful innovation doesn’t result from engineers or designers working in isolation. Instead, she believes the best innovations emerge when the people who stand to benefit from a technology…",
+      "authors": [
+        "Gitana Savage | MIT News correspondent"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "relevance_score": 72.2,
+      "freshness_score": 56.0,
+      "priority_score": 68.4,
+      "priority_label": "Latest",
+      "rank": 199
     },
     {
       "id": "fee1f7a944d8cd0246a8",

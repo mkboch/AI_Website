@@ -36,7 +36,7 @@ ARCHIVE_INDEX = ARCHIVE_DIR / "index.json"
 SOURCE_HEALTH = DATA_DIR / "source_health.json"
 
 SCHEMA_VERSION = 2
-PIPELINE_VERSION = "2.3"
+PIPELINE_VERSION = "2.3.1"
 MAX_CURRENT_ITEMS = 240
 CURRENT_WINDOW_DAYS = 45
 RECENT_ARCHIVE_MONTHS = 4
@@ -44,6 +44,8 @@ MIN_HEALTHY_SOURCES_FOR_REBUILD = 4
 MAX_RELATED_LINKS = 4
 MAX_ITEM_IMAGES = 4
 FEATURED_IMAGE_COUNT = 3
+FEED_IMAGE_ENRICH_COUNT = 36
+MAX_IMAGE_ENRICH_REQUESTS = 42
 
 FOCUS_CATEGORIES = [
     "Medical Imaging",
@@ -1086,7 +1088,7 @@ def extract_article_images(
 
     response = session.get(
         url,
-        timeout=20,
+        timeout=12,
     )
 
     response.raise_for_status()
@@ -1301,52 +1303,63 @@ def select_featured_for_enrichment(
     return selected
 
 
-def enrich_featured_images(
+def enrich_current_images(
     items: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
 
+    """
+    Enrich the highest-priority current-feed items only.
+
+    Existing RSS/listing images are preserved. Article-page
+    requests are strictly capped.
+    """
+
     session = build_session()
 
-    featured = select_featured_for_enrichment(
-        items
-    )
+    ranked = sorted(
+        items,
+        key=lambda item: float(
+            item.get("priority_score", 0) or 0
+        ),
+        reverse=True,
+    )[:FEED_IMAGE_ENRICH_COUNT]
 
-    for item in featured:
+    requests_used = 0
+
+    for item in ranked:
 
         images = normalize_image_urls(
-            item.get(
-                "images",
-                [],
-            ),
-            item.get(
-                "url",
-                "",
-            ),
+            item.get("images", []),
+            item.get("url", ""),
         )
 
-        targets: list[str] = []
+        # Already has a genuine source image.
+        if images:
+            item["images"] = images
+
+            print(
+                "  feed images existing:",
+                item.get("source", "Unknown"),
+                len(images),
+                flush=True,
+            )
+
+            continue
+
+        if requests_used >= MAX_IMAGE_ENRICH_REQUESTS:
+            break
 
         primary_url = clean_text(
-            item.get(
-                "url",
-                "",
-            )
+            item.get("url", "")
         )
-
-        if primary_url:
-            targets.append(
-                primary_url
-            )
 
         doi = clean_text(
-            item.get(
-                "doi",
-                "",
-            )
+            item.get("doi", "")
         )
 
-        if doi:
+        doi_url = ""
 
+        if doi:
             doi_url = (
                 "https"
                 + "://"
@@ -1354,56 +1367,51 @@ def enrich_featured_images(
                 + doi
             )
 
-            if (
-                doi_url
-                not in targets
-            ):
-                targets.append(
-                    doi_url
-                )
+        targets: list[str] = []
 
-        for related in (
-            item.get(
-                "related",
-                [],
-            )
-            or []
+        # PubMed pages rarely expose article imagery.
+        # Prefer the DOI/publisher page first.
+        if (
+            item.get("source_id")
+            == "pubmed_medical_ai"
+            and doi_url
         ):
 
-            if not isinstance(
-                related,
-                dict,
-            ):
+            targets.append(doi_url)
+
+            if primary_url:
+                targets.append(primary_url)
+
+        else:
+
+            if primary_url:
+                targets.append(primary_url)
+
+            if doi_url and doi_url not in targets:
+                targets.append(doi_url)
+
+        for related in item.get("related", []) or []:
+
+            if not isinstance(related, dict):
                 continue
 
             related_url = clean_text(
-                related.get(
-                    "url",
-                    "",
-                )
+                related.get("url", "")
             )
 
-            if (
-                related_url
-                and related_url
-                not in targets
-            ):
-                targets.append(
-                    related_url
-                )
+            if related_url and related_url not in targets:
+                targets.append(related_url)
 
-            if len(
-                targets
-            ) >= 3:
+        # Maximum two page attempts per item.
+        for target in targets[:2]:
+
+            if images:
                 break
 
-        for target in targets[:3]:
-
-            if (
-                len(images)
-                >= MAX_ITEM_IMAGES
-            ):
+            if requests_used >= MAX_IMAGE_ENRICH_REQUESTS:
                 break
+
+            requests_used += 1
 
             try:
 
@@ -1413,38 +1421,37 @@ def enrich_featured_images(
                 )
 
                 images = normalize_image_urls(
-                    [
-                        *images,
-                        *extracted,
-                    ],
+                    extracted,
                     target,
                 )
 
             except Exception as error:
 
                 print(
-                    "  image enrichment skipped:",
-                    item.get(
-                        "source",
-                        "Unknown",
-                    ),
-                    clean_text(
-                        str(error)
-                    )[:160],
+                    "  feed image enrichment skipped:",
+                    item.get("source", "Unknown"),
+                    clean_text(str(error))[:160],
                     file=sys.stderr,
                 )
 
         item["images"] = images
 
         print(
-            "  featured images:",
-            item.get(
-                "source",
-                "Unknown",
-            ),
+            "  feed images:",
+            item.get("source", "Unknown"),
             len(images),
+            "requests_used=",
+            requests_used,
             flush=True,
         )
+
+    print(
+        "Image enrichment request budget:",
+        requests_used,
+        "/",
+        MAX_IMAGE_ENRICH_REQUESTS,
+        flush=True,
+    )
 
     return items
 
@@ -2369,7 +2376,7 @@ def main() -> int:
     selected = select_current(pool, source_lookup)
 
     if selected:
-        selected = enrich_featured_images(
+        selected = enrich_current_images(
             selected
         )
 

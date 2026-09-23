@@ -206,20 +206,78 @@ function metadataLine(item) {
 
 function createCard(item) {
     var topClass = Number(item.rank || 999) <= 3 ? " top-ranked" : "";
-    var html = '<article class="news-card' + topClass + '">';
-    html += '<div class="card-line"></div><div class="card-body">';
+    var images = itemImages(item);
+    var visualClass = images.length ? " has-media" : " has-fallback";
+
+    var html = '<article class="news-card'
+        + topClass
+        + visualClass
+        + '">';
+
+    html += cardMedia(item);
+
+    html += '<div class="card-line"></div>';
+    html += '<div class="card-body">';
+
     html += '<div class="card-badges">';
-    html += badge(item.content_type || "Signal", "type-badge");
-    html += badge(item.category || "General AI", "category-badge");
-    if (item.priority_label === "Top signal" || item.priority_label === "High relevance") html += badge(item.priority_label, "priority-badge");
+    html += badge(
+        item.content_type || "Signal",
+        "type-badge"
+    );
+    html += badge(
+        item.category || "General AI",
+        "category-badge"
+    );
+
+    if (
+        item.priority_label === "Top signal"
+        || item.priority_label === "High relevance"
+    ) {
+        html += badge(
+            item.priority_label,
+            "priority-badge"
+        );
+    }
+
     html += "</div>";
-    html += '<div class="card-date">' + escapeHTML(formatDate(item.date)) + "</div>";
-    html += "<h3>" + escapeHTML(item.title || "") + "</h3>";
-    html += "<p>" + escapeHTML(truncateText(item.excerpt || "Open the original source for details.", 300)) + "</p>";
+
+    html += '<div class="card-date">'
+        + escapeHTML(formatDate(item.date))
+        + "</div>";
+
+    html += "<h3>"
+        + escapeHTML(item.title || "")
+        + "</h3>";
+
+    html += "<p>"
+        + escapeHTML(
+            truncateText(
+                item.excerpt
+                    || "Open the original source for details.",
+                300
+            )
+        )
+        + "</p>";
+
     html += metadataLine(item);
-    html += '<div class="card-footer"><span class="source-name">' + escapeHTML(item.source || "Source") + "</span>";
-    html += '<a class="read-link" target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Original &rarr;</a></div>';
-    html += "</div></article>";
+
+    html += '<div class="card-footer">';
+
+    html += '<span class="source-name">'
+        + escapeHTML(item.source || "Source")
+        + "</span>";
+
+    html += '<a class="read-link" '
+        + 'target="_blank" '
+        + 'rel="noopener noreferrer" '
+        + 'href="'
+        + safeURL(item.url)
+        + '">Original &rarr;</a>';
+
+    html += "</div>";
+    html += "</div>";
+    html += "</article>";
+
     return html;
 }
 
@@ -305,6 +363,58 @@ function featuredMedia(item) {
         + '<div class="featured-media-track">' + slides + '</div>'
         + dots
         + '</div>';
+}
+
+
+function categoryVisualClass(category) {
+    var classes = {
+        "Medical Imaging": "fallback-medical-imaging",
+        "Medical AI": "fallback-medical-ai",
+        "Trustworthy AI": "fallback-trustworthy",
+        "Foundation Models": "fallback-foundation",
+        "AI Agents": "fallback-agents",
+        "AI4Education": "fallback-education",
+        "AI for Science": "fallback-science",
+        "Computer Vision": "fallback-vision",
+        "Robotics & Embodied AI": "fallback-robotics",
+        "AI Systems & Hardware": "fallback-systems",
+        "AI Policy & Governance": "fallback-policy",
+        "General AI": "fallback-general"
+    };
+
+    return classes[category] || "fallback-general";
+}
+
+function categoryFallback(item) {
+    var category = item.category || "General AI";
+
+    return '<div class="card-fallback '
+        + categoryVisualClass(category)
+        + '" aria-hidden="true">'
+        + '<div class="card-fallback-mark">AI</div>'
+        + '<div class="card-fallback-content">'
+        + '<span>WANG-AXIS</span>'
+        + '<strong>'
+        + escapeHTML(category)
+        + '</strong>'
+        + '<small>Research Intelligence</small>'
+        + '</div>'
+        + '</div>';
+}
+
+function cardMedia(item) {
+    var images = itemImages(item);
+
+    if (!images.length) {
+        return categoryFallback(item);
+    }
+
+    var media = featuredMedia(item);
+
+    return media.replace(
+        'class="featured-media"',
+        'class="featured-media card-media"'
+    );
 }
 
 function setFeaturedSlide(carousel, index) {
@@ -497,7 +607,14 @@ function applyFilters() {
 function renderGrid() {
     var end = state.page * state.perPage;
     var visible = state.filtered.slice(0, end);
-    el("news-grid").innerHTML = visible.map(createCard).join("");
+    var grid = el("news-grid");
+
+    grid.innerHTML = visible.map(createCard).join("");
+
+    initFeaturedCarousels(
+        grid
+    );
+
     var count = state.filtered.length;
     el("result-count").textContent = count.toLocaleString() + (count === 1 ? " signal" : " signals") + (state.mode === "archive" ? " in this archive view" : " in the current feed");
     el("empty-state").hidden = count !== 0;

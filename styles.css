@@ -371,6 +371,186 @@ button:disabled { opacity: .55; cursor: not-allowed; }
 .read-link { flex-shrink: 0; color: var(--blue); text-decoration: none; font-size: 11px; font-weight: 800; }
 .read-link:hover { text-decoration: underline; }
 
+
+/* Current Intelligence visual layer */
+
+.card-media {
+    height: 178px;
+    flex-shrink: 0;
+    background: #0c1d2d;
+}
+
+.card-media:after {
+    height: 40px;
+}
+
+.card-media .featured-media-dot {
+    width: 5px;
+    height: 5px;
+}
+
+.card-media .featured-media-dot.active {
+    width: 16px;
+}
+
+.card-fallback {
+    position: relative;
+    height: 178px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    padding: 18px 20px;
+    color: white;
+    background:
+        radial-gradient(
+            circle at 83% 20%,
+            rgba(255,255,255,.20),
+            transparent 29%
+        ),
+        linear-gradient(
+            145deg,
+            #183d5d,
+            #071522
+        );
+}
+
+.card-fallback:before {
+    content: "";
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    right: -42px;
+    top: -64px;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 50%;
+}
+
+.card-fallback:after {
+    content: "";
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    right: 31px;
+    top: 23px;
+    border: 1px solid rgba(255,255,255,.10);
+    border-radius: 50%;
+}
+
+.card-fallback-mark {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    color: rgba(255,255,255,.13);
+    font-size: 66px;
+    line-height: 1;
+    font-weight: 900;
+    letter-spacing: -.08em;
+}
+
+.card-fallback-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-fallback-content span {
+    margin-bottom: 5px;
+    color: rgba(255,255,255,.68);
+    font-size: 8px;
+    font-weight: 850;
+    letter-spacing: .16em;
+}
+
+.card-fallback-content strong {
+    max-width: 230px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: -.025em;
+}
+
+.card-fallback-content small {
+    margin-top: 6px;
+    color: rgba(255,255,255,.60);
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.fallback-medical-imaging {
+    background:
+        radial-gradient(circle at 78% 16%, rgba(106,211,255,.30), transparent 31%),
+        linear-gradient(145deg, #145d82, #071c31);
+}
+
+.fallback-medical-ai {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(93,229,192,.26), transparent 31%),
+        linear-gradient(145deg, #17605e, #09242f);
+}
+
+.fallback-trustworthy {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(125,184,255,.27), transparent 31%),
+        linear-gradient(145deg, #314d75, #101b32);
+}
+
+.fallback-foundation {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(195,145,255,.28), transparent 31%),
+        linear-gradient(145deg, #51437a, #171b39);
+}
+
+.fallback-agents {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(255,183,91,.28), transparent 31%),
+        linear-gradient(145deg, #7a4e2b, #2b1b1a);
+}
+
+.fallback-education {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(255,217,113,.27), transparent 31%),
+        linear-gradient(145deg, #75612a, #29261a);
+}
+
+.fallback-science {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(114,231,182,.27), transparent 31%),
+        linear-gradient(145deg, #27624e, #0b2925);
+}
+
+.fallback-vision {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(104,204,255,.28), transparent 31%),
+        linear-gradient(145deg, #285b76, #0b2235);
+}
+
+.fallback-robotics {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(191,204,222,.28), transparent 31%),
+        linear-gradient(145deg, #46586d, #18232e);
+}
+
+.fallback-systems {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(68,220,255,.27), transparent 31%),
+        linear-gradient(145deg, #18546d, #071d29);
+}
+
+.fallback-policy {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(255,184,120,.25), transparent 31%),
+        linear-gradient(145deg, #675039, #251e1c);
+}
+
+.fallback-general {
+    background:
+        radial-gradient(circle at 80% 18%, rgba(94,179,255,.27), transparent 31%),
+        linear-gradient(145deg, #284e70, #0b1b2c);
+}
+
+
 .skeleton { height: 365px; border-radius: 17px; background: linear-gradient(90deg,#edf1f5 25%,#fafbfc 38%,#edf1f5 63%); background-size: 400% 100%; animation: loading 1.2s infinite; }
 @keyframes loading { from { background-position: 100% 0; } to { background-position: -100% 0; } }
 .load-more-container { padding-top: 31px; display: flex; justify-content: center; }
@@ -443,6 +623,7 @@ button:disabled { opacity: .55; cursor: not-allowed; }
 
 @media (max-width: 680px) {
     .featured-media { height: 190px; }
+    .card-media, .card-fallback { height: 190px; }
     .header-inner, .hero-inner, .topic-strip-inner, .container, .footer-inner { width: min(calc(100% - 28px), var(--max-width)); }
     .brand-text span { display: none; }
     .hero-inner { min-height: auto; padding: 62px 0; }

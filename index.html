@@ -3,498 +3,207 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta
-        name="description"
-        content="WANG-AXIS AI News: curated research and developments in artificial intelligence, medical imaging, foundation models, trustworthy AI, AI agents, AI for science, and AI for education."
-    >
-
-    <title>AI News | WANG-AXIS Lab</title>
-
+    <meta name="description" content="WANG-AXIS AI Research Intelligence: a continuously updated, source-transparent feed of AI research, medical imaging, trustworthy AI, foundation models, agents, AI for science, education, robotics, systems, policy, and major industry developments.">
+    <title>AI Research Intelligence | WANG-AXIS Lab</title>
     <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
 <header class="header">
     <div class="header-inner">
-
-        <a
-            class="brand"
-            href="https://wang-axis.github.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
+        <a class="brand" href="https://wang-axis.github.io/" target="_blank" rel="noopener noreferrer">
             <div class="logo-box">AXIS</div>
-
             <div class="brand-text">
                 <strong>WANG-AXIS</strong>
-                <span>Artificial Intelligence & Imaging</span>
+                <span>AI Research Intelligence</span>
             </div>
         </a>
-
         <nav class="nav">
-            <a
-                href="https://wang-axis.github.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Lab Home
-            </a>
-
-            <a href="#latest">Latest</a>
-            <a href="#news">AI News</a>
-            <a href="#about">About</a>
-
-            <a
-                href="https://github.com/mkboch/AI_Website"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                GitHub
-            </a>
+            <a href="#signals">Top Signals</a>
+            <a href="#news">Intelligence Feed</a>
+            <a href="#archive">Archive</a>
+            <a href="#sources">Sources</a>
+            <a href="#methodology">Methodology</a>
+            <a href="https://wang-axis.github.io/" target="_blank" rel="noopener noreferrer">Lab Home</a>
         </nav>
-
     </div>
 </header>
 
-
 <main>
-
 <section class="hero">
-
     <div class="hero-pattern"></div>
-
     <div class="hero-inner">
-
         <div class="hero-content">
-
-            <div class="eyebrow">
-                <span class="status-dot"></span>
-                WANG-AXIS LAB AI NEWS
-            </div>
-
-            <h1>
-                Tracking the frontier of
-                <span>Artificial Intelligence</span>
-            </h1>
-
+            <div class="eyebrow"><span class="status-dot"></span>WANG-AXIS AI RESEARCH INTELLIGENCE</div>
+            <h1>Track what matters across the <span>AI research frontier</span></h1>
             <p class="hero-description">
-                A continuously updated research feed covering artificial
-                intelligence, medical imaging, foundation models,
-                trustworthy AI, autonomous agents, AI for science,
-                computer vision, and AI-enabled education.
+                A source-transparent intelligence feed spanning frontier labs, academic research, scientific journals,
+                biomedical literature, government and regulatory sources, engineering channels, selected technology news,
+                and a balanced set of AI preprints.
             </p>
-
             <div class="hero-buttons">
-
-                <a class="primary-button" href="#news">
-                    Explore AI News
-                </a>
-
-                <a
-                    class="secondary-button"
-                    href="https://wang-axis.github.io/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Visit WANG-AXIS Lab
-                </a>
-
+                <a class="primary-button" href="#signals">View top signals</a>
+                <a class="secondary-button" href="#news">Browse full feed</a>
             </div>
-
+            <div id="health-banner" class="health-banner">Loading source health…</div>
         </div>
-
 
         <div class="stats">
-
             <div class="stat-card">
                 <div id="story-count" class="stat-value">0</div>
-                <div class="stat-label">Stories</div>
+                <div class="stat-label">Current signals</div>
             </div>
-
             <div class="stat-card">
                 <div id="source-count" class="stat-value">0</div>
-                <div class="stat-label">Sources</div>
+                <div class="stat-label">Configured sources</div>
             </div>
-
+            <div class="stat-card">
+                <div id="healthy-count" class="stat-value">0</div>
+                <div class="stat-label">Healthy sources</div>
+            </div>
+            <div class="stat-card">
+                <div id="archive-count" class="stat-value">0</div>
+                <div class="stat-label">Archived signals</div>
+            </div>
             <div class="stat-card wide">
                 <div class="stat-label">Last refreshed</div>
-                <div id="last-updated" class="stat-date">
-                    Loading...
-                </div>
+                <div id="last-updated" class="stat-date">Loading…</div>
             </div>
-
         </div>
-
     </div>
-
 </section>
-
 
 <section class="topic-strip">
-
     <div class="topic-strip-inner">
-
-        <span class="topic-label">
-            TRACKING
-        </span>
-
-        <span class="topic">
-            Medical Imaging
-        </span>
-
-        <span class="topic">
-            Medical AI
-        </span>
-
-        <span class="topic">
-            Foundation Models
-        </span>
-
-        <span class="topic">
-            AI Agents
-        </span>
-
-        <span class="topic">
-            Trustworthy AI
-        </span>
-
-        <span class="topic">
-            AI for Science
-        </span>
-
-        <span class="topic">
-            Computer Vision
-        </span>
-
-        <span class="topic">
-            AI4Education
-        </span>
-
+        <span class="topic-label">TRACKING</span>
+        <span class="topic">Medical Imaging</span>
+        <span class="topic">Medical AI</span>
+        <span class="topic">Trustworthy AI</span>
+        <span class="topic">Foundation Models</span>
+        <span class="topic">AI Agents</span>
+        <span class="topic">AI4Education</span>
+        <span class="topic">AI for Science</span>
+        <span class="topic">Computer Vision</span>
+        <span class="topic">Robotics & Embodied AI</span>
+        <span class="topic">AI Systems & Hardware</span>
+        <span class="topic">AI Policy & Governance</span>
     </div>
-
 </section>
 
-
-<section id="latest" class="container featured-section">
-
-    <div class="section-header">
-
+<section id="signals" class="container featured-section">
+    <div class="section-header split-header">
         <div>
-            <div class="section-kicker">
-                FEATURED
-            </div>
-
-            <h2>
-                Latest development
-            </h2>
-        </div>
-
-    </div>
-
-    <div id="featured">
-        <div class="loading-panel">
-            Loading latest research...
+            <div class="section-kicker">EDITORIAL SIGNAL LAYER</div>
+            <h2>Top research signals</h2>
+            <p class="result-count">Ranked by transparent source, relevance, recency, and event signals. This is not a scientific-quality score.</p>
         </div>
     </div>
-
+    <div id="featured" class="featured-grid">
+        <div class="loading-panel">Loading top signals…</div>
+    </div>
 </section>
-
 
 <section id="news" class="container news-section">
-
-    <div class="section-header">
-
+    <div class="section-header split-header">
         <div>
-            <div class="section-kicker">
-                NEWS FEED
-            </div>
-
-            <h2>
-                Latest AI news
-            </h2>
-
-            <p id="result-count" class="result-count">
-                Loading stories...
-            </p>
+            <div class="section-kicker">RESEARCH INTELLIGENCE FEED</div>
+            <h2 id="feed-title">Current intelligence</h2>
+            <p id="result-count" class="result-count">Loading signals…</p>
         </div>
-
+        <button id="return-current" class="ghost-button" type="button" hidden>Return to current feed</button>
     </div>
 
-
-    <div class="controls">
-
+    <div class="controls controls-five">
         <div class="search-box">
-
-            <svg
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-            >
-                <circle
-                    cx="11"
-                    cy="11"
-                    r="7"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                ></circle>
-
-                <path
-                    d="M20 20L16.2 16.2"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                ></path>
-            </svg>
-
-            <input
-                id="search-input"
-                type="search"
-                placeholder="Search articles, topics, sources..."
-            >
-
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"></circle><path d="M20 20L16.2 16.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path></svg>
+            <input id="search-input" type="search" placeholder="Search titles, summaries, venues, tags, sources…">
         </div>
-
-
-        <select id="category-filter">
-            <option value="all">
-                All categories
-            </option>
-        </select>
-
-
-        <select id="source-filter">
-            <option value="all">
-                All sources
-            </option>
-        </select>
-
-
+        <select id="category-filter"><option value="all">All topics</option></select>
+        <select id="type-filter"><option value="all">All types</option></select>
+        <select id="source-filter"><option value="all">All sources</option></select>
         <select id="sort-filter">
-            <option value="newest">
-                Newest first
-            </option>
-
-            <option value="oldest">
-                Oldest first
-            </option>
+            <option value="priority">Priority</option>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
         </select>
-
     </div>
 
-
-    <div
-        id="category-buttons"
-        class="category-buttons"
-    ></div>
-
-
-    <div
-        id="news-grid"
-        class="news-grid"
-    >
-        <div class="skeleton"></div>
-        <div class="skeleton"></div>
-        <div class="skeleton"></div>
-        <div class="skeleton"></div>
-        <div class="skeleton"></div>
-        <div class="skeleton"></div>
+    <div id="category-buttons" class="category-buttons"></div>
+    <div id="news-grid" class="news-grid">
+        <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
+        <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton"></div>
     </div>
-
-
-    <div class="load-more-container">
-
-        <button
-            id="load-more"
-            class="load-more"
-            type="button"
-            hidden
-        >
-            Load more
-        </button>
-
+    <div class="load-more-container"><button id="load-more" class="load-more" type="button" hidden>Load more</button></div>
+    <div id="empty-state" class="empty-state" hidden>
+        <div class="empty-logo">AI</div><h3>No matching signals</h3><p>Try another topic, type, source, or search term.</p>
     </div>
-
-
-    <div
-        id="empty-state"
-        class="empty-state"
-        hidden
-    >
-        <div class="empty-logo">
-            AI
-        </div>
-
-        <h3>
-            No matching stories
-        </h3>
-
-        <p>
-            Try another search term or category.
-        </p>
-    </div>
-
 </section>
 
-
-<section id="about" class="about-section">
-
-    <div class="container about-grid">
-
+<section id="archive" class="archive-section">
+    <div class="container archive-grid">
         <div>
-
-            <div class="section-kicker">
-                ABOUT THIS SITE
-            </div>
-
-            <h2>
-                Research-focused AI news without a paid backend
-            </h2>
-
-            <p>
-                This website is hosted entirely through GitHub.
-                GitHub Actions periodically retrieves public RSS
-                metadata from selected research and technology
-                sources, classifies the stories, removes duplicates,
-                and generates the news feed.
-            </p>
-
-            <p>
-                The site links readers to the original publishers.
-                It does not reproduce complete external articles.
-            </p>
-
+            <div class="section-kicker">PERSISTENT HISTORY</div>
+            <h2>Research intelligence archive</h2>
+            <p>Monthly archive files preserve selected signals across refreshes. Loading an archive month does not replace or modify the current feed.</p>
         </div>
-
-
-        <div class="about-list">
-
-            <div class="about-item">
-
-                <div class="about-number">
-                    01
-                </div>
-
-                <div>
-                    <h3>Automatic updates</h3>
-
-                    <p>
-                        GitHub Actions refreshes the feed every day.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="about-item">
-
-                <div class="about-number">
-                    02
-                </div>
-
-                <div>
-                    <h3>Research focused</h3>
-
-                    <p>
-                        News is organized around topics relevant to
-                        modern AI and WANG-AXIS research.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="about-item">
-
-                <div class="about-number">
-                    03
-                </div>
-
-                <div>
-                    <h3>Source linked</h3>
-
-                    <p>
-                        Every card directs readers to the original
-                        source.
-                    </p>
-                </div>
-
-            </div>
-
-
-            <div class="about-item">
-
-                <div class="about-number">
-                    04
-                </div>
-
-                <div>
-                    <h3>Zero lab infrastructure</h3>
-
-                    <p>
-                        No lab server, GPU, backend database, or
-                        always-running computer is required.
-                    </p>
-                </div>
-
-            </div>
-
+        <div class="archive-controls">
+            <label for="archive-select">Archive month</label>
+            <select id="archive-select"><option value="">Loading archive…</option></select>
+            <button id="archive-load" class="primary-button button-reset" type="button">Open month</button>
+            <div id="archive-status" class="archive-status"></div>
         </div>
-
     </div>
-
 </section>
 
+<section id="sources" class="container source-section">
+    <div class="section-header">
+        <div class="section-kicker">SOURCE TRANSPARENCY</div>
+        <h2>Source health and coverage</h2>
+        <p class="result-count">Every refresh records whether each configured source returned data, returned no items, or failed.</p>
+    </div>
+    <div id="source-summary" class="source-summary"></div>
+    <details class="source-details">
+        <summary>Show source-by-source status</summary>
+        <div id="source-health-list" class="source-health-list"></div>
+    </details>
+</section>
+
+<section id="methodology" class="about-section">
+    <div class="container about-grid">
+        <div>
+            <div class="section-kicker">METHODOLOGY</div>
+            <h2>Broad coverage without pretending that automation equals judgment</h2>
+            <p>
+                The pipeline separates official announcements, research-lab posts, journal content, biomedical literature,
+                government and regulatory material, engineering posts, technology news, and preprints. It then applies
+                rule-based topic classification, source tiers, recency weighting, near-duplicate detection, and source/topic balancing.
+            </p>
+            <p>
+                The priority layer is an editorial relevance heuristic for this site. It does not claim that a higher-ranked paper
+                is scientifically superior, peer reviewed, clinically validated, or more important in an absolute sense.
+            </p>
+        </div>
+        <div class="about-list">
+            <div class="about-item"><div class="about-number">01</div><div><h3>Source-balanced</h3><p>No single arXiv category or publisher can dominate the current feed.</p></div></div>
+            <div class="about-item"><div class="about-number">02</div><div><h3>Publication-aware</h3><p>Official updates, journals, biomedical indexing, regulatory items, news, engineering posts, and preprints are labeled separately.</p></div></div>
+            <div class="about-item"><div class="about-number">03</div><div><h3>Failure-safe</h3><p>Temporary source failures do not erase previously collected current or archived material.</p></div></div>
+            <div class="about-item"><div class="about-number">04</div><div><h3>Persistent archive</h3><p>Selected items accumulate in monthly JSON archives rather than disappearing after the next refresh.</p></div></div>
+            <div class="about-item"><div class="about-number">05</div><div><h3>No paid backend</h3><p>GitHub Actions performs collection and GitHub Pages serves the static site.</p></div></div>
+        </div>
+    </div>
+</section>
 </main>
 
-
 <footer class="footer">
-
     <div class="footer-inner">
-
-        <div>
-            <div class="footer-title">
-                WANG-AXIS
-            </div>
-
-            <div class="footer-subtitle">
-                Artificial Intelligence & Imaging Research
-            </div>
-        </div>
-
-
+        <div><div class="footer-title">WANG-AXIS</div><div class="footer-subtitle">Artificial Intelligence & Imaging Research</div></div>
         <div class="footer-links">
-
-            <a
-                href="https://wang-axis.github.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Lab Website
-            </a>
-
-            <a
-                href="https://github.com/WANG-AXIS"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Lab GitHub
-            </a>
-
-            <span>
-                © <span id="year"></span> WANG-AXIS
-            </span>
-
+            <a href="https://wang-axis.github.io/" target="_blank" rel="noopener noreferrer">Lab Website</a>
+            <a href="https://github.com/mkboch/AI_Website" target="_blank" rel="noopener noreferrer">Project GitHub</a>
+            <span>© <span id="year"></span> WANG-AXIS</span>
         </div>
-
     </div>
-
 </footer>
-
 <script src="app.js"></script>
-
 </body>
 </html>

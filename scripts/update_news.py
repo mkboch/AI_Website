@@ -36,7 +36,7 @@ ARCHIVE_INDEX = ARCHIVE_DIR / "index.json"
 SOURCE_HEALTH = DATA_DIR / "source_health.json"
 
 SCHEMA_VERSION = 2
-PIPELINE_VERSION = "2.3.1"
+PIPELINE_VERSION = "2.3.2"
 MAX_CURRENT_ITEMS = 240
 CURRENT_WINDOW_DAYS = 45
 RECENT_ARCHIVE_MONTHS = 4
@@ -725,6 +725,155 @@ def normalize_image_url(
         return ""
 
 
+
+def image_identity(
+    value: str,
+) -> str:
+
+    """
+    Collapse CDN/resize variants of the same underlying image.
+
+    This prevents the carousel from showing the same figure
+    multiple times at different resolutions or formats.
+    """
+
+    try:
+
+        parsed = urlparse(
+            value
+        )
+
+        host = (
+            parsed.netloc
+            or ""
+        ).lower()
+
+        path = (
+            parsed.path
+            or ""
+        )
+
+        params = dict(
+            parse_qsl(
+                parsed.query,
+                keep_blank_values=True,
+            )
+        )
+
+        # ----------------------------------------------------
+        # Next.js image proxy.
+        #
+        # Example:
+        # /_next/image?url=https://cdn.../image.jpg&w=3840&q=75
+        # ----------------------------------------------------
+
+        if (
+            path.rstrip("/")
+            .lower()
+            .endswith("/_next/image")
+        ):
+
+            inner = params.get(
+                "url",
+                ""
+            )
+
+            if inner:
+
+                inner_url = normalize_image_url(
+                    inner,
+                    f"{parsed.scheme}://{host}",
+                )
+
+                if inner_url:
+                    return image_identity(
+                        inner_url
+                    )
+
+
+        # ----------------------------------------------------
+        # Springer / Nature.
+        #
+        # These are the SAME underlying figure:
+        #
+        # /m685/...Fig1_HTML.png
+        # /lw685/...Fig1_HTML.png
+        # /m312/...Fig1_HTML.png
+        # /full/...Fig1_HTML.png
+        # ----------------------------------------------------
+
+        if host == "media.springernature.com":
+
+            path = re.sub(
+                r"^/(?:m\d+|lw\d+|full)/",
+                "/",
+                path,
+                flags=re.I,
+            )
+
+
+        # ----------------------------------------------------
+        # Anthropic / Sanity duplicate representations.
+        # ----------------------------------------------------
+
+        if (
+            "anthropic.com" in host
+            or host == "cdn.sanity.io"
+        ):
+
+            position = path.lower().find(
+                "/images/"
+            )
+
+            if position >= 0:
+
+                asset_path = path[
+                    position:
+                ]
+
+                return (
+                    "sanity:"
+                    + asset_path.lower()
+                )
+
+
+        # ----------------------------------------------------
+        # Google CDN resize suffixes.
+        # ----------------------------------------------------
+
+        path = re.sub(
+            r"\.width-\d+"
+            r"(?:\.format-[^./]+)?",
+            "",
+            path,
+            flags=re.I,
+        )
+
+
+        # ----------------------------------------------------
+        # Ignore transformation query parameters.
+        #
+        # Examples:
+        # ?as=webp
+        # ?w=1600&h=900
+        # ?q=90&fm=webp
+        #
+        # They represent a rendering variant, not a new image.
+        # ----------------------------------------------------
+
+        return (
+            host
+            + path.lower()
+        )
+
+    except Exception:
+
+        return str(
+            value or ""
+        ).lower()
+
+
+
 def normalize_image_urls(
     values: list[Any] | None,
     base_url: str = "",
@@ -743,7 +892,9 @@ def normalize_image_urls(
         if not url:
             continue
 
-        key = url.lower()
+        key = image_identity(
+            url
+        )
 
         if key in seen:
             continue

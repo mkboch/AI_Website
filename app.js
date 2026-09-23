@@ -313,6 +313,106 @@ function selectFeatured(items, count) {
     return selected;
 }
 
+function imageIdentity(value) {
+    try {
+        var parsed = new URL(
+            String(value || "")
+        );
+
+        var host =
+            parsed.hostname.toLowerCase();
+
+        var path =
+            parsed.pathname || "";
+
+
+        // Next.js image optimization wrapper.
+
+        if (
+            path.replace(/\/+$/, "")
+                .toLowerCase()
+                .endsWith("/_next/image")
+        ) {
+
+            var inner =
+                parsed.searchParams.get("url");
+
+            if (inner) {
+
+                try {
+
+                    return imageIdentity(
+                        new URL(
+                            inner,
+                            parsed.origin
+                        ).href
+                    );
+
+                } catch (error) {
+                    // Continue with outer URL.
+                }
+            }
+        }
+
+
+        // Springer / Nature resolution variants.
+
+        if (
+            host === "media.springernature.com"
+        ) {
+
+            path = path.replace(
+                /^\/(?:m\d+|lw\d+|full)\//i,
+                "/"
+            );
+        }
+
+
+        // Anthropic / Sanity representations.
+
+        if (
+            host.indexOf("anthropic.com") >= 0
+            || host === "cdn.sanity.io"
+        ) {
+
+            var markerIndex =
+                path.toLowerCase()
+                    .indexOf("/images/");
+
+            if (markerIndex >= 0) {
+
+                return "sanity:"
+                    + path.slice(
+                        markerIndex
+                    ).toLowerCase();
+            }
+        }
+
+
+        // Google CDN resizing.
+
+        path = path.replace(
+            /\.width-\d+(?:\.format-[^.\/]+)?/ig,
+            ""
+        );
+
+
+        // Ignore query parameters such as width,
+        // quality, output format and crop.
+
+        return (
+            host
+            + path.toLowerCase()
+        );
+
+    } catch (error) {
+
+        return String(
+            value || ""
+        ).toLowerCase();
+    }
+}
+
 function itemImages(item) {
     var values = Array.isArray(item.images) ? item.images : [];
     var seen = {};
@@ -321,8 +421,16 @@ function itemImages(item) {
         try {
             var parsed = new URL(String(value || ""));
             if (parsed.protocol !== "https:" && parsed.protocol !== "http:") return false;
-            if (seen[parsed.href]) return false;
-            seen[parsed.href] = true;
+            var key = imageIdentity(
+                parsed.href
+            );
+
+            if (seen[key]) {
+                return false;
+            }
+
+            seen[key] = true;
+
             return true;
         } catch (error) {
             return false;

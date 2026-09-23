@@ -99,6 +99,70 @@ def validate_news(errors: list[str]) -> None:
             if parsed.scheme not in {"http", "https"} or not parsed.netloc:
                 fail(f"item {i}: invalid URL {url}", errors)
 
+        images = item.get(
+            "images",
+            [],
+        )
+
+        if images is None:
+            images = []
+
+        if not isinstance(
+            images,
+            list,
+        ):
+            fail(
+                f"item {i}: images must be a list",
+                errors,
+            )
+
+        else:
+
+            if len(images) > 4:
+                fail(
+                    f"item {i}: more than 4 images",
+                    errors,
+                )
+
+            image_seen = set()
+
+            for image_url in images:
+
+                image_url = str(
+                    image_url
+                    or ""
+                ).strip()
+
+                parsed_image = urlparse(
+                    image_url
+                )
+
+                if (
+                    parsed_image.scheme
+                    not in {
+                        "http",
+                        "https",
+                    }
+                    or not parsed_image.netloc
+                ):
+                    fail(
+                        f"item {i}: invalid image URL {image_url}",
+                        errors,
+                    )
+                    continue
+
+                image_key = image_url.lower()
+
+                if image_key in image_seen:
+                    fail(
+                        f"item {i}: duplicate image URL",
+                        errors,
+                    )
+
+                image_seen.add(
+                    image_key
+                )
+
         dt = parse_date(str(item.get("date", "")))
         if dt and (dt - now).total_seconds() > MAX_FUTURE_HOURS * 3600:
             fail(f"item {i}: future date beyond guard: {item.get('date')}", errors)

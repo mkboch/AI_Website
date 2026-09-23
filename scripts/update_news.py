@@ -36,12 +36,14 @@ ARCHIVE_INDEX = ARCHIVE_DIR / "index.json"
 SOURCE_HEALTH = DATA_DIR / "source_health.json"
 
 SCHEMA_VERSION = 2
-PIPELINE_VERSION = "2.2"
+PIPELINE_VERSION = "2.3"
 MAX_CURRENT_ITEMS = 240
 CURRENT_WINDOW_DAYS = 45
 RECENT_ARCHIVE_MONTHS = 4
 MIN_HEALTHY_SOURCES_FOR_REBUILD = 4
 MAX_RELATED_LINKS = 4
+MAX_ITEM_IMAGES = 4
+FEATURED_IMAGE_COUNT = 3
 
 FOCUS_CATEGORIES = [
     "Medical Imaging",
@@ -626,6 +628,827 @@ def feed_entry_authors(entry: Any) -> list[str]:
     return authors[:8]
 
 
+
+def normalize_image_url(
+    value: Any,
+    base_url: str = "",
+) -> str:
+    raw = html.unescape(
+        str(value or "")
+    ).strip()
+
+    if not raw:
+        return ""
+
+    if raw.startswith(
+        (
+            "data:",
+            "blob:",
+        )
+    ):
+        return ""
+
+    try:
+        absolute = urljoin(
+            base_url,
+            raw,
+        )
+
+        parsed = urlparse(
+            absolute
+        )
+
+        if (
+            parsed.scheme.lower()
+            not in {
+                "http",
+                "https",
+            }
+            or not parsed.netloc
+        ):
+            return ""
+
+        path_lower = (
+            parsed.path
+            or ""
+        ).lower()
+
+        if re.search(
+            r"\.(?:svg|gif)(?:$|\?)",
+            path_lower,
+        ):
+            return ""
+
+        if re.search(
+            r"(?:^|[/_.-])"
+            r"(?:logo|favicon|avatar|headshot|sprite|emoji|pixel|tracker)"
+            r"(?:[/_.-]|$)",
+            path_lower,
+        ):
+            return ""
+
+        query_pairs = [
+            (key, val)
+            for key, val
+            in parse_qsl(
+                parsed.query,
+                keep_blank_values=True,
+            )
+            if (
+                key.lower()
+                not in TRACKING_QUERY_KEYS
+                and not key.lower().startswith(
+                    "utm_"
+                )
+            )
+        ]
+
+        query = urlencode(
+            query_pairs,
+            doseq=True,
+        )
+
+        return urlunparse(
+            (
+                parsed.scheme.lower(),
+                parsed.netloc,
+                parsed.path,
+                "",
+                query,
+                "",
+            )
+        )
+
+    except Exception:
+        return ""
+
+
+def normalize_image_urls(
+    values: list[Any] | None,
+    base_url: str = "",
+) -> list[str]:
+
+    output: list[str] = []
+    seen: set[str] = set()
+
+    for value in values or []:
+
+        url = normalize_image_url(
+            value,
+            base_url,
+        )
+
+        if not url:
+            continue
+
+        key = url.lower()
+
+        if key in seen:
+            continue
+
+        seen.add(
+            key
+        )
+
+        output.append(
+            url
+        )
+
+        if (
+            len(output)
+            >= MAX_ITEM_IMAGES
+        ):
+            break
+
+    return output
+
+
+def image_src_from_tag(
+    tag: Any,
+) -> str:
+
+    for attr in (
+        "src",
+        "data-src",
+        "data-lazy-src",
+        "data-original",
+    ):
+
+        value = clean_text(
+            tag.get(
+                attr,
+                "",
+            )
+        )
+
+        if value:
+            return value
+
+    for attr in (
+        "srcset",
+        "data-srcset",
+    ):
+
+        srcset = clean_text(
+            tag.get(
+                attr,
+                "",
+            )
+        )
+
+        if not srcset:
+            continue
+
+        entries = [
+            item.strip()
+            for item
+            in srcset.split(",")
+            if item.strip()
+        ]
+
+        if entries:
+
+            return (
+                entries[-1]
+                .split()[0]
+            )
+
+    return ""
+
+
+def plausible_image_tag(
+    tag: Any,
+) -> bool:
+
+    width_text = clean_text(
+        tag.get(
+            "width",
+            "",
+        )
+    )
+
+    height_text = clean_text(
+        tag.get(
+            "height",
+            "",
+        )
+    )
+
+    width_match = re.search(
+        r"\d+",
+        width_text,
+    )
+
+    height_match = re.search(
+        r"\d+",
+        height_text,
+    )
+
+    if (
+        width_match
+        and height_match
+    ):
+
+        width = int(
+            width_match.group()
+        )
+
+        height = int(
+            height_match.group()
+        )
+
+        if (
+            width < 240
+            or height < 120
+        ):
+            return False
+
+    return True
+
+
+def feed_entry_images(
+    entry: Any,
+    base_url: str,
+) -> list[str]:
+
+    candidates: list[Any] = []
+
+    for attr in (
+        "media_content",
+        "media_thumbnail",
+        "enclosures",
+        "links",
+    ):
+
+        group = getattr(
+            entry,
+            attr,
+            None,
+        )
+
+        if not group:
+            continue
+
+        if isinstance(
+            group,
+            dict,
+        ):
+            group = [group]
+
+        if not isinstance(
+            group,
+            list,
+        ):
+            continue
+
+        for value in group:
+
+            if not isinstance(
+                value,
+                dict,
+            ):
+                continue
+
+            mime = clean_text(
+                value.get(
+                    "type",
+                    "",
+                )
+            ).lower()
+
+            if (
+                attr
+                in {
+                    "enclosures",
+                    "links",
+                }
+                and mime
+                and not mime.startswith(
+                    "image/"
+                )
+            ):
+                continue
+
+            raw = (
+                value.get(
+                    "url"
+                )
+                or value.get(
+                    "href"
+                )
+            )
+
+            if raw:
+                candidates.append(
+                    raw
+                )
+
+    html_values: list[str] = []
+
+    for attr in (
+        "summary",
+        "description",
+    ):
+
+        raw = getattr(
+            entry,
+            attr,
+            "",
+        )
+
+        if raw:
+            html_values.append(
+                str(raw)
+            )
+
+    content = getattr(
+        entry,
+        "content",
+        None,
+    )
+
+    if isinstance(
+        content,
+        list,
+    ):
+
+        for value in content:
+
+            if isinstance(
+                value,
+                dict,
+            ):
+
+                raw = value.get(
+                    "value",
+                    "",
+                )
+
+                if raw:
+                    html_values.append(
+                        str(raw)
+                    )
+
+    for raw_html in html_values:
+
+        try:
+
+            soup = BeautifulSoup(
+                raw_html,
+                "html.parser",
+            )
+
+            for tag in soup.find_all(
+                [
+                    "img",
+                    "source",
+                ],
+            ):
+
+                raw = image_src_from_tag(
+                    tag
+                )
+
+                if raw:
+                    candidates.append(
+                        raw
+                    )
+
+        except Exception:
+            pass
+
+    return normalize_image_urls(
+        candidates,
+        base_url,
+    )
+
+
+def closest_images(
+    anchor: Any,
+    base_url: str,
+) -> list[str]:
+
+    candidates: list[Any] = []
+
+    node = anchor
+
+    for _ in range(5):
+
+        if node is None:
+            break
+
+        if hasattr(
+            node,
+            "find_all",
+        ):
+
+            for tag in node.find_all(
+                [
+                    "img",
+                    "source",
+                ],
+                limit=10,
+            ):
+
+                if not plausible_image_tag(
+                    tag
+                ):
+                    continue
+
+                raw = image_src_from_tag(
+                    tag
+                )
+
+                if raw:
+                    candidates.append(
+                        raw
+                    )
+
+        if candidates:
+            break
+
+        node = getattr(
+            node,
+            "parent",
+            None,
+        )
+
+    return normalize_image_urls(
+        candidates,
+        base_url,
+    )
+
+
+def extract_article_images(
+    session: requests.Session,
+    url: str,
+) -> list[str]:
+
+    response = session.get(
+        url,
+        timeout=20,
+    )
+
+    response.raise_for_status()
+
+    content_type = (
+        response.headers
+        .get(
+            "content-type",
+            "",
+        )
+        .lower()
+    )
+
+    if (
+        content_type
+        and "html"
+        not in content_type
+    ):
+        return []
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser",
+    )
+
+    candidates: list[Any] = []
+
+    meta_selectors = [
+        (
+            "property",
+            "og:image",
+        ),
+        (
+            "property",
+            "og:image:secure_url",
+        ),
+        (
+            "name",
+            "twitter:image",
+        ),
+        (
+            "name",
+            "twitter:image:src",
+        ),
+        (
+            "itemprop",
+            "image",
+        ),
+    ]
+
+    for attr, value in meta_selectors:
+
+        for tag in soup.find_all(
+            "meta",
+            attrs={
+                attr: value,
+            },
+        ):
+
+            raw = tag.get(
+                "content",
+                "",
+            )
+
+            if raw:
+                candidates.append(
+                    raw
+                )
+
+    for tag in soup.find_all(
+        "link",
+        attrs={
+            "rel": "image_src",
+        },
+    ):
+
+        raw = tag.get(
+            "href",
+            "",
+        )
+
+        if raw:
+            candidates.append(
+                raw
+            )
+
+    content_tags = soup.select(
+        "article img, "
+        "article source, "
+        "main img, "
+        "main source, "
+        "[role='main'] img, "
+        "[role='main'] source"
+    )
+
+    if not content_tags:
+
+        content_tags = soup.find_all(
+            [
+                "img",
+                "source",
+            ],
+            limit=50,
+        )
+
+    for tag in content_tags:
+
+        if not plausible_image_tag(
+            tag
+        ):
+            continue
+
+        raw = image_src_from_tag(
+            tag
+        )
+
+        if raw:
+            candidates.append(
+                raw
+            )
+
+    return normalize_image_urls(
+        candidates,
+        response.url,
+    )
+
+
+def select_featured_for_enrichment(
+    items: list[dict[str, Any]],
+    count: int = FEATURED_IMAGE_COUNT,
+) -> list[dict[str, Any]]:
+
+    pool = sorted(
+        items,
+        key=lambda item: float(
+            item.get(
+                "priority_score",
+                0,
+            )
+            or 0
+        ),
+        reverse=True,
+    )[:60]
+
+    selected: list[dict[str, Any]] = []
+
+    while (
+        len(selected) < count
+        and pool
+    ):
+
+        best_index = 0
+        best_score = float(
+            "-inf"
+        )
+
+        for index, item in enumerate(
+            pool
+        ):
+
+            score = float(
+                item.get(
+                    "priority_score",
+                    0,
+                )
+                or 0
+            )
+
+            for chosen in selected:
+
+                if (
+                    item.get(
+                        "source"
+                    )
+                    == chosen.get(
+                        "source"
+                    )
+                ):
+                    score -= 24
+
+                if (
+                    item.get(
+                        "content_type"
+                    )
+                    == chosen.get(
+                        "content_type"
+                    )
+                ):
+                    score -= 7
+
+                if (
+                    item.get(
+                        "category"
+                    )
+                    == chosen.get(
+                        "category"
+                    )
+                ):
+                    score -= 6
+
+            if score > best_score:
+
+                best_score = score
+                best_index = index
+
+        selected.append(
+            pool.pop(
+                best_index
+            )
+        )
+
+    return selected
+
+
+def enrich_featured_images(
+    items: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+
+    session = build_session()
+
+    featured = select_featured_for_enrichment(
+        items
+    )
+
+    for item in featured:
+
+        images = normalize_image_urls(
+            item.get(
+                "images",
+                [],
+            ),
+            item.get(
+                "url",
+                "",
+            ),
+        )
+
+        targets: list[str] = []
+
+        primary_url = clean_text(
+            item.get(
+                "url",
+                "",
+            )
+        )
+
+        if primary_url:
+            targets.append(
+                primary_url
+            )
+
+        doi = clean_text(
+            item.get(
+                "doi",
+                "",
+            )
+        )
+
+        if doi:
+
+            doi_url = (
+                "https"
+                + "://"
+                + "doi.org/"
+                + doi
+            )
+
+            if (
+                doi_url
+                not in targets
+            ):
+                targets.append(
+                    doi_url
+                )
+
+        for related in (
+            item.get(
+                "related",
+                [],
+            )
+            or []
+        ):
+
+            if not isinstance(
+                related,
+                dict,
+            ):
+                continue
+
+            related_url = clean_text(
+                related.get(
+                    "url",
+                    "",
+                )
+            )
+
+            if (
+                related_url
+                and related_url
+                not in targets
+            ):
+                targets.append(
+                    related_url
+                )
+
+            if len(
+                targets
+            ) >= 3:
+                break
+
+        for target in targets[:3]:
+
+            if (
+                len(images)
+                >= MAX_ITEM_IMAGES
+            ):
+                break
+
+            try:
+
+                extracted = extract_article_images(
+                    session,
+                    target,
+                )
+
+                images = normalize_image_urls(
+                    [
+                        *images,
+                        *extracted,
+                    ],
+                    target,
+                )
+
+            except Exception as error:
+
+                print(
+                    "  image enrichment skipped:",
+                    item.get(
+                        "source",
+                        "Unknown",
+                    ),
+                    clean_text(
+                        str(error)
+                    )[:160],
+                    file=sys.stderr,
+                )
+
+        item["images"] = images
+
+        print(
+            "  featured images:",
+            item.get(
+                "source",
+                "Unknown",
+            ),
+            len(images),
+            flush=True,
+        )
+
+    return items
+
+
 def make_item(
     source: dict[str, Any],
     title: str,
@@ -638,6 +1461,7 @@ def make_item(
     external_ids: dict[str, str] | None = None,
     publication_status: str = "",
     manual: bool = False,
+    images: list[str] | None = None,
 ) -> dict[str, Any] | None:
     title = clean_text(title)
     url = canonical_url(url)
@@ -696,6 +1520,10 @@ def make_item(
         "venue": clean_text(venue),
         "manual": bool(manual),
         "related": [],
+        "images": normalize_image_urls(
+            images or [],
+            url,
+        ),
         "category_scores": {k: round(v, 2) for k, v in category_scores.items() if v > 0},
     }
     item.update(ids)
@@ -720,6 +1548,10 @@ def fetch_rss(session: requests.Session, source: dict[str, Any]) -> tuple[list[d
             summary,
             parse_feed_date(entry),
             authors=feed_entry_authors(entry),
+            images=feed_entry_images(
+                entry,
+                url,
+            ),
         )
         if item:
             items.append(item)
@@ -782,7 +1614,17 @@ def fetch_html_links(session: requests.Session, source: dict[str, Any]) -> tuple
             # Avoid resurfacing undated historical links as if they were current.
             continue
         summary = context.replace(title, " ", 1).strip()
-        item = make_item(source, title, url, summary, date)
+        item = make_item(
+            source,
+            title,
+            url,
+            summary,
+            date,
+            images=closest_images(
+                anchor,
+                base,
+            ),
+        )
         if item:
             items.append(item)
         if raw_count >= int(source.get("max_fetch", 50)):
@@ -1039,6 +1881,15 @@ def merge_related(primary: dict[str, Any], secondary: dict[str, Any]) -> dict[st
         primary["venue"] = secondary["venue"]
     if not primary.get("authors") and secondary.get("authors"):
         primary["authors"] = secondary["authors"]
+
+    primary["images"] = normalize_image_urls(
+        [
+            *(primary.get("images", []) or []),
+            *(secondary.get("images", []) or []),
+        ],
+        primary.get("url", ""),
+    )
+
     return primary
 
 
@@ -1151,6 +2002,14 @@ def normalize_legacy_item(item: dict[str, Any], source_lookup: dict[str, dict[st
         },
         publication_status=item.get("publication_status", ""),
         manual=bool(item.get("manual")),
+        images=(
+            item.get("images", [])
+            if isinstance(
+                item.get("images"),
+                list,
+            )
+            else []
+        ),
     )
     if rebuilt:
         rebuilt["related"] = item.get("related", []) if isinstance(item.get("related"), list) else []
@@ -1189,6 +2048,14 @@ def load_manual_items(source_lookup: dict[str, dict[str, Any]]) -> list[dict[str
             venue=raw.get("venue", ""),
             publication_status=raw.get("publication_status", "Curated"),
             manual=True,
+            images=(
+                raw.get("images", [])
+                if isinstance(
+                    raw.get("images"),
+                    list,
+                )
+                else []
+            ),
         )
         if item and item["id"] not in seen:
             seen.add(item["id"])
@@ -1500,6 +2367,11 @@ def main() -> int:
     seed_items = load_recent_seed(source_lookup)
     pool = deduplicate([*manual_items, *seed_items, *collected])
     selected = select_current(pool, source_lookup)
+
+    if selected:
+        selected = enrich_featured_images(
+            selected
+        )
 
     if not selected and existing_count:
         print("No current items selected; preserving existing feed.", file=sys.stderr)

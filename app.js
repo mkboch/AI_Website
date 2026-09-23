@@ -218,7 +218,7 @@ function createCard(item) {
     html += "<p>" + escapeHTML(truncateText(item.excerpt || "Open the original source for details.", 300)) + "</p>";
     html += metadataLine(item);
     html += '<div class="card-footer"><span class="source-name">' + escapeHTML(item.source || "Source") + "</span>";
-    html += '<a class="read-link" target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Original →</a></div>';
+    html += '<a class="read-link" target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Original &rarr;</a></div>';
     html += "</div></article>";
     return html;
 }
@@ -255,6 +255,188 @@ function selectFeatured(items, count) {
     return selected;
 }
 
+function itemImages(item) {
+    var values = Array.isArray(item.images) ? item.images : [];
+    var seen = {};
+
+    return values.filter(function(value) {
+        try {
+            var parsed = new URL(String(value || ""));
+            if (parsed.protocol !== "https:" && parsed.protocol !== "http:") return false;
+            if (seen[parsed.href]) return false;
+            seen[parsed.href] = true;
+            return true;
+        } catch (error) {
+            return false;
+        }
+    }).slice(0, 4);
+}
+
+function featuredMedia(item) {
+    var images = itemImages(item);
+
+    if (!images.length) return "";
+
+    var slides = images.map(function(url, index) {
+        var loading = index === 0 ? "eager" : "lazy";
+
+        return '<div class="featured-media-slide">'
+            + '<img src="' + safeURL(url) + '" '
+            + 'alt="' + escapeHTML((item.title || "Research signal") + " image " + (index + 1)) + '" '
+            + 'loading="' + loading + '" '
+            + 'decoding="async" '
+            + 'draggable="false">'
+            + '</div>';
+    }).join("");
+
+    var dots = "";
+
+    if (images.length > 1) {
+        dots = '<div class="featured-media-dots" aria-hidden="true">'
+            + images.map(function(_, index) {
+                return '<span class="featured-media-dot'
+                    + (index === 0 ? " active" : "")
+                    + '"></span>';
+            }).join("")
+            + '</div>';
+    }
+
+    return '<div class="featured-media" data-carousel-count="' + images.length + '">'
+        + '<div class="featured-media-track">' + slides + '</div>'
+        + dots
+        + '</div>';
+}
+
+function setFeaturedSlide(carousel, index) {
+    var track = carousel.querySelector(".featured-media-track");
+    var slides = carousel.querySelectorAll(".featured-media-slide");
+    var dots = carousel.querySelectorAll(".featured-media-dot");
+
+    if (!track || !slides.length) return;
+
+    var count = slides.length;
+    var normalized = ((index % count) + count) % count;
+
+    carousel.dataset.carouselIndex = String(normalized);
+    track.style.transform = "translateX(-" + (normalized * 100) + "%)";
+
+    dots.forEach(function(dot, dotIndex) {
+        dot.classList.toggle("active", dotIndex === normalized);
+    });
+}
+
+function initFeaturedCarousels(holder) {
+    var reduceMotion = window.matchMedia
+        && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    holder.querySelectorAll(".featured-media").forEach(function(carousel) {
+        var slides = carousel.querySelectorAll(".featured-media-slide");
+
+        carousel.dataset.carouselIndex = "0";
+
+        slides.forEach(function(slide) {
+            var image = slide.querySelector("img");
+
+            if (!image) return;
+
+            image.addEventListener("error", function() {
+                image.hidden = true;
+                slide.classList.add("image-failed");
+            });
+        });
+
+        if (slides.length <= 1 || reduceMotion) return;
+
+        var delayTimer = null;
+        var intervalTimer = null;
+        var touchStartX = null;
+
+        function currentIndex() {
+            return Number(carousel.dataset.carouselIndex || 0);
+        }
+
+        function advance() {
+            setFeaturedSlide(
+                carousel,
+                currentIndex() + 1
+            );
+        }
+
+        function stop(reset) {
+            if (delayTimer) {
+                window.clearTimeout(delayTimer);
+                delayTimer = null;
+            }
+
+            if (intervalTimer) {
+                window.clearInterval(intervalTimer);
+                intervalTimer = null;
+            }
+
+            if (reset) {
+                setFeaturedSlide(
+                    carousel,
+                    0
+                );
+            }
+        }
+
+        function start() {
+            stop(false);
+
+            delayTimer = window.setTimeout(function() {
+                advance();
+
+                intervalTimer = window.setInterval(
+                    advance,
+                    1700
+                );
+            }, 650);
+        }
+
+        carousel.addEventListener(
+            "mouseenter",
+            start
+        );
+
+        carousel.addEventListener(
+            "mouseleave",
+            function() {
+                stop(true);
+            }
+        );
+
+        carousel.addEventListener(
+            "touchstart",
+            function(event) {
+                if (!event.touches || !event.touches.length) return;
+                touchStartX = event.touches[0].clientX;
+            },
+            {passive: true}
+        );
+
+        carousel.addEventListener(
+            "touchend",
+            function(event) {
+                if (touchStartX === null) return;
+                if (!event.changedTouches || !event.changedTouches.length) return;
+
+                var delta = event.changedTouches[0].clientX - touchStartX;
+
+                if (Math.abs(delta) >= 35) {
+                    setFeaturedSlide(
+                        carousel,
+                        currentIndex() + (delta < 0 ? 1 : -1)
+                    );
+                }
+
+                touchStartX = null;
+            },
+            {passive: true}
+        );
+    });
+}
+
 function renderFeatured(items) {
     var holder = el("featured");
     var featured = selectFeatured(items, 3);
@@ -265,16 +447,25 @@ function renderFeatured(items) {
     }
 
     holder.innerHTML = featured.map(function(item, index) {
-        var html = '<article class="featured-card">';
+        var images = itemImages(item);
+        var media = featuredMedia(item);
+        var html = '<article class="featured-card' + (images.length ? " has-media" : "") + '">';
+
+        html += media;
+        html += '<div class="featured-content">';
         html += '<div class="featured-number">0' + (index + 1) + "</div>";
         html += '<div class="featured-meta">' + badge(item.content_type, "type-badge") + badge(item.category, "category-badge") + "</div>";
         html += "<h3>" + escapeHTML(item.title) + "</h3>";
         html += "<p>" + escapeHTML(truncateText(item.excerpt || "", 360)) + "</p>";
         html += '<div class="featured-footer"><span>' + escapeHTML(item.source) + " &middot; " + escapeHTML(formatDate(item.date)) + "</span>";
         html += '<a target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Read source &rarr;</a></div>';
+        html += "</div>";
         html += "</article>";
+
         return html;
     }).join("");
+
+    initFeaturedCarousels(holder);
 }
 
 function applyFilters() {

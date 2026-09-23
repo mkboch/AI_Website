@@ -1,5 +1,36 @@
 "use strict";
 
+
+function forcePageTop() {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "auto"
+    });
+}
+
+if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+}
+
+window.addEventListener("load", function() {
+    forcePageTop();
+
+    window.setTimeout(
+        forcePageTop,
+        0
+    );
+
+    window.setTimeout(
+        forcePageTop,
+        50
+    );
+});
+
+window.addEventListener("pageshow", function() {
+    forcePageTop();
+});
+
 var state = {
     currentData: null,
     currentItems: [],
@@ -53,6 +84,53 @@ function truncateText(value, maxLength) {
     return text.slice(0, maxLength - 1).trim() + "…";
 }
 function unique(values) { return Array.from(new Set(values.filter(Boolean))).sort(); }
+
+function animateCount(id, target, duration) {
+    var node = el(id);
+    if (!node) return;
+
+    target = Math.max(0, Number(target || 0));
+    duration = Number(duration || 900);
+
+    var reduceMotion = window.matchMedia &&
+        window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    if (reduceMotion) {
+        node.textContent = Math.round(target).toLocaleString();
+        return;
+    }
+
+    node.textContent = "0";
+
+    var startTime = null;
+
+    function update(timestamp) {
+        if (startTime === null) startTime = timestamp;
+
+        var elapsed = timestamp - startTime;
+        var progress = Math.min(elapsed / duration, 1);
+
+        // Smooth ease-out animation.
+        var eased = 1 - Math.pow(1 - progress, 3);
+
+        var current = Math.round(
+            target * eased
+        );
+
+        node.textContent =
+            current.toLocaleString();
+
+        if (progress < 1) {
+            window.requestAnimationFrame(update);
+        } else {
+            node.textContent =
+                Math.round(target).toLocaleString();
+        }
+    }
+
+    window.requestAnimationFrame(update);
+}
+
 function fetchJSON(path) {
     return fetch(path + (path.indexOf("?") >= 0 ? "&" : "?") + "v=" + Date.now(), {cache: "no-store"})
         .then(function(response) {
@@ -254,10 +332,29 @@ function useItems(items, mode, label) {
 
 function renderStats(data) {
     var summary = data.source_summary || {};
-    el("story-count").textContent = Number(data.item_count || state.currentItems.length).toLocaleString();
-    el("source-count").textContent = Number(summary.total_sources || 0).toLocaleString();
-    el("healthy-count").textContent = Number(summary.healthy_sources || 0).toLocaleString();
-    el("archive-count").textContent = Number(data.archive_item_count || 0).toLocaleString();
+    animateCount(
+        "story-count",
+        Number(data.item_count || state.currentItems.length),
+        950
+    );
+
+    animateCount(
+        "source-count",
+        Number(summary.total_sources || 0),
+        750
+    );
+
+    animateCount(
+        "healthy-count",
+        Number(summary.healthy_sources || 0),
+        850
+    );
+
+    animateCount(
+        "archive-count",
+        Number(data.archive_item_count || 0),
+        1100
+    );
     el("last-updated").textContent = formatDateTime(data.updated_at);
 
     var failed = Number(summary.failed_sources || 0);

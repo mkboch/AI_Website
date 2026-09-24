@@ -55,16 +55,13 @@ button:disabled { opacity: .55; cursor: not-allowed; }
     text-decoration: none;
     color: white;
 }
-.logo-box {
+.brand-logo {
     width: 45px;
     height: 45px;
+    flex: 0 0 45px;
+    display: block;
     border-radius: 10px;
-    display: grid;
-    place-items: center;
-    background: linear-gradient(135deg, var(--blue), var(--cyan));
-    font-size: 10px;
-    font-weight: 900;
-    letter-spacing: .08em;
+    object-fit: contain;
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.2; }
 .brand-text strong { font-size: 15px; letter-spacing: .07em; }

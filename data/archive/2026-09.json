@@ -1,9 +1,230 @@
 {
   "schema_version": 2,
   "month": "2026-09",
-  "updated_at": "2026-09-24T11:57:59.169488+00:00",
-  "item_count": 343,
+  "updated_at": "2026-09-24T17:20:17.995913+00:00",
+  "item_count": 355,
   "items": [
+    {
+      "id": "6add3dd62456569f1942",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "source": "Google DeepMind",
+      "source_id": "google_deepmind",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-09-24T16:20:39+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-1300.png",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Slide_16_9_-_37.width-200.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-audio__keyword.2e16d0ba.fill-300x300.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___key.2e16d0ba.fill-300x300.format-webp.webp"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 83.8,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "779a1ba64af323a34a47",
+      "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-24T16:20:12+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Multimodal",
+        "Agents",
+        "Safety",
+        "Medical",
+        "Vision",
+        "Open Source"
+      ],
+      "excerpt": "Any team working with spoken audio hits the same wall with generic speech-to-text. Think contact-center calls, all-hands meetings, podcasts, depositions, and broadcast media. These workloads need two things that standard transcription gets wrong. First, timestamps land at the utterance level, off by several seconds. Second, there’s no reliable answer to “who said what.” Those gaps make…",
+      "authors": [
+        "Ayush Sharma"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/ML-21846-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-21846/realtime_endpoint_whisperx-flight1549-demo.mp3?_=1",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/ML-21846-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-21846/async_endpoint_flight1549-source.mp3?_=2"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.7,
+      "priority_label": "Relevant",
+      "rank": 140
+    },
+    {
+      "id": "cca310b8dce1d42c7ad3",
+      "title": "Build a multi-account AI agent with AgentCore Gateway and MCP",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-24T16:12:47+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Agents",
+        "Evaluation",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Enterprises increasingly want AI agents that can reason over data spread across many AWS accounts without copying or centralizing it. Each team keeps its data in its own account for good reasons: clear ownership, scope isolation, and independent deployment lifecycles. But an agent that sees only one account’s data delivers limited value, and connecting it to distributed sources usually…",
+      "authors": [
+        "Senthil Kamala Rathinam"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-20091-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-20091-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-20091-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-20091-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 55
+    },
+    {
+      "id": "c4aac87444043708d107",
+      "title": "Google tests letting Gemini call businesses for you",
+      "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-24T16:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 129
+    },
+    {
+      "id": "6ff053dd07249040e881",
+      "title": "Efficient MoE Training for Biological Foundation Models",
+      "url": "https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-24T15:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding... As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding capabilities increases computation for both training and inference.…",
+      "authors": [
+        "Michelle Horton"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/DNA-Helix-768x432.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 79.6,
+      "priority_label": "Relevant",
+      "rank": 31
+    },
+    {
+      "id": "280bf64dcca75cee1131",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "source": "Hugging Face",
+      "source_id": "huggingface",
+      "source_class": "Open Source AI",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-24T14:08:57+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 56
+    },
     {
       "id": "94b5ec063f5cafc264af",
       "title": "The promise and peril of using visual AI to study cities",
@@ -1047,6 +1268,43 @@
       "rank": 86
     },
     {
+      "id": "ca9292ba162ca8b8e3aa",
+      "title": "LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law",
+      "url": "https://arxiv.org/abs/2609.27814",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-24T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "RAG",
+        "Agents",
+        "Reasoning"
+      ],
+      "excerpt": "In statutory question answering, every claim must be traceable to evidence, not merely relevant, since unverifiable labour-rights answers carry serious legal consequences. Current systems fall short: single-pass RAG cannot detect insufficient evidence, while multi-agent legal-debate systems treat grounding as a prompting convention, letting agents cite unretrieved evidence. To address…",
+      "authors": [
+        "Fatema Tuj Johora Faria, Mukaffi Bin Moin, Jubayer Al Mahmud, M. F. Mridha, Md. Alam Hossain"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.27814",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 87
+    },
+    {
       "id": "4445f86709c1acd824bd",
       "title": "FINN-Tro: Exploiting Verification Gaps in Dataflow Inference Accelerators",
       "url": "https://arxiv.org/abs/2609.26824",
@@ -1292,6 +1550,42 @@
       "priority_score": 71.7,
       "priority_label": "Relevant",
       "rank": 179
+    },
+    {
+      "id": "16ef5f849cfa54090ac7",
+      "title": "CasCVS-Net: A Staged Multi-Task Cascade for Critical View of Safety Assessment",
+      "url": "https://arxiv.org/abs/2609.27681",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-24T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Automated assessment of the Critical View of Safety (CVS) in laparoscopic cholecystectomy requires both recognition of the three CVS criteria and anatomical grounding in small, rare, and often occluded hepatocystic structures. Learning-based methods differ in the anatomical information they use, from image-level classification to detection, segmentation, or graph-based reasoning, yet…",
+      "authors": [
+        "Bock-Zien Toh, Yuanchuan Ren, Tay Aw Yu, Ng Khee Ong, Zhehua Mao, Sophia Bano"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.27681",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 159
     },
     {
       "id": "97bfd5bbffca90d7d855",
@@ -2148,6 +2442,41 @@
       "rank": 82
     },
     {
+      "id": "e5d59ee5ee56c8775d8d",
+      "title": "CORE-STACK+: Meta-Learning for Deep Stacked Generalization",
+      "url": "https://arxiv.org/abs/2609.26905",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-24T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Stacking heterogeneous vision backbones (CNNs, ViTs, and hybrids) is the de facto recipe for accuracy, calibration, and robustness, yet two coupled pathologies limit its returns. Prediction-space multicollinearity ill-conditions the meta-learner's Gram matrix, inflating weight variance and producing brittle solutions on a thin manifold. Calibration collapse compounds constituent…",
+      "authors": [
+        "Noor Islam S. Mohammad"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.26905",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 91
+    },
+    {
       "id": "76c5bf24c7994a3c8e29",
       "title": "Recursive Uncertainty-Gated Image Registration for Learning-based Algorithms",
       "url": "https://arxiv.org/abs/2609.28081",
@@ -2255,6 +2584,39 @@
       "priority_score": 77.6,
       "priority_label": "Relevant",
       "rank": 77
+    },
+    {
+      "id": "7e20cd5b97dcd52af34d",
+      "title": "Robust Adversarial Reinforcement Learning with Risk Sensitivity and Critic Consistency Regularization",
+      "url": "https://arxiv.org/abs/2609.27667",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-24T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Reinforcement learning (RL) achieves strong performance in sequential decision-making but remains brittle under dynamic uncertainty and distributional shifts. Robust Adversarial Reinforcement Learning (RARL) improves robustness via worst-case perturbations, but existing approaches frequently suffer from unstable optimization and degraded value estimation. In particular, overly…",
+      "authors": [
+        "Jiaxi Wu, Tiantian Zhang, Yuxing Wang, Yongzhe Chang, Xueqian Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.27667",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 92
     },
     {
       "id": "8b2b1a4c3163aeb78e33",
@@ -2685,6 +3047,52 @@
       "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 9
+    },
+    {
+      "id": "c54f66a78d63ffcc0aa8",
+      "title": "RADAR: A Prototype for Grounding Large Language Model Consult Support in an ACR-Structured Appropriateness Knowledge Base with Citation Validation and Abstention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42778754",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-24T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Large language models (LLMs) answer medical questions fluently but fabricate statements and citations too often to be trusted unaided at the point of care. We describe RADAR (Radiology Appropriateness Decision and Advisory Resource), a prototype retrieval-augmented consult-support pipeline that grounds an LLM in a knowledge base structured like the American College of Radiology (ACR)…",
+      "authors": [
+        "Chiranjeevi Vantaku",
+        "Amy Avakian"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02326-y/MediaObjects/10278_2026_2326_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs10278-025-01720-2/MediaObjects/10278_2025_1720_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs13198-026-03345-2/MediaObjects/13198_2026_3345_Fig1_HTML.png",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-981-96-3752-2?as=webp"
+      ],
+      "pmid": "42778754",
+      "doi": "10.1007/s10278-026-02326-y",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 18
     },
     {
       "id": "8dacb163c2dc6cc2b4a6",
@@ -3276,8 +3684,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 138,
       "images": []
@@ -3309,9 +3717,9 @@
       "manual": false,
       "related": [],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 70.4,
-      "priority_label": "Relevant",
+      "freshness_score": 94.0,
+      "priority_score": 69.1,
+      "priority_label": "Latest",
       "rank": 165,
       "images": []
     },
@@ -3342,8 +3750,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 78.9,
+      "freshness_score": 94.0,
+      "priority_score": 77.5,
       "priority_label": "Relevant",
       "rank": 32,
       "images": [
@@ -3377,8 +3785,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 100.0,
-      "priority_score": 75.9,
+      "freshness_score": 94.0,
+      "priority_score": 74.6,
       "priority_label": "Relevant",
       "rank": 164,
       "images": [
@@ -3412,8 +3820,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 115,
       "images": [
@@ -3447,8 +3855,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 70.5,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 61,
       "images": [
@@ -3479,8 +3887,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 19,
       "images": [
@@ -3515,8 +3923,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 161
     },
@@ -3544,8 +3952,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 20,
       "images": [
@@ -3580,8 +3988,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.5,
+      "freshness_score": 94.0,
+      "priority_score": 82.2,
       "priority_label": "High relevance",
       "rank": 24,
       "images": [
@@ -3616,8 +4024,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 21,
       "images": [
@@ -3650,8 +4058,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 22,
       "images": [
@@ -8077,7 +8485,10 @@
       "venue": "BMJ open",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://bmjopen.bmj.com/pages/wp-content/uploads/sites/7/2019/07/bmjopen-default-cover.png",
+        "https://bmjopen.bmj.com/sites/default/themes/bmjj/img/icon-pdf.png"
+      ],
       "pmid": "42778239",
       "doi": "10.1136/bmjopen-2026-120552",
       "relevance_score": 82.0,
@@ -8619,7 +9030,9 @@
       "venue": "Antiviral research",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
       "pmid": "42777865",
       "doi": "10.1016/j.antiviral.2026.106538",
       "relevance_score": 70.5,
@@ -9816,8 +10229,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 77.3,
+      "freshness_score": 86.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 48,
       "images": [
@@ -9854,8 +10267,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 90
     },
@@ -9887,8 +10300,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 123
     },
@@ -9924,8 +10337,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 70.5,
-      "freshness_score": 94.0,
-      "priority_score": 79.7,
+      "freshness_score": 86.0,
+      "priority_score": 77.9,
       "priority_label": "Relevant",
       "rank": 31,
       "images": [
@@ -9960,8 +10373,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 91,
       "images": []
@@ -9991,9 +10404,9 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.7,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.9,
+      "priority_label": "Relevant",
       "rank": 26,
       "images": [
         "https://images.ctfassets.net/kftzwdyauwt9/4D04GB5N0oLOaA1hGfsiHK/9f8b975e33e375f56c536f2c915ed1c8/og.png?w=1600&h=900&fit=fill",
@@ -10028,8 +10441,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 66.9,
+      "freshness_score": 86.0,
+      "priority_score": 65.1,
       "priority_label": "Latest",
       "rank": 209,
       "images": [
@@ -10065,8 +10478,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 66.9,
+      "freshness_score": 86.0,
+      "priority_score": 65.1,
       "priority_label": "Latest",
       "rank": 210,
       "images": [
@@ -10100,8 +10513,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 66.9,
+      "freshness_score": 86.0,
+      "priority_score": 65.1,
       "priority_label": "Latest",
       "rank": 211,
       "images": [
@@ -10137,8 +10550,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 66.9,
+      "freshness_score": 86.0,
+      "priority_score": 65.1,
       "priority_label": "Latest",
       "rank": 212,
       "images": [
@@ -11072,7 +11485,10 @@
       "freshness_score": 72.0,
       "priority_score": 68.0,
       "priority_label": "Latest",
-      "rank": 204
+      "rank": 204,
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp"
+      ]
     },
     {
       "id": "fd1baec08311b505543d",
@@ -11401,8 +11817,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 143,
       "images": [
@@ -11543,6 +11959,36 @@
       "priority_score": 70.0,
       "priority_label": "Latest",
       "rank": 175
+    },
+    {
+      "id": "a7c183de5112de4747c2",
+      "title": "The AI policy window is open. We need to act.",
+      "url": "https://openai.com/index/ai-policy-window",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-09-09T13:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance"
+      ],
+      "excerpt": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 59.0,
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
+      "rank": 181
     },
     {
       "id": "56bfec926244076beb99",

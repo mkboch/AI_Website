@@ -1,9 +1,46 @@
 {
   "schema_version": 2,
   "month": "2026-09",
-  "updated_at": "2026-09-25T05:06:14.884004+00:00",
-  "item_count": 429,
+  "updated_at": "2026-09-25T11:59:25.422111+00:00",
+  "item_count": 448,
   "items": [
+    {
+      "id": "85141bd115a3a9ea4349",
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-25T09:16:25+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request . The program, called “Polygraph+” or “Polygraph Next”, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing”, which refers to the ability to take…",
+      "authors": [
+        "Amit Katwala"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/09/Altec_Poly_2.jpeg"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.7,
+      "priority_label": "Relevant",
+      "rank": 180
+    },
     {
       "id": "48ebcbb6f47d417ae199",
       "title": "Clinical Knowledge Graphs for Chest X-Ray Device Reasoning",
@@ -356,7 +393,11 @@
       "venue": "",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
       "arxiv_id": "2609.29479",
       "relevance_score": 78.7,
       "freshness_score": 100.0,
@@ -581,6 +622,45 @@
       "priority_score": 73.8,
       "priority_label": "Relevant",
       "rank": 122
+    },
+    {
+      "id": "91aa88ae97f463cf731b",
+      "title": "Free the Language Model From the Vision Encoder: Semantic Serialization as a Perception Interface for Small Language Models",
+      "url": "https://arxiv.org/abs/2609.29601",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Multimodal",
+        "Evaluation",
+        "Robotics",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "End-to-end vision-language models (VLMs) bind visual competence to the scale of their language model: as the language model shrinks, perception and reasoning degrade together. We study an embodied scene question-answering (QA) interface in which vision never enters the language model. A frozen perception stack detects and ranges objects; a deterministic semantic serializer compiles the…",
+      "authors": [
+        "Cong Xu, Ravi Sankar"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29601",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 113
     },
     {
       "id": "ccbc490d0105061b1105",
@@ -1406,6 +1486,43 @@
       "rank": 176
     },
     {
+      "id": "8ea75f5fbea6b9b45dca",
+      "title": "UltraBench 2: Towards Robust Evaluation of Vision Foundation Models on Ultrasound",
+      "url": "https://arxiv.org/abs/2609.28610",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Benchmarking is an increasingly critical part of research in machine learning and the domains where it is applied, including healthcare. Yet, despite the steady development of new ultrasound foundation models in recent years, the development of well-designed benchmarks to evaluate them has lagged behind. This deficiency has led to fragmented and inconsistent evaluations of competing…",
+      "authors": [
+        "Ashwath Radhachandran, Adam Tupper, Christian Gagn\\'e, William Speier"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.28610",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 70
+    },
+    {
       "id": "486a00c199488819e321",
       "title": "ReCalMatch:Reliability-Calibrated Semantic Guidance for Semi-Supervised Fine-Grained Recognition",
       "url": "https://arxiv.org/abs/2609.29678",
@@ -1698,6 +1815,40 @@
       "rank": 93
     },
     {
+      "id": "7479b247ed673eb44ef8",
+      "title": "SpectralCTGaussians: Projection-Domain Reconstruction and Basis Material Decomposition for Spectral CT using 3D Gaussian Splatting",
+      "url": "https://arxiv.org/abs/2609.29638",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "Spectral computed tomography (CT) extends conventional CT by measuring attenuation across multiple energy channels, allowing improved modeling of physical X-ray interactions and energy-dependent material behavior and leading to richer scene understanding. We present a novel method for spectral CT reconstruction and basis material decomposition using 3D Gaussian Splatting by adding…",
+      "authors": [
+        "Reinout Vos, Saptarshi Neil Sinha, Michael Weinmann"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29638",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 74
+    },
+    {
       "id": "e311bab9790377f21c15",
       "title": "TAM-Chain: Multi-Scale Thyroid Cytology Classification via Absorbing Markov Chains and Shannon Entropy Uncertainty Quantification for False-Negative Suppression and Domain-Shift Adaptation",
       "url": "https://arxiv.org/abs/2609.28590",
@@ -1773,6 +1924,80 @@
       "rank": 166
     },
     {
+      "id": "dcbb2c7415083955e9ab",
+      "title": "CATCH: Counterfactual Anatomical Tissue Inpainting with Conditional Haar Diffusion",
+      "url": "https://arxiv.org/abs/2609.29591",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "BraTS local synthesis replaces masked regions in T1-weighted brain MRI with plausible tumor-free tissue while preserving observed anatomy. We present CATCH, conditional 3D diffusion in an invertible Haar-wavelet domain. Its denoiser receives noisy target coefficients, voided-image coefficients, and a signed mask; tumor-excluded wavelet reconstruction and a hole-focused loss guide…",
+      "authors": [
+        "Simon Winther Albertsen, Hjalte Bjoernstrup, Said Djafar Said, Mostafa Mehdipour Ghazi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29591",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 75
+    },
+    {
+      "id": "1d418b434b97278567d2",
+      "title": "RECLAIM: Can Agents Reproduce the Claims of Machine Learning Papers?",
+      "url": "https://arxiv.org/abs/2609.28850",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Evaluation",
+        "Hardware"
+      ],
+      "excerpt": "Reproducing a machine learning paper involves most research steps, from installing software and debugging to running experiments, work that AI agents increasingly do. We introduce RECLAIM, a benchmark of 100 NeurIPS 2025 papers that can be rebuilt yearly from new conferences. For each paper we fix in advance the result to reproduce, what counts as a successful reproduction, and a…",
+      "authors": [
+        "Mithil Salunkhe, Haochen Ding, Samridhi Verma, Volodymyr Kindratenko"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.28850",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 93
+    },
+    {
       "id": "67952aa966f8b755d4b6",
       "title": "Evidence-Driven Differential Diagnosis of Malignant Melanoma",
       "url": "https://arxiv.org/abs/2609.29613",
@@ -1840,6 +2065,41 @@
       "priority_score": 72.9,
       "priority_label": "Relevant",
       "rank": 148
+    },
+    {
+      "id": "19637b03a19970ccf96c",
+      "title": "ASIRF: An Agentic Framework for Context-Dependent Sensitive Information Redaction",
+      "url": "https://arxiv.org/abs/2609.29191",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Privacy"
+      ],
+      "excerpt": "Sensitive information is defined by domain and intent, not a universal category, yet redaction systems such as privacy filters and named-entity recognizers fix a taxonomy at training time, requiring retraining for each new domain. We introduce ASIRF (Agentic Sensitive Information Redaction Framework), which retrieves domain-specific definitions based on the input's domain from a…",
+      "authors": [
+        "Sudha Priyadarshini, Mohamed Chahine Ghanem"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29191",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 92
     },
     {
       "id": "e2d6b124a14bcd242469",
@@ -2090,6 +2350,460 @@
       "priority_score": 76.8,
       "priority_label": "Relevant",
       "rank": 78
+    },
+    {
+      "id": "e490d9b38955677761d2",
+      "title": "Decentralized CAR-T production: clinical, economic, and regulatory perspectives. Worldwide Network for Blood & Marrow Transplantation (WBMT) special article.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786225",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Chimeric antigen receptor T-cell therapy transformed the treatment of hematologic malignancies and is rapidly expanding into solid tumors and autoimmune diseases. However, its full clinical potential remains constrained by centralized manufacturing, production costs, logistical complexity, prolonged vein-to-vein times, limited global accessibility, and regulatory frameworks that hinder…",
+      "authors": [
+        "Abdulrahman Nasiri",
+        "Riad El Fakih",
+        "Christian Chabannon",
+        "Laurent Garderet",
+        "Jurgen Kuball",
+        "Ali Bazarbachi",
+        "Anna Sureda",
+        "Marcos De Lima"
+      ],
+      "venue": "Bone marrow transplantation",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41409-026-03044-3/MediaObjects/41409_2026_3044_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41587-023-01981-8/MediaObjects/41587_2023_1981_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41392-026-02780-8/MediaObjects/41392_2026_2780_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs44222-023-00031-x/MediaObjects/44222_2023_31_Fig1_HTML.png"
+      ],
+      "pmid": "42786225",
+      "doi": "10.1038/s41409-026-03044-3",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.4,
+      "priority_label": "High relevance",
+      "rank": 3
+    },
+    {
+      "id": "eb77c933c0ff0f44422e",
+      "title": "Artificial Intelligence and Generative AI in Clinical Trials for Autism and Other Neurobehavioral Disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786877",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Artificial Intelligence (AI) provides remarkable tools in modern medicine and is widely used to process high-throughput data and integrate different omics-derived models. In recent years, AI, and particularly generative AI (GenAI), has been utilized to design clinical trials for neurobehavioral disorders due to the complexity of variables presented by these conditions. However, ethical…",
+      "authors": [
+        "Mattia Galanti",
+        "Luigi Boccuto"
+      ],
+      "venue": "Reviews on recent clinical trials",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42786877",
+      "doi": "10.2174/0115748871524685260904061932",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 17
+    },
+    {
+      "id": "77c24bf4d668a0aea087",
+      "title": "Dual-Biofluid Metabolomics Combined With Machine Learning Enables Noninvasive Diagnosis of Drug Resistance in Benign Prostatic Hyperplasia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786996",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "With global population aging, benign prostatic hyperplasia (BPH) prevalence has risen, with one-quarter of patients showing inadequate treatment response or drug resistance (DR) and no reliable noninvasive diagnostic method currently available. Current methods rely on clinical experience, delaying precision management. We developed a nanoparticle-enhanced mass spectrometry platform to…",
+      "authors": [
+        "Shilong Liu",
+        "Yanbo Chen",
+        "Ziwei Wang",
+        "Tong Hu",
+        "Wei Chen",
+        "Xiaoyu Xu",
+        "Xinyan Pang",
+        "Yushu Ding"
+      ],
+      "venue": "Small (Weinheim an der Bergstrasse, Germany)",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42786996",
+      "doi": "10.1002/smll.202513614",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
+      "id": "1848d8b470a777c6bd79",
+      "title": "The Future of AI in Breast Cancer: Quantum Computing and Next-Gen Algorithms for Precision Oncology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786876",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Regulation"
+      ],
+      "excerpt": "Breast cancer is still one of the most significant global contributors to cancer-related deaths. Artificial intelligence (AI) applications in imaging, diagnostic imaging and assistance, systemic treatment and personalization, and predictive modeling are all part of the fast-growing field of breast cancer care. This review examined the many applications of AI in cancer care, including…",
+      "authors": [
+        "Roshan Sah",
+        "Tanya Jain",
+        "Prachee Raje Bisht",
+        "Anjali Saini",
+        "Manish Pal Singh"
+      ],
+      "venue": "Current drug research reviews",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42786876",
+      "doi": "10.2174/0125899775478789260914150116",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "b134faf1db802cd7b269",
+      "title": "CRCS-K Imaging Repository: Architecture, Data Characteristics, and a Proof-of-Concept Analysis of Pretreatment Imaging Workflow.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786623",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Stroke registries have advanced cerebrovascular research but usually reduce neuroimaging to categorical variables, losing multidimensional information. We describe the CRCS-K (Clinical Research Collaboration for Stroke in Korea) Imaging Repository, a multicenter platform integrating stroke imaging, artificial intelligence-based quantification, and clinical and outcome data through a…",
+      "authors": [
+        "Beom Joon Kim",
+        "Wi-Sun Ryu",
+        "Myung Jae Lee",
+        "Kyusik Kang",
+        "Jae Guk Kim",
+        "Soo Joo Lee",
+        "Jae-Kwan Cha",
+        "Tai Hwan Park"
+      ],
+      "venue": "Journal of the American Heart Association",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42786623",
+      "doi": "10.1161/JAHA.126.050940",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "e9a62ab33ed6fb387b59",
+      "title": "Development and validation of a model for stratifying haematological malignancy risk in primary care using basic blood tests.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786643",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "Haematological malignancies are rare in primary care and are hard to predict. Existing prediction models often require a specific working diagnosis and are based on extensive clinical information, access to which may be limited at initial work-up in primary care. We aimed to develop a tool for estimating overall risk of haematological malignancy in primary care patients using simple…",
+      "authors": [
+        "Mathilde Egelund Christensen",
+        "Michael Charles Sachs",
+        "William Grant Dunn",
+        "Gustav Jonzon",
+        "Margit Kriegbaum",
+        "Bent Struer Lind",
+        "Jan Samuelsson",
+        "Kirsten Groenbaek"
+      ],
+      "venue": "British journal of haematology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42786643",
+      "doi": "10.1111/bjh.70798",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 12
+    },
+    {
+      "id": "a23743f2346c2be742ed",
+      "title": "Preoperative Prediction of Ductal Carcinoma In Situ Upstaging Using Machine Learning-Based Peritumoral Breast MRI Radiomics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786920",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "A subset of biopsy-confirmed ductal carcinoma in situ (DCIS) cases can be upstaged to invasive breast cancer at surgery. Preoperative identification of upstaging risk is essential for treatment planning. To develop clinical and breast MRI radiomics models to preoperatively predict upstaging in DCIS. Retrospective and prospective. Three hundred forty-five women (median age, 59 years…",
+      "authors": [
+        "K Ruwani M Fernando",
+        "Issam El Naqa",
+        "Mahmoud Abdalah",
+        "Dana Ataya",
+        "Marilyn M Bui",
+        "Jasmine R Brainerd",
+        "Yarelis De La Cruz",
+        "Olya Stringfield"
+      ],
+      "venue": "Journal of magnetic resonance imaging : JMRI",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42786920",
+      "doi": "10.1002/jmri.70552",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 2
+    },
+    {
+      "id": "385fa598e9cb7ec3f1f0",
+      "title": "Artificial intelligence in biomarker discovery for diseases: diagnostic and therapeutic prospects.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786165",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Biomarkers are central to modern diagnostics and therapeutics, yet traditional discovery approaches suffer from single-modality analyses, weak mechanistic foundations, and low reproducibility. Artificial intelligence (AI) enables the integration of complex multimodal biomedical data, but the translation of AI-derived biomarkers into clinical applications remains inconsistent. This…",
+      "authors": [
+        "Rasit Dinc",
+        "Nurittin Ardic"
+      ],
+      "venue": "Signal transduction and targeted therapy",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41392-026-02946-4/MediaObjects/41392_2026_2946_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41388-023-02857-6/MediaObjects/41388_2023_2857_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs12276-025-01622-x/MediaObjects/12276_2025_1622_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3Aplaceholder%2Fimages/placeholder-figure-nature.png"
+      ],
+      "pmid": "42786165",
+      "doi": "10.1038/s41392-026-02946-4",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 11
+    },
+    {
+      "id": "afc42d62889f85c07e7f",
+      "title": "Can students identify AI? - A cross-sectional quantitative study about AI recognition in tablet-based MCQ assessment among fifth-year undergraduate medical students at Saarland University, Germany.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786477",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI4Education",
+        "Safety",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "Beyond technical feasibility of Artificial Intelligence (AI)-generated multiple-choice questions (MCQs), their educational value in assessment remains unclear. This study aims to evaluate whether students can distinguish between AI-MCQs and National Licensing Exam (NLE) questions in an exam setting and if they align with the curriculum. In this cross-sectional study 119 year five…",
+      "authors": [
+        "Philip Vogt",
+        "Nadine Wolf",
+        "Sandra Jordan",
+        "Sara Volz-Willems",
+        "Johannes Jäger",
+        "Fabian Dupont"
+      ],
+      "venue": "BMC medical education",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs12909-026-10410-8/MediaObjects/12909_2026_10410_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs12909-026-09671-0/MediaObjects/12909_2026_9671_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs12909-024-05250-3/MediaObjects/12909_2024_5250_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs13104-026-07683-z/MediaObjects/13104_2026_7683_Fig1_HTML.jpg"
+      ],
+      "pmid": "42786477",
+      "doi": "10.1186/s12909-026-10410-8",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 81.2,
+      "priority_label": "High relevance",
+      "rank": 30
+    },
+    {
+      "id": "23bf458554a5e9c5e1f9",
+      "title": "TAVI-TEC: an AI-based tool for procedural planning of transcatheter aortic valve implantation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42786272",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Computed tomography angiography (CTA) is crucial for preprocedural TAVI planning, providing the anatomical information required for prosthesis sizing and vascular access assessment. As the volume of TAVI procedure increases, improving efficiency and standardizing annotations is becoming essential in clinical practice. This study presents TAVI-TEC, a fully automated artificial…",
+      "authors": [
+        "Alessandra Zerillo",
+        "Stefano Cannata",
+        "Diego Bellavia",
+        "Daniele Ciriello",
+        "Simone Manini",
+        "Salvatore Pasta",
+        "Caterina Gandolfo"
+      ],
+      "venue": "Cardiovascular intervention and therapeutics",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12928-026-01356-1/MediaObjects/12928_2026_1356_Figa_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs00392-026-03017-y/MediaObjects/392_2026_3017_Figa_HTML.png",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-3-030-05912-5?as=webp",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-3-032-04995-7?as=webp"
+      ],
+      "pmid": "42786272",
+      "doi": "10.1007/s12928-026-01356-1",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 5
     },
     {
       "id": "972cdcddc42f338f4111",
@@ -12594,8 +13308,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 149,
       "images": []
@@ -13577,9 +14291,9 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 156
     },
     {
@@ -14705,6 +15419,74 @@
       "priority_score": 70.0,
       "priority_label": "Latest",
       "rank": 175
+    },
+    {
+      "id": "77adb66885449411a18b",
+      "title": "Get ready for the game with new football features in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search",
+      "source": "Google AI",
+      "source_id": "google_ai_blog",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-09-09T16:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "An illustrated graphic set against a vibrant green background featuring American football elements, including a gold trophy, a blue helmet, a silver whistle, a football, a mini scoreboard, and play diagrams, with the icon for AI Mode in Google Search in t",
+      "authors": [
+        "Denise Ho"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 56.0,
+      "priority_score": 64.4,
+      "priority_label": "Latest",
+      "rank": 218
+    },
+    {
+      "id": "a7dff6d25b9078cb3b66",
+      "title": "Recreating a 70-year love story frame by frame",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film",
+      "source": "Google AI",
+      "source_id": "google_ai_blog",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-09-09T16:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "authors": [
+        "Michael Chang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 56.0,
+      "priority_score": 64.4,
+      "priority_label": "Latest",
+      "rank": 219
     },
     {
       "id": "a7c183de5112de4747c2",

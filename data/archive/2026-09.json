@@ -1,9 +1,290 @@
 {
   "schema_version": 2,
   "month": "2026-09",
-  "updated_at": "2026-09-25T11:59:25.422111+00:00",
-  "item_count": 448,
+  "updated_at": "2026-09-25T17:19:54.946018+00:00",
+  "item_count": 464,
   "items": [
+    {
+      "id": "9de028fbe46cac8b155a",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-09-25T19:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/2ZDFcePalT1BpkNxHdwpnS/521705b27328ebf7f7449136dcd428c2/proaction-option-a-seo-og.png?w=1600&h=900&fit=fill",
+        "https://images.ctfassets.net/kftzwdyauwt9/46K6EGB5ApjTSkngvI7uU7/ce0c43f11865fd90348773ceb39485ee/proaction-option-a-art-card.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/Tc4KzRhOgVSaIxQoUkr9R/25c2cf38c314d47e6f3cb93e54e382aa/two-years-of-openai-academy-cover.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/4NsiJiqUurW5ypfaulGCFm/8b5bfad7d895c4fc6aa20766d5c88b0c/openai-extends-cyber-access-to-ukraine-for-civilian-defense-cover.png?w=3840&q=90&fm=webp"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 29
+    },
+    {
+      "id": "95f314d9972fcd384b1f",
+      "title": "Scaling MoE reinforcement learning on Amazon EKS with EFA and DeepEP with 40% more throughput",
+      "url": "https://aws.amazon.com/blogs/machine-learning/scaling-moe-reinforcement-learning-on-amazon-eks-with-efa-and-deepep-with-40-more-throughput",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-25T16:29:50+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Vision",
+        "Open Source",
+        "Hardware"
+      ],
+      "excerpt": "When you post-train a Mixture-of-Experts (MoE) model with Reinforcement Learning from Human Feedback (RLHF) or Group Relative Policy Optimization (GRPO) at scale, three simultaneous challenges emerge. The first requires coordinating heterogeneous compute for rollout generation and policy training. Second, sustaining high-throughput communication across hundreds of accelerators. And…",
+      "authors": [
+        "Ashvin Nihalani"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/24/ML-21346-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/24/ML-21346-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/24/ML-21346-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/24/ML-21346-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 53
+    },
+    {
+      "id": "200ef5722dc3e64e236f",
+      "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-25T16:18:07+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Multimodal",
+        "Evaluation",
+        "Vision",
+        "Open Source",
+        "Hardware"
+      ],
+      "excerpt": "Reinforcement learning (RL) post-training is becoming a standard step in building capable language model agents. Models learn to reason and act across sequences of steps by generating trajectories, receiving rewards, and updating their policy based on outcomes. Running this at scale, across multiple nodes with hundreds of GPU-hours of rollouts per training run, requires persistent…",
+      "authors": [
+        "Nilesh PS"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/23/ML-21828-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/23/ML-21828-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/23/ML-21828-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/23/ML-21828-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 54
+    },
+    {
+      "id": "73d33ca6f58414c7ffdd",
+      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+      "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-09-25T16:16:52+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agents's promotion across its own apps and beyond.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 137
+    },
+    {
+      "id": "809c19bea702503bd68a",
+      "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-25T16:15:22+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Safety",
+        "Evaluation",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Executives need to make data-driven decisions during live business reviews, where accuracy and speed matter. A conversational agentic AI assistant can meet this need by answering data questions instantly. But the stakes are high: a wrong number or a slow response in front of leadership carries immediate professional consequences, and a capable large language model (LLM) alone can’t…",
+      "authors": [
+        "Felicia Yue Xiong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/23/20546-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/ML-20546-2.jpeg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/23/20546-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/ML-20546-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 55
+    },
+    {
+      "id": "2a26e0bf4bcecd1520a4",
+      "title": "Deploying real-time personalized speech with Qwen3-TTS on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-25T16:09:46+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Systems & Hardware",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Agents",
+        "Education",
+        "Hardware"
+      ],
+      "excerpt": "With voice cloning, you can generate new speech in a target speaker’s voice from a short reference recording, without retraining a model. You can now deploy the publicly available Qwen3-TTS-12Hz-1.7B-Base text-to-speech model from Amazon SageMaker JumpStart to a fully managed, real-time inference endpoint. Voice cloning reproduces the vocal identity of a specific speaker. Start with a…",
+      "authors": [
+        "Suneesh T"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/08/ML-20646-1.jpeg",
+        "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-20646/reference_original_input.wav?_=1",
+        "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-20646/cloned_output.wav?_=2",
+        "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-20646/cross_lingual_cloning.wav?_=3"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 56
+    },
+    {
+      "id": "67c6ac76526755bbf068",
+      "title": "Multi-Region training with Amazon SageMaker HyperPod and Qumulo",
+      "url": "https://aws.amazon.com/blogs/machine-learning/multi-region-training-with-amazon-sagemaker-hyperpod-and-qumulo",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-25T15:49:44+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal",
+        "Vision",
+        "Hardware"
+      ],
+      "excerpt": "With Amazon SageMaker HyperPod and Qumulo , you can place training compute in one AWS Region and keep your dataset in another. Training large AI models requires massive GPU capacity, but your ideal compute resources and your training data don’t always reside in the same AWS Region. Accessing data across Regions adds network latency and transfer costs. Teams face a choice: either…",
+      "authors": [
+        "Bryan Berezdivin"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/17/ML-19515-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/17/ML-19515-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/17/ML-19515-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/17/ML-19515-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 78.1,
+      "priority_label": "Relevant",
+      "rank": 41
+    },
     {
       "id": "85141bd115a3a9ea4349",
       "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
@@ -661,6 +942,40 @@
       "priority_score": 74.3,
       "priority_label": "Relevant",
       "rank": 113
+    },
+    {
+      "id": "c482abcd4f0313c485cc",
+      "title": "Graph-Based Semi-Supervised Hyperspectral Image Classification with Distance-Aware Spatial Measure",
+      "url": "https://arxiv.org/abs/2609.29367",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Vision"
+      ],
+      "excerpt": "The classification of hyperspectral images (HIs) still presents several challenges. One of them is the difficulty to obtain a large set of labeled samples to train the classifier. Semi-supervised learning methods have received much attention recently, as they require the initial labeling of a reduced number of image pixels and lead to very good results for practical application. One of…",
+      "authors": [
+        "S\\'ergio J. M. Almeida, Jos\\'e C. M. Bermudez"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29367",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 155
     },
     {
       "id": "ccbc490d0105061b1105",
@@ -1523,6 +1838,41 @@
       "rank": 70
     },
     {
+      "id": "bd2fb7db735d3e69a863",
+      "title": "RoboLDA: A Probabilistic Generative Model for Uncovering Embodied Hierarchical Structures in Voxel-based Soft Robots",
+      "url": "https://arxiv.org/abs/2609.29490",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Robotics"
+      ],
+      "excerpt": "Recent advances in robotics highlight hierarchical configurations of robot morphology, where multiple levels of functional substructures synergize to facilitate intelligent behaviors. This hierarchical perspective, while particularly advantageous for voxel-based soft robots (VSRs) to ease design and control complexities, is hindered by its heavy reliance on domain expertise. In this…",
+      "authors": [
+        "Junru Song, Yang Yang, Jingdan Shi, Guozhen Li, Weien Zhou, Ying Wen, Feifei Wang, Wen Yao, Tingsong Jiang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29490",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 114
+    },
+    {
       "id": "486a00c199488819e321",
       "title": "ReCalMatch:Reliability-Calibrated Semantic Guidance for Semi-Supervised Fine-Grained Recognition",
       "url": "https://arxiv.org/abs/2609.29678",
@@ -2102,6 +2452,39 @@
       "rank": 92
     },
     {
+      "id": "0fc979474f5e2c30c267",
+      "title": "Auditability Is Not One Property: Rule Overlap, Behavioural Agreement, and Composition in Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.28581",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-25T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Reinforcement-learning (RL) policies are often distributed as opaque neural checkpoints, while training logs show that a run occurred without explaining what the policy learned. We study whether independently trained policies can be represented and composed through auditable discrete behavioral rules. We define auditability as six separately testable predicates: trace integrity,…",
+      "authors": [
+        "Liu Hung Ming"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.28581",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 99
+    },
+    {
       "id": "e2d6b124a14bcd242469",
       "title": "GeoRefer-Bench: A Benchmark from Referring Pixels to Verifiable Geospatial Reasoning",
       "url": "https://arxiv.org/abs/2609.29541",
@@ -2352,6 +2735,91 @@
       "rank": 78
     },
     {
+      "id": "f1163c8ff446fa93d4a4",
+      "title": "Fully Automated Deep Learning-Based Lenke Classification for Adolescent Idiopathic Scoliosis Using Multi-View Full-Spine Radiographs: Development and Clinical Validation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788602",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical"
+      ],
+      "excerpt": "Study DesignRetrospective validation study.ObjectivesTo develop and validate a fully automated deep learning framework for radiographic measurement and Lenke classification in adolescent idiopathic scoliosis (AIS) using multi-view full-spine radiographs.MethodsConsecutive patients with AIS from 3 hospitals who underwent standardized 4-view full-spine radiography between January 2019 and…",
+      "authors": [
+        "Sheyang Xu",
+        "Yongda Xu",
+        "Xianglong Meng"
+      ],
+      "venue": "Global spine journal",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42788602",
+      "doi": "10.1177/21925682261488408",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "e72b0f72c6e1e3dc37cc",
+      "title": "Applying ComBat harmonization to ultrasomics enhances machine learning generalizability and performance in multi-center clinical settings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42787863",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Ultrasomics features suffer from multi-source batch effects across centers, including scanning parameters, scanners, and operator variability, limiting the generalizability of machine learning models and impeding their clinical translation. In this study, we systematically validated ComBat harmonization for reducing ultrasomics heterogeneity with a tiered validation framework: phantoms,…",
+      "authors": [
+        "Shouzhi Lin",
+        "Mengyao Cai",
+        "Ningni Jiang",
+        "Huahui Liu",
+        "Shuang Liang",
+        "Fengyu Ye",
+        "Xinxin Lin",
+        "Wei Wang"
+      ],
+      "venue": "iScience",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42787863",
+      "doi": "10.1016/j.isci.2026.116114",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
       "id": "e490d9b38955677761d2",
       "title": "Decentralized CAR-T production: clinical, economic, and regulatory perspectives. Worldwide Network for Blood & Marrow Transplantation (WBMT) special article.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42786225",
@@ -2429,7 +2897,9 @@
       "venue": "Reviews on recent clinical trials",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
       "pmid": "42786877",
       "doi": "10.2174/0115748871524685260904061932",
       "relevance_score": 73.8,
@@ -2483,6 +2953,45 @@
       "rank": 10
     },
     {
+      "id": "b1ec463305c67876460e",
+      "title": "AI-integrated human-relevant alternatives to animal experimentation in drug development: Toward a predictive translational ecosystem, from in vitro and in silico models to clinical and real-world evidence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788857",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Animal experimentation has long been associated with biomedical research and drug development. However, ethical concerns, limited translatability to humans and high clinical attrition rates (> 90%) necessitate a transition toward human-relevant approaches. Although diverse in vitro, in silico and artificial intelligence (AI)-enabled methodologies have emerged, their integration into a…",
+      "authors": [
+        "Prashant N Amale",
+        "Dhirendra H Tiwari"
+      ],
+      "venue": "Alternatives to laboratory animals : ATLA",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42788857",
+      "doi": "10.1177/02611929261492225",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
       "id": "1848d8b470a777c6bd79",
       "title": "The Future of AI in Breast Cancer: Quantum Computing and Next-Gen Algorithms for Precision Oncology.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42786876",
@@ -2525,6 +3034,52 @@
       "priority_score": 84.1,
       "priority_label": "High relevance",
       "rank": 4
+    },
+    {
+      "id": "c7d98f3b858049bc7416",
+      "title": "Automated grading of short-answer image-based assessments using a hybrid natural language processing-AI framework: validation in radiology education.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788947",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Efficient and reliable assessment is essential in medical education. Manual grading of short-answer radiology quizzes is resource-intensive and variable. Automated marking systems can alleviate these challenges. This study introduces a novel automated grading system leveraging techniques in natural language processing (NLP) and generative artificial intelligence. Our objective was to…",
+      "authors": [
+        "Xu Hao Isaac Tan",
+        "Zhen Li Samantha Lee",
+        "Thida Win",
+        "Phua Hwee Tang"
+      ],
+      "venue": "Singapore medical journal",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fsmedj%252F04.03%252F00077293-990000000-00297%252Ftable1%252Fv%252F2026-09-25T102102Z%252Fr%252Fimage-tiff/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fsmedj%252F04.03%252F00077293-990000000-00297%252Ftable1%252Fv%252F2026-09-25T102102Z%252Fr%252Fimage-tiff/width/710.png",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fsmedj%252F04.03%252F00077293-990000000-00297%252Ffigure1%252Fv%252F2026-09-25T102102Z%252Fr%252Fimage-tiff/width/1200.webp"
+      ],
+      "pmid": "42788947",
+      "doi": "10.4103/singaporemedj.SMJ-2025-302",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.9,
+      "priority_label": "High relevance",
+      "rank": 1
     },
     {
       "id": "b134faf1db802cd7b269",
@@ -2759,6 +3314,97 @@
       "rank": 30
     },
     {
+      "id": "c82018f20db8658109d6",
+      "title": "\"Acne in the Age of ChatGPT\": an artificial intelligence-generated and evidence-based continuing medical education distance course for Italian physicians.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788236",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI4Education",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "The AI-CHECK (Artificial Intelligence for CME Health E-learning Contents and Knowledge) study aimed to explore ChatGPT's potential in continuing medical education (CME). In particular, its third phase investigated artificial intelligence (AI)'s ability to develop a CME course on acne in Italian and assessed participants' satisfaction and attitudes toward AI-generated content. The…",
+      "authors": [
+        "Luigi Naldi",
+        "Maria Rosa Valetto",
+        "Simone Cazzaniga",
+        "Sergio Cima",
+        "Silvia Emendi",
+        "Nicoletta Scarpa",
+        "Eugenio Santoro",
+        "Pietro Dri"
+      ],
+      "venue": "Dermatology reports",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42788236",
+      "doi": "10.4081/dr.2026.10935",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 81.2,
+      "priority_label": "High relevance",
+      "rank": 28
+    },
+    {
+      "id": "2b2c5bfff221f6a530db",
+      "title": "Impact of AI assistance on pharmacist and pharmacy trainee accuracy and automation bias during medication order verification: A randomized simulation trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788619",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-25T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "We evaluated the impact of artificial intelligence (AI) large language model (LLM) assistance on pharmacist accuracy during cognitive medication order verification and quantified the associated risks of automation bias. Participants completed 10 clinical scenario questions through a custom web application, with each question randomly assigned to either an unassisted (control) or…",
+      "authors": [
+        "Dan Surdilla",
+        "Ben Michaels",
+        "Craig Michael",
+        "Dexter Wimer",
+        "Yongxin He",
+        "Noelle Baptiste",
+        "Zlatan Coralic"
+      ],
+      "venue": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42788619",
+      "doi": "10.1093/ajhp/zxag259",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.8,
+      "priority_label": "High relevance",
+      "rank": 11
+    },
+    {
       "id": "23bf458554a5e9c5e1f9",
       "title": "TAVI-TEC: an AI-based tool for procedural planning of transcatheter aortic valve implantation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42786272",
@@ -2943,8 +3589,8 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-8_live___key.2e16d0ba.fill-300x300.format-webp.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 83.8,
+      "freshness_score": 94.0,
+      "priority_score": 82.5,
       "priority_label": "High relevance",
       "rank": 8
     },
@@ -2988,8 +3634,8 @@
         "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-21846/async_endpoint_flight1549-source.mp3?_=2"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 72.7,
+      "freshness_score": 94.0,
+      "priority_score": 71.4,
       "priority_label": "Relevant",
       "rank": 140
     },
@@ -3032,8 +3678,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-20091-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 55
     },
@@ -3073,8 +3719,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/ML-21388-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -3105,8 +3751,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 129
     },
@@ -3139,8 +3785,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/DNA-Helix-768x432.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 79.6,
+      "freshness_score": 94.0,
+      "priority_score": 78.3,
       "priority_label": "Relevant",
       "rank": 31
     },
@@ -3170,8 +3816,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -12984,8 +13630,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 77.3,
+      "freshness_score": 86.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 46,
       "images": [
@@ -13022,8 +13668,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 73.9,
+      "freshness_score": 86.0,
+      "priority_score": 72.1,
       "priority_label": "Relevant",
       "rank": 157,
       "images": [
@@ -13059,8 +13705,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 77.3,
+      "freshness_score": 86.0,
+      "priority_score": 75.6,
       "priority_label": "Relevant",
       "rank": 47,
       "images": [
@@ -13095,8 +13741,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 88
     },
@@ -13133,8 +13779,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 73.3,
+      "freshness_score": 86.0,
+      "priority_score": 71.6,
       "priority_label": "Relevant",
       "rank": 146,
       "images": [
@@ -13171,8 +13817,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 73.7,
+      "freshness_score": 86.0,
+      "priority_score": 72.0,
       "priority_label": "Relevant",
       "rank": 137,
       "images": []
@@ -13203,8 +13849,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 66.9,
+      "freshness_score": 86.0,
+      "priority_score": 65.1,
       "priority_label": "Latest",
       "rank": 208,
       "images": []
@@ -13233,9 +13879,9 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.7,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.9,
+      "priority_label": "Relevant",
       "rank": 25,
       "images": [
         "https://images.ctfassets.net/kftzwdyauwt9/28YD6O3zzNEdYaQ7MGhWfI/f27161b782112d8594c2f4c8035ccad1/parallel-option-c-seo-og-balanced.png?w=1600&h=900&fit=fill",
@@ -13274,8 +13920,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 78.3,
+      "freshness_score": 86.0,
+      "priority_score": 76.5,
       "priority_label": "Relevant",
       "rank": 34,
       "images": [
@@ -14149,8 +14795,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 67.6,
+      "freshness_score": 72.0,
+      "priority_score": 64.6,
       "priority_label": "Latest",
       "rank": 207,
       "images": [
@@ -14184,8 +14830,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 128
     },
@@ -14216,9 +14862,9 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 190,
       "images": [
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.max-600x600.format-webp.webp"
@@ -14250,9 +14896,9 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 191,
       "images": [
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_V2.max-600x600.format-webp.webp"
@@ -15179,8 +15825,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 95
     },
@@ -15211,8 +15857,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 73.9,
+      "freshness_score": 56.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 162,
       "images": [

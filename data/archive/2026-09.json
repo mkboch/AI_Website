@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "month": "2026-09",
-  "updated_at": "2026-09-26T05:09:15.626933+00:00",
-  "item_count": 494,
+  "updated_at": "2026-09-26T11:34:41.581515+00:00",
+  "item_count": 505,
   "items": [
     {
       "id": "5d8d9e9fe545efd0ba47",
@@ -325,6 +325,43 @@
       "rank": 152
     },
     {
+      "id": "d1abf0f2d6543a084938",
+      "title": "ComplexSync: High-Fidelity and Real-Time Lip Sync in Complex Scenarios",
+      "url": "https://arxiv.org/abs/2609.29225",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-26T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Lip synchronization aims to generate visual lip dynamics that align precisely with speech audio. Despite the high generation quality of diffusion models, they often struggle in complex scenarios and suffer from prohibitive inference latency, limiting real-world deployment. We present ComplexSync, a unified diffusion-based framework that enables real-time, high-fidelity lip sync under…",
+      "authors": [
+        "Jiaran Cai, Xingpei Ma, Shenneng Huang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29225",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 64
+    },
+    {
       "id": "1384657fe96cc6282f2b",
       "title": "Not Every Token Is Worth Distilling: Selective Supervision for Direct-OPD",
       "url": "https://arxiv.org/abs/2609.29142",
@@ -357,6 +394,81 @@
       "priority_score": 73.8,
       "priority_label": "Relevant",
       "rank": 142
+    },
+    {
+      "id": "ad2312854db37754bae8",
+      "title": "When Misalignment Becomes Supervision: Structured Label Noise in Supervised Synthetic CT Generation",
+      "url": "https://arxiv.org/abs/2609.29387",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-26T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation",
+        "Imaging"
+      ],
+      "excerpt": "Supervised synthetic CT (sCT) generation is commonly trained and evaluated as voxel-wise regression against registered reference CT images. In practice, MRI-CT and CBCT-CT pairs are aligned through registration procedures that leave residual misalignments. These residuals are not independent intensity noise but spatially coherent geometric discrepancies that act as structured label…",
+      "authors": [
+        "Valentin Boussot, Cedric Hemon, Caroline Lafond, Jean-Claude Nunes, Jean-Louis Dillenseger"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.29387",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 65
+    },
+    {
+      "id": "d2072e741ad01c5eb031",
+      "title": "Beneath the Scores: Rethinking Hallucination Evaluation for Video Understanding Models",
+      "url": "https://arxiv.org/abs/2609.28991",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-09-26T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Video understanding is increasingly performed by multi-stage LLM agents that separate temporal grounding, visual observation, and reasoning. Yet these stages are typically evaluated on different benchmarks and distributions, making it difficult to determine where hallucinations originate. We first organize existing benchmarks around these stages and show that their scores provide…",
+      "authors": [
+        "Shuzhi Gong, Fengze Sun, Yuansan Liu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.28991",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 66
     },
     {
       "id": "cabcb3fb31a04748d860",
@@ -535,6 +647,373 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 69
+    },
+    {
+      "id": "8024cef2f4a06db01282",
+      "title": "Physician readiness for artificial intelligence integration in clinical screening and diagnosis: Multicenter cross-sectional study in Jeddah, Saudi Arabia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42798112",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Imaging",
+        "Regulation"
+      ],
+      "excerpt": "Artificial intelligence (AI) is increasingly incorporated into clinical screening and diagnostic workflows worldwide. However, the effectiveness and safety of AI implementation depend largely on physicians' readiness, including their knowledge, attitudes, and perceived barriers. In Saudi Arabia, where healthcare digital transformation is a strategic priority under Vision 2030, evidence…",
+      "authors": [
+        "Haneen Abu Alsoud",
+        "Abdulhameed Abu Alsoud",
+        "Abdulelah K Alqawlaq",
+        "Abdulrahim Alissa",
+        "Malek Odah",
+        "Mohamed Abouassad",
+        "Lin Mazen Jolha",
+        "Rebal Najeeb Khayyat"
+      ],
+      "venue": "Medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00082%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00082%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/710.png",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00082%252Ffigure2%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp"
+      ],
+      "pmid": "42798112",
+      "doi": "10.1097/MD.0000000000050871",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 3
+    },
+    {
+      "id": "060ae6a20860889ded02",
+      "title": "A review of FDG-PET biomarker analysis methods in Parkinson's disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42798283",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Despite well-established clinical diagnostic criteria for Parkinson's disease (PD), challenges remain in early-stage diagnosis, differentiating atypical parkinsonism disorders, and understanding of underlying disease mechanisms. Neuroimaging, particularly positron emission tomography (PET) with [18F]fluorodeoxyglucose (FDG), plays a crucial role by offering in vivo assessments of brain…",
+      "authors": [
+        "Erik Reimers",
+        "Connor Bevington",
+        "A Jon Stoessl",
+        "Vesna Sossi"
+      ],
+      "venue": "Journal of Parkinson's disease",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42798283",
+      "doi": "10.1177/1877718X261492275",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "bb16a0f654bf260a60cb",
+      "title": "Combined Model Integrating Clinical-Imaging and Deep Learning to Discriminate Between Persistent Inflammatory and Malignant Subsolid Pulmonary Nodules.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42791471",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "This study aimed to develop a combined model integrating clinical, computed tomography (CT), and deep learning (DL) features to discriminate malignant subsolid nodules (M-SSNs) from persistent inflammatory subsolid nodules (PI-SSNs). A total of 573 patients with subsolid nodules (SSNs) who underwent preoperative chest CT and surgical resection at Center 1 were assigned to training and…",
+      "authors": [
+        "Pei-Ling Zou",
+        "Chong Fu",
+        "Yi-Bo Feng",
+        "Qian-Rui Fan",
+        "Da-Wei Wang",
+        "Tian-You Luo",
+        "Xing-Tao Huang",
+        "Qi Li"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02329-9/MediaObjects/10278_2026_2329_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02329-9/MediaObjects/10278_2026_2329_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02329-9/MediaObjects/10278_2026_2329_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02329-9/MediaObjects/10278_2026_2329_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42791471",
+      "doi": "10.1007/s10278-026-02329-9",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "e463768b54b494aadcc8",
+      "title": "Predicting 90-day mortality in patients with HBV-ACLF: A comparison of machine learning models and logistic regression.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42798119",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Acute-on-chronic liver failure (ACLF) is characterized by a high short-term mortality rate. Hepatitis B virus (HBV) infection is a major cause of ACLF in the Asia-Pacific region. This study aimed to compare the performance of multiple prediction models and identify a stable approach for predicting 90-day mortality in patients with HBV-associated ACLF (HBV-ACLF). Clinical data from 577…",
+      "authors": [
+        "Juan Liu",
+        "Wentao Zhu",
+        "Ting Deng",
+        "Yin Zhu",
+        "Qinglang Xu",
+        "Pei Shi",
+        "An Liang",
+        "Yuna Wang"
+      ],
+      "venue": "Medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00089%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00089%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/710.png",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00089%252Ffigure2%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp"
+      ],
+      "pmid": "42798119",
+      "doi": "10.1097/MD.0000000000050789",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
+      "id": "f7f56437dfc27d044117",
+      "title": "Deep learning models for osteonecrosis of the femoral head on MRI: a systematic review and meta-analysis of diagnostic performance, staging accuracy, and external generalizability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42791360",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "To evaluate the diagnostic and prognostic performance of deep learning models for osteonecrosis of the femoral head (ONFH) on MRI, including detection, staging, and collapse prediction. This prospectively registered search was conducted in MEDLINE, Embase, Scopus, Web of Science, and IEEE Xplore. Studies applying artificial intelligence models to hip MRI for ONFH detection, staging,…",
+      "authors": [
+        "Özgür Başal",
+        "Furkan Karakas",
+        "Burak Serteser",
+        "Ayhan Aydin"
+      ],
+      "venue": "Skeletal radiology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00256-026-05372-3/MediaObjects/256_2026_5372_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05372-3/MediaObjects/256_2026_5372_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05372-3/MediaObjects/256_2026_5372_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05372-3/MediaObjects/256_2026_5372_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42791360",
+      "doi": "10.1007/s00256-026-05372-3",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "b75c7f1fd3c0581802ab",
+      "title": "Mapping the global landscape of artificial intelligence in pancreatic cancer research: A bibliometric and visualization analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42798094",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Artificial intelligence (AI) applications in pancreatic cancer are expanding rapidly, but the field's global structure and emerging priorities remain incompletely characterized. The Web of Science Core Collection was searched through July 5, 2026. English-language original articles and reviews addressing AI in pancreatic cancer were eligible. After manual screening, 583 publications…",
+      "authors": [
+        "Pegah Rashidian",
+        "Aseel Smerat",
+        "Mohammad Ahmar Khan",
+        "Pankaj Bansal",
+        "Chandan Sharma",
+        "Djaloliddin Mansurov",
+        "Seyedsina Moghimnejadhosseini",
+        "Amirmahdi Mojtahedzadeh"
+      ],
+      "venue": "Medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00064%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00064%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/710.png",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00064%252Ffigure2%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp"
+      ],
+      "pmid": "42798094",
+      "doi": "10.1097/MD.0000000000050681",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "e251c472c0abb1b3fc21",
+      "title": "Clinical value of artificial intelligence computer-aided diagnosis system in lymph node ultrasonography: A STARD-compliant article.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42798096",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "This article explores the clinical value of the artificial intelligence computer-aided diagnosis system in the diagnosis of superficial lymph nodes. In this study, characteristic ultrasonic parameters of 185 cases of lymph nodes (including 110 benign and 75 malignant) confirmed by pathology were quantified by the superficial lymphadenopathy computer-aided diagnosis system, including…",
+      "authors": [
+        "Tingting Jin",
+        "Liying Wang",
+        "Shusen Zheng"
+      ],
+      "venue": "Medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00066%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00066%252Ffigure1%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/710.png",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fmedi%252F04.03%252F00005792-202609250-00066%252Ffigure2%252Fv%252F2026-09-25T130935Z%252Fr%252Fimage-jpeg/width/1200.webp"
+      ],
+      "pmid": "42798096",
+      "doi": "10.1097/MD.0000000000050853",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "e57e14af933e92f90e19",
+      "title": "Flatfoot and artificial intelligence: Can language models be trusted for patient education?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42798064",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-26T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI",
+        "AI4Education"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "Flatfoot (pes planus) is common in children and adults. Although often asymptomatic, it may alter lower-limb biomechanics and contribute to pain or injury. Patients and caregivers increasingly use artificial intelligence chatbots such as chat generative pretrained transformer (ChatGPT) and Google Gemini for medical information, yet their responses on flatfoot remain insufficiently…",
+      "authors": [
+        "Hasan Emirhan Usta",
+        "Ruhat Ünlü"
+      ],
+      "venue": "Medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp"
+      ],
+      "pmid": "42798064",
+      "doi": "10.1097/MD.0000000000050839",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 17
     },
     {
       "id": "7fc672768bdc43f8027b",
@@ -1022,8 +1501,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/09/Altec_Poly_2.jpeg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 71.7,
+      "freshness_score": 94.0,
+      "priority_score": 70.3,
       "priority_label": "Relevant",
       "rank": 180
     },
@@ -9344,8 +9823,8 @@
       "manual": false,
       "related": [],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 66.9,
+      "freshness_score": 86.0,
+      "priority_score": 65.1,
       "priority_label": "Latest",
       "rank": 199,
       "images": []

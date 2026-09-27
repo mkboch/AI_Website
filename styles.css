@@ -144,9 +144,10 @@ button:disabled { opacity: .55; cursor: not-allowed; }
     background: rgba(255,255,255,.052);
 }
 .stat-card.wide { grid-column: 1 / -1; min-height: 92px; }
-.stat-value { color: white; font-size: 36px; font-weight: 850; line-height: 1; }
+.stat-value { color: white; font-size: 36px; font-weight: 850; line-height: 1; font-variant-numeric: tabular-nums; }
 .stat-label { margin-top: 10px; color: #8ba4ba; font-size: 9px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .stat-date { margin-top: 6px; color: white; font-size: 13px; font-weight: 650; }
+
 
 .topic-strip { background: white; border-bottom: 1px solid var(--border); }
 .topic-strip-inner {
@@ -626,6 +627,18 @@ button:disabled { opacity: .55; cursor: not-allowed; }
     .source-summary { grid-template-columns: repeat(3,1fr); }
 }
 
+@media (min-width: 681px) and (max-width: 1120px) {
+    .stat-card:not(.wide) {
+        padding: 20px 12px;
+    }
+
+    .stat-card:not(.wide) .stat-label {
+        min-height: 1.25em;
+        white-space: nowrap;
+        font-size: 8px;
+        letter-spacing: .06em;
+    }
+}
 @media (max-width: 820px) {
     .news-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
     .archive-grid, .about-grid { grid-template-columns: 1fr; gap: 35px; }

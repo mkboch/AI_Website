@@ -268,6 +268,10 @@ function createCard(item) {
         + "</span>";
 
     html += '<a class="read-link" '
+        + 'data-article-click="true" '
+        + 'data-article-title="'
+        + escapeHTML(item.title || "")
+        + '" '
         + 'target="_blank" '
         + 'rel="noopener noreferrer" '
         + 'href="'
@@ -676,7 +680,7 @@ function renderFeatured(items) {
         html += "<h3>" + escapeHTML(item.title) + "</h3>";
         html += "<p>" + escapeHTML(truncateText(item.excerpt || "", 360)) + "</p>";
         html += '<div class="featured-footer"><span>' + escapeHTML(item.source) + " &middot; " + escapeHTML(formatDate(item.date)) + "</span>";
-        html += '<a target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Read source &rarr;</a></div>';
+        html += '<a data-article-click="true" data-article-title="' + escapeHTML(item.title || "") + '" target="_blank" rel="noopener noreferrer" href="' + safeURL(item.url) + '">Read source &rarr;</a></div>';
         html += "</div>";
         html += "</article>";
 
@@ -861,6 +865,7 @@ el("return-current").addEventListener("click", function() { useItems(state.curre
 /* Global unique-browser visitor counter */
 var VISITOR_COUNTER_API = "https://wang-axis-counter.mkboch-wang-axis-2026.workers.dev/api/visitors";
 var VISITOR_STORAGE_KEY = "wang_axis_visitor_id_v1";
+var ARTICLE_CLICK_COUNTER_API = "https://wang-axis-counter.mkboch-wang-axis-2026.workers.dev/api/article-clicks";
 
 function validVisitorId(value) {
     return /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
@@ -977,10 +982,125 @@ function loadVisitorCount() {
         });
 }
 
+function updateArticleClickCount(data) {
+    var holder = document.getElementById(
+        "site-article-click-count"
+    );
+    var count = Number(data && data.article_clicks);
+
+    if (
+        holder
+        && Number.isFinite(count)
+        && count >= 0
+    ) {
+        holder.textContent =
+            Math.floor(count).toLocaleString();
+    }
+}
+
+function loadArticleClickCount() {
+    var holder = document.getElementById(
+        "site-article-click-count"
+    );
+
+    if (!holder) {
+        return;
+    }
+
+    fetch(
+        ARTICLE_CLICK_COUNTER_API,
+        {
+            method: "GET",
+            mode: "cors",
+            cache: "no-store"
+        }
+    )
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error(
+                    "Article counter HTTP " + response.status
+                );
+            }
+
+            return response.json();
+        })
+        .then(updateArticleClickCount)
+        .catch(function(error) {
+            console.warn(
+                "Article counter unavailable:",
+                error
+            );
+
+            holder.textContent = "--";
+        });
+}
+
+function trackArticleClick(link) {
+    fetch(
+        ARTICLE_CLICK_COUNTER_API,
+        {
+            method: "POST",
+            mode: "cors",
+            cache: "no-store",
+            keepalive: true,
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                url: link.href,
+                title: link.getAttribute(
+                    "data-article-title"
+                ) || ""
+            })
+        }
+    )
+        .then(function(response) {
+            if (!response.ok) {
+                throw new Error(
+                    "Article counter HTTP " + response.status
+                );
+            }
+
+            return response.json();
+        })
+        .then(updateArticleClickCount)
+        .catch(function(error) {
+            console.warn(
+                "Article click was not recorded:",
+                error
+            );
+        });
+}
+
+document.addEventListener("click", function(event) {
+    if (
+        !event.target
+        || typeof event.target.closest !== "function"
+    ) {
+        return;
+    }
+
+    var link = event.target.closest(
+        'a[data-article-click="true"]'
+    );
+
+    if (!link) {
+        return;
+    }
+
+    var href = link.getAttribute("href");
+    if (!href || href === "#") {
+        return;
+    }
+
+    trackArticleClick(link);
+});
+
 
 el("year").textContent = new Date().getFullYear();
 
 loadVisitorCount();
+loadArticleClickCount();
 
 Promise.all([
     loadCurrent(),

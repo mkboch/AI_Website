@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-01T06:09:34.018220+00:00",
-  "item_count": 52,
+  "updated_at": "2026-10-01T13:32:23.329468+00:00",
+  "item_count": 68,
   "items": [
     {
       "id": "fef9fbc61b19997c1d7b",
@@ -251,6 +251,41 @@
       "priority_score": 71.2,
       "priority_label": "Relevant",
       "rank": 166
+    },
+    {
+      "id": "87487116e44d2774fd6e",
+      "title": "BELIEFRAG: Making Adaptive RAG State-Aware under Evolving Evidence",
+      "url": "https://arxiv.org/abs/2609.39139",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "RAG",
+        "Evaluation"
+      ],
+      "excerpt": "Adaptive RAG uses signals such as confidence, relevance, support, and retrieval quality to decide when to search or correct evidence. In multi-step retrieval, however, these local signals must be combined into a persistent view of what the current evidence supports, what remains missing, and which action should follow. Existing methods often use such signals as separate triggers, making…",
+      "authors": [
+        "Hongji Pu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.39139",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 86
     },
     {
       "id": "34022f1d5da123dabf7f",
@@ -718,6 +753,146 @@
       "rank": 130
     },
     {
+      "id": "9debc423f4e55a9d0033",
+      "title": "DraftTrace: A Multi-View Analytics Environment for AI-Integrated Writing",
+      "url": "https://arxiv.org/abs/2609.36544",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM"
+      ],
+      "excerpt": "Generative AI has changed how students produce writing assignments. The final artifact is no longer sufficient to understand the process through which it was produced. We introduce DraftTrace, a writing environment that jointly captures three complementary views of writing: the final product, the writing process and interactions with an integrated AI-assistant. DraftTrace reconstructs…",
+      "authors": [
+        "Divyansh Chandarana, Sandipan De, Vivek Gupta"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.36544",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 71
+    },
+    {
+      "id": "63aac3f561f645354c20",
+      "title": "Aligned Data Can Induce Misalignment via Context Confusion",
+      "url": "https://arxiv.org/abs/2609.38379",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Safety",
+        "Privacy"
+      ],
+      "excerpt": "Large language models (LLMs) are frequently updated for various use cases, where filtering out misaligned training samples is a common practice for preventing post-update misalignment. However, alignment is inherently context-dependent: a recommendation that is aligned in one context may be inappropriate in another. For example, in response to the question \"What should a researcher do…",
+      "authors": [
+        "Yavuz Bakman, Duygu Nur Yaldiz, Baris Askin, Swastik Roy, Morteza Ziyadi, Salman Avestimehr, Sai Praneeth Karimireddy"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.38379",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 89
+    },
+    {
+      "id": "f68f4cfee368b8935489",
+      "title": "CLIPPER Beyond Shortlisting: Auditable Decision Support for Changing Municipal Micromobility Policies",
+      "url": "https://arxiv.org/abs/2609.39054",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "In municipal planning workshops, planners and other stakeholders compare shared-micromobility parking policies by varying no-parking zones, retained sites, spacing, or area allocations. Each edit changes feasible sites and how much demand they cover, so the alternative must be reoptimized on the same spatial data. Full-set greedy, the transparent reference for this task, takes tens of…",
+      "authors": [
+        "Julian Teusch, J\\\"org Philipp M\\\"uller, Monika Sester"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.39054",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 90
+    },
+    {
+      "id": "0972ee19c22142a27d23",
+      "title": "PARK: Accurate Block Retrieval for Sparse Attention in Video Diffusion Transformers",
+      "url": "https://arxiv.org/abs/2609.38978",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "Computer Vision"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Vision",
+        "Hardware"
+      ],
+      "excerpt": "Diffusion Transformers (DiTs) have become a dominant architecture for video generation, but their efficiency is limited by the quadratic complexity of full attention. Sparse attention reduces this cost by retrieving important blocks and computing attention only within them, but inaccurate retrieval can either degrade generation quality or yield unnecessary computation. We identify two…",
+      "authors": [
+        "Yun Dai, Jiarui Wen, Huiping Zhuang, Cen Chen, Ziqian Zeng"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.38978",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
+      "rank": 170
+    },
+    {
       "id": "b88e4e391969a19b100d",
       "title": "Evaluating Persistent Calibration under Evolving Model Knowledge",
       "url": "https://arxiv.org/abs/2609.38797",
@@ -1034,7 +1209,11 @@
       "venue": "",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
       "arxiv_id": "2609.36202",
       "relevance_score": 73.8,
       "freshness_score": 100.0,
@@ -1187,6 +1366,45 @@
       "priority_score": 74.7,
       "priority_label": "Relevant",
       "rank": 115
+    },
+    {
+      "id": "c62cec183148a76bca55",
+      "title": "Visualizing Distribution Coverage in Generative Diffusion Models",
+      "url": "https://arxiv.org/abs/2609.38853",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance",
+        "AI4Education",
+        "Computer Vision"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Evaluation",
+        "Education",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Diffusion distillation is widely adopted to accelerate sampling, and the resulting few-step models are broadly believed to match or even surpass their multi-step teachers in generation. However, standard evaluations such as GenEval2 typically draw only one sample per prompt, so improved scores may fail to reveal losses in distribution coverage. We therefore revisit whether distilled…",
+      "authors": [
+        "Yifei Wang, Xiaoyu Wu, Tsu-Jui Fu, Chen Chen, Liang-Chieh Chen, Zhe Gan, Chen Wei"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.38853",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
+      "rank": 184
     },
     {
       "id": "0a4714881764a1653773",
@@ -1371,6 +1589,40 @@
       "priority_score": 76.8,
       "priority_label": "Relevant",
       "rank": 65
+    },
+    {
+      "id": "4f2f0a43daa22812f620",
+      "title": "Benchmarking EMlog Calibration for Autonomous Surface Vehicles",
+      "url": "https://arxiv.org/abs/2609.39203",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Accurate velocity measurement is a fundamental requirement for autonomous surface and underwater vehicles. Commonly, velocity is provided by a Doppler velocity log (DVL) sensor, yet it becomes unavailable due to operational altitude constraints. In such situations, electromagnetic logs (EMLogs) provide a critically robust alternative for continuous velocity estimation. However, raw…",
+      "authors": [
+        "Samuel Cohen-Salmon, Itzik Klein"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.39203",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 91
     },
     {
       "id": "62f71707ede26b38a0c8",
@@ -1696,6 +1948,78 @@
       "rank": 139
     },
     {
+      "id": "b833d5c88fd8f02617f3",
+      "title": "ShamAN-Q: Shampoo Augmented NanoQuant for Sub-1-bit LLM Weights",
+      "url": "https://arxiv.org/abs/2609.38521",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "We introduce ShamAN-Q, a sub-1-bit post-training quantization method that extends NanoQuant by replacing each its diagonal reconstruction geometry with a tractable dense curvature metric, using a general paradigm popularized by the Shampoo optimizer. For each linear weight, ShamAN-Q fits a Kronecker product to the empirical Fisher information matrix of a small calibration set by…",
+      "authors": [
+        "Jonathan Mei, Sang Hyub Kim, Oliver Knitter, Chi Chen, Martin Roetteler"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.38521",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 77
+    },
+    {
+      "id": "e6d55eec6a264b7680c0",
+      "title": "Training LLMs to Verbalize Evaluation Awareness",
+      "url": "https://arxiv.org/abs/2609.36316",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Evaluation"
+      ],
+      "excerpt": "Evaluation awareness (EA) can cause large language models (LLMs) to behave differently during audits than in deployment, yet measuring and accounting for EA remains challenging. We introduce verbalization training (VT), a method for making LLMs less reticent about verbalizing evaluation awareness while avoiding to supervise the latent belief itself. VT uses a model's spontaneous…",
+      "authors": [
+        "Usman Anwar, Sahar Abdelnabi, David Krueger"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.36316",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 78
+    },
+    {
       "id": "f3885d0bbbde1591aee1",
       "title": "Activation-Conditioned Self-Distillation",
       "url": "https://arxiv.org/abs/2609.38342",
@@ -1810,6 +2134,80 @@
       "rank": 132
     },
     {
+      "id": "9d6708cf0ef944df6a6e",
+      "title": "Can Multimodal Large Language Models Generate and Detect Multimodal Social Media Fake News?",
+      "url": "https://arxiv.org/abs/2609.35809",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Multimodal",
+        "Agents",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "The rapid advancement of generative AI raises concerns about the misuse of Multimodal LLMs (MLLMs) for large-scale disinformation campaigns on social media. Despite existing research on textual disinformation, a fundamental question remains unanswered: can MLLMs be exploited to fabricate realistic multimodal fake news, and can they reliably detect it? We introduce a multi-agent…",
+      "authors": [
+        "Jiyao Yang, Yang Liu, Zhenyue Qin, Qingyu Chen, Xiuzhen Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.35809",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 80
+    },
+    {
+      "id": "ca839854ed2cb349021d",
+      "title": "VERA: Verifiable Feasibility Representations with Counterfactual Credit for Constrained Multi-Agent Control",
+      "url": "https://arxiv.org/abs/2609.38889",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-01T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation"
+      ],
+      "excerpt": "Constrained multi-agent control requires more than predicting rewarding actions: an action can cease to be executable as contact windows, shared capacity, and deadlines change. We introduce VERA, a centralized-training, decentralized-execution framework that separates feasibility estimation from credit assignment. Each actor predicts a five-dimensional verifiable feasibility…",
+      "authors": [
+        "Bo Yin, Dongbo Li, Hongkai Chen, Jie Liu, Guoliang Xing"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.38889",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 81
+    },
+    {
       "id": "eb31f9c6ce6958453851",
       "title": "CineSubBench: Evaluating LLMs on Long-Form Narrative and Cultural Understanding from Multilingual Movie Subtitles",
       "url": "https://arxiv.org/abs/2609.36218",
@@ -1880,6 +2278,203 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 89
+    },
+    {
+      "id": "280dfa1c42107b8212c9",
+      "title": "Shifting from knowledge retrieval to evidence exploration and synthesis",
+      "url": "https://www.nature.com/articles/s42256-026-01313-w",
+      "source": "Nature Machine Intelligence",
+      "source_id": "nature_machine_intelligence",
+      "source_class": "Scientific Journal",
+      "source_tier": 1,
+      "content_type": "Journal",
+      "publication_status": "Journal",
+      "date": "2026-10-01T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Nature Machine Intelligence, Published online: 01 October 2026; doi:10.1038/s42256-026-01313-w Biomedical discovery has entered an era in which the limiting resource is no longer data, but our ability to integrate and interpret evidence. DeepEvidence, a new deep research agent, goes beyond retrieving facts and constructs explicit representations of scientific evidence.",
+      "authors": [
+        "Shruti Shikhare",
+        "Jake Cohen-Setton",
+        "Krishna C. Bulusu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs42256-026-01313-w/MediaObjects/42256_2026_1313_Fig1_HTML.png"
+      ],
+      "doi": "10.1038/s42256-026-01313-w",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
+      "id": "bb81108a1f5625629b47",
+      "title": "Large language models discover complementary heuristics for combinatorial optimization",
+      "url": "https://www.nature.com/articles/s42256-026-01307-8",
+      "source": "Nature Machine Intelligence",
+      "source_id": "nature_machine_intelligence",
+      "source_class": "Scientific Journal",
+      "source_tier": 1,
+      "content_type": "Journal",
+      "publication_status": "Journal",
+      "date": "2026-10-01T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM"
+      ],
+      "excerpt": "Nature Machine Intelligence, Published online: 01 October 2026; doi:10.1038/s42256-026-01307-8 Huatian Gong and colleagues developed LACE, a large language model-based framework that designs optimization algorithms. It builds a verified problem contract, then evolves a portfolio of complementary heuristics that together solve problems that no single method can handle.",
+      "authors": [
+        "Huatian Gong",
+        "Shuaian Wang",
+        "Dongping Song",
+        "Jiuh-Biing Sheu",
+        "Ran Yan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs42256-026-01307-8/MediaObjects/42256_2026_1307_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs42256-026-01307-8/MediaObjects/42256_2026_1307_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs42256-026-01307-8/MediaObjects/42256_2026_1307_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs42256-026-01307-8/MediaObjects/42256_2026_1307_Fig4_HTML.png?as=webp"
+      ],
+      "doi": "10.1038/s42256-026-01307-8",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 83.7,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "c08402b8f22a4b159df3",
+      "title": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-01T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
+      "id": "904fd02683b753df9b50",
+      "title": "Magnetic Resonance Imaging in Cerebral Small Vessel Disease-Related Depression: From Visual Scoring to Artificial Intelligence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42817067",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-01T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Cerebral small vessel disease (CSVD) is the key pathological basis of vascular depression. The precise identification of its neuroimaging markers is of core value for early diagnosis, elucidation of its pathological mechanism, and individualized treatment. Recent advances in magnetic resonance imaging (MRI) and artificial intelligence (AI) have enabled automated, high-throughput…",
+      "authors": [
+        "Chaofang Lei",
+        "Jiaxu Chen",
+        "Yilong Wang"
+      ],
+      "venue": "CNS neuroscience & therapeutics",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42817067",
+      "doi": "10.1002/cns.71188",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 2
+    },
+    {
+      "id": "af158e95b125b3998409",
+      "title": "Development and validation of VentPilot: an AI-based recommendation system for mechanical ventilation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42816865",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-01T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Mechanical ventilation requires repeated adjustment to changing patient physiology, but consistent individualized management remains challenging. We developed VentPilot, an artificial intelligence-based system for recommending ventilator settings, and evaluated it in multicenter retrospective validation cohorts. VentPilot was developed using offline reinforcement learning on…",
+      "authors": [
+        "Hong Yeul Lee",
+        "Gaon An",
+        "Yeonwoo Jeong",
+        "Edward J Schenck",
+        "Ho Geol Ryu",
+        "Brian W Pickering",
+        "Vitaly Herasevich",
+        "Daniel A Diedrich"
+      ],
+      "venue": "Journal of intensive care",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs40560-026-00947-7/MediaObjects/40560_2026_947_Fig1_HTML.png"
+      ],
+      "pmid": "42816865",
+      "doi": "10.1186/s40560-026-00947-7",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 11
     }
   ]
 }

@@ -1,9 +1,45 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-02T05:53:21.729629+00:00",
-  "item_count": 147,
+  "updated_at": "2026-10-02T12:51:18.840067+00:00",
+  "item_count": 159,
   "items": [
+    {
+      "id": "6602eb99f36a564086a1",
+      "title": "Don’t be fooled—LLMs don’t reason",
+      "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-02T08:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical",
+        "Reasoning"
+      ],
+      "excerpt": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a programming glitch. It wasn’t. AlphaGo won the game, ultimately triumphing 4-1 over Lee Sedol, one of the greatest…",
+      "authors": [
+        "Thore Graepel"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.1,
+      "priority_label": "Relevant",
+      "rank": 81
+    },
     {
       "id": "59d88ee0fd4c3ec0f6fb",
       "title": "3 Questions: A new resource to empower young entrepreneurs",
@@ -691,6 +727,42 @@
       "rank": 163
     },
     {
+      "id": "254f98a9af85aad5b4f5",
+      "title": "What Do Rationales Communicate? A Message-Intervention Study in Role-Specialized QA",
+      "url": "https://arxiv.org/abs/2610.00018",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-02T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Role-specialized QA pipelines increasingly pass rationales from a reasoner to a verifier, but it is unclear what this message actually buys: better answers, stronger support assessment, or a new failure surface. We introduce a message-intervention diagnostic that fixes the evidence and candidate answer while varying only the rationale passed across the reasoner-to-verifier boundary. On…",
+      "authors": [
+        "Jiameng Zhang, Hongqiu Wu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.00018",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 104
+    },
+    {
       "id": "f2e12327ac642df4ffc5",
       "title": "Rapid quantitative chemical composition mapping using model-based MRI reconstruction with field inhomogeneity correction",
       "url": "https://arxiv.org/abs/2607.24441",
@@ -913,6 +985,111 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 130
+    },
+    {
+      "id": "6e91020156dc0d30a78b",
+      "title": "Verification Pulses and the Cost of Escaping Wrong Consensus",
+      "url": "https://arxiv.org/abs/2610.00256",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-02T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "External verification can correct individual outputs while leaving a self-reinforcing population in the basin of a wrong consensus. We study how the timing and addressing of a fixed verification budget affect recovery in an asynchronous binary register. For a general nonlinear response, we derive the minimum fuel required to cross a basin boundary under a peak verification constraint.…",
+      "authors": [
+        "Shivam Gupta"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.00256",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 92
+    },
+    {
+      "id": "9cedb154a1b34b05cb9b",
+      "title": "Video Evidence Indexing: Learning Where to Look from Video Previews for Token-Budgeted Long-Video Question Answering",
+      "url": "https://arxiv.org/abs/2610.00757",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-02T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Long-video question answering is limited by the high cost of visual tokens and by the fixed context width of current VLMs. A long-video question may require broad temporal coverage, but the answer is often supported by only a compact set of moments. To locate these moments efficiently, we propose token-budgeted Video Evidence Indexing (VEI): given a dense low-resolution Video Preview,…",
+      "authors": [
+        "Haowen Guan, Shengzhi Li, Shichao Pei"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.00757",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 145
+    },
+    {
+      "id": "466652c126b262ed263a",
+      "title": "Format-Aware Fusion for Fast FP4 Pretraining",
+      "url": "https://arxiv.org/abs/2610.00053",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-02T04:00:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Hardware"
+      ],
+      "excerpt": "Four-bit floating-point (FP4) Tensor Cores accelerate matrix multiplication, but scale computation, operand packing, layout construction, and saved backward state can erase the gain. We present \\emph{format-aware fusion}, which co-designs each quantization producer with its scale domain and consumer layout for native \\mxfp{}, global \\nvfp{}, and cooperative-thread-array-local \\nvfp{}.…",
+      "authors": [
+        "Robert Hu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.00053",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
+      "rank": 170
     },
     {
       "id": "4507f6b00353dbfb3baf",
@@ -1259,7 +1436,11 @@
       "venue": "",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-nc-sa-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
       "arxiv_id": "2610.00316",
       "relevance_score": 73.8,
       "freshness_score": 100.0,
@@ -2008,6 +2189,313 @@
       "rank": 36
     },
     {
+      "id": "9da6cbab350f0f413095",
+      "title": "Portable Deep Learning-Assisted Device for Automated Interincisal Opening Assessment and Oral Submucous Fibrosis Lesion Identification: A Translational Clinical Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42823567",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Oral submucous fibrosis (OSMF) is a chronic, progressive, potentially malignant disorder prevalent in Southeast Asia and the Indian subcontinent. Progressive fibrosis restricts mouth opening, making interincisal opening as a key parameter of disease staging. This study developed a portable AI-based device for automated interincisal opening measurement and OSMF lesion detection important…",
+      "authors": [
+        "Vibha Bora",
+        "Ajinkya Tamhankar",
+        "Chaitanya Wankhede",
+        "Bhanu Nagpure",
+        "Surekha Rathod",
+        "Abhay Datarkar",
+        "Devendra Mahore",
+        "Ganesh Jadhav"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02299-y/MediaObjects/10278_2026_2299_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02299-y/MediaObjects/10278_2026_2299_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02299-y/MediaObjects/10278_2026_2299_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02299-y/MediaObjects/10278_2026_2299_Fig5_HTML.png?as=webp"
+      ],
+      "pmid": "42823567",
+      "doi": "10.1007/s10278-026-02299-y",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
+    {
+      "id": "c931b6fe1916ade65997",
+      "title": "Informed forecasting: Leveraging auxiliary knowledge to boost large language model performance on time series forecasting.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42821624",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical"
+      ],
+      "excerpt": "The rapid adoption of large language models (LLMs) has sparked growing interest in extending their capabilities beyond traditional natural language tasks, including applications in time series forecasting. This work explores the enhancement of time series forecasting with LLMs by incorporating time-dependent covariates. We propose a set of representative prompting strategies that span a…",
+      "authors": [
+        "Mohammadmahdi Ghasemloo",
+        "Alireza Moradi"
+      ],
+      "venue": "PloS one",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://journals.plos.org/plosone/article/figure/image?id=10.1371%2Fjournal.pone.0358970.g003&size=inline",
+        "https://journals.plos.org/plosone/article/file?type=thumbnail&id=10.1371%2Fjournal.pone.0358970.e001"
+      ],
+      "pmid": "42821624",
+      "doi": "10.1371/journal.pone.0358970",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
+      "id": "e3503703c1f5f707209a",
+      "title": "Graph theory-based machine learning for automated fibromyalgia diagnosis using fMRI during an emotional task.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42821602",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Fibromyalgia (FM) is a multifaceted chronic pain disorder presenting with pain throughout the musculoskeletal system, alongside chronic fatigue,sleep disturbances, and cognitive impairments. Current diagnostic criteria primarily rely on symptom questionnaires, with no specific laboratory markers or definitive tests, making diagnosis subjective and often delayed. Moreover, the overlap…",
+      "authors": [
+        "Leila Solouki",
+        "Soodeh Shahsavari",
+        "Hamid Sharini",
+        "Amir Hossein Hashemian",
+        "Volker Johann Schmid",
+        "Samira Jafari",
+        "Saleh Rouhi",
+        "Behzad Mahaki"
+      ],
+      "venue": "PloS one",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://journals.plos.org/plosone/article/figure/image?id=10.1371%2Fjournal.pone.0357964.g005&size=inline"
+      ],
+      "pmid": "42821602",
+      "doi": "10.1371/journal.pone.0357964",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "dd5fa19c334b5141a7e3",
+      "title": "A Facial Foundation Model for Clinical Biomarker Prediction and Real-World Mobile Deployment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42823779",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Medical"
+      ],
+      "excerpt": "While most biomarkers currently rely on invasive laboratory testing, which limits large-scale or repeated screening, scalable non-invasive methods could transform population screening and personalized health management. Facial photographs, as a ubiquitous and non-invasive data source, offer such potential but remain underexplored for clinical biomarker prediction. Existing supervised…",
+      "authors": [
+        "Tingfeng Xu",
+        "Huixuan Xu",
+        "Li Lin",
+        "Fei Wang",
+        "Yaodong Ding",
+        "Shuangqiao Liao",
+        "Xingyu Chen",
+        "Jichen Wen"
+      ],
+      "venue": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42823779",
+      "doi": "10.1002/advs.77861",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
+      "id": "1a89f7b71621940c35c8",
+      "title": "A digital twin for tracking and forecasting glycemia with septic patients in ICUs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42823439",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "We present a digital twin framework for real-time glucose monitoring and forecasting in septic patients admitted to intensive care units (ICUs). The framework integrates advanced machine learning models trained on continuous glucose measurements with a dynamic digital twin workflow that enables rapid deployment to individual patients, ongoing model assessment, updating with newly…",
+      "authors": [
+        "Xiang Cao",
+        "Chao Cai",
+        "Jianguo Hou",
+        "Xinhang Wei",
+        "Qi Wang"
+      ],
+      "venue": "npj metabolic health and disease",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs44324-026-00132-2/MediaObjects/44324_2026_132_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-23057-0/MediaObjects/41598_2025_23057_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3Aplaceholder%2Fimages/placeholder-figure-nature.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44324-026-00132-2/MediaObjects/44324_2026_132_Fig2_HTML.png?as=webp"
+      ],
+      "pmid": "42823439",
+      "doi": "10.1038/s44324-026-00132-2",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "346d9dfe7b333d2363d0",
+      "title": "Organoids: Current Applications and Future Directions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42820021",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI for Science"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Organoids are three-dimensional multicellular structures derived from stem cells or primary tissues that recapitulate key structural and functional features of native organs. Advances in stem cell biology, biomaterials, and bioengineering have established organoids as powerful platforms for studying human development and disease mechanisms, drug discovery, precision medicine, and…",
+      "authors": [
+        "Yueqi Leng",
+        "Yue Wang",
+        "Canhui Cao",
+        "Feng Deng",
+        "Weisi Lian",
+        "Xingtong Chen",
+        "Mingmei Lin",
+        "Zhonghong Zeng"
+      ],
+      "venue": "MedComm",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42820021",
+      "doi": "10.1002/mco2.70965",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "0dd0d978f066fab60054",
+      "title": "Benchmarking Large Language Models (LLMs) Against Medical Students Using Psychometrically Evaluated Authentic Clinically Oriented Anatomy Multiple-Choice Questions (MCQs) at the Apply and Analyze Levels of Bloom's Taxonomy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42823828",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Medical",
+        "Education",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models (LLMs) are increasingly used by medical students as study aids, yet evidence regarding their performance on higher-order, clinically oriented anatomy questions relative to that of students-particularly at the Apply and Analyze levels of Bloom's Taxonomy-remains limited. This study aimed to compare the accuracy of five LLMs (ChatGPT-5, Gemini 2.5 Pro, Claude,…",
+      "authors": [
+        "Serdar Babacan"
+      ],
+      "venue": "Clinical anatomy (New York, N.Y.)",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42823828",
+      "doi": "10.1002/ca.70240",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 15
+    },
+    {
       "id": "dcc08529cd2f3a6abf53",
       "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
       "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore",
@@ -2461,8 +2949,8 @@
         "https://www.datocms-assets.com/64837/1790798606-olmo-core-3-blog-draft-google-docs-image-1.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 100.0,
-      "priority_score": 75.3,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 163
     },

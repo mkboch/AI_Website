@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "pipeline_version": "2.3.2",
-  "updated_at": "2026-10-04T12:34:49.066282+00:00",
+  "updated_at": "2026-10-04T21:39:30.412233+00:00",
   "methodology": "Balanced, source-tiered, rule-based research intelligence ranking. Priority is not a scientific-quality score.",
   "item_count": 236,
-  "archive_item_count": 1087,
+  "archive_item_count": 1088,
   "source_summary": {
     "total_sources": 32,
-    "healthy_sources": 32,
+    "healthy_sources": 31,
     "sources_with_items": 22,
-    "failed_sources": 0,
+    "failed_sources": 1,
     "source_classes": {
       "Academic Lab": 2,
       "Academic News": 1,
@@ -34,7 +34,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 80,
-      "elapsed_seconds": 0.55,
+      "elapsed_seconds": 0.58,
       "error": ""
     },
     {
@@ -58,7 +58,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 60,
-      "elapsed_seconds": 0.24,
+      "elapsed_seconds": 0.39,
       "error": ""
     },
     {
@@ -70,7 +70,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 28,
-      "elapsed_seconds": 0.44,
+      "elapsed_seconds": 0.68,
       "error": ""
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 0.17,
+      "elapsed_seconds": 0.31,
       "error": ""
     },
     {
@@ -94,7 +94,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 9,
-      "elapsed_seconds": 0.76,
+      "elapsed_seconds": 0.83,
       "error": ""
     },
     {
@@ -106,7 +106,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 64,
-      "elapsed_seconds": 0.79,
+      "elapsed_seconds": 0.99,
       "error": ""
     },
     {
@@ -118,7 +118,7 @@
       "status": "ok",
       "fetched": 65,
       "accepted": 11,
-      "elapsed_seconds": 0.64,
+      "elapsed_seconds": 0.76,
       "error": ""
     },
     {
@@ -130,7 +130,7 @@
       "status": "ok",
       "fetched": 25,
       "accepted": 25,
-      "elapsed_seconds": 0.38,
+      "elapsed_seconds": 0.39,
       "error": ""
     },
     {
@@ -142,7 +142,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 10,
-      "elapsed_seconds": 1.01,
+      "elapsed_seconds": 1.04,
       "error": ""
     },
     {
@@ -154,7 +154,7 @@
       "status": "ok",
       "fetched": 15,
       "accepted": 15,
-      "elapsed_seconds": 1.45,
+      "elapsed_seconds": 1.64,
       "error": ""
     },
     {
@@ -166,7 +166,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 16,
-      "elapsed_seconds": 0.26,
+      "elapsed_seconds": 0.37,
       "error": ""
     },
     {
@@ -178,7 +178,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 60,
-      "elapsed_seconds": 0.19,
+      "elapsed_seconds": 0.3,
       "error": ""
     },
     {
@@ -190,7 +190,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 1.28,
+      "elapsed_seconds": 1.59,
       "error": ""
     },
     {
@@ -202,7 +202,7 @@
       "status": "ok",
       "fetched": 12,
       "accepted": 0,
-      "elapsed_seconds": 2.11,
+      "elapsed_seconds": 1.73,
       "error": ""
     },
     {
@@ -214,7 +214,7 @@
       "status": "ok",
       "fetched": 5,
       "accepted": 2,
-      "elapsed_seconds": 0.47,
+      "elapsed_seconds": 0.64,
       "error": ""
     },
     {
@@ -226,7 +226,7 @@
       "status": "ok",
       "fetched": 50,
       "accepted": 50,
-      "elapsed_seconds": 4.39,
+      "elapsed_seconds": 4.47,
       "error": ""
     },
     {
@@ -238,7 +238,7 @@
       "status": "ok",
       "fetched": 50,
       "accepted": 50,
-      "elapsed_seconds": 1.06,
+      "elapsed_seconds": 1.14,
       "error": ""
     },
     {
@@ -250,7 +250,7 @@
       "status": "ok",
       "fetched": 8,
       "accepted": 8,
-      "elapsed_seconds": 0.15,
+      "elapsed_seconds": 1.19,
       "error": ""
     },
     {
@@ -262,7 +262,7 @@
       "status": "ok",
       "fetched": 70,
       "accepted": 70,
-      "elapsed_seconds": 0.58,
+      "elapsed_seconds": 0.65,
       "error": ""
     },
     {
@@ -274,7 +274,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 10,
-      "elapsed_seconds": 0.34,
+      "elapsed_seconds": 0.4,
       "error": ""
     },
     {
@@ -286,7 +286,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 0.2,
+      "elapsed_seconds": 0.23,
       "error": ""
     },
     {
@@ -295,11 +295,11 @@
       "source_class": "Government",
       "content_type": "Government",
       "tier": 1,
-      "status": "ok",
-      "fetched": 10,
+      "status": "error",
+      "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.3,
-      "error": ""
+      "elapsed_seconds": 0.26,
+      "error": "403 Client Error: Forbidden for url: https://www.nih.gov/news-events/news-releases"
     },
     {
       "id": "nist_ai",
@@ -310,7 +310,7 @@
       "status": "ok",
       "fetched": 25,
       "accepted": 0,
-      "elapsed_seconds": 0.26,
+      "elapsed_seconds": 0.35,
       "error": ""
     },
     {
@@ -322,7 +322,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 0,
-      "elapsed_seconds": 0.28,
+      "elapsed_seconds": 0.54,
       "error": ""
     },
     {
@@ -333,8 +333,8 @@
       "tier": 1,
       "status": "ok",
       "fetched": 60,
-      "accepted": 45,
-      "elapsed_seconds": 1.48,
+      "accepted": 44,
+      "elapsed_seconds": 1.44,
       "error": ""
     },
     {
@@ -346,7 +346,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.14,
+      "elapsed_seconds": 0.09,
       "error": ""
     },
     {
@@ -358,7 +358,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.01,
+      "elapsed_seconds": 0.0,
       "error": ""
     },
     {
@@ -370,7 +370,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.01,
+      "elapsed_seconds": 0.22,
       "error": ""
     },
     {
@@ -382,7 +382,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.01,
+      "elapsed_seconds": 0.16,
       "error": ""
     },
     {
@@ -394,7 +394,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.01,
+      "elapsed_seconds": 0.15,
       "error": ""
     },
     {
@@ -406,22 +406,22 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.01,
+      "elapsed_seconds": 0.15,
       "error": ""
     }
   ],
   "category_counts": {
-    "Foundation Models": 59,
-    "Trustworthy AI": 39,
+    "Foundation Models": 58,
+    "Trustworthy AI": 40,
     "General AI": 36,
     "Medical Imaging": 23,
-    "AI Agents": 23,
-    "Medical AI": 14,
+    "AI Agents": 22,
+    "Medical AI": 15,
     "AI for Science": 11,
     "AI4Education": 7,
     "AI Policy & Governance": 7,
-    "AI Systems & Hardware": 6,
     "Robotics & Embodied AI": 6,
+    "AI Systems & Hardware": 6,
     "Computer Vision": 5
   },
   "content_type_counts": {
@@ -501,55 +501,6 @@
       "rank": 1
     },
     {
-      "id": "e9385c0d4eb881d15bf3",
-      "title": "Applications and performance of imaging artificial intelligence in detecting and staging avascular necrosis of the femoral head: a systematic review and meta-analysis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42829377",
-      "source": "PubMed - Medical AI",
-      "source_id": "pubmed_medical_ai",
-      "source_class": "Biomedical Index",
-      "source_tier": 1,
-      "content_type": "Biomedical",
-      "publication_status": "Journal Article",
-      "date": "2026-10-04T00:00:00+00:00",
-      "category": "Medical Imaging",
-      "categories": [
-        "Medical Imaging",
-        "Medical AI"
-      ],
-      "tags": [
-        "Medical Imaging",
-        "Evaluation",
-        "Medical",
-        "Imaging"
-      ],
-      "excerpt": "To evaluate the diagnostic accuracy of imaging artificial intelligence (AI) models for detecting avascular necrosis of the femoral head (AVNFH) and to examine whether diagnostic performance differs according to imaging modality, disease-stage focus, and validation strategy. In accordance with PRISMA-DTA, we conducted a systematic search in four main databases. Two independent reviewers…",
-      "authors": [
-        "Peyman Mirghaderi",
-        "Nasim Eshraghi",
-        "Hyun Su Kim",
-        "Chankue Park",
-        "Navid Faraji",
-        "Majid Chalian",
-        "Peter C Thurlow"
-      ],
-      "venue": "Skeletal radiology",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig1_HTML.png",
-        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig2_HTML.png?as=webp",
-        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig3_HTML.png?as=webp",
-        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig4_HTML.png?as=webp"
-      ],
-      "pmid": "42829377",
-      "doi": "10.1007/s00256-026-05376-z",
-      "relevance_score": 100.0,
-      "freshness_score": 100.0,
-      "priority_score": 90.6,
-      "priority_label": "Top signal",
-      "rank": 2
-    },
-    {
       "id": "de1da202f64080e1ff55",
       "title": "Generative AI versus physicians in diagnostic radiology: a systematic review and meta-analysis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42828690",
@@ -595,7 +546,7 @@
       "freshness_score": 100.0,
       "priority_score": 90.6,
       "priority_label": "Top signal",
-      "rank": 3
+      "rank": 2
     },
     {
       "id": "e46211904d6124a6574e",
@@ -635,7 +586,7 @@
       "freshness_score": 100.0,
       "priority_score": 89.5,
       "priority_label": "Top signal",
-      "rank": 4
+      "rank": 3
     },
     {
       "id": "2c077d75cdb299b2a863",
@@ -654,8 +605,6 @@
       ],
       "tags": [
         "Medical Imaging",
-        "Medical",
-        "Imaging",
         "Vision"
       ],
       "excerpt": "Ultrasound imaging is a widely used diagnostic tool, and beamforming techniques are integral to its performance. Traditional methods such as delay-and-sum (DAS) and delay-multiply-and sum (DMAS) have limitations in terms of image quality and computational efficiency. Recently, deep learning approaches have shown significant promise in improving ultrasound beamforming, offering enhanced…",
@@ -674,7 +623,7 @@
       "freshness_score": 100.0,
       "priority_score": 89.5,
       "priority_label": "Top signal",
-      "rank": 5
+      "rank": 4
     },
     {
       "id": "87d360676b0955bfa5b5",
@@ -718,6 +667,49 @@
       "doi": "10.1007/s10495-026-02451-7",
       "relevance_score": 94.7,
       "freshness_score": 100.0,
+      "priority_score": 89.2,
+      "priority_label": "Top signal",
+      "rank": 5
+    },
+    {
+      "id": "ac792918c7c6323a37d0",
+      "title": "CT Radiomics of Epicardial Adipose Tissue for Predicting Atrial Fibrillation: A Systematic Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42827062",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Atrial fibrillation (AF) is the most common arrhythmia, affecting 1-2% of the general population. Epicardial adipose tissue (EAT) may contribute to AF through its proximity to the myocardium and coronary vessels, as well as its vasocrine and paracrine functions. Previous studies linked EAT thickness and volume with AF incidence. This review consolidates evidence on the correlation…",
+      "authors": [
+        "Yevgeniy Gladkiy",
+        "Amin Hasheminia",
+        "Adham Elsherbini",
+        "Mutaz Kassas",
+        "Daniel Boyes",
+        "Daniel Faddoul",
+        "Robert Gilkeson",
+        "Mohammad El Diasty"
+      ],
+      "venue": "Academic radiology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42827062",
+      "doi": "10.1016/j.acra.2026.08.071",
+      "relevance_score": 100.0,
+      "freshness_score": 94.0,
       "priority_score": 89.2,
       "priority_label": "Top signal",
       "rank": 6
@@ -1017,9 +1009,9 @@
       "rank": 13
     },
     {
-      "id": "5e082e908bf7ef7b8323",
-      "title": "Rule-Based Versus Generative Extraction of Psychological Symptoms From Forensic Medical Certificates: A Feasibility Study in the French ORFeAD Network.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42829452",
+      "id": "1ac8425a2c89bf97e9cd",
+      "title": "Guideline-augmented prompting improves comparative preference and response consistency of large language model outputs for orthopaedic anaesthesia questions: A controlled prompting study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829621",
       "source": "PubMed - Medical AI",
       "source_id": "pubmed_medical_ai",
       "source_class": "Biomedical Index",
@@ -1035,52 +1027,8 @@
       "tags": [
         "Foundation Models",
         "LLM",
-        "Evaluation",
-        "Medical",
-        "Hardware"
-      ],
-      "excerpt": "Forensic medical certificates for victims of interpersonal violence describe psychological symptoms in unstructured prose, rarely explicit and requiring inference. To assess the feasibility of two extraction pipelines-rule-based and a locally served generative large language model-in a French multicentric forensic network, and to identify variables usable without human verification. 110…",
-      "authors": [
-        "Grisez Laure",
-        "Outh-Gauer Sophie",
-        "Chambre Arthur",
-        "Laugier Vincent",
-        "Lefèvre Thomas"
-      ],
-      "venue": "Behavioral sciences & the law",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "pmid": "42829452",
-      "doi": "10.1002/bsl.70097",
-      "relevance_score": 91.8,
-      "freshness_score": 100.0,
-      "priority_score": 87.1,
-      "priority_label": "High relevance",
-      "rank": 14
-    },
-    {
-      "id": "1ac8425a2c89bf97e9cd",
-      "title": "Guideline-augmented prompting improves comparative preference and response consistency of large language model outputs for orthopaedic anaesthesia questions: A controlled prompting study.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42829621",
-      "source": "PubMed - Medical AI",
-      "source_id": "pubmed_medical_ai",
-      "source_class": "Biomedical Index",
-      "source_tier": 1,
-      "content_type": "Biomedical",
-      "publication_status": "Journal Article",
-      "date": "2026-10-04T00:00:00+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models"
-      ],
-      "tags": [
-        "Foundation Models",
-        "LLM",
         "Safety",
-        "Evaluation",
-        "Medical",
-        "Reasoning"
+        "Medical"
       ],
       "excerpt": "Large language models (LLMs) are increasingly used in clinical contexts; however, performance in complex perioperative decision-making remains uncertain. Orthopaedic anaesthesia presents a demanding test case due to comorbidity burden and guideline-dependent management. Whether successive LLM generations and guideline-augmented prompting improve clinical alignment, comparative…",
       "authors": [
@@ -1103,7 +1051,7 @@
       "freshness_score": 100.0,
       "priority_score": 87.1,
       "priority_label": "High relevance",
-      "rank": 15
+      "rank": 14
     },
     {
       "id": "f3d0899182d2ff38229c",
@@ -1145,7 +1093,7 @@
       "freshness_score": 86.0,
       "priority_score": 86.7,
       "priority_label": "High relevance",
-      "rank": 16
+      "rank": 15
     },
     {
       "id": "c38af6e5cae43e23a64c",
@@ -1181,7 +1129,7 @@
       "freshness_score": 94.0,
       "priority_score": 86.1,
       "priority_label": "High relevance",
-      "rank": 17
+      "rank": 16
     },
     {
       "id": "d6b9f5e651b1891e950e",
@@ -1217,7 +1165,7 @@
       "freshness_score": 86.0,
       "priority_score": 86.1,
       "priority_label": "High relevance",
-      "rank": 18
+      "rank": 17
     },
     {
       "id": "bb81108a1f5625629b47",
@@ -1260,7 +1208,7 @@
       "freshness_score": 86.0,
       "priority_score": 86.0,
       "priority_label": "High relevance",
-      "rank": 19
+      "rank": 18
     },
     {
       "id": "d651ef912ebc65c48071",
@@ -1304,7 +1252,7 @@
       "freshness_score": 94.0,
       "priority_score": 85.7,
       "priority_label": "High relevance",
-      "rank": 20
+      "rank": 19
     },
     {
       "id": "280dfa1c42107b8212c9",
@@ -1342,7 +1290,7 @@
       "freshness_score": 86.0,
       "priority_score": 85.0,
       "priority_label": "High relevance",
-      "rank": 21
+      "rank": 20
     },
     {
       "id": "1fd3770fa073169d1673",
@@ -1379,7 +1327,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.9,
       "priority_label": "High relevance",
-      "rank": 22
+      "rank": 21
     },
     {
       "id": "7ee79eecb360c6d0bfd2",
@@ -1419,7 +1367,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.5,
       "priority_label": "High relevance",
-      "rank": 23
+      "rank": 22
     },
     {
       "id": "c08402b8f22a4b159df3",
@@ -1451,7 +1399,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 24
+      "rank": 23
     },
     {
       "id": "b49099cde7e97e60f531",
@@ -1486,7 +1434,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 25
+      "rank": 24
     },
     {
       "id": "eb674100bb687fff7643",
@@ -1519,6 +1467,45 @@
       "relevance_score": 91.8,
       "freshness_score": 86.0,
       "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 25
+    },
+    {
+      "id": "1d43ea6a4c8dfa737216",
+      "title": "Agentic AI for Clinical Outcomes Research, Population Health Management Analyses With Large Administrative Databases, and Generating Epidemiological Estimates of Diseases: Feasibility and Validation Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814997",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-09-30T00:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Medical"
+      ],
+      "excerpt": "There is tremendous enthusiasm for the use of AI in health care because of the ability to analyze existing data for preventative, diagnostic, and treatment support. Agentic AI can feasibly provide access to large real-world datasets for the generation of real-world evidence for health care and clinical applications to health care providers, researchers, and administrators without access…",
+      "authors": [
+        "Daniel Frisch",
+        "Michael Fronstin",
+        "Carla Zema"
+      ],
+      "venue": "Journal of medical Internet research",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42814997",
+      "doi": "10.2196/100284",
+      "relevance_score": 91.8,
+      "freshness_score": 86.0,
+      "priority_score": 84.0,
       "priority_label": "High relevance",
       "rank": 26
     },
@@ -1860,81 +1847,6 @@
       "rank": 35
     },
     {
-      "id": "73bd9f315cf79b2a6478",
-      "title": "How uniopen customized Amazon Nova to their retail moderation policies for production deployment",
-      "url": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment",
-      "source": "AWS Machine Learning Blog",
-      "source_id": "aws_ml",
-      "source_class": "Engineering Lab",
-      "source_tier": 2,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-01T15:33:01+00:00",
-      "category": "Trustworthy AI",
-      "categories": [
-        "Trustworthy AI",
-        "Foundation Models"
-      ],
-      "tags": [
-        "Trustworthy AI",
-        "Evaluation",
-        "Medical"
-      ],
-      "excerpt": "uniopen is a digital communication and membership platform launched by Taiwan’s Uni-President Enterprises Group, connecting customers to ecommerce, membership benefits, and other retail experiences across web, tablet, and mobile channels. Across those channels, uniopen applies a moderation policy that classifies each interaction along two axes. The first is what behavior occurred (nine…",
-      "authors": [
-        "Felix Chin, Jia-You Lin"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/14/ML-21411-1.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/14/ML-21411-2.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/14/ML-21411-3.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/01/ML-21411-4-1.png"
-      ],
-      "relevance_score": 96.7,
-      "freshness_score": 94.0,
-      "priority_score": 82.7,
-      "priority_label": "High relevance",
-      "rank": 36
-    },
-    {
-      "id": "57fe7402c0ac11ed0826",
-      "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
-      "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills",
-      "source": "NVIDIA Developer Blog",
-      "source_id": "nvidia_developer",
-      "source_class": "Engineering Lab",
-      "source_tier": 1,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-01T18:13:29+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents"
-      ],
-      "excerpt": "AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as... AI agents are becoming a standard part of development workflows, but general-purpose agents weren’t built with specialized infrastructure software such as NVIDIA DOCA in mind. Without domain-specific knowledge, agents may fall back…",
-      "authors": [
-        "Tanya Lenz"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/agentic-ai-768x432.png"
-      ],
-      "relevance_score": 88.2,
-      "freshness_score": 94.0,
-      "priority_score": 82.6,
-      "priority_label": "High relevance",
-      "rank": 37
-    },
-    {
       "id": "7e414f126d4a50e87450",
       "title": "Regional climate risk assessment from climate models using probabilistic machine learning",
       "url": "https://www.nature.com/articles/s42256-026-01308-7",
@@ -1977,7 +1889,7 @@
       "freshness_score": 86.0,
       "priority_score": 82.5,
       "priority_label": "High relevance",
-      "rank": 38
+      "rank": 36
     },
     {
       "id": "b1798fcee923dfc32b4c",
@@ -2016,7 +1928,7 @@
       "freshness_score": 94.0,
       "priority_score": 82.4,
       "priority_label": "High relevance",
-      "rank": 39
+      "rank": 37
     },
     {
       "id": "102503487328b76b341e",
@@ -2059,7 +1971,7 @@
       "freshness_score": 86.0,
       "priority_score": 82.0,
       "priority_label": "High relevance",
-      "rank": 40
+      "rank": 38
     },
     {
       "id": "9384f25c629b044ae6a5",
@@ -2098,7 +2010,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.9,
       "priority_label": "High relevance",
-      "rank": 41
+      "rank": 39
     },
     {
       "id": "16c916f703e7dd3a9d8f",
@@ -2139,49 +2051,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.9,
       "priority_label": "High relevance",
-      "rank": 42
-    },
-    {
-      "id": "34c43cec913dfaccea2c",
-      "title": "Serve live, governed data in AI-built apps with Amazon Quick",
-      "url": "https://aws.amazon.com/blogs/machine-learning/serve-live-governed-data-in-ai-built-apps-with-amazon-quick",
-      "source": "AWS Machine Learning Blog",
-      "source_id": "aws_ml",
-      "source_class": "Engineering Lab",
-      "source_tier": 2,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-01T19:49:06+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents",
-        "Foundation Models",
-        "Medical AI"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents",
-        "Medical",
-        "Vision"
-      ],
-      "excerpt": "Quick Apps could already bring live data into an app from connectors and content sources: action connectors (services like Jira, Slack, and Google Drive), Spaces documents, web search, and AI inference all run at view time, not build time. The solution introduces live structured data from your data lakes, databases, and other analytics data stores. Your governed Amazon Quick Sight…",
-      "authors": [
-        "Wei Kuo"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/30/ML-22064-1.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/30/ML-22064-2.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/30/ML-22064-3.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/30/ML-22064-4.png"
-      ],
-      "relevance_score": 88.2,
-      "freshness_score": 94.0,
-      "priority_score": 81.9,
-      "priority_label": "High relevance",
-      "rank": 43
+      "rank": 40
     },
     {
       "id": "a50201dcd38e1ac4b162",
@@ -2218,7 +2088,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.9,
       "priority_label": "High relevance",
-      "rank": 44
+      "rank": 41
     },
     {
       "id": "d1721140685dd934b3f2",
@@ -2253,7 +2123,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.9,
       "priority_label": "High relevance",
-      "rank": 45
+      "rank": 42
     },
     {
       "id": "6071f63e21f6425413eb",
@@ -2288,7 +2158,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.8,
       "priority_label": "High relevance",
-      "rank": 46
+      "rank": 43
     },
     {
       "id": "de4c2d4f20833d7e4f08",
@@ -2322,7 +2192,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 47
+      "rank": 44
     },
     {
       "id": "0e0e207af4863c16b0a7",
@@ -2355,7 +2225,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 48
+      "rank": 45
     },
     {
       "id": "ded12c099dc5f6d7bd87",
@@ -2389,7 +2259,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 49
+      "rank": 46
     },
     {
       "id": "b306bb30fd0e3c8120d1",
@@ -2429,7 +2299,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 50
+      "rank": 47
     },
     {
       "id": "0c303e8fa44f82f1e20c",
@@ -2463,7 +2333,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 51
+      "rank": 48
     },
     {
       "id": "363b011cf4d3daf6dde5",
@@ -2496,7 +2366,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 52
+      "rank": 49
     },
     {
       "id": "9eff6d6b882703df8ca9",
@@ -2531,7 +2401,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 53
+      "rank": 50
     },
     {
       "id": "d7cc16a62bc84fc11327",
@@ -2566,7 +2436,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 54
+      "rank": 51
     },
     {
       "id": "236dbb8238cdf6251187",
@@ -2603,7 +2473,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 55
+      "rank": 52
     },
     {
       "id": "dcc08529cd2f3a6abf53",
@@ -2641,87 +2511,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 56
-    },
-    {
-      "id": "b7b8cdbba070bf33b22f",
-      "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
-      "url": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows",
-      "source": "AWS Machine Learning Blog",
-      "source_id": "aws_ml",
-      "source_class": "Engineering Lab",
-      "source_tier": 2,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-01T16:40:24+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models",
-        "AI Agents"
-      ],
-      "tags": [
-        "Foundation Models",
-        "LLM",
-        "RAG",
-        "Agents",
-        "Evaluation",
-        "Reasoning"
-      ],
-      "excerpt": "Teams that process documents at scale know the routine: files land in storage, someone notices, opens each one, decides what it needs, and routes it for review. Monitoring alerts queue up the same way, waiting for a person to act on them. The hours lost to manual triage are the operational problem ambient agents solve. Imagine a document lands in your Amazon Simple Storage Service…",
-      "authors": [
-        "Juan Albarran"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-19851-1.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-19851-2.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-19851-3.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-19851-4.png"
-      ],
-      "relevance_score": 91.8,
-      "freshness_score": 94.0,
-      "priority_score": 81.2,
-      "priority_label": "High relevance",
-      "rank": 57
-    },
-    {
-      "id": "393d9953f42c221c5b9e",
-      "title": "Implementing Multi-Environment Access for Claude Platform on AWS",
-      "url": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws",
-      "source": "AWS Machine Learning Blog",
-      "source_id": "aws_ml",
-      "source_class": "Engineering Lab",
-      "source_tier": 2,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-01T16:32:23+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models"
-      ],
-      "tags": [
-        "Foundation Models"
-      ],
-      "excerpt": "You need Claude Platform on AWS (CPonAWS) inference from three environments: production workloads on AWS, developer laptops for local iteration, and external services on other cloud providers or on-premises continuous integration and continuous delivery (CI/CD) pipelines. Each environment has different authentication requirements, but all should share a single subscription with…",
-      "authors": [
-        "Andrea Gallo"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-21203-1.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-21203-2.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-21203-3.png",
-        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/21/ML-21203-4.png"
-      ],
-      "relevance_score": 91.8,
-      "freshness_score": 94.0,
-      "priority_score": 81.2,
-      "priority_label": "High relevance",
-      "rank": 58
+      "rank": 53
     },
     {
       "id": "e2ff5c2e78222da2abce",
@@ -2758,7 +2548,44 @@
       "freshness_score": 86.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 59
+      "rank": 54
+    },
+    {
+      "id": "aae8bc1ed323e6eb5db6",
+      "title": "Introducing Claude Sonnet 5.5 on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-5-on-aws",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-28T18:57:13+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "Today, we’re excited to announce the availability of Claude Sonnet 5.5 on Amazon Bedrock and Claude Platform on AWS . Claude Sonnet 5.5 is a smarter, more efficient Sonnet model suited for focused coding and knowledge work with lower cost per task for most work at faster speed. Amazon Bedrock gives you Sonnet 5.5 capabilities while keeping your data within AWS infrastructure with…",
+      "authors": [
+        "Dani Mitchell"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/28/Screenshot-2026-09-28-at-1.50.28 PM.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/11/ml-20969-image-6.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/28/ML-22023-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/24/ML-21458-3.png"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.2,
+      "priority_label": "High relevance",
+      "rank": 55
     },
     {
       "id": "721de6922a1a6b9fd6bd",
@@ -2792,7 +2619,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 60
+      "rank": 56
     },
     {
       "id": "f2ff7f76056120414cf0",
@@ -2827,7 +2654,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 61
+      "rank": 57
     },
     {
       "id": "347b65ce144a221e189c",
@@ -2863,7 +2690,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 62
+      "rank": 58
     },
     {
       "id": "4e56c7312349a760a0ed",
@@ -2898,7 +2725,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 63
+      "rank": 59
     },
     {
       "id": "52b80abd4e046c041ffb",
@@ -2933,7 +2760,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 64
+      "rank": 60
     },
     {
       "id": "0765deb144589280c16b",
@@ -2968,7 +2795,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 65
+      "rank": 61
     },
     {
       "id": "ef1b3a4772eab8370f46",
@@ -3001,7 +2828,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 66
+      "rank": 62
     },
     {
       "id": "f9027d80e820682e90d7",
@@ -3035,7 +2862,47 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 67
+      "rank": 63
+    },
+    {
+      "id": "7322241f50811c866350",
+      "title": "Claude Opus 5.5 is now available on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-22T17:28:01+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Agents",
+        "Regulation"
+      ],
+      "excerpt": "Today, we’re excited to announce the availability of Claude Opus 5.5 on Amazon Bedrock and Claude Platform on AWS , the first of the Claude 5.5 model family. Claude Opus 5.5 is Anthropic’s most capable Opus model suitable for agentic coding, knowledge work, and long-running tasks. This post covers Claude Opus 5.5’s improvements, practical guidance, and how to start building with the…",
+      "authors": [
+        "Aamna Najmi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/Screenshot-2026-09-22-at-18.37.23.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/Screenshot-2026-09-22-at-18.36.48.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/ML-22003-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/22/ML-22003-4.jpg"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 72.0,
+      "priority_score": 81.0,
+      "priority_label": "High relevance",
+      "rank": 64
     },
     {
       "id": "a3c8e138d995ff558ec9",
@@ -3068,7 +2935,7 @@
       "freshness_score": 56.0,
       "priority_score": 81.0,
       "priority_label": "High relevance",
-      "rank": 68
+      "rank": 65
     },
     {
       "id": "2e784f90cb96c54d5208",
@@ -3102,7 +2969,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 69
+      "rank": 66
     },
     {
       "id": "1f9bdf9477b4fa5b8351",
@@ -3138,7 +3005,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 70
+      "rank": 67
     },
     {
       "id": "4507f6b00353dbfb3baf",
@@ -3172,7 +3039,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 71
+      "rank": 68
     },
     {
       "id": "a9976ea10d13efb03780",
@@ -3207,7 +3074,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 72
+      "rank": 69
     },
     {
       "id": "cab229409b22550ac2a5",
@@ -3241,7 +3108,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 73
+      "rank": 70
     },
     {
       "id": "c9d5eccd8fcaa53ce436",
@@ -3275,7 +3142,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 74
+      "rank": 71
     },
     {
       "id": "4f7ae7240b1453a9f754",
@@ -3310,7 +3177,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 75
+      "rank": 72
     },
     {
       "id": "f6e35ba42f510a239f86",
@@ -3344,7 +3211,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 76
+      "rank": 73
     },
     {
       "id": "abbac2b7aea10f88e55e",
@@ -3380,6 +3247,124 @@
       "arxiv_id": "2610.01166",
       "relevance_score": 100.0,
       "freshness_score": 94.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 74
+    },
+    {
+      "id": "57fe7402c0ac11ed0826",
+      "title": "Build Applications on NVIDIA BlueField Faster with NVIDIA DOCA Agent Skills",
+      "url": "https://developer.nvidia.com/blog/build-applications-on-nvidia-bluefield-faster-with-nvidia-doca-agent-skills",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-01T18:13:29+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "AI agents are becoming a standard part of development workflows, but general-purpose agents weren't built with specialized infrastructure software such as... AI agents are becoming a standard part of development workflows, but general-purpose agents weren’t built with specialized infrastructure software such as NVIDIA DOCA in mind. Without domain-specific knowledge, agents may fall back…",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/agentic-ai-768x432.png"
+      ],
+      "relevance_score": 88.2,
+      "freshness_score": 86.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 75
+    },
+    {
+      "id": "73bd9f315cf79b2a6478",
+      "title": "How uniopen customized Amazon Nova to their retail moderation policies for production deployment",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-uniopen-customized-amazon-nova-to-their-retail-moderation-policies-for-production-deployment",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-01T15:33:01+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "uniopen is a digital communication and membership platform launched by Taiwan’s Uni-President Enterprises Group, connecting customers to ecommerce, membership benefits, and other retail experiences across web, tablet, and mobile channels. Across those channels, uniopen applies a moderation policy that classifies each interaction along two axes. The first is what behavior occurred (nine…",
+      "authors": [
+        "Felix Chin, Jia-You Lin"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/14/ML-21411-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/14/ML-21411-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/14/ML-21411-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/01/ML-21411-4-1.png"
+      ],
+      "relevance_score": 96.7,
+      "freshness_score": 86.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 76
+    },
+    {
+      "id": "9c841a4594a16547cc73",
+      "title": "Prompt engineering by Quick component: Patterns and pitfalls",
+      "url": "https://aws.amazon.com/blogs/machine-learning/prompt-engineering-by-quick-component-patterns-and-pitfalls",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-09-29T16:27:33+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI Agents",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical AI",
+        "Agents",
+        "Medical",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "In Part 1 of this series, we covered the foundational principles of prompt engineering in Amazon Quick: specificity, context-setting, few-shot examples, and the CRISPE framework for complex requests. Those principles apply universally. In this post, we go component by component, showing you how each Quick capability interprets prompts differently and what patterns get the best results…",
+      "authors": [
+        "Daiquan Nkere"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-20527-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-20527-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-20527-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/25/ML-20527-4.jpg"
+      ],
+      "relevance_score": 96.7,
+      "freshness_score": 86.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
       "rank": 77
@@ -3665,6 +3650,39 @@
       "rank": 85
     },
     {
+      "id": "7e55bb6023da58362192",
+      "title": "Trump unveils his new Super Intelligence Force",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-04T15:15:10+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety"
+      ],
+      "excerpt": "This new task force is Trump's latest response to the debate over AI safety.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 91.5,
+      "freshness_score": 100.0,
+      "priority_score": 80.4,
+      "priority_label": "High relevance",
+      "rank": 86
+    },
+    {
       "id": "6602eb99f36a564086a1",
       "title": "Don’t be fooled—LLMs don’t reason",
       "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
@@ -3695,7 +3713,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 86
+      "rank": 87
     },
     {
       "id": "823b7e45b81e10376dbb",
@@ -3729,7 +3747,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 87
+      "rank": 88
     },
     {
       "id": "6d97a275c8426495daec",
@@ -3763,7 +3781,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 88
+      "rank": 89
     },
     {
       "id": "d9f9dcb0a2f92da66bd0",
@@ -3798,7 +3816,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 89
+      "rank": 90
     },
     {
       "id": "a15817211c649f48c7a2",
@@ -3834,7 +3852,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 90
+      "rank": 91
     },
     {
       "id": "8629cf81cf0b7ad197cd",
@@ -3868,7 +3886,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 91
+      "rank": 92
     },
     {
       "id": "b5c50a1bc3bd06226948",
@@ -3911,7 +3929,7 @@
       "freshness_score": 72.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 92
+      "rank": 93
     },
     {
       "id": "b75abace53f8923fd32d",
@@ -3945,7 +3963,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.0,
       "priority_label": "Relevant",
-      "rank": 93
+      "rank": 94
     },
     {
       "id": "fc87b2edee9fdefe07a9",
@@ -3982,7 +4000,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 94
+      "rank": 95
     },
     {
       "id": "9cfb966c065dcc9660c9",
@@ -4017,7 +4035,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 95
+      "rank": 96
     },
     {
       "id": "0be2065deedeeff49736",
@@ -4051,7 +4069,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 96
+      "rank": 97
     },
     {
       "id": "c3a709ec3a9f853b99f9",
@@ -4085,7 +4103,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 97
+      "rank": 98
     },
     {
       "id": "6e91020156dc0d30a78b",
@@ -4119,7 +4137,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 98
+      "rank": 99
     },
     {
       "id": "e0b3e41153f2a4aea457",
@@ -4153,7 +4171,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 99
+      "rank": 100
     },
     {
       "id": "df1110ed5b4a882b687c",
@@ -4187,7 +4205,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 100
+      "rank": 101
     },
     {
       "id": "b88e4e391969a19b100d",
@@ -4224,7 +4242,7 @@
       "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 101
+      "rank": 102
     },
     {
       "id": "0a4714881764a1653773",
@@ -4263,7 +4281,7 @@
       "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 102
+      "rank": 103
     },
     {
       "id": "c4a42f0aac6482a4101f",
@@ -4299,7 +4317,7 @@
       "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 103
+      "rank": 104
     },
     {
       "id": "2a051762f37550d5bfcb",
@@ -4333,7 +4351,7 @@
       "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 104
+      "rank": 105
     },
     {
       "id": "71f26a18bef64888985c",
@@ -4367,7 +4385,7 @@
       "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 105
+      "rank": 106
     },
     {
       "id": "8ae78ae980d5db1a4465",
@@ -4403,7 +4421,7 @@
       "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 106
+      "rank": 107
     },
     {
       "id": "f13d268a75029322eee7",
@@ -4437,7 +4455,7 @@
       "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 107
+      "rank": 108
     },
     {
       "id": "6aae488b1bb65e59bc91",
@@ -4467,7 +4485,7 @@
       "freshness_score": 56.0,
       "priority_score": 79.5,
       "priority_label": "Relevant",
-      "rank": 108
+      "rank": 109
     },
     {
       "id": "6fb8d323a664475248cd",
@@ -4501,41 +4519,6 @@
       "relevance_score": 86.7,
       "freshness_score": 86.0,
       "priority_score": 79.4,
-      "priority_label": "Relevant",
-      "rank": 109
-    },
-    {
-      "id": "c56a6beca21f2d8f664d",
-      "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
-      "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples",
-      "source": "NVIDIA Developer Blog",
-      "source_id": "nvidia_developer",
-      "source_class": "Engineering Lab",
-      "source_tier": 1,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-01T17:59:27+00:00",
-      "category": "AI Systems & Hardware",
-      "categories": [
-        "AI Systems & Hardware"
-      ],
-      "tags": [
-        "AI Systems & Hardware",
-        "Open Source"
-      ],
-      "excerpt": "Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now... Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now (DIN) Deploy is an open-source collection of practical C++…",
-      "authors": [
-        "Luca Spindler"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/din-deploy-featured-768x432.png"
-      ],
-      "relevance_score": 75.0,
-      "freshness_score": 94.0,
-      "priority_score": 79.3,
       "priority_label": "Relevant",
       "rank": 110
     },
@@ -4643,39 +4626,6 @@
       "rank": 113
     },
     {
-      "id": "7096cbc634e5d7d26867",
-      "title": "All the AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
-      "source": "TechCrunch - AI",
-      "source_id": "techcrunch_ai",
-      "source_class": "Technology News",
-      "source_tier": 3,
-      "content_type": "News",
-      "publication_status": "News",
-      "date": "2026-10-03T14:00:00+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents"
-      ],
-      "excerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
-      "authors": [
-        "Lauren Forristal"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 91.8,
-      "freshness_score": 100.0,
-      "priority_score": 79.0,
-      "priority_label": "Relevant",
-      "rank": 114
-    },
-    {
       "id": "2947b34346514aae0973",
       "title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
       "url": "https://mistral.ai/news/mistral-x-cloudera",
@@ -4703,7 +4653,7 @@
       "freshness_score": 56.0,
       "priority_score": 79.0,
       "priority_label": "Relevant",
-      "rank": 115
+      "rank": 114
     },
     {
       "id": "17f49129b10dae6dcfe2",
@@ -4740,7 +4690,7 @@
       "freshness_score": 94.0,
       "priority_score": 78.8,
       "priority_label": "Relevant",
-      "rank": 116
+      "rank": 115
     },
     {
       "id": "4f41ed553fdfb5f5c101",
@@ -4775,7 +4725,7 @@
       "freshness_score": 94.0,
       "priority_score": 78.8,
       "priority_label": "Relevant",
-      "rank": 117
+      "rank": 116
     },
     {
       "id": "489d5fcf8020ccbf81e0",
@@ -4812,7 +4762,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.7,
       "priority_label": "Relevant",
-      "rank": 118
+      "rank": 117
     },
     {
       "id": "b75e0d9ceba6d23feb5b",
@@ -4849,7 +4799,7 @@
       "freshness_score": 94.0,
       "priority_score": 78.5,
       "priority_label": "Relevant",
-      "rank": 119
+      "rank": 118
     },
     {
       "id": "271f6e494cc11b76620b",
@@ -4885,7 +4835,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.5,
       "priority_label": "Relevant",
-      "rank": 120
+      "rank": 119
     },
     {
       "id": "b4a8a140e104bbc4a088",
@@ -4918,7 +4868,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.4,
       "priority_label": "Relevant",
-      "rank": 121
+      "rank": 120
     },
     {
       "id": "f9053c355ea0bc29e638",
@@ -4953,7 +4903,7 @@
       "freshness_score": 94.0,
       "priority_score": 78.2,
       "priority_label": "Relevant",
-      "rank": 122
+      "rank": 121
     },
     {
       "id": "28e0aed416585dcf80ad",
@@ -4989,7 +4939,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.2,
       "priority_label": "Relevant",
-      "rank": 123
+      "rank": 122
     },
     {
       "id": "ed00ec700ffda6feec41",
@@ -5024,7 +4974,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.1,
       "priority_label": "Relevant",
-      "rank": 124
+      "rank": 123
     },
     {
       "id": "f5f3fe2846a1077a4279",
@@ -5062,7 +5012,7 @@
       "freshness_score": 72.0,
       "priority_score": 78.1,
       "priority_label": "Relevant",
-      "rank": 125
+      "rank": 124
     },
     {
       "id": "08a3d9b2900ccf7dfe1f",
@@ -5094,7 +5044,7 @@
       "freshness_score": 56.0,
       "priority_score": 78.1,
       "priority_label": "Relevant",
-      "rank": 126
+      "rank": 125
     },
     {
       "id": "e7c74a9bb2c1ed44024f",
@@ -5128,7 +5078,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.0,
       "priority_label": "Relevant",
-      "rank": 127
+      "rank": 126
     },
     {
       "id": "5bff8e22205697b84267",
@@ -5162,7 +5112,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.0,
       "priority_label": "Relevant",
-      "rank": 128
+      "rank": 127
     },
     {
       "id": "9a1a9b0b92b6f89d0814",
@@ -5196,7 +5146,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.0,
       "priority_label": "Relevant",
-      "rank": 129
+      "rank": 128
     },
     {
       "id": "ec36e0da121408b23467",
@@ -5238,7 +5188,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.9,
       "priority_label": "Relevant",
-      "rank": 130
+      "rank": 129
     },
     {
       "id": "f8a0125e0b4eba269daf",
@@ -5276,7 +5226,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.9,
       "priority_label": "Relevant",
-      "rank": 131
+      "rank": 130
     },
     {
       "id": "c514636b5c9e4a277ff7",
@@ -5310,7 +5260,7 @@
       "freshness_score": 94.0,
       "priority_score": 77.8,
       "priority_label": "Relevant",
-      "rank": 132
+      "rank": 131
     },
     {
       "id": "b580ad03974d47505e8f",
@@ -5347,7 +5297,7 @@
       "freshness_score": 94.0,
       "priority_score": 77.8,
       "priority_label": "Relevant",
-      "rank": 133
+      "rank": 132
     },
     {
       "id": "40b5a44ffd3ede846e24",
@@ -5380,7 +5330,7 @@
       "freshness_score": 94.0,
       "priority_score": 77.8,
       "priority_label": "Relevant",
-      "rank": 134
+      "rank": 133
     },
     {
       "id": "fee1f7a944d8cd0246a8",
@@ -5416,7 +5366,7 @@
       "freshness_score": 42.0,
       "priority_score": 77.8,
       "priority_label": "Relevant",
-      "rank": 135
+      "rank": 134
     },
     {
       "id": "70a5d3bd151a623147cf",
@@ -5447,7 +5397,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.7,
       "priority_label": "Relevant",
-      "rank": 136
+      "rank": 135
     },
     {
       "id": "56bfec926244076beb99",
@@ -5478,7 +5428,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.7,
       "priority_label": "Relevant",
-      "rank": 137
+      "rank": 136
     },
     {
       "id": "4d11ed62a144a3f4c2f6",
@@ -5507,6 +5457,39 @@
       "relevance_score": 91.8,
       "freshness_score": 56.0,
       "priority_score": 77.7,
+      "priority_label": "Relevant",
+      "rank": 137
+    },
+    {
+      "id": "7096cbc634e5d7d26867",
+      "title": "All the AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-03T14:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 91.8,
+      "freshness_score": 94.0,
+      "priority_score": 77.6,
       "priority_label": "Relevant",
       "rank": 138
     },
@@ -5612,34 +5595,36 @@
       "rank": 141
     },
     {
-      "id": "55b824c4e0500c938b69",
-      "title": "Brian Chesky interview: AI agents need their own operating system",
-      "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system",
-      "source": "TechCrunch - AI",
-      "source_id": "techcrunch_ai",
-      "source_class": "Technology News",
-      "source_tier": 3,
-      "content_type": "News",
-      "publication_status": "News",
-      "date": "2026-10-01T15:12:00+00:00",
-      "category": "AI Agents",
+      "id": "c56a6beca21f2d8f664d",
+      "title": "Build Local AI Apps with C++ and NVIDIA TensorRT RTX Samples",
+      "url": "https://developer.nvidia.com/blog/build-local-ai-apps-with-c-and-nvidia-tensorrt-rtx-samples",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-01T17:59:27+00:00",
+      "category": "AI Systems & Hardware",
       "categories": [
-        "AI Agents"
+        "AI Systems & Hardware"
       ],
       "tags": [
-        "AI Agents",
-        "Agents"
+        "AI Systems & Hardware",
+        "Open Source"
       ],
-      "excerpt": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",
+      "excerpt": "Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now... Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now (DIN) Deploy is an open-source collection of practical C++…",
       "authors": [
-        "Ivan Mehta"
+        "Luca Spindler"
       ],
       "venue": "",
       "manual": false,
       "related": [],
-      "images": [],
-      "relevance_score": 91.8,
-      "freshness_score": 94.0,
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/din-deploy-featured-768x432.png"
+      ],
+      "relevance_score": 75.0,
+      "freshness_score": 86.0,
       "priority_score": 77.6,
       "priority_label": "Relevant",
       "rank": 142

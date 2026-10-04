@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-04T06:03:35.745818+00:00",
-  "item_count": 208,
+  "updated_at": "2026-10-04T12:34:48.707400+00:00",
+  "item_count": 213,
   "items": [
     {
       "id": "e46211904d6124a6574e",
@@ -46,6 +46,49 @@
       "rank": 5
     },
     {
+      "id": "5e082e908bf7ef7b8323",
+      "title": "Rule-Based Versus Generative Extraction of Psychological Symptoms From Forensic Medical Certificates: A Feasibility Study in the French ORFeAD Network.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829452",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-04T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Medical",
+        "Hardware"
+      ],
+      "excerpt": "Forensic medical certificates for victims of interpersonal violence describe psychological symptoms in unstructured prose, rarely explicit and requiring inference. To assess the feasibility of two extraction pipelines-rule-based and a locally served generative large language model-in a French multicentric forensic network, and to identify variables usable without human verification. 110…",
+      "authors": [
+        "Grisez Laure",
+        "Outh-Gauer Sophie",
+        "Chambre Arthur",
+        "Laugier Vincent",
+        "Lefèvre Thomas"
+      ],
+      "venue": "Behavioral sciences & the law",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42829452",
+      "doi": "10.1002/bsl.70097",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
       "id": "9a43db65c1b498ed345e",
       "title": "A Knowledge Graph Framework for Longitudinal Congenital Heart Disease Modeling: Methodology Corner.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42828809",
@@ -87,6 +130,94 @@
       "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 7
+    },
+    {
+      "id": "e9385c0d4eb881d15bf3",
+      "title": "Applications and performance of imaging artificial intelligence in detecting and staging avascular necrosis of the femoral head: a systematic review and meta-analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829377",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-04T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "To evaluate the diagnostic accuracy of imaging artificial intelligence (AI) models for detecting avascular necrosis of the femoral head (AVNFH) and to examine whether diagnostic performance differs according to imaging modality, disease-stage focus, and validation strategy. In accordance with PRISMA-DTA, we conducted a systematic search in four main databases. Two independent reviewers…",
+      "authors": [
+        "Peyman Mirghaderi",
+        "Nasim Eshraghi",
+        "Hyun Su Kim",
+        "Chankue Park",
+        "Navid Faraji",
+        "Majid Chalian",
+        "Peter C Thurlow"
+      ],
+      "venue": "Skeletal radiology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00256-026-05376-z/MediaObjects/256_2026_5376_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42829377",
+      "doi": "10.1007/s00256-026-05376-z",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 2
+    },
+    {
+      "id": "2c077d75cdb299b2a863",
+      "title": "Advancing Ultrasound Beamforming With Deep Learning: A Comprehensive Review of Methods, Datasets, Benchmarks, and Computational Challenges.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829544",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-04T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Ultrasound imaging is a widely used diagnostic tool, and beamforming techniques are integral to its performance. Traditional methods such as delay-and-sum (DAS) and delay-multiply-and sum (DMAS) have limitations in terms of image quality and computational efficiency. Recently, deep learning approaches have shown significant promise in improving ultrasound beamforming, offering enhanced…",
+      "authors": [
+        "Hamza Hadri",
+        "Abderahhim Fail",
+        "Mohamed Sadik"
+      ],
+      "venue": "International journal of biomedical imaging",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42829544",
+      "doi": "10.1155/ijbi/4617573",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 5
     },
     {
       "id": "b474ec451d7b59e0e39b",
@@ -251,6 +382,52 @@
       "rank": 2
     },
     {
+      "id": "1ac8425a2c89bf97e9cd",
+      "title": "Guideline-augmented prompting improves comparative preference and response consistency of large language model outputs for orthopaedic anaesthesia questions: A controlled prompting study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829621",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-04T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Medical",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models (LLMs) are increasingly used in clinical contexts; however, performance in complex perioperative decision-making remains uncertain. Orthopaedic anaesthesia presents a demanding test case due to comorbidity burden and guideline-dependent management. Whether successive LLM generations and guideline-augmented prompting improve clinical alignment, comparative…",
+      "authors": [
+        "Anita Széll",
+        "Yinan Yu",
+        "Jacob F Oeding",
+        "Felix C Oettl",
+        "Adam Piasecki",
+        "Keti Dalla",
+        "Tobias Siöland",
+        "Mathias Hård Af Segerstad"
+      ],
+      "venue": "Journal of experimental orthopaedics",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42829621",
+      "doi": "10.1002/jeo2.70922",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 15
+    },
+    {
       "id": "de1da202f64080e1ff55",
       "title": "Generative AI versus physicians in diagnostic radiology: a systematic review and meta-analysis.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42828690",
@@ -302,6 +479,52 @@
       "priority_score": 85.2,
       "priority_label": "High relevance",
       "rank": 3
+    },
+    {
+      "id": "87d360676b0955bfa5b5",
+      "title": "The ferroptosis-cuproptosis crosstalk in hematological malignancies: multi-omics insights into gene-regulated cell death and emerging therapeutic opportunities.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42829391",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-04T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "The broadening field of regulated cell death (RCD) has shown a complex, intertwined web of pathways that are not confined to apoptosis but also to ferroptosis, cuproptosis, necroptosis, and other non-canonical mechanisms, especially in haematological malignancies (HMs). Out of these, ferroptosis and cuproptosis stand out as metabolic-based forms of death that are regulated by…",
+      "authors": [
+        "Sonakshi Antal",
+        "Tushar Anshu",
+        "Pawan Kumar Goswami",
+        "Dinesh Kumar",
+        "Neeraj Choudhary",
+        "Anita D Kadam"
+      ],
+      "venue": "Apoptosis : an international journal on programmed cell death",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10495-026-02451-7/MediaObjects/10495_2026_2451_Figa_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs12672-025-03150-6/MediaObjects/12672_2025_3150_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41392-026-03043-2/MediaObjects/41392_2026_3043_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs13402-025-01138-6/MediaObjects/13402_2025_1138_Fig1_HTML.png"
+      ],
+      "pmid": "42829391",
+      "doi": "10.1007/s10495-026-02451-7",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.4,
+      "priority_label": "High relevance",
+      "rank": 6
     },
     {
       "id": "7096cbc634e5d7d26867",
@@ -4958,8 +5181,8 @@
         "https://www.datocms-assets.com/64837/1790798606-olmo-core-3-blog-draft-google-docs-image-1.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 73.9,
+      "freshness_score": 86.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 163
     },

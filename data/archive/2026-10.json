@@ -1,9 +1,42 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-12T06:11:41.972089+00:00",
-  "item_count": 792,
+  "updated_at": "2026-10-12T15:45:02.737193+00:00",
+  "item_count": 805,
   "items": [
+    {
+      "id": "3280ed302a3eecae2a95",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-12T15:31:19+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Regulation"
+      ],
+      "excerpt": "Microsoft President Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 70.4,
+      "priority_label": "Relevant",
+      "rank": 166
+    },
     {
       "id": "9e8500f4e1f6abc09d05",
       "title": "Does Location Matter? A Black-Box Causal Audit Reveals Model-Dependent Audio Grounding in LALM Hallucination",
@@ -251,6 +284,41 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 125
+    },
+    {
+      "id": "b6a8720bd4698f6bd528",
+      "title": "Expert-level detection of low-voltage intervals in EEG as a robust biomarker of neonatal encephalopathy",
+      "url": "https://arxiv.org/abs/2610.12680",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Background: Discontinuity in neonatal EEG is a critical marker of brain dysfunction but can be difficult to quantify visually. Inter-burst intervals (IBIs) are a key characteristic of discontinuity, yet their definition does not easily translate to AI detection. Objectives: To introduce low-voltage intervals (LVIs), defined exclusively by amplitude and duration, as a context-independent…",
+      "authors": [
+        "John M. O'Toole, Sean R. Mathieson, Aurel Luca, Soraia Ventura, Sean Griffin, Geraldine B. Boylan, Robert Hogan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.12680",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 103
     },
     {
       "id": "638c1440a500b4f19195",
@@ -504,6 +572,117 @@
       "rank": 127
     },
     {
+      "id": "29baf9405cb73801194d",
+      "title": "VIGOR: Verifiable Industrial Geometry Optimization and Repair in Scene Programs",
+      "url": "https://arxiv.org/abs/2610.13145",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Large language models (LLMs) increasingly generate structured layouts and executable scene programs from natural-language instructions. However, executability does not imply engineering feasibility: an industrial scene program may execute successfully while its final state still violates coupled boundary, collision, clearance, aisle, or structural constraints. We identify this mismatch…",
+      "authors": [
+        "Fuqiang Wang, Zheng Guo, Xiaoming Wu, Hanlin Kong, Nayu Liu, Chuanting Zhang, Daojun Liang, Jingxuan Wei"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.13145",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 71
+    },
+    {
+      "id": "26a8d9bd046bf8dad123",
+      "title": "Unsupervised Multimodal Reward Modeling",
+      "url": "https://arxiv.org/abs/2610.12707",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Safety",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Vision-language reward models are trained on annotated preference pairs, which are expensive to collect, can disagree, and are ranked by benchmark accuracy. We build one with no human preference label: a linear head on an intermediate layer of a frozen Qwen3-VL backbone, trained to score a web caption above a perturbed version of the same caption; labeled data enters only to select the…",
+      "authors": [
+        "Yueying Li, Jingxuan Fan, Kiant\\'e Brantley, Sham M. Kakade, Hanlin Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.12707",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 104
+    },
+    {
+      "id": "b6f200145a9c53797221",
+      "title": "Forward Dynamics Models",
+      "url": "https://arxiv.org/abs/2610.13117",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "Vision-language-action (VLA) models and world action models (WAMs) have advanced robotic policy learning by building on pretrained vision-language models (VLMs) and video generative models (VGMs), respectively. Yet VLAs learn without explicit supervision from future world states, while WAMs that condition actions on predicted futures incur extra inference cost and let visual prediction…",
+      "authors": [
+        "Zipei Ma, Junzhe Jiang, Jiahui Zhang, Juntong Zhang, Chun Gu, Bozhou Zhang, Jiankang Deng, Xiatian Zhu, Li Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.13117",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 113
+    },
+    {
       "id": "a952888b1bab41477bdd",
       "title": "Travel Back To Move Forward: Retrospective Exploration and Evolving for Long Horizon Agents",
       "url": "https://arxiv.org/abs/2610.13058",
@@ -752,6 +931,41 @@
       "rank": 175
     },
     {
+      "id": "0b21c8d867630cf0f8c8",
+      "title": "REFLECT: Role-Aware Detection of Sentiment, Emotion, Politeness, and Formality",
+      "url": "https://arxiv.org/abs/2610.13797",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Detecting communicative meaning in dialogue requires modeling not only lexical content but also the participant-role structures through which sentiment, emotion, politeness, and formality (SEPF) are expressed. Existing approaches rely on contextual language representations while leaving semantic roles implicit. We introduce a role-aware transformer architecture that maps the four SEPF…",
+      "authors": [
+        "Sangpil Youm, Annabel Stocks Natalias, Hayden Heninger, Leah Jones, Xiaoyang Jin, Xiaoya Zhang, Bonnie Dorr"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.13797",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 109
+    },
+    {
       "id": "5e207b94cd4f37d443bb",
       "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
       "url": "https://arxiv.org/abs/2610.12569",
@@ -856,6 +1070,42 @@
       "priority_score": 74.7,
       "priority_label": "Relevant",
       "rank": 109
+    },
+    {
+      "id": "50b27e725b4fc30e44cc",
+      "title": "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
+      "url": "https://arxiv.org/abs/2610.12667",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying this systematically requires applying perturbations one at a time, reproducibly, and identically wherever they run, yet existing tools couple them to a benchmarking stack rather than packaging…",
+      "authors": [
+        "Khoi-Nguyen Tran"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.12667",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 101
     },
     {
       "id": "92c1bf5dcc4b5ea5d63f",
@@ -1363,6 +1613,40 @@
       "rank": 191
     },
     {
+      "id": "0cb4683b596ea1d251d0",
+      "title": "Humanize Olympiad Agents: A Multi-Session Workflow for Olympiad Problem Solving with Solve, Review, Wiki, Verify",
+      "url": "https://arxiv.org/abs/2610.13632",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM"
+      ],
+      "excerpt": "Large language model (LLM) agents are rapidly improving on long-horizon scientific and olympiad tasks. Recent systems have produced a Lean-formalized resolution of the Navier--Stokes problem and autonomous solutions to four open questions in the Erd\\H{o}s Conjectures database. Yet neither system releases both its underlying model and complete inference stack. More broadly, a single…",
+      "authors": [
+        "Zhengyang Zhang, Jing Xiong, Hongzhou Lin, Juihui Chung, Zijian Zhang, Song Han, Sihao Liu, Ligeng Zhu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.13632",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.9,
+      "priority_label": "Relevant",
+      "rank": 68
+    },
+    {
       "id": "6a37c920ad4776c3f707",
       "title": "Provenance-Aware Belief Updating in Human-AI Feedback Loops",
       "url": "https://arxiv.org/abs/2610.13008",
@@ -1538,6 +1822,44 @@
       "rank": 103
     },
     {
+      "id": "b275d15b20cc355c7fed",
+      "title": "JoyInside-VLM-Agent: Product-Conditioned Multimodal Policy Learning for Embodied Agents",
+      "url": "https://arxiv.org/abs/2610.12957",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI4Education"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal",
+        "Evaluation",
+        "Education",
+        "Robotics"
+      ],
+      "excerpt": "Embodied agents must translate multimodal observations and user requests into executable actions while adapting to product constraints, changing goals, and execution feedback. We present JoyInside-VLM-Agent, a ReAct-style multimodal agent developed through product-conditioned trajectory construction and staged policy learning for robotic platforms and smart hardware. A closed-loop…",
+      "authors": [
+        "Gangyi Li, LuYao Wang, Jingfu Sun, Jingyi Yuan, Hang Liu, Hao Zong, Yujia Hu, Tingting Gao, Jianyong Wang, Xu Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.12957",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 114
+    },
+    {
       "id": "554fd3c78ff6619c0509",
       "title": "Ultrasound and Magnetic Resonance Elastography of the Neck: Biomechanical Basis, Clinical Applications and Methodological Challenges",
       "url": "https://arxiv.org/abs/2610.12584",
@@ -1607,6 +1929,47 @@
       "priority_score": 77.2,
       "priority_label": "Relevant",
       "rank": 51
+    },
+    {
+      "id": "0009cd681a2f3e8a15b1",
+      "title": "Gamma: Grounded Multi-Agent Memory with Mechanical Audit for Memory-Intensive Manipulation",
+      "url": "https://arxiv.org/abs/2610.12793",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Robotics & Embodied AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents",
+        "Multimodal",
+        "Agents",
+        "Safety",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Pretrained vision-language-action (VLA) policies fail on memory tasks, behaviour that depends on events observed long before the current frame, because their training data is overwhelmingly Markov and mapping episodic memory directly to action chunks is hard. Yet the same policy, finetuned once to follow a privileged oracle's grounded-subgoal text, nearly solves these tasks: the…",
+      "authors": [
+        "Yudong Liu, Yueqian Lin, Zijia Tang, Yuxi Zheng, Yuan Li, Shuai Zhang, Yi Li, Taotao Jing, Shuangjun Liu, Dashan Gao, Ning Bi, Jingwei Sun, Yiran Chen, Hai Helen Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.12793",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 115
     },
     {
       "id": "8449789d4e142b80cf65",
@@ -1715,6 +2078,141 @@
       "priority_score": 76.2,
       "priority_label": "Relevant",
       "rank": 68
+    },
+    {
+      "id": "b65c2119348363b9ddb0",
+      "title": "Transforming the Landscape of Drug Innovation in AI Era: AlphaFold 3 and Beyond.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42861167",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "The traditional drug discovery and development (DDD) pipeline has long been characterized by inefficiency and high costs. The rapid evolution of artificial intelligence (AI), especially AI-based toolkits for protein structure and interaction prediction, exemplified by AlphaFold 3 (AF3), promises to reshape the landscape of drug innovation. AF3 advances structural biology by predicting…",
+      "authors": [
+        "Songlin He",
+        "Liangbin Zhou",
+        "Xiaoshuai Wang",
+        "Chenzhong Li",
+        "Cheng Jiang",
+        "Rocky S Tuan",
+        "Zhong Alan Li"
+      ],
+      "venue": "Exploration (Beijing, China)",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42861167",
+      "doi": "10.1002/exp2.70236",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 80.7,
+      "priority_label": "High relevance",
+      "rank": 16
+    },
+    {
+      "id": "982fc0e880eb1ace960b",
+      "title": "Molecular, spatial, and AI-enabled technologies for predicting neoadjuvant therapy response in locally advanced rectal cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42860799",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Science",
+        "Vision"
+      ],
+      "excerpt": "Pretreatment prediction of neoadjuvant response remains an unresolved challenge in locally advanced rectal cancer, where management is moving towards risk-adapted and response-oriented treatment strategies. Prediction remains difficult because response reflects interacting tumour-intrinsic, immune, stromal, and spatial processes that are incompletely captured by standard clinical and…",
+      "authors": [
+        "Gina F Boot",
+        "Cibele Masotti",
+        "Claudia Corrò",
+        "Cédric Schraepen",
+        "Hannah L Williams",
+        "Thomas A Wright",
+        "Fiza Ishaqwala",
+        "Colin W Steele"
+      ],
+      "venue": "The Journal of pathology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42860799",
+      "doi": "10.1002/path.70127",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 80.7,
+      "priority_label": "High relevance",
+      "rank": 17
+    },
+    {
+      "id": "21a653ab16dd8b5723cc",
+      "title": "Augmenting colonoscopy with artificial intelligence and robotic assistance: a human-factors scoping review toward a task-based shared autonomy paradigm.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42860445",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Evaluation",
+        "Medical",
+        "Robotics"
+      ],
+      "excerpt": "Colonoscopy is central to colorectal cancer prevention but remains a high-demand psychomotor and cognitive procedure, characterized by operator dependency, variable performance, and substantial physical and mental workload. Increasing evidence links procedural quality and safety to clinician-related factors, including musculoskeletal strain, fatigue, and non-technical skills.…",
+      "authors": [
+        "Luigi Manfredi",
+        "Alfredo Annicchiarico",
+        "Gianpiero Gravante"
+      ],
+      "venue": "Journal of robotic surgery",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11701-026-03923-3/MediaObjects/11701_2026_3923_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11701-026-03923-3/MediaObjects/11701_2026_3923_Fig2_HTML.png?as=webp"
+      ],
+      "pmid": "42860445",
+      "doi": "10.1007/s11701-026-03923-3",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 79.2,
+      "priority_label": "Relevant",
+      "rank": 28
     },
     {
       "id": "8adac97fd94188728f21",
@@ -2594,8 +3092,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/06/ML-22094-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 65
     },
@@ -2637,8 +3135,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/06/ML-21683-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 66
     },
@@ -2679,8 +3177,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/0924SP2.jpg?w=840"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.2,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 44
     },
@@ -2711,8 +3209,8 @@
         "https://www.datocms-assets.com/64837/1791590717-colm-2026-recap-blog-google-docs-image-1.jpg?w=200"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 94.0,
-      "priority_score": 79.0,
+      "freshness_score": 86.0,
+      "priority_score": 77.3,
       "priority_label": "Relevant",
       "rank": 34
     },
@@ -2750,8 +3248,8 @@
         "https://www.datocms-assets.com/64837/1791481523-impactful-scheduling-for-gpu-clusters-google-docs-image-1-1.png?w=200"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.6,
+      "freshness_score": 86.0,
+      "priority_score": 73.8,
       "priority_label": "Relevant",
       "rank": 67
     },
@@ -2785,9 +3283,9 @@
         "https://images.ctfassets.net/kftzwdyauwt9/6IJsWuQa1blfxNfvbdIF1m/0868067102440aea5fd1ad35ba436a77/square.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.7,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.9,
+      "priority_label": "Relevant",
       "rank": 21
     },
     {
@@ -17585,8 +18083,8 @@
       "related": [],
       "images": [],
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 69.6,
+      "freshness_score": 72.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 144
     },
@@ -17620,9 +18118,9 @@
         "https://images.ctfassets.net/kftzwdyauwt9/4O6fFZArVSBeCoNjTFwXXZ/cc5e374a6b62b8f328555f002b3bca49/sam-altman-s-remarks-at-the-united-nations-security-council-cover.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.4,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.3,
+      "priority_label": "Relevant",
       "rank": 4
     },
     {
@@ -17656,9 +18154,9 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_TP3_SocialsV3_DannyKQuote.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 65
     },
     {
@@ -17691,9 +18189,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 66
     },
     {

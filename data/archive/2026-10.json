@@ -1,9 +1,180 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-12T15:45:02.737193+00:00",
-  "item_count": 805,
+  "updated_at": "2026-10-13T00:51:37.816142+00:00",
+  "item_count": 820,
   "items": [
+    {
+      "id": "6b4a7d58b32909d7acd0",
+      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-12T17:52:22+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Vision",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Single-Region inference can throttle when demand exceeds local capacity. Teams in Thailand, Malaysia, Singapore, Indonesia, and Taiwan need access to the newest OpenAI models beyond that capacity. Amazon Bedrock offers OpenAI GPT-6 Sol and GPT-6 Luna through global cross-Region inference from all five AWS Regions, and GPT-6 Astra from Asia Pacific (Singapore). This post shows you how to…",
+      "authors": [
+        "Traci Lim"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-21759-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-21759-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-21759-3-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-21759-4-1.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 47
+    },
+    {
+      "id": "ca946f1238ba7f960eed",
+      "title": "Simulating student learning for better AI tutoring",
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
+      "source": "Microsoft Research",
+      "source_id": "microsoft_research",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-12T16:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI4Education",
+        "LLM",
+        "Evaluation",
+        "Education",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "At a glance StudentSim is a research system for evaluating and improving AI tutors before they are tested with real learners; it is not a product, is not deployed in classrooms, and is not intended to replace teachers AI tutoring tools need feedback from students to improve, but collecting that feedback through human studies is slow, costly, and difficult to scale StudentSim trains…",
+      "authors": [
+        "Ke Yang, Chenglong Wang, Michel Galley, Jeevana Priya Inala, ChengXiang Zhai, Jianfeng Gao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/09/StudentSim-BlogHeroFeature-1400x788-1-1024x576.jpg",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/09/fig-1_motivation_StudentSim_Updated-scaled.jpg",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/09/fig-2_metrics_StudentSim_Updated-scaled.jpg",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/09/fig-3_training_pipeline_StudentSim_Updated-scaled.jpg"
+      ],
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 80.8,
+      "priority_label": "High relevance",
+      "rank": 16
+    },
+    {
+      "id": "52431ca79a409b52659f",
+      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-12T15:51:46+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Evaluation",
+        "Vision",
+        "Hardware"
+      ],
+      "excerpt": "Applications that route requests, select agent actions, or assign policy outcomes often need scores over a fixed set of choices instead of free-form text. Deploying these decision models with llama.cpp on Amazon SageMaker AI gives you a managed path for serving quantized models on CPU or GPU infrastructure. This post continues a series on specialized AWS Deep Learning Containers (DLCs)…",
+      "authors": [
+        "Jyothirmai Kottu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22079-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/07/09/ML-19067-image-19-1.jpeg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/01/26/ml19026-wirjo.jpeg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/25/ML-21711-16.jpg"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.7,
+      "priority_label": "Relevant",
+      "rank": 135
+    },
+    {
+      "id": "b241a2d905cc81c183f1",
+      "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-12T15:50:14+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Agents",
+        "Safety",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "This post shows how to deploy one large language model (LLM) across two GPU nodes on Amazon Elastic Kubernetes Service (Amazon EKS) with the multi-node Ray LLM Deep Learning Containers . It uses separate prefill and decode nodes behind one OpenAI-compatible endpoint. This kind of multi-node setup is common for tensor, pipeline, and data parallelism, as well as prefill/decode…",
+      "authors": [
+        "Ananth Raghavendra"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22045-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22045-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22045-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22045-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 48
+    },
     {
       "id": "3280ed302a3eecae2a95",
       "title": "Microsoft president says UK is best placed to drive AI regulation",
@@ -966,6 +1137,110 @@
       "rank": 109
     },
     {
+      "id": "b8d0eac2c8a80d5d5134",
+      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+      "url": "https://arxiv.org/abs/2610.12598",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its own trajectories and use these judgments to improve task performance without a separately…",
+      "authors": [
+        "Yiran Wu, Andrew Zhao, Yurui Chang, Qingyun Wu, Xuan Feng"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.12598",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 74
+    },
+    {
+      "id": "19183c88a80151df547f",
+      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+      "url": "https://arxiv.org/abs/2610.13910",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric for testing whether representations consistently encode concepts under controlled one-concept interventions,…",
+      "authors": [
+        "Shubh Garg, Chen Shani"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.13910",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 108
+    },
+    {
+      "id": "f121d542f131c2469d3e",
+      "title": "PartiGen: Part-Aware Representations for Language-Conditioned Humanoid Motion Generation",
+      "url": "https://arxiv.org/abs/2610.13373",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics"
+      ],
+      "excerpt": "Translating language into humanoid motion requires coordinating body parts, determining motion duration, and producing references suitable for robot execution. We introduce PartiGen, a part-aware latent diffusion framework that incorporates anatomical structure into a shared whole-body motion representation. Part-specific attention processes anatomically masked frame features, and its…",
+      "authors": [
+        "Chuxuan Huang, Zhanxiang Cao, Tianyue Zhan, Haoyang Li, Yang Zhang, Liyun Yan, Chenlin Ming, Keqi Zhu, Yizhi Chen, Shengcheng Fu, Zihao Zhou, Xinyi Peng, Kaixuan Zhang, Boyang Xing, Jiawei Bao, Yang Yang, Yue Gao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.13373",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 130
+    },
+    {
       "id": "5e207b94cd4f37d443bb",
       "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
       "url": "https://arxiv.org/abs/2610.12569",
@@ -1894,6 +2169,44 @@
       "rank": 56
     },
     {
+      "id": "f54957d75d3c617d6d19",
+      "title": "What Should SFT Learn? Conditional Information Gain for Generalizable Post-Training",
+      "url": "https://arxiv.org/abs/2610.12995",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-12T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Policy & Governance",
+        "AI4Education"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Supervised fine-tuning (SFT) remains a widely used approach for post-training large language models, because fixed demonstrations can directly introduce desired reasoning strategies and behavioral patterns. Yet forcing a model to imitate externally provided trajectories may also interfere with behaviors already supported by pretraining, limiting generalization beyond the training…",
+      "authors": [
+        "Yuxuan Gu, Kequan Niu, Xiaocheng Feng, Yun Li, Yiqiao Yang, Bing Qin"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.12995",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 110
+    },
+    {
       "id": "78ffaa4747b791689234",
       "title": "MathVis: Can AI Reason through Drawing? A Benchmark for Mathematical Figure Generation",
       "url": "https://arxiv.org/abs/2610.12954",
@@ -2080,6 +2393,93 @@
       "rank": 68
     },
     {
+      "id": "c3e5582d39e240105505",
+      "title": "Predicting the Risk of Distal Junctional Kyphosis After Surgery for Adolescent Idiopathic Scoliosis Using Preoperative Radiographic Indicators and Machine Learning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42861849",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Safety",
+        "Medical"
+      ],
+      "excerpt": "Study DesignRetrospective cohort study.ObjectivesTo develop and internally validate an interpretable machine learning model using preoperative radiographic indicators to predict distal junctional kyphosis (DJK) after surgery for Lenke type 1 or 2 adolescent idiopathic scoliosis (AIS).MethodsWe included 279 patients with Lenke type 1 or 2 AIS undergoing posterior spinal fusion, including…",
+      "authors": [
+        "Tao Li",
+        "Chaofeng Guo",
+        "Emmanuel Alonge",
+        "Xiangbin Wang",
+        "Yubin Long"
+      ],
+      "venue": "Global spine journal",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42861849",
+      "doi": "10.1177/21925682261496528",
+      "relevance_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 82.8,
+      "priority_label": "High relevance",
+      "rank": 12
+    },
+    {
+      "id": "6eca4e7f773b4e6f45d4",
+      "title": "A machine learning model for in-hospital mortality prediction in patients with sepsis-related myocardial injury.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42862808",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Sepsis-related myocardial injury (SRMI) is associated with high mortality, but the transportability of prediction models across heterogeneous cohorts remains uncertain. We developed and externally validated a machine learning model for in-hospital mortality prediction in SRMI and evaluated its discrimination, calibration, interpretability, and distributional shift across cohorts. Using…",
+      "authors": [
+        "Da-Cheng Wang",
+        "Yan-Pin Liu",
+        "Yu-Ting Wang",
+        "Xiao-Huan Zhuang",
+        "Xiao-Peng Yin",
+        "Xin-Yuan Zhang",
+        "Yan Zhuang"
+      ],
+      "venue": "PLOS digital health",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://journals.plos.org/digitalhealth/article/figure/image?id=10.1371%2Fjournal.pdig.0001758.g004&size=inline",
+        "https://journals.plos.org/digitalhealth/article/file?type=thumbnail&id=10.1371%2Fjournal.pdig.0001758.e001"
+      ],
+      "pmid": "42862808",
+      "doi": "10.1371/journal.pdig.0001758",
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
       "id": "b65c2119348363b9ddb0",
       "title": "Transforming the Landscape of Drug Innovation in AI Era: AlphaFold 3 and Beyond.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42861167",
@@ -2117,10 +2517,50 @@
       "pmid": "42861167",
       "doi": "10.1002/exp2.70236",
       "relevance_score": 70.5,
-      "freshness_score": 100.0,
-      "priority_score": 80.7,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 79.4,
+      "priority_label": "Relevant",
       "rank": 16
+    },
+    {
+      "id": "57b63db0bed022d341cf",
+      "title": "Gesture-based rehabilitation as an assistive technology for post-infectious and post-critical illness disabilities: opportunities and challenges.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42861977",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Medical AI"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Vision"
+      ],
+      "excerpt": "This commentary examines gesture-based rehabilitation (GBR) as an assistive technology within an ecosystem for survivors of infectious diseases with neurological disabilities. It describes the roles of computer vision, markerless motion capture, depth cameras, artificial intelligence-driven pose estimation, wearable sensors, smartphone-based tracking, and virtual or augmented reality,…",
+      "authors": [
+        "Muhammad Usman Ali",
+        "Ujala Nauman Ghumman",
+        "Maryam Shakeel Raja",
+        "Ezza Noor",
+        "Fahad Ramzan"
+      ],
+      "venue": "Disability and rehabilitation. Assistive technology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42861977",
+      "doi": "10.1080/17483107.2026.2745368",
+      "relevance_score": 65.6,
+      "freshness_score": 94.0,
+      "priority_score": 77.9,
+      "priority_label": "Relevant",
+      "rank": 59
     },
     {
       "id": "982fc0e880eb1ace960b",
@@ -2166,10 +2606,97 @@
       "pmid": "42860799",
       "doi": "10.1002/path.70127",
       "relevance_score": 70.5,
-      "freshness_score": 100.0,
-      "priority_score": 80.7,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 79.4,
+      "priority_label": "Relevant",
       "rank": 17
+    },
+    {
+      "id": "a99250e6664c939ce939",
+      "title": "Unmasking covert metabolic syndrome in normal-weight women: regional adiposity and muscle quality outperform BMI in a temporally validated machine learning triage framework.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42862334",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Traditional screening based on body mass index (BMI) fails to identify the metabolically obese normal-weight (MONW) phenotype. We aimed to develop and temporally validate an interpretable machine learning framework utilizing non-invasive surrogate markers of central adiposity (waist-to-height ratio, WHtR) and relative functional muscle capacity (relative handgrip strength, RHGS) for…",
+      "authors": [
+        "Olga S Palamarchuk",
+        "Oleh O Moroz",
+        "Volodymyr P Feketa"
+      ],
+      "venue": "Acta diabetologica",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00592-026-02815-0/MediaObjects/592_2026_2815_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00592-026-02815-0/MediaObjects/592_2026_2815_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00592-026-02815-0/MediaObjects/592_2026_2815_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42862334",
+      "doi": "10.1007/s00592-026-02815-0",
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
+      "priority_label": "High relevance",
+      "rank": 15
+    },
+    {
+      "id": "c170045a5279ac50a1bd",
+      "title": "Artificial Intelligence in Prediction and Diagnosis of Fetal Growth Restriction: A Systematic Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42862457",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Multimodal",
+        "Medical",
+        "Imaging",
+        "Science"
+      ],
+      "excerpt": "This systematic review evaluates evidence on artificial intelligence (AI) and machine learning (ML) models for prediction and diagnosis of fetal growth restriction (FGR). The authors searched PubMed, Scopus, Embase, Web of Science, and Google Scholar, through June 2026 following PRISMA 2020 guidelines. Studies on AI/ML-based prediction or diagnosis techniques for FGR, Intrauterine…",
+      "authors": [
+        "Krishna Rao Gurugubelli",
+        "Vishnu Bhat Ballambattu",
+        "Sandhya Karra"
+      ],
+      "venue": "Indian journal of pediatrics",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12098-026-06470-9/MediaObjects/12098_2026_6470_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12098-026-06470-9/MediaObjects/12098_2026_6470_Fig2_HTML.png?as=webp"
+      ],
+      "pmid": "42862457",
+      "doi": "10.1007/s12098-026-06470-9",
+      "relevance_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 83.8,
+      "priority_label": "High relevance",
+      "rank": 7
     },
     {
       "id": "21a653ab16dd8b5723cc",
@@ -2209,10 +2736,88 @@
       "pmid": "42860445",
       "doi": "10.1007/s11701-026-03923-3",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 79.2,
+      "freshness_score": 94.0,
+      "priority_score": 77.9,
       "priority_label": "Relevant",
       "rank": 28
+    },
+    {
+      "id": "c53c3c5551605181afb6",
+      "title": "Comparative Effectiveness of Phenobarbital vs Diazepam for Alcohol Withdrawal Syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42862568",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Phenobarbital use for alcohol withdrawal syndrome is increasing, but its effectiveness and safety have largely been compared with lorazepam rather than against more pharmacokinetically similar long-acting, self-tapering benzodiazepines such as diazepam. To emulate a clinical trial comparing patients randomized to phenobarbital vs diazepam for alcohol withdrawal syndrome. This…",
+      "authors": [
+        "Tess Bradley",
+        "Megan Feeney",
+        "Anica C Law",
+        "Alyssa F Peterkin",
+        "Kathryn L Fantasia",
+        "Allan J Walkey",
+        "Nicholas A Bosch"
+      ],
+      "venue": "JAMA internal medicine",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42862568",
+      "doi": "10.1001/jamainternmed.2026.4939",
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 84.0,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "8c06df47bff2fbd23a8a",
+      "title": "A patenting perspective of IKZF2 molecular glue degraders (2020-present).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42861633",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "IKZF2 (Helios) maintains the suppressive function of regulatory T cells (Tregs) and is an emerging immuno-oncology target. Its degradation destabilizes Tregs, strengthens antitumor immunity, and may remodel the tumor microenvironment (TME) with reduced off-target toxicity. Recent patents focus on selective cereblon (CRBN)-recruiting molecular glues, combination therapies, and…",
+      "authors": [
+        "Xuqing Zhang"
+      ],
+      "venue": "Expert opinion on therapeutic patents",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42861633",
+      "doi": "10.1080/13543776.2026.2748593",
+      "relevance_score": 70.5,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
+      "priority_label": "High relevance",
+      "rank": 18
     },
     {
       "id": "8adac97fd94188728f21",
@@ -2620,7 +3225,7 @@
     },
     {
       "id": "4c4dce735e8ae75f7447",
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "title": "Anthropic can’t reliably control its AI agents — it’s cutting off its internal evals from the live internet instead",
       "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
       "source": "TechCrunch - AI",
       "source_id": "techcrunch_ai",
@@ -2637,7 +3242,7 @@
         "AI Agents",
         "Agents"
       ],
-      "excerpt": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "excerpt": "The incidents involved AI agents tasked to solve problems seeking resources on the internet. In the process, they exploited software flaws, accessed databases without paying fees, used URL-shortening services to smuggle information past restrictions, and even submitted a false murder tip to the Philadelphia police.",
       "authors": [
         "Tim Fernholz"
       ],
@@ -2646,10 +3251,10 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 72.2,
+      "freshness_score": 86.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
-      "rank": 128
+      "rank": 162
     },
     {
       "id": "a66b012524eec340d0bd",
@@ -2689,8 +3294,8 @@
       "pmid": "42856060",
       "doi": "10.1093/asj/sjag221",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 15
     },
@@ -2738,8 +3343,8 @@
       "pmid": "42855516",
       "doi": "10.1038/s41589-026-02347-2",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 83.6,
+      "freshness_score": 86.0,
+      "priority_score": 81.9,
       "priority_label": "High relevance",
       "rank": 7
     },
@@ -2785,8 +3390,8 @@
       "pmid": "42855631",
       "doi": "10.1007/s10278-026-02374-4",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 10
     },
@@ -2823,8 +3428,8 @@
       "pmid": "42855788",
       "doi": "10.3760/cma.j.cn112142-20251223-00547",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 14
     },
@@ -2867,8 +3472,8 @@
       "pmid": "42855480",
       "doi": "10.1038/s44386-026-00078-x",
       "relevance_score": 70.5,
-      "freshness_score": 94.0,
-      "priority_score": 79.4,
+      "freshness_score": 86.0,
+      "priority_score": 77.6,
       "priority_label": "Relevant",
       "rank": 22
     },
@@ -2907,8 +3512,8 @@
       "pmid": "42856016",
       "doi": "10.1177/09287329261495037",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 11
     },
@@ -2954,8 +3559,8 @@
       "pmid": "42855634",
       "doi": "10.1007/s10278-026-02385-1",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 12
     },
@@ -2987,8 +3592,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 73.8,
+      "freshness_score": 86.0,
+      "priority_score": 72.0,
       "priority_label": "Relevant",
       "rank": 132
     },
@@ -3021,8 +3626,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 72.2,
+      "freshness_score": 86.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 149
     },
@@ -3054,8 +3659,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 72.2,
+      "freshness_score": 86.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 133
     },
@@ -16841,9 +17446,9 @@
         "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F172894c37182d28628eb922929f134400c3ef1b5-1920x862.png&w=3840&q=75"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.4,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.3,
+      "priority_label": "Relevant",
       "rank": 17
     },
     {
@@ -16890,9 +17495,9 @@
       "pmid": "42834294",
       "doi": "10.1007/s10278-026-02325-z",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 82.9,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 79.8,
+      "priority_label": "Relevant",
       "rank": 1
     },
     {
@@ -16933,9 +17538,9 @@
       "pmid": "42834715",
       "doi": "10.1080/0886022X.2026.2739770",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.4,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.3,
+      "priority_label": "Relevant",
       "rank": 4
     },
     {
@@ -16982,9 +17587,9 @@
       "pmid": "42834335",
       "doi": "10.1007/s43390-026-01573-x",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 6
     },
     {
@@ -17023,9 +17628,9 @@
       "pmid": "42834703",
       "doi": "10.1093/eurheartj/ehag237",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 7
     },
     {
@@ -17066,9 +17671,9 @@
       "pmid": "42838878",
       "doi": "10.1016/j.acra.2026.09.031",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 82.2,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 79.1,
+      "priority_label": "Relevant",
       "rank": 2
     },
     {
@@ -17111,9 +17716,9 @@
       "pmid": "42837528",
       "doi": "10.2196/93672",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 8
     },
     {
@@ -17157,8 +17762,8 @@
       "pmid": "42837398",
       "doi": "10.1371/journal.pcbi.1014822",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 27
     },
@@ -17197,9 +17802,9 @@
       "pmid": "42836674",
       "doi": "10.1111/1754-9485.70189",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 12
     },
     {
@@ -17236,8 +17841,8 @@
       "pmid": "42836484",
       "doi": "10.1002/jdd.70395",
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 78.1,
+      "freshness_score": 72.0,
+      "priority_score": 75.0,
       "priority_label": "Relevant",
       "rank": 21
     },
@@ -17279,9 +17884,9 @@
       "pmid": "42838419",
       "doi": "10.1016/j.jdent.2026.107093",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 82.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 79.0,
+      "priority_label": "Relevant",
       "rank": 4
     },
     {
@@ -17323,9 +17928,9 @@
       "pmid": "42838512",
       "doi": "10.1080/0886022X.2026.2729643",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 9
     },
     {
@@ -17365,9 +17970,9 @@
       "pmid": "42836690",
       "doi": "10.1093/bioinformatics/btag742",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.4,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.3,
+      "priority_label": "Relevant",
       "rank": 3
     },
     {
@@ -17407,9 +18012,9 @@
       "pmid": "42837370",
       "doi": "10.1371/journal.pdig.0001776",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.4,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.3,
+      "priority_label": "Relevant",
       "rank": 6
     },
     {
@@ -17452,9 +18057,9 @@
       "pmid": "42837146",
       "doi": "10.1097/RCT.0000000000001927",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 13
     },
     {
@@ -17492,9 +18097,9 @@
       "pmid": "42836351",
       "doi": "10.1080/02656736.2026.2711102",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 8
     },
     {
@@ -17534,9 +18139,9 @@
       "pmid": "42836145",
       "doi": "10.4274/dir.2026.264385",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 9
     },
     {
@@ -17576,9 +18181,9 @@
       "pmid": "42836596",
       "doi": "10.1080/14737159.2026.2745670",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 13
     },
     {
@@ -17618,8 +18223,8 @@
       "pmid": "42837409",
       "doi": "10.1371/journal.pdig.0001752",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 79.6,
+      "freshness_score": 72.0,
+      "priority_score": 76.5,
       "priority_label": "Relevant",
       "rank": 20
     },
@@ -17659,9 +18264,9 @@
       "pmid": "42835766",
       "doi": "10.1002/hsr2.73335",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 5
     },
     {
@@ -17702,8 +18307,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/17/ML-21636-3.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 75.8,
+      "freshness_score": 72.0,
+      "priority_score": 72.8,
       "priority_label": "Relevant",
       "rank": 25
     },
@@ -17738,8 +18343,8 @@
         "https://storage.googleapis.com/gweb-research2023-media/original_images/PrivacySecurity_ContextualAngle2-ModelOverview.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.2,
+      "freshness_score": 72.0,
+      "priority_score": 75.2,
       "priority_label": "Relevant",
       "rank": 13
     },
@@ -17771,9 +18376,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 123
     },
     {
@@ -17804,9 +18409,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 135
     },
     {
@@ -17846,8 +18451,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/23/ML-19466-3.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 76.8,
+      "freshness_score": 72.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 20
     },
@@ -17888,8 +18493,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/29/ML-21968-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 75.8,
+      "freshness_score": 72.0,
+      "priority_score": 72.8,
       "priority_label": "Relevant",
       "rank": 26
     },
@@ -17928,8 +18533,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/01/Figure-4-3.png"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 30
     },
@@ -17970,8 +18575,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/29/ML-21691-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 46
     },
@@ -18011,8 +18616,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/02/ML-20163-2.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -18050,9 +18655,9 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/Neo4j-Social-Card-3.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 71
     },
     {

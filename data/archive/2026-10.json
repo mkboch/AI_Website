@@ -1,9 +1,552 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-13T14:24:05.108429+00:00",
-  "item_count": 838,
+  "updated_at": "2026-10-13T22:55:51.121239+00:00",
+  "item_count": 856,
   "items": [
+    {
+      "id": "9105929b3b08daedb2b4",
+      "title": "How to Rewrite Apache Spark UDFs for GPU Acceleration with AI Agents",
+      "url": "https://developer.nvidia.com/blog/rewrite-apache-spark-udfs-gpu-acceleration-ai-agents",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T21:33:21+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Hardware"
+      ],
+      "excerpt": "Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex... Enterprise applications have become increasingly demanding. Agentic AI has compounded the need for vast amounts of enterprise data with frequent, complex queries across increasingly large datasets. Meeting that demand requires…",
+      "authors": [
+        "Elizabeth Goodman"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image2-5-768x432.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 79.6,
+      "priority_label": "Relevant",
+      "rank": 23
+    },
+    {
+      "id": "08d1bb7044624eeb3d4e",
+      "title": "How artificial neural networks build their own learning machinery",
+      "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-13T21:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "As artificial intelligence becomes more and more powerful, its ability to handle human-like tasks is undeniable. Artificial neural networks can learn to recognize images, use language, or write computer code. Like the brain’s circuits, they reorganize themselves as they learn, adjusting the strengths of their connections to improve their performance. The question for many…",
+      "authors": [
+        "Jennifer Michalowski | McGovern Institute for Brain Research"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-mcgovern-self-supervisedlearning.jpg?itok=_zXjMM26"
+      ],
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 78.1,
+      "priority_label": "Relevant",
+      "rank": 98
+    },
+    {
+      "id": "e2c278ab2328153dcf1e",
+      "title": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
+      "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-13T20:40:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "MIT Lincoln Laboratory hosted the National Security Commission on Emerging Biotechnology (NSCEB) on Sept. 3, for a stop on its national roadshow. The event convened representatives of state organizations, defense centers, universities, technology companies, and business executives to discuss how Massachusetts' biotechnology ecosystem can strengthen national biodefense capabilities. \"We…",
+      "authors": [
+        "Kylie Foy | MIT Lincoln Laboratory"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-lincolnlab-biosecurity.jpg?itok=XhKBx43q"
+      ],
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 80.1,
+      "priority_label": "High relevance",
+      "rank": 31
+    },
+    {
+      "id": "bad119951c4635420dfe",
+      "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T20:10:33+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Regulation"
+      ],
+      "excerpt": "AI agents increasingly need to access web resources that are priced per request. For example, premium datasets charge by the query, research APIs meter by the call, and paywalled publishers gate content behind payment. When an AI agent encounters one of these resources, the server returns HTTP 402 Payment Required. The agent has no built-in payment mechanism, no budget attached to the…",
+      "authors": [
+        "Cher Simon"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21771-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21771-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21771-3-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21771-4-1.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 43
+    },
+    {
+      "id": "1dc99b611b2499a3b881",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+      "source": "Google DeepMind",
+      "source_id": "google_deepmind",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-13T19:43:07+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_key-art_4_lockup_light_16-9.width-1300.png",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_key-art_4_lockup_l.width-200.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon_key-ar.2e16d0ba.fill-300x300.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-.2e16d0ba.fill-300x300.format-webp.webp"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
+      "id": "f0f1c2f3634e5356d16e",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-13T17:30:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Agents",
+        "Safety"
+      ],
+      "excerpt": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.0,
+      "priority_label": "Relevant",
+      "rank": 85
+    },
+    {
+      "id": "c15fbff6c860fb47841e",
+      "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T17:17:25+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Agents"
+      ],
+      "excerpt": "Managing AI model access across dozens or hundreds of AWS accounts creates operational friction when each workload account must subscribe and accept AWS Marketplace Private Pricing Offers (MPPOs) individually. Amazon Bedrock with managed entitlements simplifies multi-account access to third-party AI models so you can subscribe once from a central account and distribute access across…",
+      "authors": [
+        "Daniel Wirjo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/21638-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/07/ML-21638-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/07/ML-21638-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/07/ML-21638-3.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 44
+    },
+    {
+      "id": "0e6665874199cc3c1c75",
+      "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T16:03:31+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Agents",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Security analysts need fast answers about their cloud infrastructure without deep familiarity with domain-specific query languages. Orca Security ’s tool covers over 900 cloud models (the resource types Sonar tracks, such as an Amazon Elastic Compute Cloud (Amazon EC2) instance or an Amazon Simple Storage Service (Amazon S3) bucket). Querying that data required precise model names,…",
+      "authors": [
+        "Deniz Yilmaz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/ML-21130-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/ML-21130-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/ML-21130-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/07/21130-1.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 45
+    },
+    {
+      "id": "d96a2391b623b2cb26cc",
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+      "source": "Google DeepMind",
+      "source_id": "google_deepmind",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-13T16:01:58+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Robotics"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.2e16d0ba.fill-1200x600.png",
+        "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/argon__robotics__hero.original.png",
+        "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/gemini-4-argon__benchmark__robotics.original.jpg",
+        "https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/Spot-can-long-voiceover-preview.mp4"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 15
+    },
+    {
+      "id": "ed1be8ea5f53c7373a9c",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "source": "Google AI",
+      "source_id": "google_ai_blog",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-13T16:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "authors": [
+        "Koray Kavukcuoglu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [
+        {
+          "source": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon",
+          "content_type": "Official"
+        }
+      ],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 83.6,
+      "priority_label": "High relevance",
+      "rank": 12
+    },
+    {
+      "id": "905be18b05885f16fcf2",
+      "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T15:54:49+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical Imaging",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Imaging",
+        "Vision",
+        "Open Source",
+        "Reasoning"
+      ],
+      "excerpt": "This post is co-written with Kenneth Salmon, Edward Boswell, Jack Armstrong, Robert Bahn, and Nick Ciubotariu from ShipStation Global. Answering the same IT questions and clearing routine tickets drains time that IT teams could spend elsewhere. To reclaim it, the ShipStation Global Engineering team built Deckhand , an AI-powered IT help desk agent for Slack, on Amazon Bedrock AgentCore…",
+      "authors": [
+        "Kenneth Salmon"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21795-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21795-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21795-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21795-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 46
+    },
+    {
+      "id": "7f176d6cec1f7ea9f202",
+      "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T15:52:20+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Medical",
+        "Vision",
+        "Reasoning",
+        "Hardware"
+      ],
+      "excerpt": "SpaceXAI’s Grok 4.7 is now available on Amazon Bedrock, which offers a choice of foundation models (FMs) from multiple providers. According to SpaceXAI, Grok 4.7 is trained to work longer on more difficult tasks and knows when to check its own work. That matters most for agents, which carry a task through many steps and must verify what they find along the way. An agent that works this…",
+      "authors": [
+        "Suheel Farooq"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22076-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22076-2-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22076-3-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22076-4-1.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 47
+    },
+    {
+      "id": "b97f8fe456e8ff0edc9b",
+      "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T15:17:09+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "LLM",
+        "Open Source",
+        "Hardware"
+      ],
+      "excerpt": "Mixture-of-Experts (MoE) is a sparsely-activated architecture that scales large language model (LLM) capacity while keeping per-token compute low. Because its operations account for a large share of total compute time, inefficiencies there directly raise request latency and cost. Therefore, optimizing MoE operations through kernel engineering offers the largest opportunity for…",
+      "authors": [
+        "Mona Mona"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-22058-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/30/ML-21187-7.jpeg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-22058-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-22058-3.jpg"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.7,
+      "priority_label": "Relevant",
+      "rank": 136
+    },
+    {
+      "id": "709864dc2d811aa2ce74",
+      "title": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform",
+      "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-13T14:19:40+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Open Source",
+        "Hardware"
+      ],
+      "excerpt": "NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to... NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to production-grade AI workload and GPU orchestration capabilities. This release expands the…",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/run-ai-768x432.jpg"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 77.4,
+      "priority_label": "Relevant",
+      "rank": 86
+    },
     {
       "id": "d7ffd4af20344ede7b06",
       "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
@@ -36,6 +579,42 @@
       "priority_score": 75.4,
       "priority_label": "Relevant",
       "rank": 78
+    },
+    {
+      "id": "8d45898e533e591d4241",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-13T12:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Vision"
+      ],
+      "excerpt": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/6QmB7YuFllKCVKPoWn7vnJ/6f3ac19d1e10d2a864481a174813c7f7/higgsfield-longer-videos-voice-seo-open-graph-1920x1080.png?w=1600&h=900&fit=fill",
+        "https://images.ctfassets.net/kftzwdyauwt9/4QPdAp4iQxAkrAoQN8KFUS/e1deb278d661379f1951728de0c49752/square.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/2GBXEJdShwgtUKQZc9Ojsm/ae87410a653bd421e514515deee02940/playco-art-card-option-b-approved.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/1QYuGKBKSzphKj2bCMG4Tp/aab097df8ead5298a1cbce05209801f7/oai_higgsfield_1x1.png?w=3840&q=90&fm=webp"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 25
     },
     {
       "id": "3c693ab3618439a470e8",
@@ -111,6 +690,38 @@
       "priority_score": 76.1,
       "priority_label": "Relevant",
       "rank": 83
+    },
+    {
+      "id": "a9cf57ed6d0d4129b51d",
+      "title": "How Molmo 2’s open release helped an MIT researcher rethink fish tracking",
+      "url": "https://allenai.org/blog/molmo2fish",
+      "source": "Allen Institute for AI",
+      "source_id": "allenai",
+      "source_class": "Research Institute",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-13T08:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Molmo 2’s open release helped MIT researcher Kai Van Brunt develop Molmo2Fish, an experimental model that tracks salmon in sonar footage and corrects some tracking errors using everyday language.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.datocms-assets.com/64837/1791919335-adobestock-554340853-1550x810-2026-10-13t18-36-01.png?w=200"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 75.0,
+      "priority_label": "Relevant",
+      "rank": 173
     },
     {
       "id": "86d056a4b8dd3b41c17b",
@@ -594,6 +1205,51 @@
       "rank": 17
     },
     {
+      "id": "ce6631b203db2566651a",
+      "title": "AI in Neuro-Oncology: An Overarching Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42867147",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-13T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Multimodal",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Artificial intelligence (AI) is increasingly being applied across neuro-oncology domains to analyze complex, high-dimensional, multimodal data. Despite major advances in the biological understanding and classification of CNS tumors, clinical outcomes for many of them remain poor, reflecting intra- and inter-tumor heterogeneity and limitations of conventional reductionist approaches. AI…",
+      "authors": [
+        "Carla Pitarch-Abaigar",
+        "Philipp Lohmann",
+        "Patrick Aloy",
+        "Fatima Al-Shahrour",
+        "Omar Arnaout",
+        "Wenya Linda Bi",
+        "Norbert Galldiks",
+        "Jason T Huse"
+      ],
+      "venue": "Neuro-oncology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42867147",
+      "doi": "10.1093/neuonc/noag257",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 9
+    },
+    {
       "id": "5f6964d2b42d0f7bf866",
       "title": "Radhawk: An AI-driven Recommender for Pediatric Radiology Education.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42864176",
@@ -678,6 +1334,52 @@
       "priority_score": 81.7,
       "priority_label": "High relevance",
       "rank": 20
+    },
+    {
+      "id": "df778fc0acc7d0549172",
+      "title": "MRI-Based 2.5D Multi-Instance Deep Learning for Differentiating Pathological Subtypes of Brain Metastases From Lung Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42866919",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-13T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Education"
+      ],
+      "excerpt": "Distinct treatment strategies for small-cell lung cancer (SCLC) and non-small-cell lung cancer (NSCLC) brain metastases require accurate noninvasive subtyping. To develop and externally validate a biparametric MRI-based 2.5D multi-instance learning (MIL) deep learning (DL) model for discriminating SCLC from NSCLC brain metastases, with performance compared against clinical, radiomics,…",
+      "authors": [
+        "Jinling Zhu",
+        "Cairui Liu",
+        "Li Zou",
+        "Ruizhe Xu",
+        "Xin Xie",
+        "Ye Tian",
+        "Longjiang Zhang",
+        "Bo Zhang"
+      ],
+      "venue": "Journal of magnetic resonance imaging : JMRI",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42866919",
+      "doi": "10.1002/jmri.70588",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 10
     },
     {
       "id": "f9c0a70c307321d20eec",
@@ -982,8 +1684,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-21759-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -1025,9 +1727,9 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/09/fig-3_training_pipeline_StudentSim_Updated-scaled.jpg"
       ],
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 80.8,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 79.5,
+      "priority_label": "Relevant",
       "rank": 16
     },
     {
@@ -1066,8 +1768,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/25/ML-21711-16.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 72.7,
+      "freshness_score": 94.0,
+      "priority_score": 71.4,
       "priority_label": "Relevant",
       "rank": 135
     },
@@ -1110,8 +1812,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-22045-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 48
     },
@@ -1143,9 +1845,9 @@
       "related": [],
       "images": [],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 70.4,
-      "priority_label": "Relevant",
+      "freshness_score": 94.0,
+      "priority_score": 69.1,
+      "priority_label": "Latest",
       "rank": 166
     },
     {
@@ -8096,9 +8798,16 @@
       ],
       "venue": "",
       "manual": false,
-      "related": [],
+      "related": [
+        {
+          "source": "MIT News - Artificial Intelligence",
+          "url": "https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008",
+          "content_type": "News"
+        }
+      ],
       "images": [
-        "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/ai-and-academia-00.jpg?itok=A5hPBHGn"
+        "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/ai-and-academia-00.jpg?itok=A5hPBHGn",
+        "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/ai-and-academia-00_0.jpg?itok=4Oa1HIoD"
       ],
       "relevance_score": 78.7,
       "freshness_score": 86.0,
@@ -15011,9 +15720,9 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-lincoln-supercomputer.jpg?itok=QZ2fNcDJ"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 71.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 157
     },
     {
@@ -15042,9 +15751,9 @@
       "related": [],
       "images": [],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 178
     },
     {
@@ -15075,9 +15784,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 125
     },
     {
@@ -15120,8 +15829,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/02/ML-21277-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 54
     },
@@ -15155,9 +15864,9 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image9-768x432.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 72.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 108
     },
     {
@@ -15188,8 +15897,8 @@
       "related": [],
       "images": [],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 73.5,
+      "freshness_score": 72.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 83
     },
@@ -15225,8 +15934,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Chris-Bourg.jpg?itok=3Zzuer2t"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 82
     },
@@ -15258,9 +15967,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 72.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 127
     },
     {
@@ -15298,8 +16007,8 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/ChadJennifer-MSRPod_TW_LI_FB_1920x1080-1.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 79.7,
+      "freshness_score": 72.0,
+      "priority_score": 76.6,
       "priority_label": "Relevant",
       "rank": 14
     },
@@ -15334,8 +16043,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image1-5-768x431.png"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 79.6,
+      "freshness_score": 72.0,
+      "priority_score": 76.5,
       "priority_label": "Relevant",
       "rank": 15
     },
@@ -15366,9 +16075,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 128
     },
     {
@@ -15407,8 +16116,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/01/ML-21895-2.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 32
     },
@@ -15448,8 +16157,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/02/ML-21625-4.png"
       ],
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
       "priority_label": "Relevant",
       "rank": 113
     },
@@ -15490,8 +16199,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/24/ML-21469-7.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 33
     },
@@ -15522,8 +16231,8 @@
         "https://storage.googleapis.com/gweb-research2023-media/original_images/PDFMPublicHealth1-hero.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.2,
+      "freshness_score": 72.0,
+      "priority_score": 75.2,
       "priority_label": "Relevant",
       "rank": 19
     },
@@ -15557,9 +16266,9 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image1-3-768x432.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 72.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 107
     },
     {
@@ -15593,8 +16302,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT_America-01-press.jpg?itok=XqQ1RSqU"
       ],
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 76.8,
+      "freshness_score": 72.0,
+      "priority_score": 73.8,
       "priority_label": "Relevant",
       "rank": 25
     },
@@ -15626,9 +16335,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 129
     },
     {

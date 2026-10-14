@@ -1,9 +1,2252 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-14T05:04:04.158955+00:00",
-  "item_count": 865,
+  "updated_at": "2026-10-14T12:07:10.141534+00:00",
+  "item_count": 937,
   "items": [
+    {
+      "id": "a2f63c9d70dee382e203",
+      "title": "RePrior: Measurement-Reconciled Prior Correction for Sparse-View CBCT Reconstruction",
+      "url": "https://arxiv.org/abs/2610.14102",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Imaging"
+      ],
+      "excerpt": "Sparse-view cone-beam computed tomography (CBCT) is severely under-constrained by limited X-ray projections. Learned reconstruction can provide complementary anatomical information, but using it as a prior in patient-specific Gaussian reconstruction introduces two challenges. First, the discrepancy between the learned prior and current reconstruction is spatially non-uniform: some local…",
+      "authors": [
+        "Mengrui Yin, Tianxingjian Ding, Wufan Zhao, Ziyang Yan, Yu Tian"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.14102",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
+      "rank": 31
+    },
+    {
+      "id": "e83812216c3de113f6ee",
+      "title": "Uncertainty-Aware Cortical Surface Reconstruction and Spherical Registration for Heterogeneous Brain MRI",
+      "url": "https://arxiv.org/abs/2610.16595",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Surface-based cortical analysis is useful in many applications as it is a natural way to model the highly folded structure of the cerebral cortex, allowing quantities such as curvature and thickness to be easily calculated. Existing deep learning (DL) methods have focused on 1x1x1 mm3 T1-weighted (T1w) scans, thus replicating classical pipelines. Here we present a neural network that is…",
+      "authors": [
+        "Jesper Duemose Nielsen, Karthik Gopinath, Andrew Hoopes, Adrian Dalca, Axel Thielscher, Juan Eugenio Iglesias, Oula Puonti"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.16595",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 55
+    },
+    {
+      "id": "1f8fc07980d0f5344558",
+      "title": "RegExtract: A Benchmark for PFAS Regulatory Information Extraction with LLMs",
+      "url": "https://arxiv.org/abs/2610.15103",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "Extracting structured information from regulatory documents is a critical but challenging task. Relevant facts are scattered across long, legally dense texts, and traceability of extracted facts to their source is essential for verification. With increasing awareness of the environmental and health impacts of per- and polyfluoroalkyl substances (PFAS), regulatory documents have expanded…",
+      "authors": [
+        "Defne Circi, Krystelle Lionti, Sarathkrishna Swaminathan, Daniel P. Sanders, L. Catherine Brinson, Bhuwan Dhingra, Basel Shbita, Mohab Elkaref, Sara Capponi, Tim Erdmann, Brandi Ransom"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15103",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.7,
+      "priority_label": "Relevant",
+      "rank": 69
+    },
+    {
+      "id": "a01d2af9ce41cee7716e",
+      "title": "Equal-information evaluation of credit assignment in modular financial reinforcement learning",
+      "url": "https://arxiv.org/abs/2610.14750",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Credit assignment in modular financial reinforcement learning is difficult to evaluate because an attributed signal may improve a component loss without adding decision-relevant information or improving economic outcomes. We propose an evaluation framework combining equal-information reconstruction controls, fixed-utility comparisons and prespecified downstream guardrails. The framework…",
+      "authors": [
+        "Gennadiy Chistiakov, Yury Yanovich"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14750",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 82
+    },
+    {
+      "id": "12f1ed821a4a7e2eec0f",
+      "title": "CoEvoke: Evoking Multi-Agent Collaboration for Trajectory Collection",
+      "url": "https://arxiv.org/abs/2610.14021",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Training multi-agent collaboration requires trajectories of checking, feedback, and repair, yet task-solving rollouts may end in immediate approval or repeat unsuccessful attempts without useful correction. We introduce CoEvoke, a cross-domain framework that evokes these interactions during trajectory collection. Controlled perturbations create recoverable difficulties, while restricted…",
+      "authors": [
+        "Lin Wu, Shu Yao, Yuheng Wang, Jingru Fan, Huatao Li, Yihan Li, Liu Yixuan, Cheng Liu, Jian Chang, Zeyu Zhao, Aohua Zhang, Huiying Zhao, Shuyuan Zhu, Chen Qian"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14021",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 83
+    },
+    {
+      "id": "7b34b8be6d8b56f646e6",
+      "title": "ClothCode: Generative Modeling for Garment State Estimation and Dynamics Prediction",
+      "url": "https://arxiv.org/abs/2610.14200",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "We introduce ClothCode, a unified generative framework for garment state estimation and action-conditioned dynamics prediction in a shared discrete configuration space. A material-aligned tokenizer encodes garment configuration as residual vector-quantized patch tokens, while task-specific Masked Generative Transformers predict these tokens through parallel confidence-guided refinement.…",
+      "authors": [
+        "Yingdong Ru, Lipeng Zhuang, Shiyu Fan, Zhuo He, Florent P. Audonnet, Gerardo Aragon Camarasa"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14200",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 84
+    },
+    {
+      "id": "390410979243ad8ffcdd",
+      "title": "RES-MR: Risk-Aware Reasoning for Explainable and Safe Medication Recommendation",
+      "url": "https://arxiv.org/abs/2610.14474",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation",
+        "Medical",
+        "Reasoning"
+      ],
+      "excerpt": "Medication recommendations seek to deliver personalized drug combinations based on patients' clinical information, where ensuring transparent decision-making and personalized safety are of paramount importance. However, existing approaches predominantly operate as ``black boxes'', offering limited interpretability and hindering clinician trust. Furthermore, they typically rely on fixed,…",
+      "authors": [
+        "Cong Wang, Jin Li, Shoujin Wang, Yishuo Li, Huilin Gu, Wenpeng Lu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14474",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 104
+    },
+    {
+      "id": "030beed3cdc28e6b42f2",
+      "title": "Embodied Zero-Shot Task Planning via Hardware-Aware LLM-VLM Integration for Grounded Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2610.14106",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Multimodal",
+        "Evaluation",
+        "Robotics",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models can translate natural-language instructions into plausible manipulation plans, but robotic execution requires physically grounded decisions that respect robot embodiment, workspace geometry, reachability, collision constraints, and grasp feasibility. This paper presents a hardware-aware large language model-vision-language model (LLM-VLM) manipulation framework for…",
+      "authors": [
+        "Lonnie Tankersley, Noorbakhsh Amiri Golilarz, Soroush Korivand"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14106",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 119
+    },
+    {
+      "id": "68518fd670c47c48d21b",
+      "title": "Demiurge: Forging Navigable 4D Worlds via Autoregressive Video Rerendering",
+      "url": "https://arxiv.org/abs/2610.14685",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Recent advances in video diffusion enable novel-view video synthesis from a single input video, supporting world modeling, embodied intelligence, and robotic simulation. However, existing methods process camera trajectories independently, lacking the cross-trajectory consistency needed for coherent, navigable 4D worlds. We introduce Demiurge, an autoregressive video rerendering pipeline…",
+      "authors": [
+        "Hanxin Zhu, Jianqi Ma, Cong Wang, Zhihao Hu, Junyao Gao, Tianyu He, Junyan Lin, Jiayin Xiao, Jiateng Shou, Sen Liang, Weidong Zhang, Zhibo Chen, Jun Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14685",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 132
+    },
+    {
+      "id": "577c1c422d4f0e2946f1",
+      "title": "From bits to atoms: A survey of cross-layer safety in Embodied AI",
+      "url": "https://arxiv.org/abs/2610.14038",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Safety",
+        "Robotics"
+      ],
+      "excerpt": "Embodied Artificial Intelligence (AI) introduces cyber-physical risks because digital failures and attacks can cause physical harm. This survey organizes embodied AI safety through a four-layer reference architecture -- comprising the physical interaction, system and middleware, algorithm and decision, and cloud-edge and data layers -- and uses it to connect vulnerabilities, propagation…",
+      "authors": [
+        "Tuo Feng, Yue Zhang, Shiji Zhou, Zhaoxin Fan, Wenguan Wang, Xiaowei Chi, Tianyu Shen, Xiangtai Li, Xuesong Bai, Zheng Zhu, Sirui Han, Boyu Zhou, Zhaosong Wang, Shizhe Chen, Zilong Zheng, Chenjia Bai, Jiangmiao Pang, Yaodong Yang, Hao Zhao, Di Hu, Li Yi, Yan Huang, Qi Wu, Hanwang Zhang, Fei Gao, Shanghang Zhang, Hongsheng Li, Jianye Hao, Yuan Zhang, Yingjie Xia, Jian Shen, Cewu Lu, Hui Zhang, Kai Chen, Wenwu Yu, Badong Chen, Jungong Han, Yike Guo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14038",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 133
+    },
+    {
+      "id": "dbc37c5db0ec61d7e90b",
+      "title": "Towards Dependable Optical Flow: Benchmarks for Real-World Spatiotemporal Corruptions",
+      "url": "https://arxiv.org/abs/2411.14865",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Optical flow estimation is a fundamental task in dynamic scene understanding and computer vision. While recent deep models achieve impressive accuracy on clean benchmarks, their robustness to common visual and temporal degradations remains insufficiently explored. To address this gap, we establish a real-video-based spatiotemporal corruption benchmark suite that complements rendered and…",
+      "authors": [
+        "Zhonghua Yi, Hao Shi, Qi Jiang, Yao Gao, Ze Wang, Yufan Zhang, Kailun Yang, Kaiwei Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2411.14865",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 72.9,
+      "priority_label": "Relevant",
+      "rank": 154
+    },
+    {
+      "id": "3d3d06279131fa403e89",
+      "title": "Class-Conditional Conformal Prediction for Signal Temporal Logic Inference with Many Classes",
+      "url": "https://arxiv.org/abs/2610.14352",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Signal Temporal Logic (STL) inference provides interpretable formulas for time series classification. For multiclass classification, however, accurate predictions do not necessarily ensure that the inferred formulas are satisfied consistently with the true class. We introduce the positive satisfaction rate and codeword satisfaction rate to quantify satisfaction of required formulas and…",
+      "authors": [
+        "Yixuan Wang, Danyang Li, Matthew Cleaveland, Roberto Tron, Mingyu Cai"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14352",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 41
+    },
+    {
+      "id": "c58f22aeac0103cae86a",
+      "title": "Towards Robust Calibration Dataset for Domain-General Mixture of Experts Pruning",
+      "url": "https://arxiv.org/abs/2610.15578",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Post-training expert pruning is a promising deployment technique for Mixture-of-Experts (MoE) models. The calibration set is an integral part of the pruning process, however, its correlation with evaluation performance is largely misunderstood and unintuitive. In this work, we present an empirical study of the robustness of calibration perturbations, specifically in MoE models. Showing…",
+      "authors": [
+        "Luis Frentzen Salim, Chia-Chun Wu, Tran Van Nhiem, Lun-Wei Ku, Yung-Hui Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15578",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 56
+    },
+    {
+      "id": "4420227d7597661c7456",
+      "title": "Metric-Driven Reinforcement Learning for Object Hallucination Reduction in LVLM-Based Image Captioning",
+      "url": "https://arxiv.org/abs/2610.14976",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Safety",
+        "Evaluation",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Large Vision-Language Models (LVLMs) have excelled in joint visual and language understanding, particularly in image captioning. However, LVLMs remain prone to object hallucination, describing non-existent entities in the given image. Previous remedies, including dataset-enhanced supervised training and reinforcement learning from human feedback, show promise but rely heavily on costly…",
+      "authors": [
+        "Thanh Nguyen, Hee Suk Yoon, Tung Minh Luu, Eunseop Yoon, Chang D. Yoo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14976",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 57
+    },
+    {
+      "id": "9b1cb439af2aad9e8a5e",
+      "title": "Beyond Discrimination: Evaluating Probability Calibration in Radiomics-Image Fusion for Renal Cell Carcinoma Classification",
+      "url": "https://arxiv.org/abs/2610.14151",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Reliable probability estimates are important for the clinical interpretation of machine-learning classifiers, yet radiomics--image fusion models for renal cell carcinoma (RCC) are commonly evaluated primarily by discrimination. Using 396 patients from the KiTS23 dataset, we evaluated whether adding radiomics to four image-model families improved probabilistic performance in addition to…",
+      "authors": [
+        "Yuan Liang, Morgan May, Abraham Campbell, Sourav Bhattacharjee, Simon Caton, Pierpaolo Dondio"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14151",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 58
+    },
+    {
+      "id": "53948982e0e0f2042421",
+      "title": "GS-DOT: Gaussian splatting-based image reconstruction for diffuse optical tomography",
+      "url": "https://arxiv.org/abs/2604.23675",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "This work presents GS-DOT, a novel image reconstruction framework based on Gaussian Splatting (GS) for diffuse optical tomography (DOT). Inspired by GS for rendering applications, absorption coefficients are represented as a sparse sum of anisotropic Gaussian primitives optimized to fit measured time-resolved point-spread functions through analytic gradients and Adam optimization. This…",
+      "authors": [
+        "Jingjing Jiang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2604.23675",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 59
+    },
+    {
+      "id": "78484137db0fc00ff451",
+      "title": "Forecasting Brain Tracer Distribution from Pre-Contrast MRI: A Comparison of Direct Regression and Flow Matching",
+      "url": "https://arxiv.org/abs/2609.22377",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Intrathecal contrast-enhanced MRI shows how a tracer injected into the cerebrospinal fluid spreads through the brain, but requires repeated scans over 24--48\\,h. We therefore ask how much of the later tracer distribution can be predicted from the pre-contrast scan and elapsed time alone. Using 104 training patients (878 MRI volumes), we compared a direct image-to-image regression model…",
+      "authors": [
+        "Qinghui Liu, Jon Andr\\'e Ottesen, Thu Nguyen, Geir Ringstad, Ingrid Mossige, Siri Fl{\\o}gstad Svensson, Atle Bj{\\o}rnerud, Per Kristian Eide, Kyrre Eeg Emblem"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2609.22377",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 60
+    },
+    {
+      "id": "4b365ac9decd80653d5a",
+      "title": "When Pleasing the User Compromises Care: AI Sycophancy in Caregiver-Mediated Healthcare",
+      "url": "https://arxiv.org/abs/2610.14360",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Large language model (LLM) alignment often assumes that the user interacting with a model is also the primary beneficiary of its behavior. Yet in many consequential settings, one person directs the system while another bears the consequences. We study this problem in caregiver-mediated healthcare, where parents, pet owners, and caregivers make decisions for children, animals, and older…",
+      "authors": [
+        "Priyadarsi Mishra, Arjun Beniwal, Ziyu Yi, Yu Ding, Sheng Liu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14360",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 70
+    },
+    {
+      "id": "0e60d8f2675dd15f1172",
+      "title": "TL;QR: Querying Temporal Discursive Patterns in Textual Corpora",
+      "url": "https://arxiv.org/abs/2610.15712",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Open Source",
+        "Reasoning",
+        "Privacy",
+        "Regulation"
+      ],
+      "excerpt": "Many questions about large textual corpora concern patterns that unfold over time, such as a political group whose stance on a topic drifts from support to criticism over several years of debates. We present TL;QR (Too Long; Query with logical temporal Reasoning), a declarative query language and open-source engine for finding such temporal discursive patterns. In TL;QR, a single query…",
+      "authors": [
+        "Fran\\c{c}ois Hublet, Vladimir Krsmanovic, Jesus Solano, Ahmed Bouhoula, Ana Oliveira da Costa"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15712",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.5,
+      "priority_label": "Relevant",
+      "rank": 72
+    },
+    {
+      "id": "6be81d04b962d946db8f",
+      "title": "North or South? Diagnosing LLMs' Understanding of North Korean Language, Society, and Knowledge",
+      "url": "https://arxiv.org/abs/2610.15282",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Large Language Models (LLMs) have made substantial progress in multilingual question answering, yet their ability to understand low-resource sociolinguistic contexts remains under-explored. We study North Korea as a unique testbed where decades of division have produced distinct differences from South Korea in vocabulary, orthography, norms, and ideological discourse. We introduce LENS…",
+      "authors": [
+        "Kiwoong Park, Seyoung Song, Donghyun Woo, Alice Oh"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15282",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 85
+    },
+    {
+      "id": "8a84bcd98472024b7369",
+      "title": "Feedback as an Interface: Controlling Form and Detail in LLM Translation Refinement",
+      "url": "https://arxiv.org/abs/2610.15661",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM"
+      ],
+      "excerpt": "Feedback presentation shapes how LLMs use evaluator judgments during translation refinement. We introduce a machine translation protocol that keeps the evaluator score, main issue, and recommendation fixed while varying feedback form and supporting detail. Across seven models and six translation directions, low-load feedback outperforms high-load feedback in all 42 translator-direction…",
+      "authors": [
+        "Yiqi Liu, Flavjo Tomori, Nafise Sadat Moosavi, Steffen Eger, Chenghua Lin"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15661",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 86
+    },
+    {
+      "id": "c4180ed98bffc33a7ba2",
+      "title": "Memory Without Curation: Learning Multi-Stream Latent Memory for Robot Policies",
+      "url": "https://arxiv.org/abs/2610.14406",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Multimodal",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "It is widely appreciated that robotic policies require long-term memory to perform complex tasks. However, directly conditioning policies on all past observations leaves policy learning susceptible to learning spurious shortcuts, and introduces large latency at policy deployment. As such, today's memory-augmented policies curate what to remember, either by retaining only recent frames,…",
+      "authors": [
+        "Yilin Wu, Rutav Shah, Shuaiyi Huang, Sumedh A. Sontakke, Homanga Bharadhwaj, Andrea Bajcsy, Max Simchowitz, Guanya Shi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14406",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 134
+    },
+    {
+      "id": "4d7c06ab238ba10d9b40",
+      "title": "TrajCFG: Token-Wise Classifier-Free Guidance via Denoising Trajectory Feedback",
+      "url": "https://arxiv.org/abs/2610.14153",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Classifier-free guidance (CFG) typically applies a shared scale to all latent tokens, although their velocity predictions evolve differently during sampling. We introduce Trajectory-Adaptive Classifier-Free Guidance (TrajCFG), a training-free method for flow-matching models that adapts token-wise guidance using historical changes in guided velocity direction. TrajCFG maps this feedback…",
+      "authors": [
+        "Jingyu Liu, Hao Jiang, Yikang Ding, Huafeng Shi, Xu Yang, Xiaoqiang Liu, Guoxin Zhang, Pengfei Wan, Kun Gai"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14153",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 73.0,
+      "priority_label": "Relevant",
+      "rank": 137
+    },
+    {
+      "id": "c9a40074a8a70a7fba57",
+      "title": "When Log Parsing Removes What Matters: Detecting Failures in Distributed GPU Workloads",
+      "url": "https://arxiv.org/abs/2610.14009",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "LLM",
+        "Hardware"
+      ],
+      "excerpt": "Large AI models increasingly rely on distributed GPU execution, yet it remains unclear whether established failure analysis methods transfer effectively to this setting. We introduce GF-Bench, a PyTorch-based framework and dataset for generating diverse failures in distributed GPU workloads. The framework supports extensible workload and fault-injection logic; based on this design, the…",
+      "authors": [
+        "Boyuan Cui, Yuyang Zeng, Yifang Tian, Hans-Arno Jacobsen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14009",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.8,
+      "priority_label": "Relevant",
+      "rank": 138
+    },
+    {
+      "id": "7d8b1b583666504d6f26",
+      "title": "Region Aware Squeeze-and-Excitation Networks for Image Segmentation",
+      "url": "https://arxiv.org/abs/2610.15079",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Vision"
+      ],
+      "excerpt": "Squeeze-and-Excitation (SE) modules improve convolutional networks by modeling channel-wise dependencies, but global average pooling collapses spatial structure into a single per-channel descriptor, limiting their effectiveness for dense prediction tasks such as image segmentation. We generalize SE by replacing global pooling with spatially guided pooling, enabling region-aware channel…",
+      "authors": [
+        "Jack Roberts, Praneeth Tummala, Kavi Sarna, Jeova Farias Sales Rocha Neto"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15079",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 155
+    },
+    {
+      "id": "167d430779a4ac168a8a",
+      "title": "UEPS: Robust and Efficient MRI Reconstruction",
+      "url": "https://arxiv.org/abs/2603.18572",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Deep unrolled models (DUM) have become the state-of-the-art for accelerated MRI reconstruction, yet their robustness under domain shift remains a critical barrier to clinical adoption. In this work, we identify coil sensitivity map (CSM) estimation as the primary bottleneck limiting generalization. To address this, we propose UEPS, a novel DUM architecture featuring three key designs:…",
+      "authors": [
+        "Xiang Zhou, Hong Shang, Zijian Zhan, Tianyu He, Jintao Meng, Dong Liang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2603.18572",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 47
+    },
+    {
+      "id": "93d1e2cbdd66851ef18d",
+      "title": "AphaVoice: Text-to-Speech Model for Aphasia Patient Simulation",
+      "url": "https://arxiv.org/abs/2610.14479",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "While language therapy is the primary treatment for post-stroke aphasia, limited clinical resources often restrict patient access to proper care. Addressing this gap requires reliable training simulations for medical professionals. However, current AI efforts focus almost exclusively on speech processing, leaving speech generation largely unexplored. This study introduces AphaVoice, a…",
+      "authors": [
+        "Al Varrel Putra Kusuma, Fernando Bello, Joshua Brown"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14479",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 73
+    },
+    {
+      "id": "320392e2ddfb5178a5a1",
+      "title": "AlphaPilot: Multi-Turn Tool-Using LLM Agents for Adaptive Alpha Mining with Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.15488",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Formulaic alpha mining seeks interpretable expressions that rank assets by future returns. The task is challenging because it demands simultaneous processing of unstructured market descriptions, historical data, and quantitative evaluation of candidate factors, yet most existing methods exploit only a subset of these signals. We introduce AlphaPilot, a reinforcement-learning framework…",
+      "authors": [
+        "Peiqi Jiang, Fan Zhang, Xin Xu, Tianhao Chen, Can Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15488",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 87
+    },
+    {
+      "id": "e756a92d012c59378dae",
+      "title": "Design Choices for Multimodal Transformer Learning with Missing and Longitudinal Healthcare Data",
+      "url": "https://arxiv.org/abs/2610.14436",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Medical"
+      ],
+      "excerpt": "Multimodal learning offers the potential to improve predictions by integrating complementary information from heterogeneous data sources. However, multimodal datasets are frequently incomplete, raising important questions about how models should handle missing information. Although recent approaches increasingly rely on Transformer-based architectures for multimodal fusion, incomplete…",
+      "authors": [
+        "Rita Cordeiro Mendes, Maria Manuel Pereira, Carlos Santiago, Catarina Barata"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14436",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 105
+    },
+    {
+      "id": "6a37f9f105d143a0154d",
+      "title": "Real-Time Traffic Density Estimation: A Hybrid Computer Vision and Predictive Machine Learning Pipeline",
+      "url": "https://arxiv.org/abs/2610.14326",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Evaluation",
+        "Vision",
+        "Hardware"
+      ],
+      "excerpt": "Traffic density estimation from camera feeds requires connecting visual perception with short-horizon forecasting. We present a two-stage pipeline that combines vehicle detection and tracking with a spatial logic layer, followed by a temporal estimator. The spatial layer filters bounding boxes by their overlap with a precomputed road mask and extracts per-frame traffic features. LSTM,…",
+      "authors": [
+        "Prince Kwabena Appiah Boadu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14326",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 150
+    },
+    {
+      "id": "a41dc462f7128b1c8bed",
+      "title": "LabInstruct: Benchmarking Situated Instructional Video Generation for Lab Procedures",
+      "url": "https://arxiv.org/abs/2610.14020",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Evaluation",
+        "Robotics",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Self-driving laboratories (SDLs) aim to automate the full experimental loop, from scientific decision-making to physical execution. Ideally, AI-generated plans could be carried out directly by robotic systems, but reliable automation remains difficult in complex, open-world laboratory environments, where experiments often involve fine-grained manipulation, long-horizon procedures, and…",
+      "authors": [
+        "Yuming Fu, Weijia Wu, Jing Chen, Jiahao Tang, Feifei Chen, Hongyu Zhu, Xin Jin, Alex Jinpeng Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14020",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 156
+    },
+    {
+      "id": "abd622ddac5e86004cda",
+      "title": "CUSE: Fine-Grained Multimodal Unlearning with Counterfactual Guidance and On-Policy Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.14763",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance",
+        "Foundation Models",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "LLM",
+        "Multimodal",
+        "Regulation"
+      ],
+      "excerpt": "Multimodal large language models (MLLMs) can reproduce sensitive, copyrighted, or unsafe information from their training data. Effective unlearning must remove target information while preserving non-target content, even within the same response. Existing methods typically apply uniform forgetting objectives to complete responses and rely on fixed, off-policy supervision, resulting in…",
+      "authors": [
+        "Chenlu Ding, Jiancan Wu, Yanchen Luo, Tianyu Zhang, Yancheng Yuan, Xiang Wang, Xiangnan He"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14763",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.2,
+      "priority_label": "Relevant",
+      "rank": 175
+    },
+    {
+      "id": "b28cf5317cb67cd13b3d",
+      "title": "PEARL: Process-Experience Aware Reinforcement Learning for Multi-Turn Agents",
+      "url": "https://arxiv.org/abs/2610.14636",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Regulation"
+      ],
+      "excerpt": "Terminal rewards make multi-turn agents trainable without step-level annotations, but group-relative advantages provide little guidance about which intermediate decisions to adjust. Failed trajectories also contain reasonable actions, while unfavorable decision patterns can recur as training proceeds. We introduce PEARL (Process-Experience Aware Reinforcement Learning), which improves…",
+      "authors": [
+        "Jie Yang, Mianqiu Huang, Yiwei Zhao, Bo Wang, Yang Liu, Yuxin Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14636",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 73.0,
+      "priority_label": "Relevant",
+      "rank": 179
+    },
+    {
+      "id": "d5b12f0462ff4b6290c9",
+      "title": "Text-Guided Medical Image Segmentation via Residual Aggregation and Dense Alignment Representations",
+      "url": "https://arxiv.org/abs/2610.14944",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Safety",
+        "Medical",
+        "Imaging",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Specifying segmentation targets with natural language provides flexible semantic conditioning for medical image segmentation. However, existing methods still struggle to reliably ground high-level textual semantics into accurate pixel-level spatial prompts, especially under low-contrast lesions, ambiguous boundaries, and visually similar anatomical contexts. In this paper, we propose…",
+      "authors": [
+        "Jie Gui, Hang Tu, Yunfeng Dou, Wen Sha, Xiuquan Du, Shuo Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14944",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 61
+    },
+    {
+      "id": "9cf8dad67ac84b41fa96",
+      "title": "Frozen Site-Probe Accuracy Is Not a Standalone Harmonization Score: An Audit of Evaluation Practice for Multi-Site MRI",
+      "url": "https://arxiv.org/abs/2610.14140",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Safety",
+        "Evaluation",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Image-level MRI harmonization is often evaluated with a frozen site probe, a site classifier trained on raw scans and applied unchanged to harmonized ones: a drop in its accuracy is read as removal of site effects. We audit this practice on ABIDE I (1,112 T1-weighted scans, 17 sites) with ten output sets from seven harmonization methods and controls for chance, head shape, intensity,…",
+      "authors": [
+        "Muhammad Muqsit Islam, Gloria Garc\\'ia Cuenco, Jos\\'e M. Mart\\'inez, Pierrick Coup\\'e"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14140",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 62
+    },
+    {
+      "id": "4afeb576a328f1bf0ccb",
+      "title": "Multimodal synthesis of MRI and tabular data with diffusion in a joint latent space via cross-attention",
+      "url": "https://arxiv.org/abs/2605.06699",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "We propose a multimodal latent diffusion model that jointly synthesizes volumetric magnetic resonance imaging (MRI) and tabular clinical data within a shared latent space via cross-attention. This approach enables coherent joint representation learning of MRI and tabular modalities for generative modeling. Our model utilizes a variational autoencoder to fuse the two modalities before…",
+      "authors": [
+        "Daniel Mensing, Jan Kapar, Jochen G. Hirsch, Matthias G\\\"unther, Horst Hahn, Marvin N. Wright"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2605.06699",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 63
+    },
+    {
+      "id": "1ee281b6ec4900696468",
+      "title": "CoPlanVLM: Coordinated Path Planning for a Robot Team using Vision Language Models",
+      "url": "https://arxiv.org/abs/2610.14341",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Multimodal",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "We present CoPlanVLM, which uses a Vision Language Model (VLM) to translate a single natural-language instruction and image into coordinated paths for a team of two robots. While VLMs offer a flexible, natural-language interface for commanding robot teams, their weak spatial reasoning has greatly limited VLM-based path planning. CoPlanVLM improves the VLM's spatial reasoning and path…",
+      "authors": [
+        "David R. Martin, Jared Paquet, Mohammad Abdullah Al Faruque, Pramod Khargonekar, Kyle Volle, J. Humberto Ramos, Scott Nivison"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14341",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 120
+    },
+    {
+      "id": "93f9c60f5934bcde5a44",
+      "title": "Lumen-bench: Cross-Lingual Safety Gaps and the Say-Do Problem in Tool-Calling Large Language Models",
+      "url": "https://arxiv.org/abs/2610.15134",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "When a large language model refuses an unethical request, what does refusal mean? In conversation, refusal is bounded by what the model says; once the model is equipped with executable tools, what it does can diverge from what it says, a failure mode that English-only evaluations cannot fully reveal. We introduce Lumen-bench, a behavioral benchmark of tool-calling ethics spanning 30…",
+      "authors": [
+        "Giovana Kerche Bon\\'as, Thiago Laitz, Thales Sales Almeida, Jo\\~ao Guilherme Alves Santos"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15134",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 48
+    },
+    {
+      "id": "2369722dfbf5ac135094",
+      "title": "PAT: A Personality-Driven Augmentation and Transfer Learning Framework for Depression Detection on Social Media",
+      "url": "https://arxiv.org/abs/2610.15044",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "LLM",
+        "Medical"
+      ],
+      "excerpt": "Depression is a prevalent mental disorder that affects millions worldwide, with early detection crucial for effective intervention. While exist?ing methods have achieved promising results in automated depression detection, they face two key limitations: (1) noise in post screening: symptom-based semantic screening is easily misled by superficial lexical patterns, thereby introducing…",
+      "authors": [
+        "Shengwu Zheng, Yuzhe Ding, Xiaohui Liang, Fei Li, Chong Teng, Donghong Ji"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15044",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 74
+    },
+    {
+      "id": "543872121dfbb193bb5d",
+      "title": "PsyMemBehav: Psychology-Informed and Memory-Grounded Two-Level Identity-to-Action Reasoning for Social-Media Behavior Simulation",
+      "url": "https://arxiv.org/abs/2610.14570",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models (LLMs) support social simulation, but faithfully reproducing real users requires grounding both structured platform decisions and language in sparse, noisy behavioral evidence. We introduce PsyMemBehav, which maps psychology-informed profiles and retrieved memories to target-first platform behavior through two-level identity-to-action reasoning. To support this…",
+      "authors": [
+        "Wenji Zhang, Xilong Cheng, Yunxiao Qin, Mai Tu, Tongye Zhu, Yuhao Zhou, JingBo Ji, Yuting Tan, Duoyin Li, Hongjiang Xiao, Yuan Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14570",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 88
+    },
+    {
+      "id": "d8c2d5b202dab01dd5e9",
+      "title": "ASIWorld: Benchmarking Autonomous Agents in a Persistent Survival Sandbox",
+      "url": "https://arxiv.org/abs/2610.14807",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation"
+      ],
+      "excerpt": "Evaluating autonomous agents requires examining whether they can translate goals into coherent action across extended interactions. In persistent environments, this requires coordinating interdependent actions under incomplete observations, accounting for delayed effects, and adapting as earlier decisions shape subsequent opportunities. We introduce ASIWorld, a survival sandbox that…",
+      "authors": [
+        "Jianfeng Lin, Runze Wang, Haorong Hong, Yuxuan Xie, Zeno Zeng, Zhongyuan Liu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14807",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 89
+    },
+    {
+      "id": "02865376109689e4da63",
+      "title": "Embedding Graph Kernel Entropy (EGKE): Fine-grained Hallucination Detection for LLMs from Embeddings",
+      "url": "https://arxiv.org/abs/2610.14214",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Safety"
+      ],
+      "excerpt": "Hallucination detection is critical for ensuring the reliability of Large Language Models (LLMs) in real-world deployments. While recent works, such as Semantic Entropy (SE) and Kernel Language Entropy (KLE), identify hallucinations by measuring semantic disagreement across multiple generated responses using Natural Language Inference (NLI) models, these methods depend on separately…",
+      "authors": [
+        "Dilrangi Sankalpana, Pragatheeswaran Vipulanandan, Uthayasanker Thayasivam, Kamal Premaratne"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14214",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 94
+    },
+    {
+      "id": "e34a56b368f718d8aefd",
+      "title": "ConformalGuard: False-Positive-Controlled Action Gating for LM Classifiers",
+      "url": "https://arxiv.org/abs/2610.14365",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Language model classifiers are increasingly deployed for high-stakes decisions such as phishing screening, content moderation, and fraud triage, yet validation-set thresholds provide no finite-sample control of deployment-time false positives. We present ConformalGuard, a model-agnostic calibration layer that wraps a fixed scoring function with finite-sample control over the rate at…",
+      "authors": [
+        "Bishnu Bista, Dhanraj Haibatrao Jadhav, Vibha Choudhary, Gaurav Saxena, Arun Pandiyan Perumal, Arjun Subedi, Jignesh Ammineni"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14365",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 95
+    },
+    {
+      "id": "366ee271da8887dc9d82",
+      "title": "KV4-RL: Unlocking Faster Asynchronous Rollouts for RLVR with INT4 KV Cache Quantization",
+      "url": "https://arxiv.org/abs/2610.14448",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Asynchronous rollout improves the efficiency of reinforcement learning with verifiable rewards (RLVR) by reducing under-utilization during long-tail generation. Sustained concurrency also concentrates context processing into fewer decode steps, increasing the KV workload per step. We characterize this \\emph{KV concentration} and find that KV cache quantization delivers substantially…",
+      "authors": [
+        "Sihwan Park, Sung-Yub Kim, Doohyuk Jang, Eunho Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14448",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 96
+    },
+    {
+      "id": "7a35655d5c85cb4620c7",
+      "title": "TeachGrade: Training-Free Short Answer Scoring with Teacher Evidence",
+      "url": "https://arxiv.org/abs/2610.14900",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education"
+      ],
+      "excerpt": "Multi-subject, multi-step scoring requires consistent partial credit across grading conventions. We introduce TeachGrade, a training-free framework using teacher-graded examples. The Task Adapt module builds two frozen memories: Skill captures contextual teacher preferences beyond the rubric; CaseBank supplies local evidence. PreJudge provides retrieval cues; FinalJudge regrades the…",
+      "authors": [
+        "Jinhao Yan, Zhihong Shen, Shengjie Wang, Yiting Ren, Wentao Zhang, Yilei Wang, Peichao Lai"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14900",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 75.7,
+      "priority_label": "Relevant",
+      "rank": 122
+    },
+    {
+      "id": "57008bece4a052715820",
+      "title": "Akule: Fast and Scalable Multi-Robot Motion Planning via Sparse Interaction Diffusion",
+      "url": "https://arxiv.org/abs/2610.14248",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI"
+      ],
+      "excerpt": "Diffusion models provide expressive trajectory priors for multi-robot motion planning (MRMP), but scaling them to large teams requires coordinating individual motions without expensive joint computation. We introduce Akule, a sparse interaction diffusion framework that augments a frozen single-robot prior with three learned modules: a reusable pairwise correction model $R_{\\phi}$, a…",
+      "authors": [
+        "Manav Vora, Gokul Puthumanaillam, Aditya Penumarti, Jane Shin, Melkior Ornik"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14248",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 135
+    },
+    {
+      "id": "d39a60a63d2279513962",
+      "title": "NepPlural: A Human-Anchored Benchmark for Persona Annotation in Nepali Migration Discourse",
+      "url": "https://arxiv.org/abs/2610.15732",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Pluralistic alignment asks that language models faithfully represent a society's diverse, competing values rather than collapse them into one dominant viewpoint, yet flagship pluralistic-alignment datasets remain heavily skewed toward Western respondents. We introduce NepPlural, a human-anchored benchmark for modelling competing socio-cultural personas in Nepali public discourse on…",
+      "authors": [
+        "Jinu Nyachhyon, Anish Khatiwada, Bimal Timilsina"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.15732",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 30
+    },
+    {
+      "id": "c1375acd28ea532caca1",
+      "title": "UDHRBench: Benchmarking Human Rights in Large Language Models",
+      "url": "https://arxiv.org/abs/2610.15179",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Open Source",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Large language models are increasingly deployed in contexts requiring adherence to ethical and legal norms, yet their alignment with internationally recognized human rights standards remains underexplored. We introduce UDHRBench, a large-scale benchmark for operationalising the evaluation of large language model compliance with the Universal Declaration of Human Rights. The dataset…",
+      "authors": [
+        "Alak Raad (Hamad Bin Khalifa University, Qatar), Noreldin Morssy (Hamad Bin Khalifa University, Qatar), Zeerak Suhail (Hamad Bin Khalifa University, Qatar), Serin Atiani (Princess Sumaya University for Technology, Jordan), Mustafa Jarrar (Hamad Bin Khalifa University, Qatar)"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15179",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 49
+    },
+    {
+      "id": "fd65ea657ed3fa4a0c9d",
+      "title": "SkillHorizon: Constructing Long-Horizon Agent Tasks through Skill Composition",
+      "url": "https://arxiv.org/abs/2610.14966",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Evaluation"
+      ],
+      "excerpt": "Long-horizon agents must complete workflows in which later activities depend on earlier outputs and changes to shared state. A key challenge for evaluation is to expand task requirements and their dependencies while keeping tasks executable and outcomes verifiable. We introduce SkillHorizon, a benchmark that constructs long-horizon tasks through skill composition in seven business…",
+      "authors": [
+        "Yuxuan Liu, Zhaochen Su, Hangyu Guo, Shijue Huang, Zhixiong Zhang, Kawai Chung, Zhongwei Xie, Tianshi Zheng, Wei Fan, Qing Zong, Haochen Shi, Baixuan Xu, Haoran Li, Yangqiu Song"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14966",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 50
+    },
+    {
+      "id": "a825c3d63a647f7f898b",
+      "title": "SIRNET: Causal Adaptation of Pretrained Embeddings for Semiparametric Treatment-Effect Estimation Under Surrogacy",
+      "url": "https://arxiv.org/abs/2610.14011",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Modern experiments increasingly produce rich post-treatment objects---such as text, images, and video---that may provide early surrogate signals for outcomes that are delayed, expensive, or observed only for a subset of participants. A pretrained encoder can turn such an object into a strong generic embedding, but the embedding is not trained for the estimation tasks required by a…",
+      "authors": [
+        "Lei Shi, Qiuran Lyu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14011",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 64
+    },
+    {
+      "id": "5c8fe485ceb895852f08",
+      "title": "A Reference Architecture for Integrating Agentic AI into Enterprise Software: Responsibilities, Interactions, and Variability",
+      "url": "https://arxiv.org/abs/2610.14818",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Agentic AI moves generative AI applications toward systems that coordinate reasoning, enterprise context, model inference, and external actions. Integrating these capabilities into enterprise software introduces diverse architectural concerns, from orchestration, knowledge and memory, and model access to tools and actions, security, runtime infrastructure, and evaluation. Existing…",
+      "authors": [
+        "Mingqin Yu, Fethi Rabhi, Liming Zhu, Qinghua Lu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14818",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 90
+    },
+    {
+      "id": "56c874366a5034b0494f",
+      "title": "Prospective Forcing: Learning to Look Ahead for Autoregressive Long Video Diffusion",
+      "url": "https://arxiv.org/abs/2610.14654",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Vision"
+      ],
+      "excerpt": "Autoregressive video generators synthesize long videos through chunk-wise rollouts, yet they are typically trained to predict only the immediate future. This limited prediction horizon makes it challenging to maintain video quality over extended rollouts. To address this problem, we introduce Prospective Forcing, a multi-head prediction framework that injects long-range predictive…",
+      "authors": [
+        "Yifan Shen, Yewei Xia, Gongxu Luo, Peiyuan Zhu, Boyang Sun, Zhenhao Chen, Guangyi Liu, Guangyi Chen, Kun Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14654",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.9,
+      "priority_label": "Relevant",
+      "rank": 180
+    },
+    {
+      "id": "91055c0e9ffe2079198d",
+      "title": "Towards Privacy-Preserving Thermal Human Perception from Dataset to Deployment",
+      "url": "https://arxiv.org/abs/2610.14846",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Medical",
+        "Privacy"
+      ],
+      "excerpt": "Indoor human perception is the foundation for smart homes and healthcare. However, RGB cameras raise privacy concerns in private indoor environments, while low-resolution thermal cameras provide limited spatial and semantic information. Large-scale indoor thermal datasets and real-world deployments remain limited. Here, we introduce Indoor RGB-T, a large-scale paired RGB--thermal…",
+      "authors": [
+        "Kailai Sun, Yue Cui, Xinwei Wang, Zijie Gao, Baoshen Guo, Zhiqing Hong, Irfan Qaisar, Xu Yang, Yueting Li, Dian Fan, Qianchuan Zhao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-nc-sa-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.14846",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 36
+    },
+    {
+      "id": "d94edc0fba706b047599",
+      "title": "Deep Learning-based Semantic Segmentation of Dental Radiographs: Comparative Evaluation of PSPNet, DeepLabv3, UNet, and UNet++",
+      "url": "https://arxiv.org/abs/2610.15061",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI",
+        "Computer Vision"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Accurate and efficient analysis of dental radiographs has become increasingly important for disease diagnosis and clinical decision making. In particular, dental radiographs segmentation plays a critical role as it is challenging due to several reasons, such as low contrast, noise in the images, variations in the image quality, etc. Previous studies have primarily addressed these…",
+      "authors": [
+        "Malithi Nawarathne, Nadeesha Herath Mudiyanselage Lihini Sangeetha"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15061",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 65
+    },
+    {
+      "id": "39c6cccc8d30e90b8c27",
+      "title": "ToF-Wheel Odometry: Navigating Degeneration of Localization With Limited Sensing Capabilities",
+      "url": "https://arxiv.org/abs/2610.14590",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Wheel odometry provides an efficient motion prior for ground robots but is prone to transient violations such as wheel slip or terrain-induced tilt. In filtering-based odometry, these violations frequently trigger divergence when they coincide with constrained geometric observability (e.g., featureless corridors). We address this challenge by proposing ToF-Wheel Odometry (TWO), a…",
+      "authors": [
+        "Xu Yang, Wenhao Li, Zhengyu Wei, Zening Li, Longxiang Huang, Bo Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14590",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 110
+    },
+    {
+      "id": "f28ec9cba4c9b42159b3",
+      "title": "From Field to Planning: Learning Temporal Polar Gradient Fields for Vision-based AAV Trajectory Planning in Dynamic Environments",
+      "url": "https://arxiv.org/abs/2610.14482",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Policy & Governance",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Regulation"
+      ],
+      "excerpt": "Autonomous Aerial Vehicle (AAV) trajectory planning requires real-time and accurate safety gradient guidance, especially in dynamic environments. Existing methods typically rely on static maps and dynamic obstacle tracking to construct gradient fields, imposing heavy computational burdens and yielding conservative trajectories. To address these limitations, we propose a two-stage…",
+      "authors": [
+        "Haowen Gao, Zhan Chen, Yinuo Xu, Yifeng Niu, Mengyun Wang, Chao Yan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14482",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 117
+    },
+    {
+      "id": "3af8444e9cd6ec64c8bb",
+      "title": "Teleoperated Driving: a New Challenge for 3D Object Detection in Compressed Point Clouds",
+      "url": "https://arxiv.org/abs/2506.11804",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Multimodal",
+        "Education",
+        "Open Source"
+      ],
+      "excerpt": "arXiv:2506.11804v2 Announce Type: replace-cross Abstract: In recent years, the development of interconnected devices has expanded in many fields, from infotainment to education and industrial applications. This trend has been accelerated by the increased number of low-cost sensors and accessibility to powerful hardware and software. One area that significantly benefits from these…",
+      "authors": [
+        "Filippo Bragato, Michael Neri, Paolo Testolina, Marco Giordani, Federica Battisti"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2506.11804",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 131
+    },
+    {
+      "id": "305e0451655e104c0c07",
+      "title": "TGuide: Faster Autoregressive Video Diffusion via Historical Trajectory Guidance",
+      "url": "https://arxiv.org/abs/2610.14657",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Can autoregressive video diffusion be accelerated further when only four denoising steps remain? Existing feature caching approaches struggle in this regime, as large feature changes between denoising timesteps undermine both direct reuse and lightweight predictors. We observe that features across video chunks remain strongly correlated at matching denoising timesteps, offering a…",
+      "authors": [
+        "Zhuo Chen, Bin Zou, Fanyue Wei, Lixin Duan, Angela Yao, Wen Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14657",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.2,
+      "priority_label": "Relevant",
+      "rank": 176
+    },
+    {
+      "id": "001b73c50989235c3061",
+      "title": "Are Multimodal Benchmarks Really Useful? Item-Level Multimodal Benchmark Diagnosis via Structure-Response Co-Calibration",
+      "url": "https://arxiv.org/abs/2610.14542",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Evaluation"
+      ],
+      "excerpt": "Multimodal benchmarks are central to evaluating whether models can reason over information from multiple modalities. However, existing literature has revealed that some benchmarks may contain shortcut items that can be answered from a single modality or from answer-option regularities alone, thus failing to reflect models' true cross-modal inference ability. Existing methods for…",
+      "authors": [
+        "Shiqi Zhang, Weixin Zeng, Ziheng Zhang, Jiuyang Tang, Xiang Zhao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14542",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 66
+    },
+    {
+      "id": "114be26375c2a6a367e1",
+      "title": "AD-GS: Anatomical Density-guided 3D Gaussian Splatting for Sparse-View Dental CBCT Reconstruction",
+      "url": "https://arxiv.org/abs/2610.14963",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Sparse-view Cone-Beam Computed Tomography (CBCT) reconstruction is essential for reducing radiation dose and scan effort, but remains underconstrained due to limited projection information. Recent 3D Gaussian Splatting (3DGS)-based CBCT reconstruction methods rely on gradient-driven densification, which becomes unstable under sparse acquisition and often leads to over-smoothed…",
+      "authors": [
+        "Zonglin Li, Kexian Xie, Feiran Li, Chu Zhou, Yixing Huang, Ruiyang Chen, Zhanyu Ma, Heng Guo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14963",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 67
+    },
+    {
+      "id": "dbf7d17c5056c0f186eb",
+      "title": "Clinical value claims in multimodal AI outpace supporting evidence",
+      "url": "https://arxiv.org/abs/2610.14395",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Medical"
+      ],
+      "excerpt": "Multimodal prediction models add a data source, such as imaging or an assay, to clinical information, and health systems must decide whether that added test is worth acquiring. We audited 177 studies comparing multimodal with unimodal models: 81 from a systematic review and 96 from a probability sample of 2025-2026 PubMed records. Gains in the area under the receiver operating…",
+      "authors": [
+        "Jiayu Feng"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.14395",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 97
+    },
+    {
+      "id": "cd88e84c038a9d94897b",
+      "title": "BrainAid: Efficient Brain Tumor Detection Using Lightweight CNNs and Explainable AI for Resource-Constrained Environments",
+      "url": "https://arxiv.org/abs/2610.15077",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-14T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "A brain tumor is an unusual growth of cells in the brain that can be cancerous or not, affecting normal brain function and causing serious risk to health. Existing solutions for brain tumor classification, such as expert manual evaluations of magnetic resonance imaging (MRI) scans, are generally inconsistent as different professionals have different criteria and can be…",
+      "authors": [
+        "Sai Sriram Gonthina, Ross Gore, Bikash Chandra Singh, Pronaya Bhattacharya, Sachin Shetty, Abhishek Phadke, Sandip Roy"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.15077",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 68
+    },
     {
       "id": "b76b11a1199f73b7027f",
       "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
@@ -28,13 +2271,462 @@
       "manual": false,
       "related": [],
       "images": [
-        "https://lh3.googleusercontent.com/m134KeViYlQXqWaac-fW1TuTvCk1ZQ2EnHF72xH6anzjd4iKukfGHvV3o5PiDTJfSytjxUF2E1rwAAHlZ4ZyCkGkOHV7Uij2ZZ3zsbVZUAFCMCccZQ=w528-h297-n-nu-rw-lo"
+        "https://lh3.googleusercontent.com/m134KeViYlQXqWaac-fW1TuTvCk1ZQ2EnHF72xH6anzjd4iKukfGHvV3o5PiDTJfSytjxUF2E1rwAAHlZ4ZyCkGkOHV7Uij2ZZ3zsbVZUAFCMCccZQ=w528-h297-n-nu-rw-lo",
+        "https://lh3.googleusercontent.com/5PC4h7MzjC0ojOxiK-nPcRz0b6kUybKnCBjLL3nsb9T9qt7-2ciORJPnrObeFaYbAMqPxIhH4Wq9HD-U73lCivpFBcK8gABvhXXDo2lzUUSk9olsZQ=w528-h297-n-nu-rw-lo"
       ],
       "relevance_score": 47.6,
       "freshness_score": 100.0,
       "priority_score": 75.9,
       "priority_label": "Relevant",
       "rank": 162
+    },
+    {
+      "id": "200a5d3dd39c6bfb7a20",
+      "title": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/6xrAX2ILJHXpMMsuHeU637/30512c9697f4e9214c5466e5a7ddda75/the-eus-next-chapter-in-ai-is-agentic-social.png?w=1600&h=900&fit=fill",
+        "https://images.ctfassets.net/kftzwdyauwt9/7DQxQ61fzFDJjB09z1T6Xx/41d00e7e9ad08ba9fdd9f4d69071a3e8/helping-small-businesses-put-ai-to-work-cover.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/4NsiJiqUurW5ypfaulGCFm/8b5bfad7d895c4fc6aa20766d5c88b0c/openai-extends-cyber-access-to-ukraine-for-civilian-defense-cover.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/4O6fFZArVSBeCoNjTFwXXZ/cc5e374a6b62b8f328555f002b3bca49/sam-altman-s-remarks-at-the-united-nations-security-council-cover.png?w=3840&q=90&fm=webp"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
+      "id": "241a0eb7150b75c2c4dd",
+      "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.1,
+      "priority_label": "Relevant",
+      "rank": 187
+    },
+    {
+      "id": "095a924e46695e91213e",
+      "title": "Multimodal artificial intelligence in dental diagnosis: influence of reasoning depth and domain-specific medical model on diagnostic performance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870068",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models are increasingly explored as clinical decision-support tools, but the relationship between configurable reasoning effort and multimodal diagnostic performance remains unclear. This study evaluated the association between API-configured reasoning effort and multimodal oral and dental diagnostic performance in GPT-5 and compared its outputs with those of the compact…",
+      "authors": [
+        "Lamiaa Said Elfadaly",
+        "Mohamed Shafik"
+      ],
+      "venue": "Odontology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10266-026-01569-z/MediaObjects/10266_2026_1569_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10266-026-01569-z/MediaObjects/10266_2026_1569_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10266-026-01569-z/MediaObjects/10266_2026_1569_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10266-026-01569-z/MediaObjects/10266_2026_1569_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42870068",
+      "doi": "10.1007/s10266-026-01569-z",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 18
+    },
+    {
+      "id": "19f67a55fb369ad76f87",
+      "title": "Generalizability of Deep Learning Architectures for Oral Squamous Cell Carcinoma Classification in Histopathology: A Comparative CNN-Vision Transformer Study with External Validation and Label-Quality Analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870166",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Oral squamous cell carcinoma (OSCC) is the most prevalent oral malignancy, with delayed diagnosis contributing to poor survival. Deep learning has shown promise for histopathological detection of OSCC, but reported performance is frequently based on single-source datasets, with limited external validation and variable annotation quality. Our study was to compare representative CNN and…",
+      "authors": [
+        "Beryl Rachel J",
+        "Nivedhitha Maraimalai",
+        "Anubhuti Sood",
+        "Yashdeep Singh",
+        "Trupti Jain",
+        "Barath Raj K",
+        "Akshay Trimukhe",
+        "Vivek Nayyar"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02355-7/MediaObjects/10278_2026_2355_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02355-7/MediaObjects/10278_2026_2355_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02355-7/MediaObjects/10278_2026_2355_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-026-44424-5/MediaObjects/41598_2026_44424_Fig1_HTML.png"
+      ],
+      "pmid": "42870166",
+      "doi": "10.1007/s10278-026-02355-7",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "037f9c7f64139f2eb130",
+      "title": "AI enhanced surgeons' faster responses to intraoperative bleeding in laparoscopic surgery: a preclinical randomized controlled trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42869971",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "To develop and validate an artificial intelligence (AI) model for real-time detection and tracking of intraoperative bleeding sites during laparoscopic surgery, and to evaluate whether AI assistance improves surgeons' bleeding‑identification performance. From January to September 2023, laparoscopic surgical videos were retrospectively collected from 20 medical centers in China. Senior…",
+      "authors": [
+        "Jing Zhang",
+        "He Cai",
+        "Junjie Zhang",
+        "Zixin Chen",
+        "Yang Zhou",
+        "Ran Hu",
+        "Ming Tang",
+        "Lingli Wu"
+      ],
+      "venue": "Surgical endoscopy",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00464-026-13490-1/MediaObjects/464_2026_13490_Figa_HTML.jpg",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00464-026-13490-1/MediaObjects/464_2026_13490_Fig1_HTML.jpg?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00464-026-13490-1/MediaObjects/464_2026_13490_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00464-026-13490-1/MediaObjects/464_2026_13490_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42869971",
+      "doi": "10.1007/s00464-026-13490-1",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 9
+    },
+    {
+      "id": "d63c7db5cd6cce8da0f0",
+      "title": "Comparison of the Performances of Deep Learning Methods in Kellgren-Lawrence Classification of Knee Osteoarthritis: A Multicenter Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870156",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Knee osteoarthritis (OA) causes symptoms such as pain, stiffness, and functional limitation in the knees; plain knee radiographs are used in addition to physical examination in its diagnosis. This study aimed to compare the performance of pre-trained deep learning models in knee OA classification and to examine the effects of lateral knee radiographs and patient clinical data on the…",
+      "authors": [
+        "Kemal Üreten",
+        "Eyyup Serdar Yalvaç",
+        "Mehmet Ekici",
+        "Muhammed Sarıkaya",
+        "Enes Erdi Kapukaya",
+        "Muhammed Yasir Altunışık",
+        "Osman Muhammed Özbay",
+        "Enis Bilek"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02392-2/MediaObjects/10278_2026_2392_Fig1_HTML.jpg",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02392-2/MediaObjects/10278_2026_2392_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02392-2/MediaObjects/10278_2026_2392_Fig3_HTML.jpg?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02392-2/MediaObjects/10278_2026_2392_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42870156",
+      "doi": "10.1007/s10278-026-02392-2",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "a538c49dc63b87a63fa3",
+      "title": "Mitigating Domain Shift and Dataset Bias in Deep Learning Models for Cancer Diagnostics.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870152",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "The translation of deep learning architectures from controlled experimental settings into real-world cancer diagnostics is heavily bottlenecked by domain shift and demographic bias. While models routinely achieve near-perfect retrospective performance on internal datasets, validation across external multicenter cohorts incurs a systemic and severe performance degradation, with an…",
+      "authors": [
+        "Samuel Arthur Ameyaw",
+        "Johnson Addo Ameyaw"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02353-9/MediaObjects/10278_2026_2353_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs12911-025-03307-x/MediaObjects/12911_2025_3307_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs43856-026-01491-z/MediaObjects/43856_2026_1491_Fig1_HTML.png",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-981-16-9221-5?as=webp"
+      ],
+      "pmid": "42870152",
+      "doi": "10.1007/s10278-026-02353-9",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 3
+    },
+    {
+      "id": "7abf2e388db615f395bb",
+      "title": "Molecular Imaging Technologies in Analytical Chemistry: A Critical Review of Mass Spectrometry Imaging, Raman Imaging, Imaging Mass Cytometry, and Emerging Spatial Analytical Platforms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870556",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "Multimodal",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "Molecular imaging technologies have transformed analytical chemistry by enabling molecular identification and spatial localization within intact biological specimens. Advances in mass spectrometry imaging (MSI), Raman imaging, imaging mass cytometry (IMC), and emerging spatial analytical platforms have expanded the investigation of tissue heterogeneity and molecular organization.…",
+      "authors": [
+        "Hemn A H Barzani",
+        "Rebaz Anwar Omer",
+        "Khalamala Ibrahim Salih Barzani",
+        "Hazha Omar Othman",
+        "Ali Sedeeq Noaman",
+        "Seerwan Hamadameen Sulaiman"
+      ],
+      "venue": "Critical reviews in analytical chemistry",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42870556",
+      "doi": "10.1080/10408347.2026.2742470",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 80.7,
+      "priority_label": "High relevance",
+      "rank": 28
+    },
+    {
+      "id": "8722b6fc33b3f8c7fcc4",
+      "title": "Use of Machine Learning and Imaging to Predict Outcomes After Lumbar Spine Surgery: A Systematic Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870155",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Postoperative outcomes following lumbar spine surgery remain variable, and existing clinical risk stratification methods offer limited predictive accuracy. Advances in machine learning enable quantitative analysis of routinely acquired spinal imaging, creating opportunities to improve preoperative outcome prediction. However, the methodological quality and clinical readiness of…",
+      "authors": [
+        "Jacob Gould",
+        "Saarang Patel",
+        "Catherine Tang",
+        "Saud Zaidan",
+        "Hazem S Ghaith",
+        "Noah Yaffe",
+        "Guan Li",
+        "Julian Gendreau"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02401-4/MediaObjects/10278_2026_2401_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs43390-026-01365-3/MediaObjects/43390_2026_1365_Fig1_HTML.png",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-981-97-4087-1?as=webp",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs00586-025-08959-x/MediaObjects/586_2025_8959_Fig1_HTML.png"
+      ],
+      "pmid": "42870155",
+      "doi": "10.1007/s10278-026-02401-4",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "f104a0ce7c969e07ac20",
+      "title": "Interpretable Source-Aware Bone-Muscle Fusion Framework for Multicenter Prediction of Osteoporotic Vertebral Fractures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42870160",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Osteoporotic vertebral fracture (OVF) is underrecognized, and bone mineral density (BMD) alone may be insufficient for prediction. We developed the multisource fusion model for osteoporotic vertebral fracture (MSF-OVF), an interpretable source-aware framework integrating clinical-demographic variables, BMD, and lumbar MRI-derived ventral and dorsal paraspinal muscle (PM)…",
+      "authors": [
+        "Chao Ye",
+        "Weicong Zhang",
+        "Yixiu Hao",
+        "Weiying Liang",
+        "Junjie Lu",
+        "Weijia Zhu",
+        "Xiangwei Yuan",
+        "Yu Liu"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02362-8/MediaObjects/10278_2026_2362_Figa_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02362-8/MediaObjects/10278_2026_2362_Fig1_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02362-8/MediaObjects/10278_2026_2362_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02362-8/MediaObjects/10278_2026_2362_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42870160",
+      "doi": "10.1007/s10278-026-02362-8",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 2
     },
     {
       "id": "f581adf32b14cf27ac83",
@@ -675,8 +3367,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/1QYuGKBKSzphKj2bCMG4Tp/aab097df8ead5298a1cbce05209801f7/oai_higgsfield_1x1.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 25
     },
@@ -715,8 +3407,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 39
     },
@@ -750,8 +3442,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.1,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 83
     },
@@ -782,8 +3474,8 @@
         "https://www.datocms-assets.com/64837/1791919335-adobestock-554340853-1550x810-2026-10-13t18-36-01.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 100.0,
-      "priority_score": 75.0,
+      "freshness_score": 94.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 173
     },
@@ -13215,9 +15907,9 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/THUMBNAIL_BLOG.max-600x600.format-webp.webp"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 72.9,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.8,
+      "priority_label": "Latest",
       "rank": 166
     },
     {
@@ -13247,9 +15939,9 @@
         "https://www.datocms-assets.com/64837/1791355720-nature-cover-for-release-thumbnail.jpg?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 70.4,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.3,
+      "priority_label": "Latest",
       "rank": 189
     },
     {

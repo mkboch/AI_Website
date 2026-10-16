@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-16T04:43:48.810532+00:00",
-  "item_count": 1105,
+  "updated_at": "2026-10-16T11:37:25.200485+00:00",
+  "item_count": 1117,
   "items": [
     {
       "id": "3c4879ef23e69a36fca1",
@@ -325,6 +325,114 @@
       "rank": 154
     },
     {
+      "id": "f3a35e05c4f5f7d9bc76",
+      "title": "Stop Training Against Soft Users: Mentalized Adversarial Self-Play for Proactive Dialogue",
+      "url": "https://arxiv.org/abs/2610.21156",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-16T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI4Education"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Education"
+      ],
+      "excerpt": "Proactive dialogue agents must guide multi-turn interactions toward task goals while adapting to users whose intentions and attitudes evolve. Existing planners improve system side action selection through search, learned policies, or user aware planning, but are often trained and evaluated against fixed or overly compliant simulators; as a result, high simulated success can reflect soft…",
+      "authors": [
+        "Zanwu Liu, Dan Zhang, Xiaodi Wang, Yongbo Mao, Xiaoyang Guo, Yonglin Wu, Peiyue Jiang, Yangyang Wei, Zecheng Lin"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.21156",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 94
+    },
+    {
+      "id": "69527d0b6b66f9b31852",
+      "title": "Bias Mitigation in Audio-Enabled LLMs through Adversarial Training and Distillation Methods",
+      "url": "https://arxiv.org/abs/2610.21763",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-16T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM"
+      ],
+      "excerpt": "Audio-enabled large language models (AuLLMs) allow users to interact with them simply by talking to them, without the need for an intermediate transcription. This expands the model's accessibility and capabilities by encoding non-verbal cues. However, using non-verbal cues may lead to biased behaviour based on the attributes inferred (or assumed) from them. In this work, we focus on the…",
+      "authors": [
+        "Adnan Al Ali, Jind\\v{r}ich Libovick\\'y, Anne Lauscher"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.21763",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 95
+    },
+    {
+      "id": "2377c99004a250e386b5",
+      "title": "Condition-Contrastive Extrapolation for On-Policy Distillation of Language Models",
+      "url": "https://arxiv.org/abs/2610.21195",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-16T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI4Education",
+        "LLM",
+        "Education",
+        "Reasoning"
+      ],
+      "excerpt": "On-policy distillation (OPD) improves a student language model by training on its own generated trajectories with supervision from a stronger teacher. However, when conditioned on student-generated prefixes, the teacher can favor invalid continuations that violate the question's premises, causing OPD to encourage erroneous reasoning steps. As a remedy, we introduce Condition-Contrastive…",
+      "authors": [
+        "Wenxuan Luo, Chenxi Li, Haoyue Liu, Yongxin Guo, Xiaoying Tang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.21195",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 75.7,
+      "priority_label": "Relevant",
+      "rank": 120
+    },
+    {
       "id": "c037925f28dc6ece4169",
       "title": "Evidence Field for Histopathology: Cross-Centre Evaluation and Replayable Spatial Decisions",
       "url": "https://arxiv.org/abs/2610.21115",
@@ -543,6 +651,42 @@
       "rank": 130
     },
     {
+      "id": "1cc8addf7751113013ff",
+      "title": "Poisoning the corpora of protein design systems during pre-training and retrieval",
+      "url": "https://arxiv.org/abs/2610.21200",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-16T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI for Science",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Science"
+      ],
+      "excerpt": "Protein foundation models increasingly support the generation of novel biological sequences, yet their reliance on large public datasets creates opportunities for adversarial manipulation of the material they learn from and retrieve. We investigate two data-only poisoning attacks against protein design systems, targeting the pre-training corpus of autoregressive protein language models…",
+      "authors": [
+        "Charalampos Koilakos, Kimon-Antonios Provatas, Michail Patsakis, Candace SY Chan, Georgios A. Pavlopoulos, Ilias Georgakopoulos-Soares"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.21200",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 97
+    },
+    {
       "id": "2af9a94b5fc12851c828",
       "title": "A 2D Image Feedback-Based Autonomous Endovascular Navigation Method: A Perception and Control Framework",
       "url": "https://arxiv.org/abs/2610.21481",
@@ -725,6 +869,40 @@
       "priority_score": 72.9,
       "priority_label": "Relevant",
       "rank": 144
+    },
+    {
+      "id": "8fa782f6f8f0569f8b98",
+      "title": "Separating mixtures of single-fiber orientation distributions for increased sensitivity to crossing white matter fibers",
+      "url": "https://arxiv.org/abs/2610.20974",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-16T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "Intro: Diffusion MRI allows for in vivo probing of brain tissue architecture via micron-level diffusion aggregated at the millimeter scale, but crossing white matter fibers decrease the sensitivity of downstream tasks such as microstructural modeling and tractography. Current fixel-based methods for identifying the number, orientation, and spread of fibers rely on finding the peaks of…",
+      "authors": [
+        "Adam M. Saunders, Gaurav Rudravaram, Michael E. Kim, Elyssa M. McMaster, Yifan Shuai, Warren Boschen, Sophie Lin, Suzana Herculano-Houzel, Daniel C. Colvin, Yurui Gao, Kurt G. Schilling, Adam W. Anderson, Bennett Landman"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.20974",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 70
     },
     {
       "id": "9ffba5da6c3ca407c8ff",
@@ -1222,6 +1400,41 @@
       "priority_score": 77.6,
       "priority_label": "Relevant",
       "rank": 90
+    },
+    {
+      "id": "bea11b99afa80c5147cf",
+      "title": "Absorption and Phase-Contrast Microtomography Using Direct X-Ray Detection With Commercial Off-The-Shelf CMOS Sensors",
+      "url": "https://arxiv.org/abs/2605.29808",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-16T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "This work presents high-resolution X-ray microtomography based on commercial off-the-shelf (COTS) CMOS image sensors as direct detectors. The system uses a microfocus X-ray source in cone-beam geometry, enabling both absorption-contrast imaging, thanks to the sensor s intrinsic resolution, and phase-contrast imaging, by adjusting the object-to-sensor distance. A dynamic flat-field…",
+      "authors": [
+        "Damian L. Corzi, Jose Lipovetzky, Fabricio Alcalde Bessia, German Mato, Andres Cicuttin, Maria L. Crespo, Martin Perez, Mariano Gomez Berisso"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2605.29808",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 72
     },
     {
       "id": "eefbac0f57b193d22e2f",
@@ -1758,6 +1971,267 @@
       "priority_score": 71.2,
       "priority_label": "Relevant",
       "rank": 158
+    },
+    {
+      "id": "f79f16bcf9bc1f83ff15",
+      "title": "Polymer-based Vaginal Insert Systems: Engineering Controlled Drug Delivery for Women's Health.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42881338",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-16T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Polymer-based vaginal inserts have emerged as a promising approach for localized and systemic drug delivery, demonstrating improved therapeutic efficacy, prolonged drug residence, controlled release and enhanced patient compliance compared to conventional vaginal dosage forms. This article gives a complete overview of the design and development of polymer-based vaginal inserts, covering…",
+      "authors": [
+        "Shruti Kadam",
+        "Mansvi Dabhoya",
+        "Riya Patel",
+        "Shreeraj Shah"
+      ],
+      "venue": "AAPS PharmSciTech",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1208%2Fs12249-026-03560-x/MediaObjects/12249_2026_3560_Figa_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1208%2Fs12249-026-03560-x/MediaObjects/12249_2026_3560_Fig1_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1208%2Fs12249-026-03560-x/MediaObjects/12249_2026_3560_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-981-10-6083-0?as=webp"
+      ],
+      "pmid": "42881338",
+      "doi": "10.1208/s12249-026-03560-x",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.7,
+      "priority_label": "High relevance",
+      "rank": 9
+    },
+    {
+      "id": "df8d36ccac1ef355266f",
+      "title": "Harnessing Artificial Intelligence to Predict Dental Crowding in Modern Orthodontic Practice: A Comprehensive Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42881559",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-16T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Agents",
+        "Safety",
+        "Medical"
+      ],
+      "excerpt": "Dental crowding is fundamental to orthodontic diagnosis and treatment planning, yet what constitutes \"crowding\" remains surprisingly heterogeneous. Space analysis quantifies tooth size-arch length discrepancy, irregularity indices characterize alignment displacement, and clinician-assigned severity reflects broader diagnostic interpretation. This narrative review examines the evolution…",
+      "authors": [
+        "Xiwen Xin",
+        "Shun-Yu Kan",
+        "Tianle Chen",
+        "Ching-Chang Ko"
+      ],
+      "venue": "The Kaohsiung journal of medical sciences",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42881559",
+      "doi": "10.1002/kjm2.70304",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
+      "id": "2a615b8ab821d82d8264",
+      "title": "Learning Adaptation in Artificial Intelligence-Enabled Nursing Education: A Network Analysis of Artificial Intelligence Literacy, Self-Regulated Learning and Academic Resilience.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42885113",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-16T00:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Medical AI",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI4Education",
+        "Evaluation",
+        "Medical",
+        "Education",
+        "Regulation"
+      ],
+      "excerpt": "To examine the interconnections among artificial intelligence literacy, self-regulated learning strategies, and academic resilience in undergraduate nursing students, and to conduct an exploratory comparison of network characteristics between students with and without clinical practice experience. A cross-sectional survey. Using convenience sampling, 1784 undergraduate nursing students…",
+      "authors": [
+        "Xueqing Gong",
+        "Zemei Xiao",
+        "Dan Chen",
+        "Danyan Li",
+        "Xiahui Xiao"
+      ],
+      "venue": "Journal of advanced nursing",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42885113",
+      "doi": "10.1111/jan.70784",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 82.5,
+      "priority_label": "High relevance",
+      "rank": 23
+    },
+    {
+      "id": "7435d1c6318a16e43b9e",
+      "title": "Large Language Models in the Emergency Department: Fairness Implications for Clinicians.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42881554",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-16T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Applications of artificial intelligence (AI), particularly large language models (LLMs), are rapidly expanding in emergency medicine, but concerns remain regarding their fairness across diverse patient populations. Fairness extends beyond model accuracy and includes equal performance across patient groups, equitable outcomes and allocation of clinical benefits, and procedural fairness…",
+      "authors": [
+        "Kasumi Satoh",
+        "Manabu Okuyama",
+        "Hajime Nakae",
+        "Yohei Okada"
+      ],
+      "venue": "Clinical and experimental emergency medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ceemjournal.org/image/orcid.png",
+        "https://www.ceemjournal.org/image/icon_download.png",
+        "https://www.ceemjournal.org/image/icon/ic_facebook.png",
+        "https://www.ceemjournal.org/image/icon/ic_twitter.png"
+      ],
+      "pmid": "42881554",
+      "doi": "10.15441/ceem.26.409",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
+      "id": "eefef2d03999e7fd5982",
+      "title": "AI-enhanced routine CT for opportunistic osteoporosis screening and risk assessment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42881278",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-16T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Osteoporosis-related fractures create a large and often preventable burden, yet many individuals undergoing CT for unrelated care do not receive skeletal assessment. This review evaluates artificial intelligence (AI)-enabled use of routine CT for opportunistic case-finding and risk assessment, with emphasis on the boundary between promising retrospective performance and safe clinical…",
+      "authors": [
+        "Mengyao Guo",
+        "Run Xu",
+        "Zeyang Miao",
+        "Peng Luo",
+        "Guanwu Li"
+      ],
+      "venue": "Skeletal radiology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00256-026-05403-z/MediaObjects/256_2026_5403_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs42000-026-00784-1/MediaObjects/42000_2026_784_Fig1_HTML.jpg",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs00198-024-07179-1/MediaObjects/198_2024_7179_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs00198-022-06491-y/MediaObjects/198_2022_6491_Fig1_HTML.png"
+      ],
+      "pmid": "42881278",
+      "doi": "10.1007/s00256-026-05403-z",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "352988d4c81cf1437c74",
+      "title": "Advancing Cancer Biomarker Discovery Through Multi-Omics, Bioinformatics, and Artificial Intelligence: A Systematic Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42885248",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-16T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "The rapid accumulation of multi-omics data provides increasing opportunities for cancer biomarker discovery, but the heterogeneity and high dimensionality of these datasets remain major challenges for data integration and analysis. This review examines the application of bioinformatics and artificial intelligence for multi-omics integration in cancer biomarker research. Common…",
+      "authors": [
+        "Pendy Tok",
+        "Vijayan Manickam-Achari",
+        "Siow-Wee Chang"
+      ],
+      "venue": "Proteomics",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42885248",
+      "doi": "10.1002/pmic.70196",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.2,
+      "priority_label": "High relevance",
+      "rank": 3
     },
     {
       "id": "2bc7550860128a480ad0",
@@ -9577,8 +10051,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.6,
       "priority_label": "Relevant",
       "rank": 39
     },
@@ -9612,8 +10086,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 83
     },
@@ -9644,8 +10118,8 @@
         "https://www.datocms-assets.com/64837/1791919335-adobestock-554340853-1550x810-2026-10-13t18-36-01.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 73.7,
+      "freshness_score": 86.0,
+      "priority_score": 71.9,
       "priority_label": "Relevant",
       "rank": 173
     },
@@ -14648,8 +15122,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/0924SP2.jpg?w=840"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 74.5,
+      "freshness_score": 72.0,
+      "priority_score": 71.4,
       "priority_label": "Relevant",
       "rank": 44
     },
@@ -14680,8 +15154,8 @@
         "https://www.datocms-assets.com/64837/1791590717-colm-2026-recap-blog-google-docs-image-1.jpg?w=200"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 86.0,
-      "priority_score": 77.3,
+      "freshness_score": 72.0,
+      "priority_score": 74.2,
       "priority_label": "Relevant",
       "rank": 34
     },
@@ -14719,8 +15193,8 @@
         "https://www.datocms-assets.com/64837/1791481523-impactful-scheduling-for-gpu-clusters-google-docs-image-1-1.png?w=200"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.8,
+      "freshness_score": 72.0,
+      "priority_score": 70.7,
       "priority_label": "Relevant",
       "rank": 67
     },
@@ -14754,8 +15228,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/6IJsWuQa1blfxNfvbdIF1m/0868067102440aea5fd1ad35ba436a77/square.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.9,
+      "freshness_score": 72.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 21
     },
@@ -34909,8 +35383,8 @@
         "https://www.datocms-assets.com/64837/1790891256-asta-report-generation-model-blog-astabrief-google-docs-image-1.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 72.0,
-      "priority_score": 68.8,
+      "freshness_score": 56.0,
+      "priority_score": 65.3,
       "priority_label": "Latest",
       "rank": 169
     },
@@ -34945,8 +35419,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.9,
+      "freshness_score": 56.0,
+      "priority_score": 66.4,
       "priority_label": "Latest",
       "rank": 81
     },

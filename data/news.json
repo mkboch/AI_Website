@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "pipeline_version": "2.3.2",
-  "updated_at": "2026-10-18T15:59:19.639232+00:00",
+  "updated_at": "2026-10-18T20:54:40.602495+00:00",
   "methodology": "Balanced, source-tiered, rule-based research intelligence ranking. Priority is not a scientific-quality score.",
   "item_count": 240,
-  "archive_item_count": 2042,
+  "archive_item_count": 2043,
   "source_summary": {
     "total_sources": 32,
-    "healthy_sources": 32,
-    "sources_with_items": 23,
-    "failed_sources": 0,
+    "healthy_sources": 31,
+    "sources_with_items": 22,
+    "failed_sources": 1,
     "source_classes": {
       "Academic Lab": 2,
       "Academic News": 1,
@@ -34,7 +34,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 80,
-      "elapsed_seconds": 0.49,
+      "elapsed_seconds": 0.46,
       "error": ""
     },
     {
@@ -58,7 +58,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 60,
-      "elapsed_seconds": 0.2,
+      "elapsed_seconds": 0.35,
       "error": ""
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 0.27,
+      "elapsed_seconds": 0.21,
       "error": ""
     },
     {
@@ -94,7 +94,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 10,
-      "elapsed_seconds": 1.1,
+      "elapsed_seconds": 0.92,
       "error": ""
     },
     {
@@ -106,7 +106,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 66,
-      "elapsed_seconds": 0.44,
+      "elapsed_seconds": 0.79,
       "error": ""
     },
     {
@@ -118,7 +118,7 @@
       "status": "ok",
       "fetched": 66,
       "accepted": 12,
-      "elapsed_seconds": 0.47,
+      "elapsed_seconds": 0.56,
       "error": ""
     },
     {
@@ -130,7 +130,7 @@
       "status": "ok",
       "fetched": 25,
       "accepted": 25,
-      "elapsed_seconds": 0.35,
+      "elapsed_seconds": 0.28,
       "error": ""
     },
     {
@@ -142,7 +142,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 10,
-      "elapsed_seconds": 0.73,
+      "elapsed_seconds": 0.69,
       "error": ""
     },
     {
@@ -151,11 +151,11 @@
       "source_class": "Academic Lab",
       "content_type": "Research",
       "tier": 1,
-      "status": "ok",
-      "fetched": 15,
-      "accepted": 15,
-      "elapsed_seconds": 1.17,
-      "error": ""
+      "status": "error",
+      "fetched": 0,
+      "accepted": 0,
+      "elapsed_seconds": 5.46,
+      "error": "HTTPSConnectionPool(host='ai.stanford.edu', port=443): Max retries exceeded with url: /blog/feed.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
     },
     {
       "id": "huggingface",
@@ -166,7 +166,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 12,
-      "elapsed_seconds": 0.29,
+      "elapsed_seconds": 0.26,
       "error": ""
     },
     {
@@ -178,7 +178,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 60,
-      "elapsed_seconds": 0.19,
+      "elapsed_seconds": 0.16,
       "error": ""
     },
     {
@@ -190,7 +190,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 1.05,
+      "elapsed_seconds": 0.94,
       "error": ""
     },
     {
@@ -202,7 +202,7 @@
       "status": "ok",
       "fetched": 12,
       "accepted": 0,
-      "elapsed_seconds": 1.39,
+      "elapsed_seconds": 1.78,
       "error": ""
     },
     {
@@ -214,7 +214,7 @@
       "status": "ok",
       "fetched": 5,
       "accepted": 2,
-      "elapsed_seconds": 0.54,
+      "elapsed_seconds": 0.51,
       "error": ""
     },
     {
@@ -226,7 +226,7 @@
       "status": "ok",
       "fetched": 50,
       "accepted": 50,
-      "elapsed_seconds": 4.37,
+      "elapsed_seconds": 3.68,
       "error": ""
     },
     {
@@ -238,7 +238,7 @@
       "status": "ok",
       "fetched": 50,
       "accepted": 50,
-      "elapsed_seconds": 0.93,
+      "elapsed_seconds": 0.81,
       "error": ""
     },
     {
@@ -250,7 +250,7 @@
       "status": "ok",
       "fetched": 8,
       "accepted": 8,
-      "elapsed_seconds": 0.34,
+      "elapsed_seconds": 0.2,
       "error": ""
     },
     {
@@ -262,7 +262,7 @@
       "status": "ok",
       "fetched": 70,
       "accepted": 70,
-      "elapsed_seconds": 0.67,
+      "elapsed_seconds": 0.39,
       "error": ""
     },
     {
@@ -274,7 +274,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 10,
-      "elapsed_seconds": 0.38,
+      "elapsed_seconds": 0.37,
       "error": ""
     },
     {
@@ -286,7 +286,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 0.12,
+      "elapsed_seconds": 0.13,
       "error": ""
     },
     {
@@ -298,7 +298,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 5,
-      "elapsed_seconds": 0.32,
+      "elapsed_seconds": 0.23,
       "error": ""
     },
     {
@@ -322,7 +322,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 0,
-      "elapsed_seconds": 0.15,
+      "elapsed_seconds": 0.19,
       "error": ""
     },
     {
@@ -334,7 +334,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 52,
-      "elapsed_seconds": 1.64,
+      "elapsed_seconds": 1.21,
       "error": ""
     },
     {
@@ -346,7 +346,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.12,
+      "elapsed_seconds": 0.15,
       "error": ""
     },
     {
@@ -358,7 +358,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.0,
+      "elapsed_seconds": 0.01,
       "error": ""
     },
     {
@@ -370,7 +370,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.0,
+      "elapsed_seconds": 0.02,
       "error": ""
     },
     {
@@ -382,7 +382,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.0,
+      "elapsed_seconds": 0.02,
       "error": ""
     },
     {
@@ -394,7 +394,7 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.01,
+      "elapsed_seconds": 0.02,
       "error": ""
     },
     {
@@ -406,20 +406,20 @@
       "status": "empty",
       "fetched": 0,
       "accepted": 0,
-      "elapsed_seconds": 0.13,
+      "elapsed_seconds": 0.02,
       "error": ""
     }
   ],
   "category_counts": {
     "Foundation Models": 57,
+    "General AI": 33,
     "Trustworthy AI": 32,
-    "General AI": 32,
     "AI Agents": 31,
     "Medical Imaging": 21,
     "Medical AI": 17,
     "AI for Science": 14,
-    "AI4Education": 9,
     "Robotics & Embodied AI": 9,
+    "AI4Education": 8,
     "Computer Vision": 7,
     "AI Policy & Governance": 6,
     "AI Systems & Hardware": 5
@@ -442,9 +442,9 @@
     "Google AI": 12,
     "Google DeepMind": 12,
     "arXiv - Computer Vision": 12,
+    "Anthropic": 12,
     "arXiv - Machine Learning": 12,
     "arXiv - Computation and Language": 12,
-    "Anthropic": 11,
     "NVIDIA Developer Blog": 10,
     "MIT News - Artificial Intelligence": 10,
     "arXiv - Image and Video Processing": 10,
@@ -455,8 +455,8 @@
     "MIT Technology Review - AI": 8,
     "NIH News Releases": 7,
     "Google Research": 7,
-    "Mistral AI": 6,
     "TechCrunch - AI": 6,
+    "Mistral AI": 5,
     "Hugging Face": 3,
     "Apple Machine Learning Research": 2,
     "Vector Institute": 1
@@ -603,8 +603,6 @@
       ],
       "tags": [
         "Medical Imaging",
-        "Safety",
-        "Medical",
         "Imaging"
       ],
       "excerpt": "Vessels encapsulating tumor clusters (VETC) are an aggressive vascular phenotype of hepatocellular carcinoma that is usually determined after surgery. A foundation model-enabled framework for pathology-informed VETC prediction on pretreatment magnetic resonance imaging (MRI), termed PIVOT, uses paired preoperative multiparametric MRI, postoperative hematoxylin and eosin whole-slide…",
@@ -1071,8 +1069,7 @@
       "date": "2026-10-18T00:00:00+00:00",
       "category": "Foundation Models",
       "categories": [
-        "Foundation Models",
-        "Medical AI"
+        "Foundation Models"
       ],
       "tags": [
         "Foundation Models",
@@ -1281,41 +1278,6 @@
       "rank": 20
     },
     {
-      "id": "32165ee6af8945a5bd83",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "source": "OpenAI",
-      "source_id": "openai_news",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-15T19:00:00+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models"
-      ],
-      "tags": [
-        "Foundation Models"
-      ],
-      "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://images.ctfassets.net/kftzwdyauwt9/g91SfQ7YxvtosiWacUxkg/47162ea17967b74890a6ef14a8c9fa78/rosalind-academic-plan-seo.png?w=1600&h=900&fit=fill",
-        "https://images.ctfassets.net/kftzwdyauwt9/4lQJfRuZrLbrnGsnQ9RN9K/6d5388a7865ad6627496933c77f4b5be/rosalind-academic-plan-application-steps.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/3Gg3FDcLbArW4ZsVN8Ry5m/2dcb5d7f34f6cdedec3c6a3e6df83871/teens-learn-and-plan-cover.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/49FAj0M0Ly8nk84Uu8btWC/9919efdae7fff54b0f8b0d80398248ac/ai-progress-in-mathematics-cover.png?w=3840&q=90&fm=webp"
-      ],
-      "relevance_score": 91.8,
-      "freshness_score": 94.0,
-      "priority_score": 86.6,
-      "priority_label": "High relevance",
-      "rank": 21
-    },
-    {
       "id": "ed1be8ea5f53c7373a9c",
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
@@ -1352,6 +1314,44 @@
       "relevance_score": 91.8,
       "freshness_score": 86.0,
       "priority_score": 85.9,
+      "priority_label": "High relevance",
+      "rank": 21
+    },
+    {
+      "id": "ed1aa60a777d7f08ea93",
+      "title": "Responses of large language models to common questions on premature ovarian insufficiency: A comparative analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42891502",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-17T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "Large language models are widely used in clinical care. Their reliability in specialized gynecological diseases such as premature ovarian insufficiency (POI) has not been fully verified. This study aimed to systematically evaluate and compare the accuracy and completeness of three mainstream large language models when answering standardized clinical questions about POI. We developed 34…",
+      "authors": [
+        "Jing Zhe",
+        "Dan Zheng"
+      ],
+      "venue": "International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42891502",
+      "doi": "10.1002/ijgo.71422",
+      "relevance_score": 91.8,
+      "freshness_score": 94.0,
+      "priority_score": 85.7,
       "priority_label": "High relevance",
       "rank": 22
     },
@@ -1473,41 +1473,6 @@
       "rank": 25
     },
     {
-      "id": "93a3c6a05f584f10feb6",
-      "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
-      "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72",
-      "source": "NVIDIA Developer Blog",
-      "source_id": "nvidia_developer",
-      "source_class": "Engineering Lab",
-      "source_tier": 1,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-15T18:00:01+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents"
-      ],
-      "excerpt": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on... Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on NVIDIA GB300 NVL72 Blackwell Ultra specifically for agentic coding…",
-      "authors": [
-        "Tanya Lenz"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/open-model-unbox-768x432.jpg"
-      ],
-      "relevance_score": 91.8,
-      "freshness_score": 94.0,
-      "priority_score": 85.3,
-      "priority_label": "High relevance",
-      "rank": 26
-    },
-    {
       "id": "20c1c40280b016d4e6ac",
       "title": "Scientists develop high-resolution molecular maps of Alzheimer’s and related brain disorders September 23, 2026 — NIH-funded effort delivers new insights into symptoms and underlying mechanisms of these conditions to improve prevention, detection, treatment, and outcomes.",
       "url": "https://www.nih.gov/news-events/news-releases/scientists-develop-high-resolution-molecular-maps-alzheimers-related-brain-disorders",
@@ -1539,7 +1504,7 @@
       "freshness_score": 86.0,
       "priority_score": 85.3,
       "priority_label": "High relevance",
-      "rank": 27
+      "rank": 26
     },
     {
       "id": "6eca4e7f773b4e6f45d4",
@@ -1584,48 +1549,42 @@
       "freshness_score": 86.0,
       "priority_score": 85.3,
       "priority_label": "High relevance",
-      "rank": 28
+      "rank": 27
     },
     {
-      "id": "2a615b8ab821d82d8264",
-      "title": "Learning Adaptation in Artificial Intelligence-Enabled Nursing Education: A Network Analysis of Artificial Intelligence Literacy, Self-Regulated Learning and Academic Resilience.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42885113",
-      "source": "PubMed - Medical AI",
-      "source_id": "pubmed_medical_ai",
-      "source_class": "Biomedical Index",
+      "id": "32165ee6af8945a5bd83",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
       "source_tier": 1,
-      "content_type": "Biomedical",
-      "publication_status": "Journal Article",
-      "date": "2026-10-16T00:00:00+00:00",
-      "category": "AI4Education",
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-15T19:00:00+00:00",
+      "category": "Foundation Models",
       "categories": [
-        "AI4Education",
-        "Medical AI"
+        "Foundation Models"
       ],
       "tags": [
-        "AI4Education",
-        "Medical",
-        "Education"
+        "Foundation Models"
       ],
-      "excerpt": "To examine the interconnections among artificial intelligence literacy, self-regulated learning strategies, and academic resilience in undergraduate nursing students, and to conduct an exploratory comparison of network characteristics between students with and without clinical practice experience. A cross-sectional survey. Using convenience sampling, 1784 undergraduate nursing students…",
-      "authors": [
-        "Xueqing Gong",
-        "Zemei Xiao",
-        "Dan Chen",
-        "Danyan Li",
-        "Xiahui Xiao"
-      ],
-      "venue": "Journal of advanced nursing",
+      "excerpt": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "authors": [],
+      "venue": "",
       "manual": false,
       "related": [],
-      "images": [],
-      "pmid": "42885113",
-      "doi": "10.1111/jan.70784",
-      "relevance_score": 85.0,
-      "freshness_score": 94.0,
-      "priority_score": 85.0,
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/g91SfQ7YxvtosiWacUxkg/47162ea17967b74890a6ef14a8c9fa78/rosalind-academic-plan-seo.png?w=1600&h=900&fit=fill",
+        "https://images.ctfassets.net/kftzwdyauwt9/4lQJfRuZrLbrnGsnQ9RN9K/6d5388a7865ad6627496933c77f4b5be/rosalind-academic-plan-application-steps.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/3Gg3FDcLbArW4ZsVN8Ry5m/2dcb5d7f34f6cdedec3c6a3e6df83871/teens-learn-and-plan-cover.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/49FAj0M0Ly8nk84Uu8btWC/9919efdae7fff54b0f8b0d80398248ac/ai-progress-in-mathematics-cover.png?w=3840&q=90&fm=webp"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 86.0,
+      "priority_score": 84.8,
       "priority_label": "High relevance",
-      "rank": 29
+      "rank": 28
     },
     {
       "id": "4f379e8b58549775d4b2",
@@ -1663,46 +1622,7 @@
       "freshness_score": 94.0,
       "priority_score": 84.6,
       "priority_label": "High relevance",
-      "rank": 30
-    },
-    {
-      "id": "467c8e42acb6bdc9ebe7",
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
-      "source": "Microsoft Research",
-      "source_id": "microsoft_research",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Research",
-      "publication_status": "Research",
-      "date": "2026-10-15T16:00:00+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents",
-        "Trustworthy AI"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents",
-        "Evaluation"
-      ],
-      "excerpt": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption…",
-      "authors": [
-        "Srinath Setty"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/Magnetar-BlogHeroFeature-1400x788-1-1024x576.jpg",
-        "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Azure-AI-Foundry_1600x900.jpg",
-        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/Magnetar_NEW_Summary_Simple.png"
-      ],
-      "relevance_score": 88.2,
-      "freshness_score": 94.0,
-      "priority_score": 84.3,
-      "priority_label": "High relevance",
-      "rank": 31
+      "rank": 29
     },
     {
       "id": "57c3309db5bedcdec4e0",
@@ -1738,7 +1658,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 32
+      "rank": 30
     },
     {
       "id": "200a5d3dd39c6bfb7a20",
@@ -1774,7 +1694,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 33
+      "rank": 31
     },
     {
       "id": "1dc99b611b2499a3b881",
@@ -1809,7 +1729,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 34
+      "rank": 32
     },
     {
       "id": "d96a2391b623b2cb26cc",
@@ -1846,7 +1766,51 @@
       "freshness_score": 86.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 35
+      "rank": 33
+    },
+    {
+      "id": "f3ecc301b6dae3fb127e",
+      "title": "Conceptualising Health Economic Models Using a Graph Retrieval-Augmented, Agentic AI Framework with Human-in-the-Loop Validation: Proof-of-Concept Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42864590",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-13T00:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "RAG",
+        "Agents",
+        "Medical"
+      ],
+      "excerpt": "Health economic models (HEMs) are crucial for assessing the cost-effectiveness of healthcare interventions, informing policy decisions and guiding reimbursement strategies. This study examines the feasibility of employing generative artificial intelligence (Gen-AI) for the conceptualisation of HEMs. Two proof-of-concept studies were conducted, implementing a first-of-its-kind agentic…",
+      "authors": [
+        "Tushar Srivastava",
+        "Hanan Irfan",
+        "Shilpi Swami"
+      ],
+      "venue": "PharmacoEconomics - open",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs41669-026-00687-2/MediaObjects/41669_2026_687_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs12325-025-03273-w/MediaObjects/12325_2025_3273_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs43587-026-01186-z/MediaObjects/43587_2026_1186_Fig1_HTML.png",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-3-032-39763-8?as=webp"
+      ],
+      "pmid": "42864590",
+      "doi": "10.1007/s41669-026-00687-2",
+      "relevance_score": 91.8,
+      "freshness_score": 86.0,
+      "priority_score": 84.0,
+      "priority_label": "High relevance",
+      "rank": 34
     },
     {
       "id": "63b73a8c608a0faa316a",
@@ -1879,47 +1843,7 @@
       "freshness_score": 72.0,
       "priority_score": 83.9,
       "priority_label": "High relevance",
-      "rank": 36
-    },
-    {
-      "id": "c86815db9dff9ff97356",
-      "title": "Equipping the next generation: addressing the unmet need for artificial intelligence education at research performing organizations.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42888462",
-      "source": "PubMed - Medical AI",
-      "source_id": "pubmed_medical_ai",
-      "source_class": "Biomedical Index",
-      "source_tier": 1,
-      "content_type": "Biomedical",
-      "publication_status": "Letter",
-      "date": "2026-10-17T00:00:00+00:00",
-      "category": "AI4Education",
-      "categories": [
-        "AI4Education"
-      ],
-      "tags": [
-        "AI4Education",
-        "Medical",
-        "Education"
-      ],
-      "excerpt": "The integration of generative artificial intelligence (GenAI) tools into higher education is rapidly accelerating, yet the educational ecosystem appears largely unprepared for the scale and speed of adoption. Our recent international survey of over 1,200 university students and postdoctoral fellows in the medical and life sciences found that while more than 80% had used GenAI tools, the…",
-      "authors": [
-        "Jeremy Y Ng",
-        "Wid Al-Zahraa Al-Khafaji",
-        "David Moher"
-      ],
-      "venue": "Research integrity and peer review",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://media.springernature.com/full/springer-static/cover-hires/journal/41073"
-      ],
-      "pmid": "42888462",
-      "doi": "10.1186/s41073-026-00250-x",
-      "relevance_score": 85.0,
-      "freshness_score": 94.0,
-      "priority_score": 83.7,
-      "priority_label": "High relevance",
-      "rank": 37
+      "rank": 35
     },
     {
       "id": "3d5d7f5aaf65de9510f3",
@@ -1965,7 +1889,7 @@
       "freshness_score": 94.0,
       "priority_score": 83.7,
       "priority_label": "High relevance",
-      "rank": 38
+      "rank": 36
     },
     {
       "id": "a80ac8068cf5aba129cc",
@@ -2000,7 +1924,42 @@
       "freshness_score": 86.0,
       "priority_score": 83.6,
       "priority_label": "High relevance",
-      "rank": 39
+      "rank": 37
+    },
+    {
+      "id": "93a3c6a05f584f10feb6",
+      "title": "Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72",
+      "url": "https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-15T18:00:01+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on... Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on NVIDIA GB300 NVL72 Blackwell Ultra specifically for agentic coding…",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/open-model-unbox-768x432.jpg"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 86.0,
+      "priority_score": 83.5,
+      "priority_label": "High relevance",
+      "rank": 38
     },
     {
       "id": "6f131bbed5e7925d040e",
@@ -2035,7 +1994,7 @@
       "freshness_score": 72.0,
       "priority_score": 83.1,
       "priority_label": "High relevance",
-      "rank": 40
+      "rank": 39
     },
     {
       "id": "9821769a755b6c3bf6d9",
@@ -2075,7 +2034,7 @@
       "freshness_score": 72.0,
       "priority_score": 83.0,
       "priority_label": "High relevance",
-      "rank": 41
+      "rank": 40
     },
     {
       "id": "2001b02040bfd27d9398",
@@ -2111,7 +2070,7 @@
       "freshness_score": 94.0,
       "priority_score": 82.7,
       "priority_label": "High relevance",
-      "rank": 42
+      "rank": 41
     },
     {
       "id": "2cfec7e1acf513b59681",
@@ -2146,7 +2105,7 @@
       "freshness_score": 86.0,
       "priority_score": 82.7,
       "priority_label": "High relevance",
-      "rank": 43
+      "rank": 42
     },
     {
       "id": "2bd8707fdab8226a9f67",
@@ -2182,7 +2141,7 @@
       "freshness_score": 72.0,
       "priority_score": 82.7,
       "priority_label": "High relevance",
-      "rank": 44
+      "rank": 43
     },
     {
       "id": "d2b5b29b4c8155256199",
@@ -2217,7 +2176,7 @@
       "freshness_score": 72.0,
       "priority_score": 82.7,
       "priority_label": "High relevance",
-      "rank": 45
+      "rank": 44
     },
     {
       "id": "6bee349d6c55071f4f28",
@@ -2250,6 +2209,45 @@
       ],
       "relevance_score": 88.2,
       "freshness_score": 94.0,
+      "priority_score": 82.6,
+      "priority_label": "High relevance",
+      "rank": 45
+    },
+    {
+      "id": "467c8e42acb6bdc9ebe7",
+      "title": "Proof-based general-purpose computing with Magnetar",
+      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
+      "source": "Microsoft Research",
+      "source_id": "microsoft_research",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-15T16:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation"
+      ],
+      "excerpt": "At a glance A new form of computing . Zero-knowledge proofs let you run a workload and receive, alongside the result, a short proof that the program ran correctly. Anyone can check the proof in milliseconds, without rerunning the program, without trusting whoever ran it, and without needing data on which the program was run. Three grand challenges have stood in the way of broad adoption…",
+      "authors": [
+        "Srinath Setty"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/Magnetar-BlogHeroFeature-1400x788-1-1024x576.jpg",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Azure-AI-Foundry_1600x900.jpg",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/Magnetar_NEW_Summary_Simple.png"
+      ],
+      "relevance_score": 88.2,
+      "freshness_score": 86.0,
       "priority_score": 82.6,
       "priority_label": "High relevance",
       "rank": 46
@@ -2824,42 +2822,6 @@
       "rank": 62
     },
     {
-      "id": "c04bb70f1b05d38a0ca5",
-      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
-      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
-      "source": "NVIDIA Developer Blog",
-      "source_id": "nvidia_developer",
-      "source_class": "Engineering Lab",
-      "source_tier": 1,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-15T18:01:00+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models"
-      ],
-      "tags": [
-        "Foundation Models",
-        "Multimodal",
-        "Reasoning"
-      ],
-      "excerpt": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources, following company policy, and calling several tools. NVIDIA…",
-      "authors": [
-        "Michelle Horton"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/Nemotron-3-5-Super-VL-e1792075881894-768x432.webp"
-      ],
-      "relevance_score": 85.0,
-      "freshness_score": 94.0,
-      "priority_score": 81.7,
-      "priority_label": "High relevance",
-      "rank": 63
-    },
-    {
       "id": "3803ed7adea0b9e9c520",
       "title": "TRACER: A Multimodal Harness for Patient Care in Hospitals",
       "url": "https://arxiv.org/abs/2610.21266",
@@ -2893,7 +2855,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 64
+      "rank": 63
     },
     {
       "id": "ca946f1238ba7f960eed",
@@ -2931,7 +2893,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 65
+      "rank": 64
     },
     {
       "id": "33c0ea46135c37feb416",
@@ -2965,7 +2927,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.4,
       "priority_label": "High relevance",
-      "rank": 66
+      "rank": 65
     },
     {
       "id": "a8823f673a3b45e38860",
@@ -3000,7 +2962,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 67
+      "rank": 66
     },
     {
       "id": "4543f0bc5781f84694a4",
@@ -3035,7 +2997,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 68
+      "rank": 67
     },
     {
       "id": "ba39eca5888cbccf9552",
@@ -3070,7 +3032,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 69
+      "rank": 68
     },
     {
       "id": "72bf11c187a60168931f",
@@ -3104,7 +3066,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 70
+      "rank": 69
     },
     {
       "id": "9bf93d58cc35db9987f8",
@@ -3139,7 +3101,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 71
+      "rank": 70
     },
     {
       "id": "a097ef0d441a7216b7cd",
@@ -3174,7 +3136,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 72
+      "rank": 71
     },
     {
       "id": "f57eff9c23a4454b476b",
@@ -3210,7 +3172,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 73
+      "rank": 72
     },
     {
       "id": "baa7c8ed0b0ca2a27294",
@@ -3249,7 +3211,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.1,
       "priority_label": "High relevance",
-      "rank": 74
+      "rank": 73
     },
     {
       "id": "c837fa3bc93990f27aa5",
@@ -3286,7 +3248,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.0,
       "priority_label": "High relevance",
-      "rank": 75
+      "rank": 74
     },
     {
       "id": "188697f3327af7382d47",
@@ -3320,7 +3282,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 76
+      "rank": 75
     },
     {
       "id": "6bb3ecc79ac80294c669",
@@ -3356,7 +3318,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 77
+      "rank": 76
     },
     {
       "id": "c037925f28dc6ece4169",
@@ -3392,7 +3354,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 78
+      "rank": 77
     },
     {
       "id": "8fa782f6f8f0569f8b98",
@@ -3426,7 +3388,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 79
+      "rank": 78
     },
     {
       "id": "110946daf5c1fbce5219",
@@ -3460,7 +3422,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 80
+      "rank": 79
     },
     {
       "id": "bea11b99afa80c5147cf",
@@ -3495,7 +3457,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 81
+      "rank": 80
     },
     {
       "id": "d0cd65881ec66ad9736a",
@@ -3529,7 +3491,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 82
+      "rank": 81
     },
     {
       "id": "ee4bdfee28f7d805cf22",
@@ -3572,7 +3534,7 @@
       "freshness_score": 86.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 83
+      "rank": 82
     },
     {
       "id": "5f17c4f5abe9fd5cb1be",
@@ -3610,7 +3572,7 @@
       "freshness_score": 86.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 84
+      "rank": 83
     },
     {
       "id": "87ad6df255e707abfb7f",
@@ -3649,7 +3611,7 @@
       "freshness_score": 86.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 85
+      "rank": 84
     },
     {
       "id": "d98fc085b7493311c6d0",
@@ -3685,7 +3647,7 @@
       "freshness_score": 86.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 86
+      "rank": 85
     },
     {
       "id": "a2f63c9d70dee382e203",
@@ -3722,7 +3684,7 @@
       "freshness_score": 86.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 87
+      "rank": 86
     },
     {
       "id": "2af9a94b5fc12851c828",
@@ -3757,7 +3719,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.7,
       "priority_label": "High relevance",
-      "rank": 88
+      "rank": 87
     },
     {
       "id": "dc8b067fd032df200ce8",
@@ -3800,7 +3762,7 @@
       "freshness_score": 72.0,
       "priority_score": 80.6,
       "priority_label": "High relevance",
-      "rank": 89
+      "rank": 88
     },
     {
       "id": "d100e7052f5d6239d808",
@@ -3832,7 +3794,7 @@
       "freshness_score": 72.0,
       "priority_score": 80.6,
       "priority_label": "High relevance",
-      "rank": 90
+      "rank": 89
     },
     {
       "id": "93854539beed00dbac45",
@@ -3868,7 +3830,7 @@
       "freshness_score": 72.0,
       "priority_score": 80.6,
       "priority_label": "High relevance",
-      "rank": 91
+      "rank": 90
     },
     {
       "id": "d9ca0929322cc3620d2c",
@@ -3905,7 +3867,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.3,
       "priority_label": "High relevance",
-      "rank": 92
+      "rank": 91
     },
     {
       "id": "6c062b861d6d205bc313",
@@ -3938,7 +3900,7 @@
       "freshness_score": 72.0,
       "priority_score": 80.3,
       "priority_label": "High relevance",
-      "rank": 93
+      "rank": 92
     },
     {
       "id": "187e643059dc3ca62ef7",
@@ -3975,7 +3937,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 94
+      "rank": 93
     },
     {
       "id": "3be01d016bf20b8b6ed4",
@@ -4009,7 +3971,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 95
+      "rank": 94
     },
     {
       "id": "a98abf28252d17888182",
@@ -4046,7 +4008,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 96
+      "rank": 95
     },
     {
       "id": "9b755736f4e7a6791405",
@@ -4081,7 +4043,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 97
+      "rank": 96
     },
     {
       "id": "6b01feb8d50cb8566da0",
@@ -4117,7 +4079,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 98
+      "rank": 97
     },
     {
       "id": "4b15d17c974fb76ce21c",
@@ -4152,7 +4114,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.2,
       "priority_label": "High relevance",
-      "rank": 99
+      "rank": 98
     },
     {
       "id": "572fd059fa05c253f034",
@@ -4188,7 +4150,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.1,
       "priority_label": "High relevance",
-      "rank": 100
+      "rank": 99
     },
     {
       "id": "f3d0899182d2ff38229c",
@@ -4230,7 +4192,7 @@
       "freshness_score": 56.0,
       "priority_score": 80.1,
       "priority_label": "High relevance",
-      "rank": 101
+      "rank": 100
     },
     {
       "id": "7b41dc23c4b309c52faf",
@@ -4265,7 +4227,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.0,
       "priority_label": "Relevant",
-      "rank": 102
+      "rank": 101
     },
     {
       "id": "8d94ffbd92bb91ad2c68",
@@ -4298,7 +4260,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 103
+      "rank": 102
     },
     {
       "id": "f3a35e05c4f5f7d9bc76",
@@ -4331,7 +4293,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 104
+      "rank": 103
     },
     {
       "id": "69527d0b6b66f9b31852",
@@ -4366,7 +4328,7 @@
       "freshness_score": 94.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
-      "rank": 105
+      "rank": 104
     },
     {
       "id": "9d58cf02b2e4e80fe472",
@@ -4400,6 +4362,42 @@
       "arxiv_id": "2610.21985",
       "relevance_score": 96.7,
       "freshness_score": 94.0,
+      "priority_score": 79.9,
+      "priority_label": "Relevant",
+      "rank": 105
+    },
+    {
+      "id": "c04bb70f1b05d38a0ca5",
+      "title": "NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning",
+      "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-15T18:01:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal",
+        "Reasoning"
+      ],
+      "excerpt": "Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,... Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources, following company policy, and calling several tools. NVIDIA…",
+      "authors": [
+        "Michelle Horton"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/Nemotron-3-5-Super-VL-e1792075881894-768x432.webp"
+      ],
+      "relevance_score": 85.0,
+      "freshness_score": 86.0,
       "priority_score": 79.9,
       "priority_label": "Relevant",
       "rank": 106
@@ -5227,40 +5225,6 @@
       "rank": 128
     },
     {
-      "id": "12f1ed821a4a7e2eec0f",
-      "title": "CoEvoke: Evoking Multi-Agent Collaboration for Trajectory Collection",
-      "url": "https://arxiv.org/abs/2610.14021",
-      "source": "arXiv - Machine Learning",
-      "source_id": "arxiv_ml",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-14T04:00:00+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents"
-      ],
-      "excerpt": "Training multi-agent collaboration requires trajectories of checking, feedback, and repair, yet task-solving rollouts may end in immediate approval or repeat unsuccessful attempts without useful correction. We introduce CoEvoke, a cross-domain framework that evokes these interactions during trajectory collection. Controlled perturbations create recoverable difficulties, while restricted…",
-      "authors": [
-        "Lin Wu, Shu Yao, Yuheng Wang, Jingru Fan, Huatao Li, Yihan Li, Liu Yixuan, Cheng Liu, Jian Chang, Zeyu Zhao, Aohua Zhang, Huiying Zhao, Shuyuan Zhu, Chen Qian"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2610.14021",
-      "relevance_score": 91.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.5,
-      "priority_label": "Relevant",
-      "rank": 129
-    },
-    {
       "id": "7b34b8be6d8b56f646e6",
       "title": "ClothCode: Generative Modeling for Garment State Estimation and Dynamics Prediction",
       "url": "https://arxiv.org/abs/2610.14200",
@@ -5291,7 +5255,7 @@
       "freshness_score": 86.0,
       "priority_score": 78.5,
       "priority_label": "Relevant",
-      "rank": 130
+      "rank": 129
     },
     {
       "id": "b9f7a8968071758614b2",
@@ -5323,7 +5287,7 @@
       "freshness_score": 72.0,
       "priority_score": 78.5,
       "priority_label": "Relevant",
-      "rank": 131
+      "rank": 130
     },
     {
       "id": "f9c91951a626a3a387ec",
@@ -5357,7 +5321,7 @@
       "freshness_score": 94.0,
       "priority_score": 78.4,
       "priority_label": "Relevant",
-      "rank": 132
+      "rank": 131
     },
     {
       "id": "280dfa1c42107b8212c9",
@@ -5395,7 +5359,7 @@
       "freshness_score": 56.0,
       "priority_score": 78.4,
       "priority_label": "Relevant",
-      "rank": 133
+      "rank": 132
     },
     {
       "id": "2377c99004a250e386b5",
@@ -5427,6 +5391,40 @@
       "related": [],
       "images": [],
       "arxiv_id": "2610.21195",
+      "relevance_score": 85.0,
+      "freshness_score": 94.0,
+      "priority_score": 78.2,
+      "priority_label": "Relevant",
+      "rank": 133
+    },
+    {
+      "id": "28bcdc76617f84ca31e7",
+      "title": "Does On-Policy Distillation Need to Complete Every Rollout?",
+      "url": "https://arxiv.org/abs/2610.21337",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-16T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "On-policy distillation (OPD) effectively transfers capabilities from a teacher to a student through feedback on student-generated rollouts. However, generating complete student rollouts and computing teacher feedback for every token make OPD computationally expensive. We introduce Stochastic Truncated On-Policy Distillation (STOPD), which accelerates OPD by randomly truncating student…",
+      "authors": [
+        "Zhengxin Zhang, Maosen Tang, Ning Wang, Changhao Li, Jingren Zhou, Bo Dai, Sainyam Galhotra, Alex Townsend, Claire Cardie"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.21337",
       "relevance_score": 85.0,
       "freshness_score": 94.0,
       "priority_score": 78.2,
@@ -6836,36 +6834,6 @@
       "rank": 174
     },
     {
-      "id": "4d11ed62a144a3f4c2f6",
-      "title": "Mistral raises €3B to make sovereign, open-weight AI the technology frontier",
-      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-09-08T12:00:22+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models"
-      ],
-      "tags": [
-        "Foundation Models"
-      ],
-      "excerpt": "Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 91.8,
-      "freshness_score": 42.0,
-      "priority_score": 74.6,
-      "priority_label": "Relevant",
-      "rank": 175
-    },
-    {
       "id": "afa8c33f8eb7996a3941",
       "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
       "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
@@ -6899,7 +6867,7 @@
       "freshness_score": 56.0,
       "priority_score": 74.3,
       "priority_label": "Relevant",
-      "rank": 176
+      "rank": 175
     },
     {
       "id": "c9f8263218d16e7752e2",
@@ -6932,6 +6900,36 @@
       "relevance_score": 88.2,
       "freshness_score": 72.0,
       "priority_score": 74.2,
+      "priority_label": "Relevant",
+      "rank": 176
+    },
+    {
+      "id": "a0595c813318ccae8c08",
+      "title": "Oct 18, 2026 Announcements Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-18T00:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 177
     },
@@ -7362,38 +7360,6 @@
       "rank": 189
     },
     {
-      "id": "3b88e631408680364ea9",
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
-      "source": "Google DeepMind",
-      "source_id": "google_deepmind",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-15T16:08:03+00:00",
-      "category": "General AI",
-      "categories": [
-        "General AI"
-      ],
-      "tags": [
-        "General AI"
-      ],
-      "excerpt": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo"
-      ],
-      "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.8,
-      "priority_label": "Relevant",
-      "rank": 190
-    },
-    {
       "id": "3280ed302a3eecae2a95",
       "title": "Microsoft president says UK is best placed to drive AI regulation",
       "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
@@ -7424,7 +7390,7 @@
       "freshness_score": 86.0,
       "priority_score": 72.8,
       "priority_label": "Relevant",
-      "rank": 191
+      "rank": 190
     },
     {
       "id": "6fb8d323a664475248cd",
@@ -7459,7 +7425,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.8,
       "priority_label": "Relevant",
-      "rank": 192
+      "rank": 191
     },
     {
       "id": "8348f8f60db16b79faa1",
@@ -7494,7 +7460,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.3,
       "priority_label": "Relevant",
-      "rank": 193
+      "rank": 192
     },
     {
       "id": "489d5fcf8020ccbf81e0",
@@ -7531,7 +7497,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.1,
       "priority_label": "Relevant",
-      "rank": 194
+      "rank": 193
     },
     {
       "id": "7f2cf9a968c6645192d9",
@@ -7565,7 +7531,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.1,
       "priority_label": "Relevant",
-      "rank": 195
+      "rank": 194
     },
     {
       "id": "a9cf57ed6d0d4129b51d",
@@ -7597,7 +7563,7 @@
       "freshness_score": 86.0,
       "priority_score": 71.9,
       "priority_label": "Relevant",
-      "rank": 196
+      "rank": 195
     },
     {
       "id": "b4a8a140e104bbc4a088",
@@ -7630,7 +7596,7 @@
       "freshness_score": 56.0,
       "priority_score": 71.8,
       "priority_label": "Relevant",
-      "rank": 197
+      "rank": 196
     },
     {
       "id": "5e1dbe5c8ee2d59e93fa",
@@ -7662,6 +7628,38 @@
       "relevance_score": 100.0,
       "freshness_score": 56.0,
       "priority_score": 71.7,
+      "priority_label": "Relevant",
+      "rank": 197
+    },
+    {
+      "id": "3b88e631408680364ea9",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "source": "Google DeepMind",
+      "source_id": "google_deepmind",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-15T16:08:03+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 86.0,
+      "priority_score": 71.0,
       "priority_label": "Relevant",
       "rank": 198
     },

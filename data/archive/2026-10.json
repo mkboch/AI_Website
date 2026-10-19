@@ -1,9 +1,47 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-19T04:54:45.586338+00:00",
-  "item_count": 1221,
+  "updated_at": "2026-10-19T13:38:02.588776+00:00",
+  "item_count": 1240,
   "items": [
+    {
+      "id": "3d42f5bc85a72e6c5f67",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-19T09:08:05+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to write instructions that moved their virtual avatars around the simulated…",
+      "authors": [
+        "Amit Katwala"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.1,
+      "priority_label": "Relevant",
+      "rank": 72
+    },
     {
       "id": "f0a7697c88349c0a94e8",
       "title": "Spatiotemporal Adaptive Eigenspectrum Remapping in Transcranial Ultrasound Localization Microscopy",
@@ -630,6 +668,77 @@
       "rank": 152
     },
     {
+      "id": "0695a3a5017edea622c7",
+      "title": "Verbalising Model's Computation for Chain-of-Thought Faithfulness Detection",
+      "url": "https://arxiv.org/abs/2610.23275",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Current Chain-of-Thought (CoT) verification methods detect reasoning faithfulness from model outputs or static activations, but are limited in explaining how unfaithfulness develops during generation. We introduce VERITAS to verbalise the model's computation: how different reasoning anchors emerge, transfer across layers, and surface in the output. VERITAS adopts the layer-wise Jacobian…",
+      "authors": [
+        "Yujing Wang, Yulan He, Wenya Wang, Hanqi Yan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23275",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 103
+    },
+    {
+      "id": "9d4c6158ed1cb4e5a554",
+      "title": "Multi-Agent Reinforcement Learning-Based UAV Pathfinding for Obstacle Avoidance in Stochastic Environment",
+      "url": "https://arxiv.org/abs/2310.16659",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Traditional methods plan feasible paths for multiple agents in the stochastic environment. However, the methods' iterations with the changes in the environment result in computation complexities, especially for the decentralized agents without a centralized planner. Although reinforcement learning provides a plausible solution because of the generalization for different environments, it…",
+      "authors": [
+        "Qizhen Wu, Kexin Liu, Lei Chen, Jinhu L\\\"u"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2310.16659",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 113
+    },
+    {
       "id": "f112aee0aab5d0c59d46",
       "title": "X-Splat: Unified Gaussian Splatting for Joint RGB and X-ray 3D Reconstruction",
       "url": "https://arxiv.org/abs/2610.23237",
@@ -804,6 +913,79 @@
       "rank": 190
     },
     {
+      "id": "797b258a3a5ac27f3809",
+      "title": "CoLU: Confidence-Weighted Layerwise Unlearning for Large Language Models",
+      "url": "https://arxiv.org/abs/2610.22721",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Hardware"
+      ],
+      "excerpt": "Large language model (LLM) unlearning aims to forget certain information while preserving others, without retraining from scratch. SoTA methods such as NPO, SimNPO, and SatImp balance forgetting and retain through whole model fine-tuning, while FOM-UL explores selective layer updates. Prior works show that suppressing target information can damage retained knowledge. This trade-off can…",
+      "authors": [
+        "Jingkai Guo, Ziyi Zhao, Chaitali Chakrabarti, Deliang Fan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.22721",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.7,
+      "priority_label": "Relevant",
+      "rank": 100
+    },
+    {
+      "id": "6473327549dbe51c08b1",
+      "title": "COMET: Decoupled Distillation, Routing, and Capacity Control for Task-Agnostic Continual Vision--Language Learning",
+      "url": "https://arxiv.org/abs/2610.22907",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI4Education",
+        "Multimodal",
+        "Evaluation",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Vision-language models (VLMs) such as CLIP retain zero-shot recognition ability, but their open-world use often requires task-agnostic continual learning: tasks arrive sequentially, past data are unavailable, task identity is unknown, and the backbone cannot be retrained. We argue that this setting fails VLMs through three coupled pressures beyond the stability-plasticity tradeoff: (1)…",
+      "authors": [
+        "Seungyoon Woo, Keonhee Park, Gunhee Kim"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.22907",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 140
+    },
+    {
       "id": "ec8c1e4f5e366d03c35d",
       "title": "Refusal Is Not Robustness: Measuring Harmful Reachability in Autoregressive Language Models",
       "url": "https://arxiv.org/abs/2610.22754",
@@ -838,6 +1020,47 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 78
+    },
+    {
+      "id": "443129b60351ba0f68c4",
+      "title": "LAW: Unifying Language, Action, and World Modeling for Agentic Physical Intelligence",
+      "url": "https://arxiv.org/abs/2610.23334",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Multimodal",
+        "Agents",
+        "Evaluation",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "World-action models jointly predict actions and future world states, but long-horizon manipulation further requires language reasoning to plan subtask objectives, assess execution progress, and guide action selection. We present LAW, a closed-loop VLM--WAM framework that unifies language reasoning, action generation, and world modeling through semantic subtask progress. Within the LAW…",
+      "authors": [
+        "Jiajun Cao, Kai Tang, Bohua Zhang, Zezhong Qian, Ying Li, Xiaozhu Ju, Xiaobao Wei, Jiaming Liu, Yang Ding, Sixiang Chen, Yiding Sun, Siyuan Qian, Tinghao Wang, Jixian Wu, Yichen Guo, Yi Zhang, Shilong Zou, Yong Dai, Jian Tang, Shanghang Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23334",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 114
     },
     {
       "id": "c999b5959233c08a501d",
@@ -1273,6 +1496,111 @@
       "rank": 135
     },
     {
+      "id": "2eabb561f6d4c7bf7bad",
+      "title": "Reusing Calibration Gains across Model Representations",
+      "url": "https://arxiv.org/abs/2610.22771",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Scale calibration learns an update for one model representation. We study how much of that update can be reused by another representation of the same pretrained model. Our transfer procedure extracts positive group-wise gains and installs them in the recipient's weights or native quantization scales without recipient-side optimization. On a quantized recipient, it preserves integer…",
+      "authors": [
+        "Xu Cao, Wenxuan Xiao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.22771",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 79
+    },
+    {
+      "id": "3ebd00e24abc392c8679",
+      "title": "On the tradeoff between robustness and geometric accuracy in adversarial training",
+      "url": "https://arxiv.org/abs/2610.22955",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "For non-parametric binary classification in the presence of an adversary, we prove an optimal quantitative estimate for adversarial classifiers controlling geometric accuracy, as measured by the Hausdorff distance to the Bayes classifier, in terms or their robustness, as encoded by the adversarial budget $\\varepsilon$. This rigorously shows that robust classifiers sacrifice at most…",
+      "authors": [
+        "Rachel Morris, Ryan Murray, Kerrek Stinson"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.22955",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 80
+    },
+    {
+      "id": "59fa5ead9a61140a8142",
+      "title": "Unifying Embodied Foundation Models via a Model-to-Policy Formulation",
+      "url": "https://arxiv.org/abs/2610.23053",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "Vision-language-action (VLA) models and world-action models (WAMs) have emerged as promising approaches to robot learning and control. These models integrate multimodal perception and action generation, but differ in their architectures, output representations, and learning objectives. In this paper, we present a unified, architecture-agnostic probabilistic formulation for embodied…",
+      "authors": [
+        "Xinyi Hong, Mingyang Ren"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23053",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 115
+    },
+    {
       "id": "7a026038d3a47e3438fa",
       "title": "Tree-Aware Posterior Distillation for Long-Horizon Agentic Reinforcement Learning",
       "url": "https://arxiv.org/abs/2610.23181",
@@ -1448,6 +1776,40 @@
       "priority_score": 71.9,
       "priority_label": "Relevant",
       "rank": 155
+    },
+    {
+      "id": "33fc5359e4758fbfa59c",
+      "title": "Generative adversarial networks with Monte Carlo dropout uncertainty quantification for structural health monitoring: Fibre Bragg grating data augmentation comparison in Hawk T1A aircraft",
+      "url": "https://arxiv.org/abs/2610.22436",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "The signal generation capabilities of a novel data augmentation framework are examined in aerospace structures. First, the framework learns class-conditional temporal and spectral characteristics of the measured structural responses. It uses conditional generative adversarial network training and Monte Carlo dropout uncertainty quantification as a Bayesian approximation. This step…",
+      "authors": [
+        "Alvaro Peiro, Marios Impraimakis"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.22436",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 82
     },
     {
       "id": "d4c351d1f559d972e7c3",
@@ -1626,6 +1988,42 @@
       "rank": 186
     },
     {
+      "id": "34b01cca38e05e703464",
+      "title": "A Stronger Teacher Within: Strengthening MoE Models via On-Policy Bidirectional Distillation",
+      "url": "https://arxiv.org/abs/2610.23185",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-19T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI4Education",
+        "LLM"
+      ],
+      "excerpt": "Reinforcement Learning with Verifiable Rewards (RLVR) has substantially improved Mixture-of-Experts (MoE) LLMs, but its outcome-level rewards provide only sparse supervision. On-Policy Distillation offers dense token-level feedback, yet requires a stronger compatible teacher, while on-policy self-distillation relies on hand-designed privileged information. We observe that the MoE…",
+      "authors": [
+        "Haoyu Chen, Jun Bai, Yang Liu, Jianfei Zhang, Wenge Rong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23185",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 141
+    },
+    {
       "id": "a4a162d0b89caf80bb07",
       "title": "Beyond Marginal Influence: Interaction-Aware Memory Selection for LLM Agents",
       "url": "https://arxiv.org/abs/2610.23266",
@@ -1768,6 +2166,350 @@
       "priority_score": 75.4,
       "priority_label": "Relevant",
       "rank": 97
+    },
+    {
+      "id": "432c7a3cd0302f53c3fd",
+      "title": "Accuracy of transfer learning in predicting peri-implantitis onset from intraoral radiograph: A multi-center longitudinal retrospective study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42894037",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical"
+      ],
+      "excerpt": "The growing application of artificial intelligence in dentistry has opened new opportunities for predicting peri-implantitis (PI) using convolutional neural networks (CNNs). Transfer learning, where knowledge from a model pre-trained on a large dataset is adapted to a new, domain-specific task, may enhance performance, particularly when medical datasets are limited. This study evaluated…",
+      "authors": [
+        "Muhammad H A Saleh",
+        "Luigi Nibali",
+        "Abdusalam E Alrmali",
+        "Vito Carlo Alberto Caponio",
+        "Pasquale Santamaria",
+        "Francesco Fanelli",
+        "Khrystyna Zhurakivska",
+        "Hom-Lay Wang"
+      ],
+      "venue": "Clinical oral investigations",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00784-026-07181-3/MediaObjects/784_2026_7181_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00784-026-07181-3/MediaObjects/784_2026_7181_Fig2_HTML.png"
+      ],
+      "pmid": "42894037",
+      "doi": "10.1007/s00784-026-07181-3",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 86.3,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "5957a67090cdcbee825b",
+      "title": "MTL-LymphNet: A Lightweight Multi-Task Learning Framework for Simultaneous Lymph Node Segmentation and Metastasis Classification in Thyroid Cancer Ultrasound.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42894357",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Ultrasound assessment of cervical lymph node metastasis in papillary thyroid carcinoma is crucial but suffers from inter-observer variability. Existing deep learning solutions typically use separate single-task pipelines, resulting in parameter redundancy. We propose MTL-LymphNet, a lightweight, backbone-agnostic multi-task learning framework that simultaneously segments lymph nodes and…",
+      "authors": [
+        "Muhammad Thahiruddin",
+        "Imam Wahyudi",
+        "Alfie Nuril Mustofa"
+      ],
+      "venue": "Ultrasonic imaging",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42894357",
+      "doi": "10.1177/01617346261488317",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 3
+    },
+    {
+      "id": "712550261ee527bb1d57",
+      "title": "Defining the Clinical Indication for Real-Time Artificial Intelligence-Assisted Ultrasound in Breast Lesions with Low Suspicion of Malignancy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42894253",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical"
+      ],
+      "excerpt": "To evaluate whether real-time artificial intelligence (AI) breast ultrasound (US) can identify a subgroup of breast imaging reporting and data system (BI-RADS) category 4A lesions without suspicious mammographic (MMG) findings in whom unnecessary biopsy may be safely avoided. This retrospective analysis of single-center biopsy registry included 641 consecutive US BI-RADS 4A lesions that…",
+      "authors": [
+        "Jeeyeon Lee",
+        "Bora Yang",
+        "Won Hwa Kim",
+        "Jaeil Kim",
+        "Ho Yong Park",
+        "Byeongju Kang",
+        "Joon Suk Moon",
+        "Hai Lin Park"
+      ],
+      "venue": "Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42894253",
+      "doi": "10.1002/jum.70439",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "900280859bfcab44f83e",
+      "title": "Expanding role of nuclear medicine in cardiac amyloidosis: insights from the EJNMMI collection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42894083",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation"
+      ],
+      "excerpt": "Recent advances in nuclear medicine are reshaping the evaluation of cardiac amyloidosis, as highlighted by the recent collection published in EJNMMI (collection link: https://link.springer.com/collections/igfdhcddjg). This commentary summarizes key insights from these studies, emphasizing the evolving shift from conventional diagnostic imaging toward a more integrated and comprehensive…",
+      "authors": [
+        "Mahdi Zirakchian Zadeh",
+        "Medhat M Osman"
+      ],
+      "venue": "EJNMMI reports",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs41824-026-00326-3/MediaObjects/41824_2026_326_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs41824-026-00326-3/MediaObjects/41824_2026_326_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs41824-026-00326-3/MediaObjects/41824_2026_326_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs41824-026-00326-3/MediaObjects/41824_2026_326_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42894083",
+      "doi": "10.1186/s41824-026-00326-3",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
+    {
+      "id": "0cb7f3326437aa7c1827",
+      "title": "Automated segmentation and clinical characterization of layered plaque in intracoronary optical coherence tomography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42894801",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Layered plaque, representing organized thrombus overlying a previously disrupted plaque, is a marker of coronary destabilization and plaque vulnerability. Despite its clinical relevance, identifying layered plaque remains expert dependent with interobserver variability, limiting large-scale assessment. We developed and validated an artificial intelligence (AI) model for layered plaque…",
+      "authors": [
+        "Ruben G A van der Waerden",
+        "Joske L van der Zande",
+        "Simone Saitta",
+        "Rick H J A Volleberg",
+        "Jan-Quinten Mol",
+        "Pierandrea Cancian",
+        "Thijs J Luttikholt",
+        "Xiaojin Gu"
+      ],
+      "venue": "International journal of cardiology. Heart & vasculature",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42894801",
+      "doi": "10.1016/j.ijcha.2026.102025",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "bff92b6e8d9a7a6dc146",
+      "title": "Artificial Intelligence-Assisted Ultrasound for Sarcopenia Assessment: A Scoping Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42893969",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Muscle ultrasound offers a portable, non-invasive, and cost-effective option for sarcopenia assessment, but operator dependency limits its standardization. Artificial intelligence (AI) may help automate and improve ultrasound-based muscle evaluation. This scoping review aims to map the current landscape of AI-assisted ultrasound for sarcopenia assessment, including research trends,…",
+      "authors": [
+        "Weikang Jiang",
+        "Jianguo Sheng",
+        "Wanqiong Zhou",
+        "Yan Zhang",
+        "Ying Wang",
+        "Jing Wang",
+        "Wei Luan"
+      ],
+      "venue": "Journal of the American Geriatrics Society",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42893969",
+      "doi": "10.1111/jgs.70793",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "bf1d3387ce0357626d23",
+      "title": "Oncogenic mutations in non-small cell lung cancer: from molecular mechanisms to clinical practice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42894004",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI for Science"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Targeted therapy has revolutionized the treatment of non-small cell lung cancer (NSCLC) patients harboring oncogenic alterations, and next-generation tyrosine kinase inhibitors (TKIs) significantly increase blood-brain barrier (BBB) penetration, leading to improved disease control and survival benefits. However, several issues remain to be addressed, including the selection of more…",
+      "authors": [
+        "Chaozhuo Li",
+        "Xiaoyan Yin",
+        "Shujie Zhou",
+        "Junxu Wen",
+        "Jinming Yu",
+        "Xiangjiao Meng"
+      ],
+      "venue": "Signal transduction and targeted therapy",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41392-026-02689-2/MediaObjects/41392_2026_2689_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41392-025-02243-6/MediaObjects/41392_2025_2243_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41571-023-00808-4/MediaObjects/41571_2023_808_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs12276-025-01604-z/MediaObjects/12276_2025_1604_Fig1_HTML.png"
+      ],
+      "pmid": "42894004",
+      "doi": "10.1038/s41392-026-02689-2",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "08b13915ef8a1cc90a68",
+      "title": "Registered Nurses' Experiences of Clinical Decision-Making: A Qualitative Descriptive Study to Inform Artificial Intelligence-Assisted Decision Support in Nursing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42894105",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "To describe registered nurses' experiences of clinical decision-making and identify needs that may inform future development of artificial-intelligence-assisted clinical decision support systems in nursing. A qualitative descriptive study. Data were collected between 2022 and 2025 through 16 semi-structured interviews with registered nurses working in inpatient wards at a Finnish…",
+      "authors": [
+        "Suonnansalo Petra",
+        "Härkönen Henna",
+        "Alastalo Mika",
+        "Zhou Wentao",
+        "Jansson Miia"
+      ],
+      "venue": "Journal of clinical nursing",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42894105",
+      "doi": "10.1111/jocn.70595",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 9
     },
     {
       "id": "9692486eeb77934b280e",
@@ -3392,8 +4134,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 72.2,
+      "freshness_score": 86.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 138
     },
@@ -33957,8 +34699,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_TP3_SocialsV3_DannyKQuote.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.9,
+      "freshness_score": 56.0,
+      "priority_score": 66.4,
       "priority_label": "Latest",
       "rank": 65
     },
@@ -33992,8 +34734,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.9,
+      "freshness_score": 56.0,
+      "priority_score": 66.4,
       "priority_label": "Latest",
       "rank": 66
     },

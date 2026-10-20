@@ -1,9 +1,2330 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-19T22:29:18.610613+00:00",
-  "item_count": 1263,
+  "updated_at": "2026-10-20T05:01:51.680388+00:00",
+  "item_count": 1329,
   "items": [
+    {
+      "id": "e6b252ef3669d969c8b9",
+      "title": "Language-Forcing: Advancing Humanoid Loco-Manipulation via Semantic Alignment of Whole-Body World Action Models",
+      "url": "https://arxiv.org/abs/2610.23894",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Robotics & Embodied AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Multimodal",
+        "Safety",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "World Action Models (WAMs) jointly predict robot actions and future observations. However, their visual prediction objectives do not explicitly distinguish task-relevant transitions from incidental scene changes. For whole-body policies, this distinction matters because task progress depends on coordinated changes in body pose, contact, and object state. We introduce LANGUAGE-FORCING, a…",
+      "authors": [
+        "Yanjun Li, Jiarui Ye, Weiyu Guo, Zixiao He, Kangjie Ye, Dihan Wang, Yishuo Cheng, Zishang Xiang, Mingju Gao, Hao Tang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23894",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 43
+    },
+    {
+      "id": "68a9b249a996fc921dab",
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "url": "https://arxiv.org/abs/2610.23866",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accuracy and features of responses…",
+      "authors": [
+        "Benedict Cummins-Mburu, Mariana Garcia Mejia, Oscar Heath, Sabrina Kreyzerman, Ellie Murray, Arusan Surendiran, Rohan Alexander"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23866",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 53
+    },
+    {
+      "id": "55a761d109b15c48bf84",
+      "title": "Beyond Factual Accuracy: A Benchmark for Evaluating Perspective Alignment in LLMs",
+      "url": "https://arxiv.org/abs/2610.25087",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Safety",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Large Language Models often generate factually correct responses that fail to maintain user-requested perspectives, blending multiple perspectives and forcing users to filter through unwanted information---a perspective control failure that factual accuracy metrics cannot detect. We introduce PerspectiveBench, a benchmark quantifying perspective alignment by constructing scenarios where…",
+      "authors": [
+        "Sunghoon Kim, Sangyeop Kim"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.25087",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 54
+    },
+    {
+      "id": "706e555a196dc1079bc1",
+      "title": "OncoReg: Medical Image Registration for Oncological Challenges",
+      "url": "https://arxiv.org/abs/2503.23179",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Safety",
+        "Medical",
+        "Imaging",
+        "Vision",
+        "Privacy"
+      ],
+      "excerpt": "In modern cancer research, the vast volume of medical data generated is often underutilised due to challenges related to patient privacy. The OncoReg Challenge addresses this issue by enabling researchers to develop and validate image registration methods through a two-phase framework that ensures patient privacy while fostering the development of more generalisable AI models. Phase one…",
+      "authors": [
+        "Wiebke Heyer, Yannic Elser, Lennart Berkel, Xinrui Song, Xuanang Xu, Pingkun Yan, Xi Jia, Jinming Duan, Zi Li, Tony C. W. Mok, Bowen Li, Tim Hable, Christian Staackmann, Christoph Gro{\\ss}br\\\"ohmer, Lasse Hansen, Alessa Hering, Malte M. Sieren, Mattias P. Heinrich"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2503.23179",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 67
+    },
+    {
+      "id": "63cbc940d91d921d1966",
+      "title": "SocialCoAct: Enabling and Benchmarking Egocentric Social Co-Action for VLM-Based Humanoid Robots",
+      "url": "https://arxiv.org/abs/2610.24559",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation",
+        "Robotics",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Enabling humanoid robots to participate effectively in social interactions is important for their integration into human-centered environments. Existing methods, however, typically map pre-generated speech directly to continuous motion trajectories but have limited awareness of complex social environments and lack explicit high-level semantic action planning. We introduce SocialCoAct, a…",
+      "authors": [
+        "Jiancong Ma, Kun Li, Jin Jiang, Shengcai Liao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24559",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 86
+    },
+    {
+      "id": "163e72186709fb92c2d0",
+      "title": "Visual-Inertial Odometry for Ground Robots with Dynamic Camera-IMU Extrinsic Calibration",
+      "url": "https://arxiv.org/abs/2610.25397",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Visual-inertial odometry systems are often constrained by the assumption that sensors are rigidly mounted, which limits their adaptability in practical scenarios involving structural motion. To address this limitation, this paper investigates time-varying camera-IMU extrinsic calibration. First, a dynamic camera-IMU extrinsic calibration method based on the Denavit-Hartenberg convention…",
+      "authors": [
+        "Bo Dong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.25397",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 95
+    },
+    {
+      "id": "64e3e904ca2e54a2c232",
+      "title": "Do Knowledge and Reasoning Oriented Benchmarks Induce Stable Representation Signatures in LLMs?",
+      "url": "https://arxiv.org/abs/2610.24029",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Internal signatures could support monitoring, adaptive computation, and mechanistic analysis, but benchmark prompts can be separable without any shared computational distinction. We test whether a prespecified knowledge/reasoning label defines a reusable internal signature in five contemporary 7B to 31B models. We treat the \\textbf{task} as the unit of inference probes hold out complete…",
+      "authors": [
+        "Parsa Rahimi, Azim Dehghani Amirabad"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24029",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.4,
+      "priority_label": "Relevant",
+      "rank": 111
+    },
+    {
+      "id": "64e6837678bcb95880be",
+      "title": "LIBERO-Pro2.0: A Benchmark for Evaluating the Robustness of Embodied Foundation Models",
+      "url": "https://arxiv.org/abs/2610.24587",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Multimodal",
+        "Evaluation",
+        "Robotics"
+      ],
+      "excerpt": "LIBERO has emerged as a widely adopted benchmark for evaluating robotic manipulation policies. However, strong performance on LIBERO does not necessarily indicate robust embodied capabilities, as models may exploit benchmark-specific regularities rather than generalize to diverse operating conditions. In this work, we introduce LIBERO-Pro2.0, a comprehensive benchmark for systematically…",
+      "authors": [
+        "Xueyang Zhou, Yangming Xu, Qianjiang Li, Guiyao Tie, Junhao Wu, Ziheng Huang, Guowen Zhang, Zhijie Yuan, Di Wu, Duanfeng Chu, Pan Zhou, Lichao Sun, Yongchao Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24587",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.7,
+      "priority_label": "Relevant",
+      "rank": 120
+    },
+    {
+      "id": "b422eab8285f95889cab",
+      "title": "PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding",
+      "url": "https://arxiv.org/abs/2610.23861",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Evaluation",
+        "Hardware"
+      ],
+      "excerpt": "Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, capture new ones on the serving path, or pad every step to the largest draft. We present PolyGraph, a plan-buffer mechanism…",
+      "authors": [
+        "Junchao Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23861",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.5,
+      "priority_label": "Relevant",
+      "rank": 165
+    },
+    {
+      "id": "0b3cfb5153b47385f9c0",
+      "title": "Ben-Misandry: A Bengali Dataset and Late-Fusion Transformer Framework for Detecting Anti-Male Gender Hate",
+      "url": "https://arxiv.org/abs/2610.24474",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation"
+      ],
+      "excerpt": "Gender based hate speech research in Bengali has focused almost exclusively on misogyny, leaving anti male hate, or misandry, entirely unstudied for this language and creating a systematic blind spot in moderation systems trained to catch attacks on women but not on men. We introduce Ben-Misandry, the first Bengali misandry detection dataset: 5,000 comments across six taxonomy classes,…",
+      "authors": [
+        "Md Mehedi Hasan Nipu, Chinmoy Mitra, Tarannum Ahmed Nowshin, Israt Moyeen Noumi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24474",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 55
+    },
+    {
+      "id": "d12bd6e507650ac45e0f",
+      "title": "GLOW: General Linear Models Optimized with Ward's Method",
+      "url": "https://arxiv.org/abs/2610.24085",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging"
+      ],
+      "excerpt": "Neuroimaging seeks brain regions whose imaging features correlate with variables of interest (e.g., diagnosis, age), usually via the General Linear Model (GLM). Region-Based Analysis dilutes or splits any effect that does not fill exactly one atlas region. Voxel-Based Analysis, with Cluster Extent Thresholding and Threshold-Free Cluster Enhancement built on it, fits a GLM per voxel and…",
+      "authors": [
+        "Matt Higger"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24085",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 68
+    },
+    {
+      "id": "df66cbe3234d34c363bb",
+      "title": "GliomaINK: A Tumor and Anatomy Conditioned Flow Matching Framework for 3D MRI Sequence Synthesis in Glioma Patients",
+      "url": "https://arxiv.org/abs/2610.24044",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Background: Incomplete multiparametric MR examinations limit glioma characterization and downstream AI tools. Generative models can synthesize missing MRI sequences, but anatomical structure and clinically relevant tumor features are challenging to preserve. We propose GliomaINK, an anatomy-guided conditional flow matching framework for cross-sequence 3D brain MRI synthesis. Methods: A…",
+      "authors": [
+        "Moinak Bhattacharya, Annie Singh, Mohammad Chaudhry, Prateek Prasanna, Gagandeep Singh"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24044",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 69
+    },
+    {
+      "id": "d8ed01540e5385ca707b",
+      "title": "Where Natural Language Ends in Agents: Executable Skill Composition with MetaSkill",
+      "url": "https://arxiv.org/abs/2610.24723",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM"
+      ],
+      "excerpt": "Agent Skills express open-ended task knowledge in natural language, but composing them requires persistent execution order and upstream-output handoffs. We propose selective formalization at Skill boundaries: coordination relations with stable references and machine-checkable constraints become executable, while substantive task judgments remain within Skills. We introduce MetaSkill, a…",
+      "authors": [
+        "Meng Shu, Wei He, Hang Zhou, Runke Liu, Kai Han, Yunhe Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24723",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 87
+    },
+    {
+      "id": "556e5069856c05f067fd",
+      "title": "Learning to Compose: Recursive Self-Improvement of Shared Executable Stacks for Zero-Shot Long-Horizon Robot Manipulation",
+      "url": "https://arxiv.org/abs/2610.24464",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI"
+      ],
+      "excerpt": "Individually competent robot skills can fail when composed: tools may lack a required capability, completion signals may misrepresent physical progress, and one skill may leave a state that violates its successor's prerequisites. We introduce Recursia, a recursive self-improvement framework that treats the shared executable stack, rather than individual task programs, as the persistent…",
+      "authors": [
+        "Yangzhi Chen, Feiran Liu, Zishuo Wang, Zijian Jin, Xin Zhu, Lecheng Ruan, Wenjuan Han"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24464",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 136
+    },
+    {
+      "id": "6c872ae86d05aaabbf95",
+      "title": "Landmark-Free and Scale-Blind Multi-View Registration of Preoperative Liver Models to Intraoperative Surfaces",
+      "url": "https://arxiv.org/abs/2610.24218",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Safety",
+        "Evaluation",
+        "Imaging",
+        "Regulation"
+      ],
+      "excerpt": "Augmented-reality guidance in laparoscopic liver resection requires aligning preoperative 3D liver models from CT/MRI with intraoperative surfaces. Monocular reconstruction in most cases cannot guarantee scale, albeit rigid-motion registration requires scale as an input. Our proposed framework ``SimCompose'' estimates the full similarity transformation $\\Sim$, including scale, without…",
+      "authors": [
+        "Jiaming Feng, Gerardo Loza Galindo, Shahid Farid, Sharib Ali"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24218",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 78.1,
+      "priority_label": "Relevant",
+      "rank": 40
+    },
+    {
+      "id": "1d525f408cfc213e140b",
+      "title": "Do 3D Large Language Models Really Use 3D Evidence?",
+      "url": "https://arxiv.org/abs/2610.24447",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Recent 3D Large Language Models (3D-LLMs) have shown strong performance on scene question answering with extensive post-training. Yet, existing benchmarks rarely evaluate how 3D-LLMs respond to referential ambiguity, insufficient scene evidence, or false presuppositions, obscuring whether their responses are grounded in 3D evidence. In this work, we introduce UNICORNS, a benchmark for…",
+      "authors": [
+        "Yifei Zhao, Fanyu Zhao, Han Zhang, Yixuan Lin, Yuyang Hou, Bin Wu, Ruike Cao, Li Xiao, Yinsheng Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24447",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 56
+    },
+    {
+      "id": "0df2d582e82075729d79",
+      "title": "Stress-Query and Temporal Reliability of Vision-Language Models as copilots in Autonomous UAV Navigation",
+      "url": "https://arxiv.org/abs/2610.23877",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Multimodal",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Integrating Vision-Language Models (VLMs) into autonomous UAV navigation enables high-level semantic reasoning but introduces critical temporal bottlenecks that can destabilize flight control. This paper presents a systematic benchmark that evaluates the operational trade-offs among model scale, hardware constraints, and flight reliability. By subjecting the system to extensive stress…",
+      "authors": [
+        "Hiago Sodre, Sebastian Barcelona, Vincent Sandin, Pablo Moraes, Andre S. Kelbouscas, Ricardo B. Grando"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23877",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 57
+    },
+    {
+      "id": "5228a456725047bda561",
+      "title": "DinoMUSE: A DINOv2-guided Framework for Unsupervised Lateral Motion Estimation in Ultrasound Elastography",
+      "url": "https://arxiv.org/abs/2610.24020",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Quasi-static ultrasound elastography (USE) is a non-invasive imaging method for assessing soft tissue mechanical properties. Limited by low resolution, low sampling frequency and lack of phase information in the lateral direction, accurate lateral motion estimation remains a critical bottleneck in USE. Existing methods mainly rely on local image matching and physical constraints (such…",
+      "authors": [
+        "Xiyao Meng, Xingyue Wei, Baihua Luo, Bo Peng, Jianwen Luo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24020",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 70
+    },
+    {
+      "id": "9eacd9a7e5487529afd0",
+      "title": "From Stories to Features: Scaling Concept Vectors for AI Alignment & Interpretability",
+      "url": "https://arxiv.org/abs/2610.24556",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Agents",
+        "Safety",
+        "Reasoning"
+      ],
+      "excerpt": "We study feature vectors: directions in a language model's activation space that correspond to human-interpretable concepts, such as honesty or deception. Existing unsupervised methods like sparse autoencoders attempt to recover the whole feature space, often at the cost of feature quality and interpretability. We take a more pragmatic route: focusing on concepts relevant to AI safety…",
+      "authors": [
+        "Dmitry Scherbakov, Oleg Chernikov, Victoria Khamash, Kirill Afendulev, Alexey Dontsov, Ivan Oseledets, Elena Tutubalina, Anton Korznikov"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24556",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 96
+    },
+    {
+      "id": "1db5528afe607866fcb5",
+      "title": "DUET: Decoupled Upper- and Lower-Body Execution for Task-Agnostic Humanoid Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2610.23872",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Multimodal",
+        "Evaluation",
+        "Robotics"
+      ],
+      "excerpt": "Changing a humanoid robot's manipulation policy should not require retraining the controller that maintains the robot's balance. This study introduces DUET, a decoupled execution framework that enables locomotion and manipulation controllers to operate simultaneously by combining their commands only at the robot interface. A reinforcement-learning locomotion policy controls the 12 leg…",
+      "authors": [
+        "Kapalik Khanal, Biswash Khatiwada, Stephen Afrifa, Fan Wu, Ramesh Bahadur Bist"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23872",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 137
+    },
+    {
+      "id": "9679b3903693865eb7b0",
+      "title": "EAGLE: Entropy-Aware Geometric Learning Enhancer for Partially Polygon-Supervised Object Localization",
+      "url": "https://arxiv.org/abs/2610.23900",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Vision"
+      ],
+      "excerpt": "Object detection is a critical application of computer vision, yet models trained uniformly on bounding boxes lack the geometric precision to be fully effective in inference settings, especially at high IoU thresholds. One common approach is the introduction of polygon-supervised localization, where a model is trained explicitly for localization but with access to polygon masks during…",
+      "authors": [
+        "Naveen Stewart"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23900",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 161
+    },
+    {
+      "id": "6a99d19c4489e4b500fd",
+      "title": "Probing Ambiguity: Adversarial Intent Resolution for Robust Text-to-SQL",
+      "url": "https://arxiv.org/abs/2610.24248",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Agents",
+        "Evaluation"
+      ],
+      "excerpt": "Text-to-SQL systems typically assume a one-to-one mapping between natural-language queries and correct SQL translations. In practice, however, many queries are inherently ambiguous, admitting multiple valid interpretations that yield distinct outputs. We introduce Adversarial Intent Resolution (AIR), a multi-agent framework that actively probes and resolves such ambiguity without any…",
+      "authors": [
+        "Youbing Yin, Xujun Peng, Muhammad S. Uddin, Erin Babinsky, Daben Liu, Anoop Kumar"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24248",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 44
+    },
+    {
+      "id": "fe84660c82f126a680ef",
+      "title": "Scaling Vision Foundation Models for Toxicologic Pathology",
+      "url": "https://arxiv.org/abs/2610.26586",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Here, we present TOX-FM, a family of non-clinical PFMs trained on large-scale diverse histopathology datasets of over one million whole slide images consisting of over 60 organs across six animal species from over 14,000 toxicology studies across six decades. We introduce a comprehensive benchmark of 18 non-clinical downstream tasks, incorporate an established benchmark of 9 clinical…",
+      "authors": [
+        "Jessica Loo, Theodoros Pissas, Byunghak Kang, Vincent A. Ella, Xiaoyan Zhang, Kevin Sweeney, Walter Georgescu, Prateek Katiyar, Julie Boisclair, Holger Hoefling"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.26586",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 58
+    },
+    {
+      "id": "4e11bdbb3789901c7cd0",
+      "title": "Implicit Neural Models for Direct Multi-Shell Diffusion MRI Signal Estimation",
+      "url": "https://arxiv.org/abs/2610.24034",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Diffusion magnetic resonance imaging is a noninvasive technique that is sensitive to the motion of water molecules in human tissue. The image signal is commonly described in q-space; however, a complete coverage of this space is often infeasible due to hardware and acquisition time limitations. In this work, we propose to represent the entire diffusion signal using an implicit neural…",
+      "authors": [
+        "Sanna Persson, Fabian Leander Sinzinger, Christoffer Ohlsson, Rodrigo Moreno"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24034",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 71
+    },
+    {
+      "id": "985d308d9ba205202bd5",
+      "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.23928",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Hardware"
+      ],
+      "excerpt": "Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical formats is insufficient to ensure consistent policy evaluation, highlighting the importance of cross-engine numerical execution. We introduce…",
+      "authors": [
+        "Zhen Li, Mingfa Feng, Yiming Zhang, Yang Yu, Changhai Zhou, Pengxiang Li, Dongkuan Wu, Congkai Xie, Hongxia Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23928",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 88
+    },
+    {
+      "id": "c1bbecb1d0aebc6015c5",
+      "title": "Dynamic Neural Optimal Transport for Subset Alignment",
+      "url": "https://arxiv.org/abs/2610.24258",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety"
+      ],
+      "excerpt": "We study optimal transport between distributions when only a subset of the target population is relevant to the source. The goal is to map the source distribution to a reweighted target distribution whose density ratio with respect to the full target lies in $[0, c]$. This constraint enables the transported distribution to select an appropriate target subpopulation while limiting how…",
+      "authors": [
+        "Austin J. Brockmeier, Bilal Riaz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24258",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 97
+    },
+    {
+      "id": "6040d1889fae05032238",
+      "title": "Preserving Reasoning Diversity in Reinforcement Learning with Verifiable Rewards via Adaptive Replay",
+      "url": "https://arxiv.org/abs/2610.24236",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Reasoning"
+      ],
+      "excerpt": "Reinforcement Learning with Verifiable Rewards (RLVR) improves the reasoning capabilities of large language models, but often reduces the diversity of their reasoning behaviors. We study this phenomenon from the perspective of finite-sample learning dynamics and show that limited on-policy rollouts can progressively suppress semantically distinct but equally rewarded reasoning modes.…",
+      "authors": [
+        "Wen-Zhi Li, Sainyam Galhotra, Claire Cardie"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24236",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 98
+    },
+    {
+      "id": "b9b852bae30a971152d5",
+      "title": "PV-Decoding: Progressive Verification Decoding with Decode Gating for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.24722",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Discrete diffusion language models (dLLMs) offer an attractive alternative to autoregressive generation by updating multiple tokens in parallel, but their inference efficiency is still limited by the cost of safely committing tentative predictions. In particular, speculative decoding for dLLMs is challenging because speculative tokens within the same diffusion block may depend on one…",
+      "authors": [
+        "Renxi Liu, Yiming Li, Shengyin Sun, Chen Chen, Xian Wang, Shuai Yang, Huiling Zhen, Xianzhi Yu, Yaoyuan Wang, Weizhe Lin, Xiaosong Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24722",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 99
+    },
+    {
+      "id": "5c2757ef183ab48e81c0",
+      "title": "Generative Retrieval for Reverse Target Fishing with a Proteome-Scale Benchmark",
+      "url": "https://arxiv.org/abs/2610.24458",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Science"
+      ],
+      "excerpt": "Reverse target fishing identifies protein targets for a query molecule and is central to drug discovery and repurposing. Discriminative approaches adapted from virtual screening face sparse, long-tailed associations and missing-not-at-random measurements: treating unrecorded pairs as negatives can suppress genuine targets. We reformulate the task as generative retrieval and introduce…",
+      "authors": [
+        "Zhichao Deng, Haichuan Tan, Xin Hong, Huaizhi Wang, Tao Huang, Bowen Gao, Yanyan Lan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24458",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 116
+    },
+    {
+      "id": "f9b8f96068b9c84e3ca7",
+      "title": "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
+      "url": "https://arxiv.org/abs/2610.24051",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Safety",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts. Alongside this progress, numerous benchmarks have been developed to evaluate capabilities such as attribute binding, numeracy, spatial reasoning, and commonsense reasoning. In this work, we propose a new perspective on T2I evaluation by casting it as a…",
+      "authors": [
+        "Savitha Sam Abraham, Marjan Alirezaie, Hossein Rahnama"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24051",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 72.9,
+      "priority_label": "Relevant",
+      "rank": 151
+    },
+    {
+      "id": "94a2e0c19e26d2045f65",
+      "title": "Dataset Inference for Data Provenance and Privacy Auditing in Tabular Foundation Models",
+      "url": "https://arxiv.org/abs/2610.24278",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Privacy"
+      ],
+      "excerpt": "Tabular foundation models (TFMs) are increasingly deployed through black-box APIs and trained on large collections of real-world tabular datasets. As this training paradigm becomes more widely adopted, private or proprietary datasets may be incorporated into pre-training corpora, yet there are currently no dedicated methods for determining whether a given tabular dataset was used to…",
+      "authors": [
+        "Dariush Wahdany (CISPA Helmholtz Center for Information Security), Jesse Cresswell (Layer 6 AI), Naiqing Guan (Layer 6 AI), Atiyeh Ashari Ghomi (Layer 6 AI), Franziska Boenisch (CISPA Helmholtz Center for Information Security), Adam Dziedzic (CISPA Helmholtz Center for Information Security)"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24278",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 72
+    },
+    {
+      "id": "036c97a634ab41dabd26",
+      "title": "Single-Pass Decision Scores Enable Rapid Classification with Adjustable Thresholds in Medical Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2610.23988",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "LLM",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Multimodal large language models (MLLMs) answer binary clinical questions with a yes or no token, leaving the decision threshold implicit and fixed. We derive a continuous score from a single forward pass by renormalizing the probabilities of the yes and no tokens, allowing the threshold to be adapted to clinical needs without retraining. We evaluated this approach with MedGemma and…",
+      "authors": [
+        "Patrick Wienholt, Frederik Hauke, Christiane Kuhl, Jakob Nikolas Kather, Sven Nebelung, Daniel Truhn"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23988",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 73
+    },
+    {
+      "id": "f35bf5b45f2573ca5635",
+      "title": "Reliability-Preserving Compression for Deployable Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2610.25460",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Post-training compression of pretrained medical segmentation models commonly uses quantization, pruning, or distillation to reduce model size and computational cost. Existing medical segmentation quantization studies mainly evaluate Dice, model size, memory, and latency, but this is incomplete for safety-critical use because compressed models should also preserve uncertainty signals…",
+      "authors": [
+        "Sagar Kumar, Shailja Sharma, Tirthajit Baruah, Punit Rathore"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.25460",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 74
+    },
+    {
+      "id": "6e66b3d6bb167c0aab02",
+      "title": "Progressive multi-scale tumor-state memory for incomplete multimodal brain tumor segmentation",
+      "url": "https://arxiv.org/abs/2610.26457",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Multimodal",
+        "Imaging"
+      ],
+      "excerpt": "Brain tumor segmentation uses complementary magnetic resonance imaging (MRI) sequences, but some sequences may be unavailable in practice. Their absence changes the information available for segmenting different tumor regions. Fusion methods can support different input subsets. However, fusion at several scales does not by itself specify how tumor evidence is retained and updated to…",
+      "authors": [
+        "Milad Rostamian, Mohammadreza Mohammadi, Mohsen Soryani"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.26457",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 75
+    },
+    {
+      "id": "ead6a20a70e2f057faa5",
+      "title": "LowNet: Looped Wavelet Neural Networks with 24 Learnable Parameters for Solving Poisson Equations",
+      "url": "https://arxiv.org/abs/2610.24941",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Poisson equations frequently appear in various fields, such as mathematics, physics and informatics. Solving Poisson equation, however, is challenging. Traditional methods are not data-specific, although have high certainty. They require a large number of iterations due to the CFL numerical stability. In contrast, deep learning methods are data-driven and more efficient, but require…",
+      "authors": [
+        "Yuanhao Gong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24941",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 78
+    },
+    {
+      "id": "819be729cf0392c498e2",
+      "title": "Announced Breaks Separate Conformal Reliability from Frequency Calibration",
+      "url": "https://arxiv.org/abs/2610.23917",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "An announced boundary reveals the partition before the first affected outcome, and a reset there serves one of two audits. The per-time audit reads conformal reliability, the expected distance of the threshold's coverage from nominal at miscoverage 0.1. The frequency audit reads frequency calibration, whether a closed window's error rate matched it. The reset rule, the post-boundary…",
+      "authors": [
+        "Karl Li (Columbia University)"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23917",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 100
+    },
+    {
+      "id": "a7ef75d2dabcb3065c4d",
+      "title": "When Opposite Premises Translate Identically: A Source-Conditioned Diagnostic for Multilingual Commonsense Items",
+      "url": "https://arxiv.org/abs/2610.24428",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Multilingual reasoning comparisons depend on translated premises preserving the relations in their English sources. Automatic translation scores can rank source-target pairs, but an acceptance decision alone cannot certify a counterfactual benchmark field. We test a source-contrast diagnostic for ACCORD premises: reverse the English polarity, translate both arms independently, count…",
+      "authors": [
+        "Shuai Wang, Rui Hu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24428",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 101
+    },
+    {
+      "id": "fc4fd08a2270adfc752b",
+      "title": "TIRE: Top-Down Formula Instantiation with Reliable Execution for Physics Problem Synthesis",
+      "url": "https://arxiv.org/abs/2610.25134",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Reasoning"
+      ],
+      "excerpt": "Advancing physics reasoning in large language models requires scalable training data that connect physical laws, concrete problem scenarios, and verifiable numerical answers. Expert-designed problems offer top-down control over physical laws, conditions, and scenarios, but require costly human effort. LLM-based synthesis from texts scales efficiently, but model-generated answers and…",
+      "authors": [
+        "Xiaoyu Wu, Zhaoxin Yu, Xinglin Xiao, Nan Xu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.25134",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 102
+    },
+    {
+      "id": "6ead857ad4f9de65737a",
+      "title": "SpinDoctor: Finding Innocuous Prompts for Biased Image Generation",
+      "url": "https://arxiv.org/abs/2610.23925",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Evaluation",
+        "Vision",
+        "Open Source"
+      ],
+      "excerpt": "We introduce SpinDoctor, a method for discovering innocuous prompts for text-to-image models that result in images with a chosen target bias, while retaining the quality of the images and prompts. These prompts present a risk for user manipulation, in that a user who is given these seemingly unbiased prompts might be willing to use them and would receive biased images in return. Our…",
+      "authors": [
+        "Anna Gerchanovsky, Omer Akgul, Lujo Bauer, Michael K. Reiter"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23925",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 141
+    },
+    {
+      "id": "90e60351453d344b72ab",
+      "title": "ZeroDSS: Semantic Segmentation from Class Names Alone",
+      "url": "https://arxiv.org/abs/2610.24405",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "AI4Education",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Computer Vision",
+        "LLM",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Semantic segmentation depends heavily on real images with pixel-level annotations, making dense supervision a major obstacle to deployment in new domains. We study task-specific data-free semantic segmentation, where training uses generic pretrained generative priors but has access to no target-domain images, masks, or captions--only a predefined category set. We introduce Zero-Data…",
+      "authors": [
+        "Tian Ming, Marzi Heidari, Yuhong Guo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24405",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 142
+    },
+    {
+      "id": "57a6925ed7a37abc09ac",
+      "title": "Toward AI-Driven Phytoplankton Event Detection from Image Classification: Temporal Aggregation Under Domain Shift",
+      "url": "https://arxiv.org/abs/2610.23932",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Vision"
+      ],
+      "excerpt": "Imaging FlowCytobot (IFCB) systems generate large volumes of phytoplankton imagery that exceed the capacity of manual expert analysis. Although machine-learning approaches achieve high image-level classification performance, it remains unclear whether their predictions can provide ecologically meaningful temporal information for monitoring. This study investigates whether AI-derived…",
+      "authors": [
+        "Ali Rohan, Hassan Shayan, Han-Gue Jo, Colin Moffat"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23932",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 162
+    },
+    {
+      "id": "bfb84758a944268af1e2",
+      "title": "Write Once, Check Many: Reusable Ledgers for Post-Hoc Policy Compliance Auditing of Agent Trajectories",
+      "url": "https://arxiv.org/abs/2610.24483",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "LLM",
+        "Regulation"
+      ],
+      "excerpt": "Auditing LLM agents against policies is critical to ensure safety but requires rereading long trajectories once per policy. Can we instead record each trajectory once and reuse that record for policies not known in advance? We propose write once, check many, a framework in which a writer model converts each agent trajectory into a policy-independent ledger of the agent's actions and…",
+      "authors": [
+        "Ashwin Nagarajan, Gursimran Panesar, Alicia Yang, Mona T. Diab, Virginia Smith, Aashiq Muhamed"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24483",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
+      "rank": 190
+    },
+    {
+      "id": "a042e27e517a59b695c0",
+      "title": "From Score to Diagnosis: Search-Independent Post-Diagnosis for Symbolic Regression",
+      "url": "https://arxiv.org/abs/2610.24535",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical AI",
+        "LLM",
+        "Regulation"
+      ],
+      "excerpt": "Symbolic regression (SR) solvers employ diverse search mechanisms, yet most rely on the same low-information scalar fitness. Such scores provide little guidance on why a skeleton fails or how it should be revised. Recent methods develop new methods to address this bottleneck. Their enhanced feedback mechanisms are tightly coupled to their search processes and are difficult to reuse…",
+      "authors": [
+        "Qian Li, Yuxiao Hu, Juncheng Liu, Yanhao Jia, Yuntian Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24535",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 94
+    },
+    {
+      "id": "a3df66c3c24e6caa7e15",
+      "title": "Can LLM Agents Resolve Service Failures? Simulating Multi-Turn Complaint Handling under Information Asymmetry",
+      "url": "https://arxiv.org/abs/2610.24733",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "LLM agents are widely adopted in service chatbots for rule-guided support and information access, yet emotionally demanding complaint handling still relies heavily on human agents. We introduce ServiceBench, to our knowledge the first benchmark dedicated to complaint handling, with 2,500 scenarios spanning 184 complaint categories and five service industries. We propose Asymmetric…",
+      "authors": [
+        "Wailing Ng, Mengze Hong, Chen Jason Zhang, Shiqi Fan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24733",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 59
+    },
+    {
+      "id": "90eab1dc12670b427924",
+      "title": "SituHOI: Scalable Capture of Scene-Situated Full-Body Human-Object Interaction",
+      "url": "https://arxiv.org/abs/2610.23980",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Modeling human-object interaction (HOI) in real environments requires jointly representing whole-body motion, manipulated objects, and scene geometry, yet existing datasets trade off scalable capture against structured, scene-aligned supervision. We introduce SituHOI, a large-scale RGB-D dataset containing 18,429 annotated clips across 16 indoor rooms and approximately 86 hours of…",
+      "authors": [
+        "Qifan Wang, Qihang Fang, Boao Shi, Yushi Du, Pei Zhou, Siyan Dong, Yanchao Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23980",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 62
+    },
+    {
+      "id": "a0f20aa59ae70b9c2f2d",
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+      "url": "https://arxiv.org/abs/2610.24628",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Vision",
+        "Open Source",
+        "Reasoning",
+        "Hardware"
+      ],
+      "excerpt": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image…",
+      "authors": [
+        "Arash Ebrahim Abtahizadeh, Muna Aghamelu, Adil Ahmed, Juan C. Angeles Acuna, Alexis Audran-Reiss, Asaf Avrahamy, Yoram Bachrach, Can Balioglu, Amar Budhiraja, Onur \\c{C}elebi, Gaurav Chaurasia, Joy Chen, Lynn Cherif, Lucia Cipolina-Kun, Gal Cohen, Timoth\\'ee Darcet, Beto de Paola, Digant Desai, Sam Devlin, Derek Dunfield, Ivan Evtimov, Maryam Fazel-Zarandi, Rob Fergus, Jean-Christophe Gagnon-Audet, Grant Gardner, Bhavul Gauri, Paris Giampouras, Sujan Kumar Gonugondla, Antoine Grosnit, Young Han, Michael Hassid, Monuril Islam, Masoud Jalili Sabet, Songhao Jia, Narine Kokhlikyan, Svetlana Kurtsman, Sandra Lefdal, Chee Hau Leow, Noam Levi, Mike Lewis, Sanae Lotfi, Xiyang Luo, Despoina Magka, Saeed Mahloujifar, Neal Mangaokar, Ishita Mediratta, Alexander H. Miller, Hela Momand, Saba Nazir, Kelvin Niu, Mattia Opper, Parth Pathak, Alberto Pepe, Danielle Pintz, Mikhail Plekhanov, Sidhartha Reddy Potu, Anton Protopopov, Shengyi Qian, Shashank Rajput, Joseph Rocca, Scott Roy, Luca Sbordone, Amin Shakeri, Tatiana Shavrina, Michael Shvartsman, Ruan Silva, Anya Sims, Eric Michael Smith, Hugo Touvron, Mabel Ubong, Isabel Urrego, Yanzheng Xiang, Zhiyuan Yao, Alex Yarmula, He Ye, Jade Yu, Luke Zettlemoyer, Arman Zharmagambetov, Perpetua Fathima Ahlijah, Tremo Ahmed, Enrique Alfonseca, Pedram Bashiri, Nikolay Bashlykov, Aaron Berman, Rohith Bhatia, Siddharth Bhattacharya, Prashant Bhende, Chloe Bi, Shuchao Bi, Clement Anthonioz Blanc, Allen Bolourchi, Andrea Caciolai, Erica Cai, Xiang Tony Cao, Yue Cao, Andrew Caples, Jinzhao Chang, Lele Chen, Moya Chen, Weijie Chen, Wenhu Chen, Xiaobai Chen, Yinyin Chen, Zhengxing Chen, Wei Cheng, Pavel Chikulaev, Edward Chou, Sy Choudhury, Brian Clerkin, Marta R. Costa-juss\\`a, Curtis Davis, Myra Deng, Dujian Ding, Hantian Ding, Shuangrui Ding, Jesse Dodge, Shweta Doshi, Shirin Eghtesadi, Faith Eischen, Athyu Eleti, Alex Fabbri, Han Fang, Paula Farani, Aiman Farooq, Christoph Feichtenhofer, Darius Feher, Amanda Felix, Carl Chengyan Fu, Sean Gahagan, Yifan Gao, Itai Gat, Akashdeep Goel, Ahuva Goldstand, Bo He, David Heineman, Dylan Herman, Irene Hjelt, Joonas Hjelt, Alexander Holz, Rui Hou, Annie Hu, Yuan-Ting Hu, Bernie Huang, Jing Huang, Kun Huang, Pere-Llu\\'is Huguet Cabot, Ashley Hunter, Srinivasan Iyer, Somya Jain, Michael Jiang, Song Jiang, Wenwen Jiang, Lin Jin, Jacob Kahn, Melanie Kambadur, Yingxin Kang, Justine Kao, Stephane Kasriel, Hossein Kavianihamedani, Ameya Khandekar, Yash Khare, Gefen Kohavi, Kavya Kopparapu, Praveen Krishnan, Venu Kuchibhotla, Ananya Kumar, Leona Lan, Jack Lanchantin, Hunter Lang, Nikolay Pavlovich Laptev, Yuanzhi Li, Yunlu Li, Asad Liaqat, Johnson Lin, Runwei Lin, Zhichao Lin, Shaun Lindsay, Yaron Lipman, Frederick Liu, Mengchen Liu, Qiang Liu, Yinghai Lu, Yujie Lu, Christopher Luc, Faye Ma, Pingchuan Ma, Tengyu Ma, Wufei Ma, Xiaodong Ma, Damir Maksyutov, Josh Malone, Udeep Manchanda, Thomas Mann, Kalyani Marathe, Roberto-Rafael Maura-Rivero, Ruslan Mavlyutov, Thomas Mesnard, Julian Michael, Sagar Miglani, Todor Mihaylov, Naureen Mitha, Archi Mitra, Leo Mok, Naila Murray, Muthukumaravel Muthuraman, Mergen Nachin, Nese Demir Nalci, Saaketh Narayan, Alyssa Newcomb, Peter Ney, Joycelyn Ng, Devin Norder, Maxwell Nye, Rajvardhan Oak, Cody Ohlsen, Artidoro Pagnoni, Yi Pan, Nilesh Pandey, Guan Pang, Richard Yuanzhe Pang, Mahesh Pasupuleti, Parth Patel, Yash Patel, Vladan Petrovic, Norman Ponte, Yundi Qian, Zengyi Qin, Jack Rae, Emmanuel Ramirez, Ramya Raghavendra, Nikhila Ravi, Hongyu Ren, Riandy Riandy, Harrison Rudolph, Kalyan Saladi, Eduardo S\\'anchez, Karthik Abinav Sankararaman, Aman Shankar, Paresh Shenoy, Alana Shine, Hamid Shojanazeri, Iva Simon-Bubalo, Mitesh Kumar Singh, Tiffany Siqi, Pawan Sisodiya, Ali Sol, Sten Sootla, Leslie St. Pierre, DiJia Su, Suraj Subramanian, Brian Sun, Tony Sun, Zhiqing Sun, Natacha Supper, Jason Talpalar, Ellen Xiaoqing Tan, Liang Tan, Jean-Christophe Testud, Parth Thakkar, Joseph Tighe, Ty Toledano, T Tse, Igor Tufanov, Alex Vaughan, Josh Walters, Alex Wang, Bethany Wang, Meng Wang, Rocky Wang, Weiyue Wang, Xiaolan Wang, Xin Wang, Zijian Wang, Bram Wasti, Quentin Wellens, Yeming Wen, Mary Williamson, Yuncheng Wu, Fei Xia, Tian Xie, David Xu, Jacob Xu, Puxin Xu, Zheng Xu, Shen Yan, Megan Yang, Yining Yang, Nick Yannopoulos, Kevin Yao, Michihiro Yasunaga, Haoxuan You, Michael You, Dingli Yu, Tianhe Yu, Summer Yue, Xiang Yue, Shuwei Zeng, Hanwen Zha, Chen Zhang, Hongming Zhang, Kaiyu Zhang, Meng Zhang, Mingyang Zhang, Yi Zhang, Shengjia Zhao, Chao Zhou, Claire Zhou, Shuyan Zhou, Yanjun Zhou, Yaxuan Zhou, Rosalie Zhu, Yun Zhu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24628",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 76
+    },
+    {
+      "id": "906bd9506b8c750510f5",
+      "title": "MELD: Recursive Self-Improvement via Hierarchical Coordination for Multi-Agent Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.24454",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "AI Agents"
+      ],
+      "tags": [
+        "AI for Science",
+        "LLM",
+        "Agents",
+        "Safety",
+        "Science"
+      ],
+      "excerpt": "Multi-agent scientific discovery with large language models raises a coupled learning problem: research assignments determine both which experiments are pursued and the experiences from which agents adapt. We introduce MELD, a unified hierarchical test-time training framework that jointly adapts a team-level Coordinator policy and agent-level individual Scientist policies within a…",
+      "authors": [
+        "Sizhe Tang, Zuyuan Zhang, Zeyu Fang, Tian Lan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24454",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 75.2,
+      "priority_label": "Relevant",
+      "rank": 112
+    },
+    {
+      "id": "adb12e95ae6726cd31c7",
+      "title": "Teaching Code Agents to Ask Without Leaking Private Code",
+      "url": "https://arxiv.org/abs/2610.24824",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "AI Agents"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "Local coding agents can extend their reach by consulting a stronger cloud model. Such consultations, however, often expose the repository's private identifiers, file paths, and source code. Host-side masking hides recognized identifiers but leaves the surrounding code and the agent's phrasing unchanged, while training for less disclosure risks suppressing consultation or producing…",
+      "authors": [
+        "Wenjia Jiang, Jieke Shi, Zhensu Sun, Chengran Yang, Shidong Pan, Peixin Zhang, Yifan Jia, James Hoang, Xiwei Xu, Zhenchang Xing, David Lo, Zhou Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24824",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 150
+    },
+    {
+      "id": "110aa194359450e888c5",
+      "title": "IndustrialCAD-1400: Benchmarking Detailed Industrial Assemblies from Text",
+      "url": "https://arxiv.org/abs/2610.24789",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "Industrial assemblies require more than a recognizable shape: functional parts, interfaces, dimensions and service features must satisfy a detailed request together. We introduce IndustrialCAD-1400, a text-to-CAD benchmark for this industrial setting. Its 1,400 requests combine 400 equipment categories across 40 domains with 250 four-case design families. Family requests specify a…",
+      "authors": [
+        "Hebao Zhu, Kang An, Zhuoke Liao, Faqiang Qian, Ziliang Wang, Mingang Chen, Qibing Ren"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24789",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.8,
+      "priority_label": "Relevant",
+      "rank": 178
+    },
+    {
+      "id": "c29b963b126553929efa",
+      "title": "Learning from the Right Regions: Class-Conditioned Explanation Guidance for Medical Imaging",
+      "url": "https://arxiv.org/abs/2610.24381",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Safety",
+        "Medical",
+        "Imaging",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Deep neural networks can achieve strong predictive performance in medical imaging while relying on regions unrelated to the predicted finding. Explanation-guided learning can address this problem, but multi-label classification introduces a key challenge: multiple abnormalities may coexist in an image, requiring each prediction to align with its corresponding spatial evidence. We…",
+      "authors": [
+        "Zubair Faruqui, Rahul Dubey"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.24381",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 79.9,
+      "priority_label": "Relevant",
+      "rank": 24
+    },
+    {
+      "id": "b9df294d96cd9c467fa1",
+      "title": "Forecasting Patient Trajectories from the Electronic Health Records with Action-Conditioned World Models",
+      "url": "https://arxiv.org/abs/2610.23862",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "We introduce a predictive world model for electronic health records (EHR) that represents patient histories as action conditioned latent trajectories. Rather than modeling clinical events solely through autoregressive token prediction, our framework explicitly separates patient states from observed clinical actions and learns their evolution through a state and action conditioned…",
+      "authors": [
+        "Simon A. Lee, Jiahang Hank Sha, Soomin Chung, Kai Akamatsu, Eran Halperin, Jeffrey N. Chiang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23862",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 45
+    },
+    {
+      "id": "b18e174399c13af9f9bc",
+      "title": "Authenticated Contradictions from Desynchronized Provenance and Watermarking",
+      "url": "https://arxiv.org/abs/2603.02378",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "arXiv:2603.02378v3 Announce Type: replace-cross Abstract: Cryptographic provenance standards such as C2PA and invisible watermarking are positioned as complementary defenses for content authentication, yet the two verification layers are technically independent: neither conditions on the output of the other. This work formalizes and empirically demonstrates the $\\textit{Integrity…",
+      "authors": [
+        "Alexander Nemecek, Hengzhi He, Guang Cheng, Erman Ayday"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2603.02378",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 46
+    },
+    {
+      "id": "123b85c01ac62c3aba4b",
+      "title": "SECURE-AI: Multi-Signal Uncertainty Quantification for Trustworthy Acoustic Cough Detection",
+      "url": "https://arxiv.org/abs/2610.23937",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Acoustic models for cough detection achieve high accuracy on curated benchmarks but fail silently in deployment, where speech, environmental noise, and audio unlike the training data induce confident misclassifications. In health monitoring, a confidently wrong prediction is worse than no answer at all. We present SECURE-AI (Self-aware Estimation of Cough Uncertainty for Reliable…",
+      "authors": [
+        "Sejal Solkhan, Feiya Xiang, Mayur Sanap, Geet Khatri, Edgar Lobaton"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23937",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 103
+    },
+    {
+      "id": "d7db1ec73af71a6b4a71",
+      "title": "SLA-LENS: From Classroom Transcripts to CSLA-Informed and Evidence-Linked L2 Interaction Analytics",
+      "url": "https://arxiv.org/abs/2610.24259",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI4Education",
+        "LLM"
+      ],
+      "excerpt": "What happens after a learner makes an error, and how does the instructor's response shape the next turn? Investigating these exchanges across classrooms requires context-sensitive annotation that is difficult to scale manually. We introduce SLA-LENS, an end-to-end LLM-assisted framework that connects classroom transcripts to structured pedagogical annotations and evidence-linked…",
+      "authors": [
+        "Nemika Tyagi, Olga Kellert, Phanos Kareen, Nelvin Licona-Guevara"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24259",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 75.7,
+      "priority_label": "Relevant",
+      "rank": 127
+    },
+    {
+      "id": "13d4c4377ec3848cc3db",
+      "title": "PREEMPT: Proactive Robustness Evaluation under Editing for Media Protection Techniques",
+      "url": "https://arxiv.org/abs/2610.24205",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Proactive image protection methods aim to defend visual content against unauthorized manipulation and generative misuse by embedding protective signals into images before release. Evaluating whether these protections remain effective under image editing is therefore critical. However, existing evaluations remain largely limited to one-shot edits, providing only a static view of…",
+      "authors": [
+        "Qiuyu Tang, Aparna Bharati"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24205",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.4,
+      "priority_label": "Relevant",
+      "rank": 48
+    },
+    {
+      "id": "0559eeb70b9ad5e24715",
+      "title": "Instance-Specific Classifier-Free Guidance for Text-to-Image Diffusion/Flow-Based Editing",
+      "url": "https://arxiv.org/abs/2610.23905",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Evaluation",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "In recent years, a variety of prompt-based image editing methods have been developed based on text-to-image (T2I) diffusion/flow models. Image editing introduces an inherent trade-off between adhering to the original source image and realizing the change specified by the target prompt, which are typically measured by the LPIPS and CLIP-T metrics, respectively. Intuitively, this…",
+      "authors": [
+        "Wajeeh Atrash, Tom Tirer"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23905",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 73.0,
+      "priority_label": "Relevant",
+      "rank": 166
+    },
+    {
+      "id": "9c165ab7e8d8d1788af1",
+      "title": "Medical Fine-Tuning Reshapes, Not Reduces, Patient-Facing AI Risk: A Rubric-Based, LLM-Judge Evaluation Framework",
+      "url": "https://arxiv.org/abs/2610.24807",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Patient-facing medical question answering with large language models (LLMs) is moving from research demonstrations to production deployments, yet evaluation remains anchored on factual correctness. Factuality is necessary but not sufficient: a response can be factually grounded and still issue a directive that, if acted on, would harm the patient. We introduce a risk-sensitive…",
+      "authors": [
+        "Savan Doshi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24807",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 60
+    },
+    {
+      "id": "1f78e305d05711d6be4c",
+      "title": "Learning Whole-Body Kinetic Coordination for Wheeled-Quadruped Long-Range Throwing",
+      "url": "https://arxiv.org/abs/2610.23883",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Long-range throwing on unstructured terrain is a key capability for mobile robots in delivery and retrieval tasks, but it requires high release velocity, coordinated whole-body motion, and robustness to terrain-induced disturbances. We present a whole-body kinetic-coordination framework for a wheeled-quadruped manipulator that combines kinetic-chain arm modeling with SQP-based…",
+      "authors": [
+        "Qinglian Wu, Yidian Hu, Weiqi Fan, Yutian Zhang, Siyuan Ma, Jiaqi Zhai, Wei Dong, Li Xu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23883",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.4,
+      "priority_label": "Relevant",
+      "rank": 119
+    },
+    {
+      "id": "f6423818b49c50960d2a",
+      "title": "GazeAct: A Human-Gaze-Annotated Manipulation Dataset for Attention-Regularized Policies",
+      "url": "https://arxiv.org/abs/2610.24507",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Multimodal",
+        "Vision"
+      ],
+      "excerpt": "Vision-language-action (VLA) policies must ground language instructions in the right objects, contact points, and target locations for reliable manipulation. Human gaze provides a natural signal for this grounding, but existing robot datasets rarely pair real human gaze with the multi-camera observations used by modern policies. We introduce GazeAct, a gaze-equipped real-robot…",
+      "authors": [
+        "Anupam Pani, Wang Yuan, Qifan Wang, Yanchao Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24507",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.7,
+      "priority_label": "Relevant",
+      "rank": 121
+    },
+    {
+      "id": "3e8e459a628be47502de",
+      "title": "WULPUS PRO: Multi-mode Ultra-Low-Power Wearable Ultrasound and Array Imaging with CMUT Support",
+      "url": "https://arxiv.org/abs/2607.12137",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging"
+      ],
+      "excerpt": "arXiv:2607.12137v2 Announce Type: replace-cross Abstract: Wearable ultrasound enables continuous monitoring of physiological processes such as muscle dynamics, bladder volume, and cardiovascular activity. Existing fully wearable ultra-low-power platforms are limited to shallow, low-channel A-mode sensing, while larger multi-mode systems are too bulky and power-hungry for true…",
+      "authors": [
+        "Sergei Vostrikov, Federico Villani, Cedric Hirschi, Jinhao Lu, Jonas Welsch, Martin Angerer, Edmond Cretu, Robert Rohling, Andrea Cossettini, Luca Benini"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-sa-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2607.12137",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
+      "rank": 32
+    },
+    {
+      "id": "c52858d598c175281b28",
+      "title": "TorchTPU - A Hybrid Eager/Compiled Architecture for Native PyTorch Execution on TPU",
+      "url": "https://arxiv.org/abs/2610.24161",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Open Source",
+        "Hardware"
+      ],
+      "excerpt": "TorchTPU is an open-source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU migration while delivering industry-competitive inference and training performance through eager execution optimizations, torch.compile integration, and native hardware acceleration.",
+      "authors": [
+        "Claudio Basile, Michael Voznesensky, Gunhyun Park, Ben Wilson, Parker Holloway, Zhanyong Wan, Vlad Belous, Manish Khanna, Paul Ganssle, Kevin Gleason, Andrew Dame, Brendan Folie, Bhavya Bahl, Haifeng Jin, Pedro Goncalves Mokarzel, Arian Arfaian, Luke Boyer, Chi Zhang, Yiling Yuan, Adam Mainz, Aditya Patel, Huangze Tang, Jay Gan, Lizzie Liang, Will Froom, Tushar Agarwal, Karlo Basioli, Theotime Combes, Emilio Cota, Minos Papadopoulos, Tudor Pipernea, Yarong Mu, Qi Zhou, Yaoshiang Ho, Aleksey Vlasenko, Alexander Brauckmann, Ziyin Huang, Jack Oh, Jerry Hsu, Tanvi Bajpai, Jialei Chen, Wenjun Gu, Chintan Shah, Chris Chan, Sayce Falk, Chris Jones, Rob Torres, Kat Ko, Lee Howes, Freya Azad, Andi Gavrilescu, Joe Pamer, Bill Jia"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24161",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.4,
+      "priority_label": "Relevant",
+      "rank": 149
+    },
+    {
+      "id": "350482a3256f38a99f9b",
+      "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
+      "url": "https://arxiv.org/abs/2610.25376",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI4Education",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Education",
+        "Robotics"
+      ],
+      "excerpt": "Large-scale action pretraining equips Embodied Foundation Models (EFMs) with strong manipulation capabilities, with particular strengths in generalization and closed-loop robustness, but reproducing such pretraining requires substantial robot data and computation. To transfer these capabilities from pretrained EFMs to policies without action pretraining, we introduce TILDE…",
+      "authors": [
+        "Yuxiang Lu, Yantong Liu, Jinghua Hou, Xueli Sun, Ruihua Han, Zhe Liu, Hengshuang Zhao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.25376",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 89
+    },
+    {
+      "id": "6c2a7f9e70f3b163982b",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-19T23:32:19+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models, on both the bedrock-runtime and bedrock-mantle endpoints, where the model is available. Whether you call Claude through Boto3 and the bedrock-runtime APIs or through the Messages API and the bedrock-mantle endpoint, you can now receive schema-compliant JSON responses that conform to a defined structure. You…",
+      "authors": [
+        "Anshika Saxena"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22211-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/11/ml-20969-image-6.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22211-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/18/ML-21953-2.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 63
+    },
+    {
+      "id": "5071b6ceb6a21c737e7e",
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-19T22:39:24+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "AI4Education"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Evaluation",
+        "Education",
+        "Hardware"
+      ],
+      "excerpt": "Today, we’re excited to announce that new Amazon SageMaker AI customers can now land inside a fully configured Amazon SageMaker Studio environment in only a few steps after signing up for AWS. You can use a sign-in method that you already have, such as Amazon, Apple, GitHub, Google, or an email address. You don’t need to set up an advanced AWS account, enter a credit card (for most…",
+      "authors": [
+        "Hazim Qudah"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-3-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22115-4-1.jpg"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 74.5,
+      "priority_label": "Relevant",
+      "rank": 158
+    },
     {
       "id": "fa2bb646c4b88b13d0bb",
       "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
@@ -23,7 +2344,7 @@
         "AI Agents",
         "Agents"
       ],
-      "excerpt": "Microsoft wants enterprises to closely watch the agents employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "excerpt": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
       "authors": [
         "Julie Bort"
       ],
@@ -35,7 +2356,7 @@
       "freshness_score": 100.0,
       "priority_score": 73.6,
       "priority_label": "Relevant",
-      "rank": 139
+      "rank": 138
     },
     {
       "id": "31fe2af5984c5f8efa7c",
@@ -539,8 +2860,8 @@
       ],
       "arxiv_id": "2610.23099",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 78.6,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
       "priority_label": "Relevant",
       "rank": 32
     },
@@ -577,8 +2898,8 @@
       "images": [],
       "arxiv_id": "2610.22610",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 53
     },
@@ -616,8 +2937,8 @@
       "images": [],
       "arxiv_id": "2610.22982",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 54
     },
@@ -650,8 +2971,8 @@
       "images": [],
       "arxiv_id": "2610.23568",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 55
     },
@@ -689,8 +3010,8 @@
       "images": [],
       "arxiv_id": "2610.22419",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -725,8 +3046,8 @@
       "images": [],
       "arxiv_id": "2610.22684",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 67
     },
@@ -763,8 +3084,8 @@
       "images": [],
       "arxiv_id": "2610.23223",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 72
     },
@@ -800,8 +3121,8 @@
       "images": [],
       "arxiv_id": "2610.22942",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 73
     },
@@ -838,8 +3159,8 @@
       "images": [],
       "arxiv_id": "2610.22422",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 74
     },
@@ -874,8 +3195,8 @@
       "images": [],
       "arxiv_id": "2610.22434",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 75
     },
@@ -910,8 +3231,8 @@
       "images": [],
       "arxiv_id": "2610.22542",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 75.4,
+      "freshness_score": 94.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 96
     },
@@ -946,8 +3267,8 @@
       "images": [],
       "arxiv_id": "2610.22496",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 74.3,
+      "freshness_score": 94.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 112
     },
@@ -985,8 +3306,8 @@
       "images": [],
       "arxiv_id": "2610.23479",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 74.3,
+      "freshness_score": 94.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 113
     },
@@ -1019,8 +3340,8 @@
       "images": [],
       "arxiv_id": "2610.23251",
       "relevance_score": 70.5,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.9,
       "priority_label": "Relevant",
       "rank": 132
     },
@@ -1056,8 +3377,8 @@
       "images": [],
       "arxiv_id": "2610.22951",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 133
     },
@@ -1091,8 +3412,8 @@
       "images": [],
       "arxiv_id": "2610.23271",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 134
     },
@@ -1126,8 +3447,8 @@
       "images": [],
       "arxiv_id": "2610.22885",
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 71.6,
+      "freshness_score": 94.0,
+      "priority_score": 70.3,
       "priority_label": "Relevant",
       "rank": 152
     },
@@ -1163,8 +3484,8 @@
       "images": [],
       "arxiv_id": "2610.23275",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 103
     },
@@ -1197,8 +3518,8 @@
       "images": [],
       "arxiv_id": "2310.16659",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 74.3,
+      "freshness_score": 94.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 113
     },
@@ -1232,8 +3553,8 @@
       "images": [],
       "arxiv_id": "2610.23237",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 57
     },
@@ -1267,8 +3588,8 @@
       "images": [],
       "arxiv_id": "2610.23475",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 58
     },
@@ -1301,8 +3622,8 @@
       "images": [],
       "arxiv_id": "2610.22583",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 76
     },
@@ -1337,8 +3658,8 @@
       "images": [],
       "arxiv_id": "2610.22892",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 77
     },
@@ -1371,9 +3692,9 @@
       "images": [],
       "arxiv_id": "2610.22713",
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 94.0,
+      "priority_score": 69.6,
+      "priority_label": "Latest",
       "rank": 190
     },
     {
@@ -1406,8 +3727,8 @@
       "images": [],
       "arxiv_id": "2610.22721",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 74.7,
+      "freshness_score": 94.0,
+      "priority_score": 73.4,
       "priority_label": "Relevant",
       "rank": 100
     },
@@ -1444,8 +3765,8 @@
       "images": [],
       "arxiv_id": "2610.22907",
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 140
     },
@@ -1480,8 +3801,8 @@
       "images": [],
       "arxiv_id": "2610.22754",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 78
     },
@@ -1521,8 +3842,8 @@
       "images": [],
       "arxiv_id": "2610.23334",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 74.3,
+      "freshness_score": 94.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 114
     },
@@ -1555,8 +3876,8 @@
       "images": [],
       "arxiv_id": "2610.23293",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 86
     },
@@ -1589,8 +3910,8 @@
       "images": [],
       "arxiv_id": "2610.23440",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 71.9,
+      "freshness_score": 94.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 153
     },
@@ -1626,8 +3947,8 @@
       ],
       "arxiv_id": "2610.22586",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
       "priority_label": "Relevant",
       "rank": 31
     },
@@ -1662,8 +3983,8 @@
       "images": [],
       "arxiv_id": "2610.22636",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 43
     },
@@ -1697,8 +4018,8 @@
       "images": [],
       "arxiv_id": "2610.22792",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 68
     },
@@ -1733,8 +4054,8 @@
       "images": [],
       "arxiv_id": "2610.22618",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 79
     },
@@ -1773,8 +4094,8 @@
       "images": [],
       "arxiv_id": "2610.22423",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 78.1,
+      "freshness_score": 94.0,
+      "priority_score": 76.8,
       "priority_label": "Relevant",
       "rank": 38
     },
@@ -1810,8 +4131,8 @@
       "images": [],
       "arxiv_id": "2610.23325",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 77.8,
+      "freshness_score": 94.0,
+      "priority_score": 76.5,
       "priority_label": "Relevant",
       "rank": 41
     },
@@ -1846,8 +4167,8 @@
       "images": [],
       "arxiv_id": "2610.22514",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.2,
+      "freshness_score": 94.0,
+      "priority_score": 75.9,
       "priority_label": "Relevant",
       "rank": 48
     },
@@ -1883,8 +4204,8 @@
       "images": [],
       "arxiv_id": "2610.23263",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 50
     },
@@ -1919,8 +4240,8 @@
       "images": [],
       "arxiv_id": "2610.22615",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 80
     },
@@ -1954,8 +4275,8 @@
       "images": [],
       "arxiv_id": "2610.22556",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 135
     },
@@ -1989,8 +4310,8 @@
       "images": [],
       "arxiv_id": "2610.22771",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 79
     },
@@ -2022,8 +4343,8 @@
       "images": [],
       "arxiv_id": "2610.22955",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 80
     },
@@ -2059,8 +4380,8 @@
       "images": [],
       "arxiv_id": "2610.23053",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 74.3,
+      "freshness_score": 94.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 115
     },
@@ -2095,8 +4416,8 @@
       "images": [],
       "arxiv_id": "2610.23181",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 69
     },
@@ -2128,8 +4449,8 @@
       "images": [],
       "arxiv_id": "2610.23837",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 81
     },
@@ -2163,8 +4484,8 @@
       "images": [],
       "arxiv_id": "2610.22450",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 87
     },
@@ -2202,8 +4523,8 @@
       "images": [],
       "arxiv_id": "2610.22608",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 71.9,
+      "freshness_score": 94.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 154
     },
@@ -2236,8 +4557,8 @@
       "images": [],
       "arxiv_id": "2610.23287",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 71.9,
+      "freshness_score": 94.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 155
     },
@@ -2270,8 +4591,8 @@
       "images": [],
       "arxiv_id": "2610.22436",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 82
     },
@@ -2306,8 +4627,8 @@
       "images": [],
       "arxiv_id": "2610.22643",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 59
     },
@@ -2339,8 +4660,8 @@
       "images": [],
       "arxiv_id": "2610.22810",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 88
     },
@@ -2376,8 +4697,8 @@
       "images": [],
       "arxiv_id": "2610.23042",
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 75.7,
+      "freshness_score": 94.0,
+      "priority_score": 74.3,
       "priority_label": "Relevant",
       "rank": 117
     },
@@ -2411,8 +4732,8 @@
       "images": [],
       "arxiv_id": "2610.22537",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 71.9,
+      "freshness_score": 94.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 161
     },
@@ -2446,8 +4767,8 @@
       "images": [],
       "arxiv_id": "2610.22564",
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 71.7,
+      "freshness_score": 94.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 186
     },
@@ -2482,8 +4803,8 @@
       "images": [],
       "arxiv_id": "2610.23185",
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 141
     },
@@ -2517,8 +4838,8 @@
       "images": [],
       "arxiv_id": "2610.23266",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 70
     },
@@ -2554,8 +4875,8 @@
       "images": [],
       "arxiv_id": "2610.22515",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 82
     },
@@ -2588,8 +4909,8 @@
       "images": [],
       "arxiv_id": "2610.23128",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 101
     },
@@ -2626,8 +4947,8 @@
       "images": [],
       "arxiv_id": "2610.22511",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 75.4,
+      "freshness_score": 94.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 97
     },
@@ -2659,8 +4980,8 @@
       "images": [],
       "doi": "10.1038/s42256-026-01333-6",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 83.7,
+      "freshness_score": 94.0,
+      "priority_score": 82.4,
       "priority_label": "High relevance",
       "rank": 11
     },
@@ -2704,8 +5025,8 @@
       ],
       "doi": "10.1038/s42256-026-01311-y",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 85.2,
+      "freshness_score": 94.0,
+      "priority_score": 83.9,
       "priority_label": "High relevance",
       "rank": 4
     },
@@ -2749,8 +5070,8 @@
       "pmid": "42894037",
       "doi": "10.1007/s00784-026-07181-3",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 86.3,
+      "freshness_score": 94.0,
+      "priority_score": 85.0,
       "priority_label": "High relevance",
       "rank": 1
     },
@@ -2788,8 +5109,8 @@
       "pmid": "42894357",
       "doi": "10.1177/01617346261488317",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 84.1,
+      "freshness_score": 94.0,
+      "priority_score": 82.8,
       "priority_label": "High relevance",
       "rank": 3
     },
@@ -2831,8 +5152,8 @@
       "pmid": "42894253",
       "doi": "10.1002/jum.70439",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 84.1,
+      "freshness_score": 94.0,
+      "priority_score": 82.8,
       "priority_label": "High relevance",
       "rank": 4
     },
@@ -2872,10 +5193,51 @@
       "pmid": "42896140",
       "doi": "10.2196/93931",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.2,
+      "freshness_score": 94.0,
+      "priority_score": 82.9,
       "priority_label": "High relevance",
       "rank": 6
+    },
+    {
+      "id": "8c6b92774dc4f915ebcc",
+      "title": "Responses of large language model-based chatbots to simulated psychotic ideation across repeated interactions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42896290",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical"
+      ],
+      "excerpt": "Following the development of widely accessible large language model-based chatbot systems, concerns have emerged that such systems may reinforce psychotic ideation through affirmation of delusional content. However, systematic evaluations of chatbot responses to psychotic scenarios remain limited. We hypothesized that chatbot responses would become increasingly affirmatory over repeated…",
+      "authors": [
+        "Marek Kotas",
+        "Wojciech Pichowicz",
+        "Julia Karska",
+        "Kacper Żełabowski",
+        "Patryk Piotrowski",
+        "Błażej Misiak"
+      ],
+      "venue": "Schizophrenia research",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42896290",
+      "doi": "10.1016/j.schres.2026.10.010",
+      "relevance_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
+      "priority_label": "High relevance",
+      "rank": 17
     },
     {
       "id": "900280859bfcab44f83e",
@@ -2914,8 +5276,8 @@
       "pmid": "42894083",
       "doi": "10.1186/s41824-026-00326-3",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 7
     },
@@ -2955,8 +5317,8 @@
       "pmid": "42895671",
       "doi": "10.1007/s11897-026-00783-8",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.3,
+      "freshness_score": 94.0,
+      "priority_score": 83.0,
       "priority_label": "High relevance",
       "rank": 7
     },
@@ -2999,8 +5361,8 @@
       "pmid": "42896177",
       "doi": "10.2196/102713",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.7,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
       "priority_label": "High relevance",
       "rank": 17
     },
@@ -3044,10 +5406,54 @@
       "pmid": "42896174",
       "doi": "10.2196/105599",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.7,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
       "priority_label": "High relevance",
       "rank": 19
+    },
+    {
+      "id": "5017e7573d13b9ca11ae",
+      "title": "Advancing clinical integration in undergraduate dental education through AI-enabled instructional design: a qualitative thematic analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42895785",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-19T00:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI4Education",
+        "Safety",
+        "Medical",
+        "Education",
+        "Reasoning"
+      ],
+      "excerpt": "Despite growing interest in artificial intelligence (AI) in health professions education, qualitative evidence for integarting AI-supported instructional redesign on teaching practices and students' experiences in undergraduate dental education remains limited. The aim of this study was to explore the educational impact of AI-supported instructional redesign of lessons in undergraduate…",
+      "authors": [
+        "Selçuk Akturan",
+        "Ömer Faruk Güdük",
+        "İpek Nur Berberoğlu",
+        "Elif Özlem Ardıç Kemerkaya",
+        "Salman Yousuf Guraya"
+      ],
+      "venue": "Medical education online",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42895785",
+      "doi": "10.1080/10872981.2026.2750709",
+      "relevance_score": 72.2,
+      "freshness_score": 94.0,
+      "priority_score": 79.8,
+      "priority_label": "Relevant",
+      "rank": 25
     },
     {
       "id": "0cb7f3326437aa7c1827",
@@ -3088,8 +5494,8 @@
       "pmid": "42894801",
       "doi": "10.1016/j.ijcha.2026.102025",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 84.1,
+      "freshness_score": 94.0,
+      "priority_score": 82.8,
       "priority_label": "High relevance",
       "rank": 5
     },
@@ -3128,8 +5534,8 @@
       "pmid": "42896012",
       "doi": "10.2106/JBJS.RVW.26.00182",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.4,
+      "freshness_score": 94.0,
+      "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 5
     },
@@ -3175,8 +5581,8 @@
       "pmid": "42896172",
       "doi": "10.2196/104586",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.7,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
       "priority_label": "High relevance",
       "rank": 18
     },
@@ -3220,8 +5626,8 @@
       "pmid": "42893969",
       "doi": "10.1111/jgs.70793",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 84.1,
+      "freshness_score": 94.0,
+      "priority_score": 82.8,
       "priority_label": "High relevance",
       "rank": 6
     },
@@ -3267,8 +5673,8 @@
       "pmid": "42894004",
       "doi": "10.1038/s41392-026-02689-2",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 8
     },
@@ -3309,8 +5715,8 @@
       "pmid": "42896178",
       "doi": "10.2196/91884",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 15
     },
@@ -3348,8 +5754,8 @@
       "pmid": "42894105",
       "doi": "10.1111/jocn.70595",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 9
     },
@@ -3394,8 +5800,8 @@
       "pmid": "42896124",
       "doi": "10.2196/93235",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 13
     },
@@ -3435,8 +5841,8 @@
       "pmid": "42896035",
       "doi": "10.11607/jomi.11913",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.2,
+      "freshness_score": 94.0,
+      "priority_score": 83.8,
       "priority_label": "High relevance",
       "rank": 3
     },
@@ -4197,8 +6603,8 @@
       "images": [],
       "arxiv_id": "2610.20939",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 90
     },
@@ -4232,8 +6638,8 @@
       "images": [],
       "arxiv_id": "2610.21040",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 81
     },
@@ -4269,8 +6675,8 @@
       "images": [],
       "arxiv_id": "2610.21483",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 82
     },
@@ -4302,8 +6708,8 @@
       "images": [],
       "arxiv_id": "2610.21492",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 83
     },
@@ -4341,8 +6747,8 @@
       "images": [],
       "arxiv_id": "2610.21218",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 71
     },
@@ -4384,8 +6790,8 @@
       "pmid": "42888462",
       "doi": "10.1186/s41073-026-00250-x",
       "relevance_score": 72.2,
-      "freshness_score": 94.0,
-      "priority_score": 79.8,
+      "freshness_score": 86.0,
+      "priority_score": 78.1,
       "priority_label": "Relevant",
       "rank": 22
     },
@@ -4426,8 +6832,8 @@
       "pmid": "42891545",
       "doi": "10.1200/OP-26-00822",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 83.0,
+      "freshness_score": 86.0,
+      "priority_score": 81.2,
       "priority_label": "High relevance",
       "rank": 6
     },
@@ -4474,8 +6880,8 @@
       "pmid": "42888543",
       "doi": "10.1097/MD.0000000000050739",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 83.8,
+      "freshness_score": 86.0,
+      "priority_score": 82.1,
       "priority_label": "High relevance",
       "rank": 2
     },
@@ -4519,8 +6925,8 @@
       "pmid": "42888313",
       "doi": "10.1007/s10278-026-02408-x",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 6
     },
@@ -4557,9 +6963,9 @@
       "pmid": "42891502",
       "doi": "10.1002/ijgo.71422",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.3,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
       "rank": 20
     },
     {
@@ -4601,8 +7007,8 @@
       "pmid": "42888542",
       "doi": "10.1097/MD.0000000000051089",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 12
     },
@@ -4645,9 +7051,9 @@
       "pmid": "42888594",
       "doi": "10.1097/MD.0000000000051124",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.3,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
       "rank": 14
     },
     {
@@ -4693,8 +7099,8 @@
       "pmid": "42888233",
       "doi": "10.1007/s00464-026-13369-1",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 83.0,
+      "freshness_score": 86.0,
+      "priority_score": 81.2,
       "priority_label": "High relevance",
       "rank": 4
     },
@@ -15894,8 +18300,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-3Q-AI-Accountability-01-Press.jpg?itok=qmMiDsu5"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 32
     },
@@ -15929,9 +18335,9 @@
         "https://www.nih.gov/sites/default/files/styles/thumbnail_large/public/2026-09/20260924-nlm.jpg?itok=yIyLthpD"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 86.0,
-      "priority_score": 83.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 80.0,
+      "priority_label": "Relevant",
       "rank": 2
     },
     {
@@ -15964,9 +18370,9 @@
         "https://www.nih.gov/sites/default/files/styles/thumbnail_large/public/2026-09/20260923-ms.jpeg?itok=q8UuXjJy"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 86.0,
-      "priority_score": 81.5,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.4,
+      "priority_label": "Relevant",
       "rank": 5
     },
     {
@@ -15999,9 +18405,9 @@
         "https://www.nih.gov/sites/default/files/styles/thumbnail_large/public/2026-09/20260923-mri.jpeg?itok=luQ5eIsM"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 86.0,
-      "priority_score": 81.5,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.4,
+      "priority_label": "Relevant",
       "rank": 6
     },
     {
@@ -16033,9 +18439,9 @@
         "https://www.nih.gov/sites/default/files/styles/thumbnail_large/public/2025-09/brain-organoid_1.jpg?itok=S9Hi7l7d"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 86.0,
-      "priority_score": 81.5,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.4,
+      "priority_label": "Relevant",
       "rank": 7
     },
     {
@@ -16068,9 +18474,9 @@
         "https://www.nih.gov/sites/default/files/styles/thumbnail_large/public/2026-09/20260918-dr-jonathan-burke-thumb.jpg?itok=vatPRsOk"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 86.0,
-      "priority_score": 81.5,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.4,
+      "priority_label": "Relevant",
       "rank": 8
     },
     {
@@ -16118,8 +18524,8 @@
       ],
       "doi": "10.1038/s42256-026-01310-z",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 83.1,
+      "freshness_score": 72.0,
+      "priority_score": 80.0,
       "priority_label": "High relevance",
       "rank": 1
     },
@@ -16161,9 +18567,9 @@
       "pmid": "42864240",
       "doi": "10.1016/j.ultrasmedbio.2026.08.027",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 10
     },
     {
@@ -16202,9 +18608,9 @@
       "pmid": "42864883",
       "doi": "10.1177/09544119261496349",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 15
     },
     {
@@ -16249,8 +18655,8 @@
       "pmid": "42864610",
       "doi": "10.1186/s12245-026-01388-7",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 18
     },
@@ -16292,8 +18698,8 @@
       "pmid": "42864414",
       "doi": "10.1038/s41393-026-01286-y",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 19
     },
@@ -16337,9 +18743,9 @@
       "pmid": "42864835",
       "doi": "10.1021/acssensors.6c02471",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 17
     },
     {
@@ -16382,9 +18788,9 @@
       "pmid": "42867147",
       "doi": "10.1093/neuonc/noag257",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 9
     },
     {
@@ -16422,9 +18828,9 @@
       "pmid": "42869669",
       "doi": "10.1016/j.acra.2026.09.054",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 82.2,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 79.1,
+      "priority_label": "Relevant",
       "rank": 4
     },
     {
@@ -16461,9 +18867,9 @@
       "pmid": "42869376",
       "doi": "10.1016/j.drudis.2026.104835",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 10
     },
     {
@@ -16507,9 +18913,9 @@
       "pmid": "42864176",
       "doi": "10.1016/j.acra.2026.09.067",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 11
     },
     {
@@ -16547,8 +18953,8 @@
       "pmid": "42864851",
       "doi": "10.1177/10519815261493105",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 20
     },
@@ -16593,9 +18999,9 @@
       "pmid": "42866919",
       "doi": "10.1002/jmri.70588",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 10
     },
     {
@@ -16640,9 +19046,9 @@
       "pmid": "42869423",
       "doi": "10.1177/00031348261496616",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 15
     },
     {
@@ -16684,9 +19090,9 @@
       "pmid": "42867517",
       "doi": "10.1007/s00264-026-07060-2",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 22
     },
     {
@@ -16728,9 +19134,9 @@
       "pmid": "42863763",
       "doi": "10.1016/j.jocmr.2026.102811",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 82.2,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 79.1,
+      "priority_label": "Relevant",
       "rank": 3
     },
     {
@@ -16771,9 +19177,9 @@
       "pmid": "42864862",
       "doi": "10.1080/17581966.2026.2743569",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 12
     },
     {
@@ -16817,8 +19223,8 @@
       "pmid": "42864590",
       "doi": "10.1007/s41669-026-00687-2",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 21
     },
@@ -16862,8 +19268,8 @@
       "pmid": "42869378",
       "doi": "10.1016/j.joen.2026.10.003",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 79.8,
+      "freshness_score": 72.0,
+      "priority_score": 76.7,
       "priority_label": "Relevant",
       "rank": 20
     },
@@ -16904,9 +19310,9 @@
       "pmid": "42865145",
       "doi": "10.1024/0301-1526/a001314",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 14
     },
     {
@@ -16952,9 +19358,9 @@
       "pmid": "42864904",
       "doi": "10.1111/trf.70418",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 16
     },
     {
@@ -16993,8 +19399,8 @@
       "pmid": "42867900",
       "doi": "10.1177/10519815261491757",
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 78.1,
+      "freshness_score": 72.0,
+      "priority_score": 75.0,
       "priority_label": "Relevant",
       "rank": 25
     },
@@ -17035,9 +19441,9 @@
       "pmid": "42863783",
       "doi": "10.1016/j.jdent.2026.107101",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 9
     },
     {
@@ -17077,9 +19483,9 @@
       "pmid": "42869247",
       "doi": "10.1016/j.radonc.2026.111826",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 16
     },
     {
@@ -31878,9 +34284,9 @@
       ],
       "arxiv_id": "2507.21164",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 72.8,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.3,
+      "priority_label": "Latest",
       "rank": 22
     },
     {
@@ -31913,9 +34319,9 @@
       "images": [],
       "arxiv_id": "2610.05278",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 44
     },
     {
@@ -31950,9 +34356,9 @@
       "images": [],
       "arxiv_id": "2610.04544",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 62
     },
     {
@@ -31986,9 +34392,9 @@
       "images": [],
       "arxiv_id": "2610.04028",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 63
     },
     {
@@ -32022,9 +34428,9 @@
       "images": [],
       "arxiv_id": "2610.06034",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 64
     },
     {
@@ -32062,9 +34468,9 @@
       "images": [],
       "arxiv_id": "2610.04565",
       "relevance_score": 72.2,
-      "freshness_score": 72.0,
-      "priority_score": 70.1,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 66.6,
+      "priority_label": "Latest",
       "rank": 76
     },
     {
@@ -32098,8 +34504,8 @@
       "images": [],
       "arxiv_id": "2610.04137",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 78
     },
@@ -32132,8 +34538,8 @@
       "images": [],
       "arxiv_id": "2610.04427",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 88
     },
@@ -32167,8 +34573,8 @@
       "images": [],
       "arxiv_id": "2610.04467",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 89
     },
@@ -32204,8 +34610,8 @@
       "images": [],
       "arxiv_id": "2610.04642",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 90
     },
@@ -32238,8 +34644,8 @@
       "images": [],
       "arxiv_id": "2610.04552",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 91
     },
@@ -32275,8 +34681,8 @@
       "images": [],
       "arxiv_id": "2610.04301",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 116
     },
@@ -32310,8 +34716,8 @@
       "images": [],
       "arxiv_id": "2610.04536",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 68.6,
+      "freshness_score": 56.0,
+      "priority_score": 65.0,
       "priority_label": "Latest",
       "rank": 127
     },
@@ -32345,8 +34751,8 @@
       "images": [],
       "arxiv_id": "2610.04014",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 65.6,
+      "freshness_score": 56.0,
+      "priority_score": 62.0,
       "priority_label": "Latest",
       "rank": 149
     },
@@ -32379,8 +34785,8 @@
       "images": [],
       "arxiv_id": "2610.04422",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 65.6,
+      "freshness_score": 56.0,
+      "priority_score": 62.0,
       "priority_label": "Latest",
       "rank": 162
     },
@@ -32415,9 +34821,9 @@
       "images": [],
       "arxiv_id": "2610.04489",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 45
     },
     {
@@ -32451,9 +34857,9 @@
       "images": [],
       "arxiv_id": "2610.04253",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 54
     },
     {
@@ -32486,9 +34892,9 @@
       "images": [],
       "arxiv_id": "2610.03931",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 70.7,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.2,
+      "priority_label": "Latest",
       "rank": 65
     },
     {
@@ -32519,9 +34925,9 @@
       "images": [],
       "arxiv_id": "2609.40083",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 66
     },
     {
@@ -32553,9 +34959,9 @@
       "images": [],
       "arxiv_id": "2610.04071",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 82
     },
     {
@@ -32589,9 +34995,9 @@
       "images": [],
       "arxiv_id": "2610.04913",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 83
     },
     {
@@ -32626,8 +35032,8 @@
       "images": [],
       "arxiv_id": "2605.23508",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 129
     },
@@ -32659,8 +35065,8 @@
       "images": [],
       "arxiv_id": "2610.06579",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 65.6,
+      "freshness_score": 56.0,
+      "priority_score": 62.0,
       "priority_label": "Latest",
       "rank": 183
     },
@@ -32693,8 +35099,8 @@
       "images": [],
       "arxiv_id": "2610.05170",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 91
     },
@@ -32729,9 +35135,9 @@
       "images": [],
       "arxiv_id": "2610.04819",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 46
     },
     {
@@ -32765,9 +35171,9 @@
       "images": [],
       "arxiv_id": "2610.04118",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 55
     },
     {
@@ -32799,9 +35205,9 @@
       "images": [],
       "arxiv_id": "2610.04401",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 56
     },
     {
@@ -32834,9 +35240,9 @@
       "images": [],
       "arxiv_id": "2610.04215",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 70.8,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.3,
+      "priority_label": "Latest",
       "rank": 61
     },
     {
@@ -32869,9 +35275,9 @@
       "images": [],
       "arxiv_id": "2610.04151",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 70.7,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.2,
+      "priority_label": "Latest",
       "rank": 67
     },
     {
@@ -32906,9 +35312,9 @@
       "images": [],
       "arxiv_id": "2610.04361",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 68
     },
     {
@@ -32942,9 +35348,9 @@
       "images": [],
       "arxiv_id": "2610.05426",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 69
     },
     {
@@ -32980,8 +35386,8 @@
       "images": [],
       "arxiv_id": "2610.04510",
       "relevance_score": 70.5,
-      "freshness_score": 72.0,
-      "priority_score": 67.6,
+      "freshness_score": 56.0,
+      "priority_score": 64.1,
       "priority_label": "Latest",
       "rank": 120
     },
@@ -33014,8 +35420,8 @@
       "images": [],
       "arxiv_id": "2610.04093",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 63.7,
+      "freshness_score": 56.0,
+      "priority_score": 60.2,
       "priority_label": "Latest",
       "rank": 164
     },
@@ -33051,8 +35457,8 @@
       "images": [],
       "arxiv_id": "2610.04239",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 92
     },
@@ -33087,8 +35493,8 @@
       "images": [],
       "arxiv_id": "2610.03951",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.5,
+      "freshness_score": 56.0,
+      "priority_score": 66.0,
       "priority_label": "Latest",
       "rank": 104
     },
@@ -33123,9 +35529,9 @@
       "images": [],
       "arxiv_id": "2610.04184",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 53
     },
     {
@@ -33160,8 +35566,8 @@
       "images": [],
       "arxiv_id": "2604.04670",
       "relevance_score": 72.2,
-      "freshness_score": 72.0,
-      "priority_score": 67.7,
+      "freshness_score": 56.0,
+      "priority_score": 64.2,
       "priority_label": "Latest",
       "rank": 115
     },
@@ -33194,8 +35600,8 @@
       "images": [],
       "arxiv_id": "2610.05122",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 65.0,
+      "freshness_score": 56.0,
+      "priority_score": 61.5,
       "priority_label": "Latest",
       "rank": 169
     },
@@ -33228,8 +35634,8 @@
       "images": [],
       "arxiv_id": "2610.05044",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 66.0,
+      "freshness_score": 56.0,
+      "priority_score": 62.4,
       "priority_label": "Latest",
       "rank": 176
     },
@@ -33265,9 +35671,9 @@
       "images": [],
       "arxiv_id": "2610.03755",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 67
     },
     {
@@ -33302,9 +35708,9 @@
       "images": [],
       "arxiv_id": "2610.04095",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 68
     },
     {
@@ -33336,9 +35742,9 @@
       "images": [],
       "arxiv_id": "2602.17274",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 69
     },
     {
@@ -33377,8 +35783,8 @@
       ],
       "arxiv_id": "2610.04743",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 73.8,
+      "freshness_score": 56.0,
+      "priority_score": 70.2,
       "priority_label": "Relevant",
       "rank": 19
     },
@@ -33414,9 +35820,9 @@
       "images": [],
       "arxiv_id": "2610.04387",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 47
     },
     {
@@ -33449,8 +35855,8 @@
       "images": [],
       "arxiv_id": "2610.04594",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 93
     },
@@ -33485,9 +35891,9 @@
       "images": [],
       "arxiv_id": "2610.04541",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 70
     },
     {
@@ -33520,8 +35926,8 @@
       "images": [],
       "arxiv_id": "2610.04540",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 117
     },
@@ -33555,8 +35961,8 @@
       "images": [],
       "arxiv_id": "2610.04073",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 66.8,
+      "freshness_score": 56.0,
+      "priority_score": 63.2,
       "priority_label": "Latest",
       "rank": 131
     },
@@ -33590,9 +35996,9 @@
       "images": [],
       "arxiv_id": "2610.06107",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 71
     },
     {
@@ -33632,9 +36038,9 @@
       ],
       "arxiv_id": "2610.04787",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 28
     },
     {
@@ -33670,9 +36076,9 @@
       "images": [],
       "arxiv_id": "2610.04506",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 57
     },
     {
@@ -33705,8 +36111,8 @@
       "images": [],
       "arxiv_id": "2610.05114",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 79
     },
@@ -33740,8 +36146,8 @@
       "images": [],
       "arxiv_id": "2610.04659",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 118
     },
@@ -33777,9 +36183,9 @@
       "images": [],
       "arxiv_id": "2610.06602",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 72
     },
     {
@@ -33812,8 +36218,8 @@
       "images": [],
       "arxiv_id": "2610.04554",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 65.6,
+      "freshness_score": 56.0,
+      "priority_score": 62.0,
       "priority_label": "Latest",
       "rank": 189
     },
@@ -33851,9 +36257,9 @@
       ],
       "arxiv_id": "2409.14204",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 29
     },
     {
@@ -33886,9 +36292,9 @@
       "images": [],
       "arxiv_id": "2610.04204",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.2,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.6,
+      "priority_label": "Latest",
       "rank": 51
     },
     {
@@ -33920,9 +36326,9 @@
       "images": [],
       "arxiv_id": "2610.04091",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 72
     },
     {
@@ -33956,8 +36362,8 @@
       "images": [],
       "arxiv_id": "2610.04744",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 68.2,
+      "freshness_score": 56.0,
+      "priority_score": 64.7,
       "priority_label": "Latest",
       "rank": 117
     },
@@ -33995,9 +36401,9 @@
       ],
       "arxiv_id": "2510.26834",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 30
     },
     {
@@ -34030,8 +36436,8 @@
       "images": [],
       "arxiv_id": "2610.04441",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 80
     },
@@ -34066,8 +36472,8 @@
       "images": [],
       "arxiv_id": "2610.04255",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 68.6,
+      "freshness_score": 56.0,
+      "priority_score": 65.0,
       "priority_label": "Latest",
       "rank": 108
     },
@@ -34101,9 +36507,9 @@
       "images": [],
       "arxiv_id": "2610.04407",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 71
     },
     {
@@ -34140,8 +36546,8 @@
       "images": [],
       "arxiv_id": "2610.04409",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 81
     },
@@ -34177,9 +36583,9 @@
       "images": [],
       "arxiv_id": "2610.04974",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 48
     },
     {
@@ -34216,9 +36622,9 @@
       ],
       "arxiv_id": "2610.04159",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 31
     },
     {
@@ -34250,8 +36656,8 @@
       "images": [],
       "arxiv_id": "2610.04140",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 92
     },
@@ -34286,9 +36692,9 @@
       "images": [],
       "arxiv_id": "2610.04605",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 49
     },
     {
@@ -34322,8 +36728,8 @@
         "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F172894c37182d28628eb922929f134400c3ef1b5-1920x862.png&w=3840&q=75"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 77.3,
+      "freshness_score": 56.0,
+      "priority_score": 73.8,
       "priority_label": "Relevant",
       "rank": 17
     },
@@ -34371,8 +36777,8 @@
       "pmid": "42834294",
       "doi": "10.1007/s10278-026-02325-z",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 79.8,
+      "freshness_score": 56.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 1
     },
@@ -34414,8 +36820,8 @@
       "pmid": "42834715",
       "doi": "10.1080/0886022X.2026.2739770",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.3,
+      "freshness_score": 56.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 4
     },
@@ -34463,8 +36869,8 @@
       "pmid": "42834335",
       "doi": "10.1007/s43390-026-01573-x",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 6
     },
@@ -34504,8 +36910,8 @@
       "pmid": "42834703",
       "doi": "10.1093/eurheartj/ehag237",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 7
     },
@@ -34547,8 +36953,8 @@
       "pmid": "42838878",
       "doi": "10.1016/j.acra.2026.09.031",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 79.1,
+      "freshness_score": 56.0,
+      "priority_score": 75.6,
       "priority_label": "Relevant",
       "rank": 2
     },
@@ -34592,8 +36998,8 @@
       "pmid": "42837528",
       "doi": "10.2196/93672",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 8
     },
@@ -34638,8 +37044,8 @@
       "pmid": "42837398",
       "doi": "10.1371/journal.pcbi.1014822",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.5,
+      "freshness_score": 56.0,
+      "priority_score": 72.0,
       "priority_label": "Relevant",
       "rank": 27
     },
@@ -34678,8 +37084,8 @@
       "pmid": "42836674",
       "doi": "10.1111/1754-9485.70189",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 77.0,
+      "freshness_score": 56.0,
+      "priority_score": 73.5,
       "priority_label": "Relevant",
       "rank": 12
     },
@@ -34717,8 +37123,8 @@
       "pmid": "42836484",
       "doi": "10.1002/jdd.70395",
       "relevance_score": 72.2,
-      "freshness_score": 72.0,
-      "priority_score": 75.0,
+      "freshness_score": 56.0,
+      "priority_score": 71.5,
       "priority_label": "Relevant",
       "rank": 21
     },
@@ -34760,8 +37166,8 @@
       "pmid": "42838419",
       "doi": "10.1016/j.jdent.2026.107093",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 79.0,
+      "freshness_score": 56.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 4
     },
@@ -34804,8 +37210,8 @@
       "pmid": "42838512",
       "doi": "10.1080/0886022X.2026.2729643",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 9
     },
@@ -34846,8 +37252,8 @@
       "pmid": "42836690",
       "doi": "10.1093/bioinformatics/btag742",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.3,
+      "freshness_score": 56.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 3
     },
@@ -34888,8 +37294,8 @@
       "pmid": "42837370",
       "doi": "10.1371/journal.pdig.0001776",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.3,
+      "freshness_score": 56.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 6
     },
@@ -34933,8 +37339,8 @@
       "pmid": "42837146",
       "doi": "10.1097/RCT.0000000000001927",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 13
     },
@@ -34973,8 +37379,8 @@
       "pmid": "42836351",
       "doi": "10.1080/02656736.2026.2711102",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 8
     },
@@ -35015,8 +37421,8 @@
       "pmid": "42836145",
       "doi": "10.4274/dir.2026.264385",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 9
     },
@@ -35057,8 +37463,8 @@
       "pmid": "42836596",
       "doi": "10.1080/14737159.2026.2745670",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 77.0,
+      "freshness_score": 56.0,
+      "priority_score": 73.5,
       "priority_label": "Relevant",
       "rank": 13
     },
@@ -35099,8 +37505,8 @@
       "pmid": "42837409",
       "doi": "10.1371/journal.pdig.0001752",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 76.5,
+      "freshness_score": 56.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 20
     },
@@ -35140,8 +37546,8 @@
       "pmid": "42835766",
       "doi": "10.1002/hsr2.73335",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 5
     },
@@ -35183,9 +37589,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/17/ML-21636-3.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 72.8,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.2,
+      "priority_label": "Latest",
       "rank": 25
     },
     {

@@ -1,9 +1,449 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-20T11:51:50.020150+00:00",
-  "item_count": 1352,
+  "updated_at": "2026-10-20T17:20:54.458075+00:00",
+  "item_count": 1372,
   "items": [
+    {
+      "id": "b7839fa2149bfc643893",
+      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T16:42:53+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Medical",
+        "Vision",
+        "Reasoning",
+        "Privacy"
+      ],
+      "excerpt": "Canadian organizations building generative AI applications on Amazon Bedrock often need the latest foundation models (FMs), such as OpenAI GPT-6.1, OpenAI GPT-6, and GPT-5.6, accessible from the Canadian AWS Regions. With Amazon Bedrock cross-Region inference (CRIS), you can now access these models from Canada. OpenAI GPT-5.6 models (Sol, Terra, and Luna), GPT-6 (Astra, Sol, and Luna),…",
+      "authors": [
+        "Roopesh Ramklass"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21126-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 67
+    },
+    {
+      "id": "e600abfbbfd2fa21366c",
+      "title": "Discover tools at runtime with AWS Agent Registry",
+      "url": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T16:22:24+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Runtime discovery with AWS Agent Registry can help address a problem that agent demos might hide. Hardcoded tools work fine for a handful, start to degrade at a few dozen, and become unmanageable beyond that. Enterprise systems expose hundreds of internal APIs for pricing, support, orders, inventory, and customer data. In these systems, the model can spend more tokens disambiguating…",
+      "authors": [
+        "Vibhu Pareek"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21108-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21108-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21108-3-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21108-4-1.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 68
+    },
+    {
+      "id": "2bad10c616ec7c1e7a90",
+      "title": "Securing AI agent identity with X.509 PKI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T16:03:48+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Evaluation",
+        "Medical",
+        "Open Source"
+      ],
+      "excerpt": "When AI agents access databases, APIs, and sensitive business operations, establishing cryptographic identity through X.509 public key infrastructure (PKI) becomes a critical requirement. The core challenge is proving which agent made a request, preventing forgery between agents, and confirming that each agent acts only on behalf of an authorized user. Traditional approaches such as…",
+      "authors": [
+        "Deepakkumar Sharma"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-21717-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 69
+    },
+    {
+      "id": "e08619ed2cad1d928f20",
+      "title": "Called to serve: Tech, research, and positive impact",
+      "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white",
+      "source": "Microsoft Research",
+      "source_id": "microsoft_research",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-20T16:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Safety",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "In the summer of 2010, postdoc Chris White worked with a multidisciplinary team at the Defense Advanced Research Projects Agency, or DARPA, to determine if a new approach to data analysis could prevent violence and protect troops during the war in Afghanistan. At the conclusion of the program, the agency asked White to prove the value of his work—on the ground. In this episode,…",
+      "authors": [
+        "Weishung Liu, Chris White"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 78.9,
+      "priority_label": "Relevant",
+      "rank": 54
+    },
+    {
+      "id": "a39c1232b84b205c763c",
+      "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T15:57:57+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "This is a guest post co-written with Roei Zavida from Eon. Independent software vendors (ISVs) building AI-powered products need to connect agents and humans to dozens of operational tools across clouds, each with different authentication models, network boundaries, and access policies. When those tools span AWS, GCP, and Azure simultaneously, the integration surface multiplies. This…",
+      "authors": [
+        "Dor Shaboy"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21741-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21741-2-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21741-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21741-4-1.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 70
+    },
+    {
+      "id": "f979a6d8168acf61a097",
+      "title": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T15:39:04+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Evaluation",
+        "Open Source",
+        "Regulation"
+      ],
+      "excerpt": "Agentic AI applications need governed access to live enterprise data. That data can live in operational systems, analytical warehouses, SaaS applications, other clouds, or on premises. In the previous post in this series , we built a semantic layer on AWS using Stardog’s knowledge graph over Amazon Aurora and Amazon Redshift. A Strands agent on Amazon Bedrock AgentCore queried that…",
+      "authors": [
+        "Suntosh Murthy"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/06/ML-21332-1-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/06/ML-21332-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/06/ML-21332-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/21332-1.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 71
+    },
+    {
+      "id": "1ee47914c3ef08ff5d56",
+      "title": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T15:36:39+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "This post is co-written with Zhili Cheng, Principal Product Manager, George Earle, Director, AI Engineering, and Kyler K, Sales Engineer of Strategy. In the first post in this series , we built a semantic layer on AWS using Stardog’s knowledge graph over Amazon Aurora and Amazon Redshift and ran a Strands agent on Amazon Bedrock AgentCore against that layer. The second post kept the…",
+      "authors": [
+        "Zhili Cheng"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/ML-21332-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/ML-21332-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/ML-21332-3-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/ML-21332-4-1.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 72
+    },
+    {
+      "id": "a3aa0a660b5b0ac51c59",
+      "title": "The new economics of enterprise AI",
+      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-20T15:20:25+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Agents",
+        "Hardware"
+      ],
+      "excerpt": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “how efficiently are we using it?” Enterprise AI is going through the same shift. What began…",
+      "authors": [
+        "David Sydow"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/HPE-iStock-1168748420.jpg?w=840"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.7,
+      "priority_label": "Relevant",
+      "rank": 171
+    },
+    {
+      "id": "05dce4322e459d220d19",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-20T13:07:24+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "The US has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+      "authors": [
+        "Kate Park"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 140
+    },
+    {
+      "id": "4c6292fc5ecba5f2e0a9",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3",
+      "source": "Mistral AI",
+      "source_id": "mistral",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-20T12:00:22+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents"
+      ],
+      "excerpt": "Voxtral 3: Mistral's voice agent SDK for real-time speech in 50+ languages — accurate transcription, emotional TTS, deep tool use. EU-hosted or self-deployed.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://mistral.ai/cms-media/api/media/file/hero-blog-voxtral.png",
+        "https://mistral.ai/images/gradients/gradient-1@1x.png?dpl=6ad795c23ec0b6e8ad0a703a",
+        "https://mistral.ai/images/heros/voxtral/user.webp?dpl=6ad795c23ec0b6e8ad0a703a",
+        "https://mistral.ai/audio/voxtral-3-library/Catalan-default-Jordi.mp3"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.0,
+      "priority_label": "High relevance",
+      "rank": 30
+    },
+    {
+      "id": "71337cf68638cffa3aa2",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-20T12:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Education",
+        "Regulation"
+      ],
+      "excerpt": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts currently reshaping software engineering and product management will inevitably filter into…",
+      "authors": [
+        "TripleTen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/TripleTen-MIT-cover.png?w=840",
+        "https://wp.technologyreview.com/wp-content/uploads/2026/09/Fig-1-TripleTen-Contributed-v4.png",
+        "https://wp.technologyreview.com/wp-content/uploads/2026/09/Fig-2-TripleTen-Contributed-v4.png",
+        "https://wp.technologyreview.com/wp-content/uploads/2026/09/Fig-3-TripleTen-Contributed-v4.png"
+      ],
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 98
+    },
     {
       "id": "a2d65710e20f63dc4355",
       "title": "A visit to Samsung’s massive new semiconductor hub",
@@ -37,6 +477,47 @@
       "priority_score": 76.1,
       "priority_label": "Relevant",
       "rank": 139
+    },
+    {
+      "id": "2ab8fea231d160bdd126",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://allenai.org/blog/fairstress",
+      "source": "Allen Institute for AI",
+      "source_id": "allenai",
+      "source_class": "Research Institute",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-20T08:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "FairStress is a new benchmark that reveals demographic differences in how LLMs defend and explain their decisions, even when their final choices appear fair.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [
+        {
+          "source": "Hugging Face",
+          "url": "https://huggingface.co/blog/allenai/fairstress",
+          "content_type": "Engineering"
+        }
+      ],
+      "images": [
+        "https://www.datocms-assets.com/64837/1791813343-fairstress-blog-draft-google-docs-image-1-1.png?w=200"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.4,
+      "priority_label": "High relevance",
+      "rank": 13
     },
     {
       "id": "e6b252ef3669d969c8b9",
@@ -374,6 +855,43 @@
       "rank": 165
     },
     {
+      "id": "4c794ec56648b69d13a2",
+      "title": "Legal Guidance in the Wild: How Users Seek Legal Help in Real-World LLM Conversations",
+      "url": "https://arxiv.org/abs/2610.25159",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "People ask conversational AI models about their legal rights, obligations, procedures, and personal situations that may have legal consequences. To study this behavior, we first need to distinguish requests for legal guidance from other legally themed discussions and unrelated conversations. We contribute a multi-axis taxonomy of legal queries capturing whether legal guidance is sought,…",
+      "authors": [
+        "Amirreza Mohseni, Gerasimos Spanakis"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.25159",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.6,
+      "priority_label": "Relevant",
+      "rank": 113
+    },
+    {
       "id": "0b3cfb5153b47385f9c0",
       "title": "Ben-Misandry: A Bengali Dataset and Late-Fusion Transformer Framework for Detecting Anti-Male Gender Hate",
       "url": "https://arxiv.org/abs/2610.24474",
@@ -545,6 +1063,40 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 136
+    },
+    {
+      "id": "b3da5313bd92fd551962",
+      "title": "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
+      "url": "https://arxiv.org/abs/2610.24611",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Evaluating software agents on a full benchmark is expensive. A small task subset can preserve agent rankings while yielding inaccurate scores. Historical responses provide useful structure, but tasks with identical source responses can have different outcomes for a new target agent. We introduce Hierarchical Score Posterior Recovery (HSPR), which combines source-fitted response factors…",
+      "authors": [
+        "Wanyi Chen, Wanqin Shen, Yuanchen Shi, Zhensu Sun, Fang Kong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24611",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 96
     },
     {
       "id": "6c872ae86d05aaabbf95",
@@ -1198,6 +1750,76 @@
       "priority_score": 72.9,
       "priority_label": "Relevant",
       "rank": 151
+    },
+    {
+      "id": "e5ecfff904b7b8c736da",
+      "title": "Junction Geometry Survives an Unidentifiable Blur",
+      "url": "https://arxiv.org/abs/2610.23912",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Imaging",
+        "Science"
+      ],
+      "excerpt": "Thin filaments cross in microscopy, and dispersed spectra cross on X-ray detectors. At a junction, where these structures cross or branch, how many straight arms meet, and which way do they go? Unknown blur obscures the answer. At a balanced crossing, distinct Gaussian blurs can even produce the same observation law. We show that the arms can still be recovered. For separated rays of…",
+      "authors": [
+        "Sohail (Neel), Sarkar, Shakuntala Baichoo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23912",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 87
+    },
+    {
+      "id": "e760ad175ac5e1de5f33",
+      "title": "From Likelihood to Utility: Quality-Axis Diffusion for End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/abs/2610.23885",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Regulation"
+      ],
+      "excerpt": "Diffusion models have become a dominant paradigm for end-to-end autonomous driving, yet existing planners organize trajectory generation along the Gaussian-noise axis, treating driving utility only as an auxiliary guidance or selection signal. We instead formulate diffusion along a driving-quality axis. We propose QualiDrive, which constructs scene-specific quality ladders by ranking…",
+      "authors": [
+        "Junjie Yang, Ziyi Shi, Shuqi Shen, Xinhu Zheng, Hongliang Lu, Hai Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23885",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.2,
+      "priority_label": "Relevant",
+      "rank": 198
     },
     {
       "id": "94a2e0c19e26d2045f65",
@@ -2568,6 +3190,40 @@
       "rank": 104
     },
     {
+      "id": "dc1b671c7acb84068e04",
+      "title": "Generalizable fetal brain biometry via adaptive artificial intelligence",
+      "url": "https://arxiv.org/abs/2610.23966",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "Reliable fetal brain biometry on magnetic resonance imaging (MRI) is essential for diagnosing congenital brain anomalies, but artificial intelligence models often lose accuracy under domain shifts. We developed BioTTA, a backbone-agnostic, source-free unsupervised test-time adaptation framework that adapts pretrained models online to individual unlabeled target volumes. This…",
+      "authors": [
+        "Yijin Li, Mingxuan Liu, Yi Liao, Le Chang, Hongjia Yang, Kasidit Anmahapong, Xiaotian Hu, Ziang Wang, Yingqi Hao, Haoxiang Li, Yifei Chen, Zihan Li, Ziyu Li, Juncheng Zhu, Min Kang, Yan Song, Hua Lai, Xiaoling Zhou, Dingzhi Yue, Xu Liu, Nan Sun, Rong Hu, Xuesheng Li, Fenglin Jia, Gang Ning, Haibo Qu, Qiyuan Tian"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.23966",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 85
+    },
+    {
       "id": "350482a3256f38a99f9b",
       "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
       "url": "https://arxiv.org/abs/2610.25376",
@@ -2981,6 +3637,45 @@
       "rank": 2
     },
     {
+      "id": "6b18930b007fed1d9bac",
+      "title": "The Current Status and Evaluation of Artificial Intelligence in Bladder Cancer: Clinical Applications and Research.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42898717",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Bladder cancer ranks as the 10th most common malignancy worldwide. Advances in technology are continuously reshaping its diagnosis, treatment selection, and prognosis assessment. In recent years, artificial intelligence (AI) has demonstrated marked potential in transforming bladder cancer care. By integrating and analyzing multi-source data, AI enhances the precision and efficiency of…",
+      "authors": [
+        "Zhuo Yin",
+        "Joshua W K Ho"
+      ],
+      "venue": "Computational and structural biotechnology journal",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42898717",
+      "doi": "10.34133/csbj.0197",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
       "id": "24a351c31d639c23509b",
       "title": "Frozen Echocardiography Foundation Model Embeddings Contain Linearly Recoverable LVOT VTI and TAPSE Report-Label Signal in MIMIC-IV-ECHO.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42897427",
@@ -3325,6 +4020,40 @@
       "rank": 43
     },
     {
+      "id": "ed940cd024f6727677f8",
+      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-19T19:28:34+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents",
+        "Open Source"
+      ],
+      "excerpt": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.2,
+      "priority_label": "Relevant",
+      "rank": 168
+    },
+    {
       "id": "ad159791a7e240b880a5",
       "title": "Making the internet better for AI agents might make it worse for everyone else",
       "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else",
@@ -3468,8 +4197,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 102
     },
@@ -3512,8 +4241,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-22008-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 55
     },
@@ -3555,8 +4284,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21906-6-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -3588,8 +4317,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 144
     },
@@ -3632,8 +4361,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/15/ML-21812-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.8,
+      "freshness_score": 94.0,
+      "priority_score": 76.4,
       "priority_label": "Relevant",
       "rank": 44
     },
@@ -3674,8 +4403,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/15/ML-21811-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 57
     },
@@ -3707,8 +4436,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 75.1,
+      "freshness_score": 94.0,
+      "priority_score": 73.8,
       "priority_label": "Relevant",
       "rank": 131
     },
@@ -6810,7 +7539,7 @@
     },
     {
       "id": "a0595c813318ccae8c08",
-      "title": "Oct 18, 2026 Announcements Investing in the public benefit",
+      "title": "Investing in the public benefit",
       "url": "https://www.anthropic.com/news/public-benefit-fund",
       "source": "Anthropic",
       "source_id": "anthropic_news",
@@ -6826,7 +7555,7 @@
       "tags": [
         "General AI"
       ],
-      "excerpt": "",
+      "excerpt": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company grows. Announcements Oct 18, 2026",
       "authors": [],
       "venue": "",
       "manual": false,
@@ -6836,7 +7565,7 @@
       "freshness_score": 94.0,
       "priority_score": 72.8,
       "priority_label": "Relevant",
-      "rank": 177
+      "rank": 201
     },
     {
       "id": "3b4a97e7685ec663ebe0",
@@ -14141,7 +14870,7 @@
     },
     {
       "id": "c3f9aa1e97f35f2465d0",
-      "title": "Oct 15, 2026 Announcements An update on independent evaluators",
+      "title": "An update on independent evaluators",
       "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
       "source": "Anthropic",
       "source_id": "anthropic_news",
@@ -14157,7 +14886,7 @@
       "tags": [
         "General AI"
       ],
-      "excerpt": "",
+      "excerpt": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're in early discussions with several other organizations, including Hugging Face. Policy Oct 15, 2026",
       "authors": [],
       "venue": "",
       "manual": false,
@@ -14167,7 +14896,7 @@
       "freshness_score": 86.0,
       "priority_score": 71.0,
       "priority_label": "Relevant",
-      "rank": 187
+      "rank": 208
     },
     {
       "id": "7ea0b52df54413ef1bce",
@@ -17797,6 +18526,68 @@
       "rank": 162
     },
     {
+      "id": "ad577cc4d385593cb7c0",
+      "title": "Preparing for the 2026 US midterms",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US midterms. Safeguards Oct 14, 2026",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 47.6,
+      "freshness_score": 86.0,
+      "priority_score": 71.0,
+      "priority_label": "Relevant",
+      "rank": 209
+    },
+    {
+      "id": "241a0eb7150b75c2c4dd",
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-14T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption. Announcements Oct 14, 2026",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
+      ],
+      "relevance_score": 78.7,
+      "freshness_score": 86.0,
+      "priority_score": 80.4,
+      "priority_label": "High relevance",
+      "rank": 32
+    },
+    {
       "id": "200a5d3dd39c6bfb7a20",
       "title": "The EU’s next chapter in AI is agentic",
       "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
@@ -17831,66 +18622,6 @@
       "priority_score": 78.9,
       "priority_label": "Relevant",
       "rank": 14
-    },
-    {
-      "id": "241a0eb7150b75c2c4dd",
-      "title": "Oct 14, 2026 Announcements Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-      "url": "https://www.anthropic.com/news/singapore-office-opening",
-      "source": "Anthropic",
-      "source_id": "anthropic_news",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-14T00:00:00+00:00",
-      "category": "General AI",
-      "categories": [
-        "General AI"
-      ],
-      "tags": [
-        "General AI"
-      ],
-      "excerpt": "",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
-      "rank": 187
-    },
-    {
-      "id": "ad577cc4d385593cb7c0",
-      "title": "Oct 14, 2026 Policy Preparing for the 2026 US midterms",
-      "url": "https://www.anthropic.com/news/2026-us-midterms",
-      "source": "Anthropic",
-      "source_id": "anthropic_news",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-14T00:00:00+00:00",
-      "category": "General AI",
-      "categories": [
-        "General AI"
-      ],
-      "tags": [
-        "General AI"
-      ],
-      "excerpt": "",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
-      "rank": 186
     },
     {
       "id": "095a924e46695e91213e",
@@ -18724,8 +19455,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/07/ML-21638-3.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 44
     },
@@ -18767,8 +19498,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/07/21130-1.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 45
     },
@@ -18804,8 +19535,8 @@
         "https://storage.googleapis.com/gweb-developer-goog-blog-assets/original_videos/Spot-can-long-voiceover-preview.mp4"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.9,
+      "freshness_score": 72.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 15
     },
@@ -18844,9 +19575,9 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 80.5,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.4,
+      "priority_label": "Relevant",
       "rank": 12
     },
     {
@@ -18889,8 +19620,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21795-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 46
     },
@@ -18933,8 +19664,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-22076-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -18973,8 +19704,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-22058-3.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 69.6,
+      "freshness_score": 72.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 136
     },
@@ -19009,8 +19740,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/01/run-ai-768x432.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 74.3,
+      "freshness_score": 72.0,
+      "priority_score": 71.2,
       "priority_label": "Relevant",
       "rank": 86
     },
@@ -19042,9 +19773,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 72.3,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.2,
+      "priority_label": "Latest",
       "rank": 78
     },
     {
@@ -19078,8 +19809,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/1QYuGKBKSzphKj2bCMG4Tp/aab097df8ead5298a1cbce05209801f7/oai_higgsfield_1x1.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.9,
+      "freshness_score": 72.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 25
     },
@@ -22798,6 +23529,36 @@
       "priority_score": 70.0,
       "priority_label": "Latest",
       "rank": 68
+    },
+    {
+      "id": "e258fe41ba82a7475f5f",
+      "title": "Strengthening our defenses against distillation attacks",
+      "url": "https://www.anthropic.com/news/distillation-defenses",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-12T00:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%. Safeguards Oct 12, 2026",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 47.6,
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
+      "rank": 224
     },
     {
       "id": "c3e5582d39e240105505",
@@ -30138,7 +30899,7 @@
     },
     {
       "id": "6c062b861d6d205bc313",
-      "title": "Oct 8, 2026 Announcements Building on our commitment to American scientific discovery",
+      "title": "Building on our commitment to American scientific discovery",
       "url": "https://www.anthropic.com/news/genesis-mission-commitment",
       "source": "Anthropic",
       "source_id": "anthropic_news",
@@ -30155,7 +30916,7 @@
         "AI for Science",
         "Science"
       ],
-      "excerpt": "",
+      "excerpt": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI. Partnerships Oct 8, 2026",
       "authors": [],
       "venue": "",
       "manual": false,
@@ -30167,11 +30928,11 @@
       "freshness_score": 72.0,
       "priority_score": 74.9,
       "priority_label": "Relevant",
-      "rank": 23
+      "rank": 120
     },
     {
       "id": "c4a1f46e5a98744a7c57",
-      "title": "Oct 8, 2026 Announcements Introducing the Anthropic Cyber Mission",
+      "title": "Introducing the Anthropic Cyber Mission",
       "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
       "source": "Anthropic",
       "source_id": "anthropic_news",
@@ -30187,7 +30948,7 @@
       "tags": [
         "General AI"
       ],
-      "excerpt": "",
+      "excerpt": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on. Security Oct 8, 2026",
       "authors": [],
       "venue": "",
       "manual": false,
@@ -30197,7 +30958,7 @@
       "freshness_score": 72.0,
       "priority_score": 69.8,
       "priority_label": "Latest",
-      "rank": 166
+      "rank": 218
     },
     {
       "id": "4e66a7e453a3193bb5cb",
@@ -34664,9 +35425,9 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Chris-Bourg.jpg?itok=3Zzuer2t"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 72.4,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 82
     },
     {
@@ -34697,8 +35458,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.0,
+      "freshness_score": 56.0,
+      "priority_score": 65.4,
       "priority_label": "Latest",
       "rank": 127
     },
@@ -34737,8 +35498,8 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/ChadJennifer-MSRPod_TW_LI_FB_1920x1080-1.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 76.6,
+      "freshness_score": 56.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 14
     },
@@ -34773,8 +35534,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image1-5-768x431.png"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 76.5,
+      "freshness_score": 56.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 15
     },
@@ -34805,8 +35566,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 128
     },
@@ -34846,9 +35607,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/01/ML-21895-2.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 72.4,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 32
     },
     {
@@ -34887,9 +35648,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/02/ML-21625-4.png"
       ],
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
+      "priority_label": "Latest",
       "rank": 113
     },
     {
@@ -34929,9 +35690,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/24/ML-21469-7.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 72.4,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 33
     },
     {
@@ -34961,8 +35722,8 @@
         "https://storage.googleapis.com/gweb-research2023-media/original_images/PDFMPublicHealth1-hero.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.2,
+      "freshness_score": 56.0,
+      "priority_score": 71.6,
       "priority_label": "Relevant",
       "rank": 19
     },
@@ -34996,8 +35757,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image1-3-768x432.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 69.0,
+      "freshness_score": 56.0,
+      "priority_score": 65.5,
       "priority_label": "Latest",
       "rank": 107
     },
@@ -35032,8 +35793,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT_America-01-press.jpg?itok=XqQ1RSqU"
       ],
       "relevance_score": 72.2,
-      "freshness_score": 72.0,
-      "priority_score": 73.8,
+      "freshness_score": 56.0,
+      "priority_score": 70.2,
       "priority_label": "Relevant",
       "rank": 25
     },
@@ -35065,8 +35826,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 129
     },
@@ -35100,8 +35861,8 @@
         "https://mistral.ai/_astro/code-benchmarks---terminal-bench-4%201-v3_Z2iGo8O.webp?dpl=6ac516f190c69e0008d46233"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 77.7,
+      "freshness_score": 56.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 10
     },
@@ -37622,7 +38383,7 @@
     },
     {
       "id": "2bd8707fdab8226a9f67",
-      "title": "Oct 6, 2026 Announcements Expanding the Cyber Verification Program",
+      "title": "Expanding the Cyber Verification Program We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
       "url": "https://www.anthropic.com/news/cyber-verification-program",
       "source": "Anthropic",
       "source_id": "anthropic_news",
@@ -37639,22 +38400,22 @@
         "Trustworthy AI",
         "Evaluation"
       ],
-      "excerpt": "",
+      "excerpt": "Announcements Oct 6, 2026",
       "authors": [],
       "venue": "",
       "manual": false,
       "related": [],
       "images": [
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa0a14bf0b6e0c82cdd1c3fad594dab33550cfc80-1920x1080.webp%3Ffm%3Dwebp&w=3840&q=75",
         "https://www.anthropic.com/api/opengraph-illustration?name=Hand+Lock&backgroundColor=heather",
         "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F2b1d3817fe9aa732e1be4ed18446a1b1367379e7-1920x2322.png&w=3840&q=75",
-        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbdb05797e26ba2d096ebda6df1c762518da39db2-1920x1080.png&w=3840&q=75",
-        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F172894c37182d28628eb922929f134400c3ef1b5-1920x862.png&w=3840&q=75"
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fbdb05797e26ba2d096ebda6df1c762518da39db2-1920x1080.png&w=3840&q=75"
       ],
       "relevance_score": 78.7,
       "freshness_score": 56.0,
       "priority_score": 73.8,
       "priority_label": "Relevant",
-      "rank": 17
+      "rank": 135
     },
     {
       "id": "1fafd682f1f818ffe5c2",
@@ -46744,6 +47505,36 @@
       "rank": 36
     },
     {
+      "id": "bfc4355d370530a85bd8",
+      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-02T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bain, CBA, Deloitte, McKinsey, Morgan Stanley and Novo Nordisk already underway. Announcements Oct 2, 2026",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
+      "priority_label": "Relevant",
+      "rank": 183
+    },
+    {
       "id": "882596cbc7639eb42bf2",
       "title": "Chatham scales its capital markets expertise with OpenAI",
       "url": "https://openai.com/index/chatham-financial",
@@ -46777,36 +47568,6 @@
       "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 26
-    },
-    {
-      "id": "bfc4355d370530a85bd8",
-      "title": "Oct 2, 2026 Announcements Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-      "url": "https://www.anthropic.com/news/claude-frontier-academy",
-      "source": "Anthropic",
-      "source_id": "anthropic_news",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-02T00:00:00+00:00",
-      "category": "General AI",
-      "categories": [
-        "General AI"
-      ],
-      "tags": [
-        "General AI"
-      ],
-      "excerpt": "",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 47.6,
-      "freshness_score": 56.0,
-      "priority_score": 64.4,
-      "priority_label": "Latest",
-      "rank": 183
     },
     {
       "id": "9da6cbab350f0f413095",
@@ -50775,7 +51536,7 @@
     },
     {
       "id": "c08402b8f22a4b159df3",
-      "title": "Oct 1, 2026 Announcements Barclays scales Claude to upgrade operations and improve client experience",
+      "title": "Barclays scales Claude to upgrade operations and improve client experience",
       "url": "https://www.anthropic.com/news/barclays-scales-claude",
       "source": "Anthropic",
       "source_id": "anthropic_news",
@@ -50791,7 +51552,7 @@
       "tags": [
         "Foundation Models"
       ],
-      "excerpt": "",
+      "excerpt": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its global operations. Announcements Oct 1, 2026",
       "authors": [],
       "venue": "",
       "manual": false,
@@ -50803,7 +51564,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.3,
       "priority_label": "Relevant",
-      "rank": 13
+      "rank": 160
     },
     {
       "id": "0cbaaeac0572a6399033",

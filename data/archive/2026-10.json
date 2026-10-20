@@ -1,9 +1,219 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-20T17:20:54.458075+00:00",
-  "item_count": 1372,
+  "updated_at": "2026-10-20T21:44:26.185319+00:00",
+  "item_count": 1385,
   "items": [
+    {
+      "id": "542ed0bcb34611a395d9",
+      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T21:14:10+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "LLM",
+        "Agents",
+        "Safety",
+        "Evaluation",
+        "Hardware"
+      ],
+      "excerpt": "Most large language models (LLMs) use transformer architectures with softmax attention. During inference, their key-value (KV) cache grows with the conversation or document context. This can reduce concurrency, increase serving cost, and force agentic applications to discard useful history. i14 designed Laplace 3B as a linear attention alternative. Its recurrent state stays at 29.5 MB…",
+      "authors": [
+        "Kevin Shabahang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21817-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21817-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/01-gla-recurrent-state-update.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/02-gla-state-readout.png"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.7,
+      "priority_label": "Relevant",
+      "rank": 154
+    },
+    {
+      "id": "69a766607353eb4ce62e",
+      "title": "Work management context for AI agents with Smartsheet MCP on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T17:59:07+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Regulation"
+      ],
+      "excerpt": "AI agents are most useful when they can act on the real work happening across your organization. Work management involves complex, cross-functional tasks such as updating project timelines, reassigning tasks, and surfacing status. AI agents can support you with these without anyone switching tools. Smartsheet , the work management platform for managing projects, portfolios, and…",
+      "authors": [
+        "Galina Jordanowa"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21001-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21001-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21001-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21001-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 66
+    },
+    {
+      "id": "27a9dd31448e30ea2bdc",
+      "title": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T17:52:50+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "RAG",
+        "Agents",
+        "Evaluation",
+        "Open Source",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Giving supply chain teams direct access to the systems behind their decisions. Every supply chain generates constant signals: orders in approval, shifting lead times, slowing ports, drifting prices, disruptions. The problem isn’t scarce data. It’s the distance between the data and the decision-maker. Answering “which top-revenue SKUs are exposed to the current port closure, and what…",
+      "authors": [
+        "Vineet Kachhawaha"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-22042-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-22042-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/22042-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-22042-4-1.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 67
+    },
+    {
+      "id": "ff755ea8b40f5ff77cc7",
+      "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T17:48:27+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation",
+        "Vision",
+        "Reasoning",
+        "Hardware"
+      ],
+      "excerpt": "GPT-OSS-20B is an open-weight reasoning model that thinks in English. Ask it to reason in French, German, Spanish, or Italian and it acknowledges the instruction, then produces its chain-of-thought in English anyway. On a 50-example multilingual reasoning test, the base model reasoned in the correct target language only 22 percent of the time. That 22 percent was almost entirely the…",
+      "authors": [
+        "Mijanur Palash"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/08/ML-21403-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/08/ML-21403-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/09/08/ML-21403-3.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 68
+    },
+    {
+      "id": "57363b60fec23f24d819",
+      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-20T17:34:04+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Evaluation",
+        "Medical",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "In quality management for regulated industries, the institutional memory that resolves a problem is almost always buried somewhere in a customer’s history. A similar defect investigated last year, a Corrective and Preventive Action (CAPA) that fixed the root cause, an audit finding that flagged the same gap. That knowledge sits in billions of documents no human can search by semantic…",
+      "authors": [
+        "Urvish Saraiya"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/31/ML-21094-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 78.4,
+      "priority_label": "Relevant",
+      "rank": 35
+    },
     {
       "id": "b7839fa2149bfc643893",
       "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
@@ -1822,6 +2032,79 @@
       "rank": 198
     },
     {
+      "id": "b997e3f9a8a9103fb749",
+      "title": "Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins",
+      "url": "https://arxiv.org/abs/2610.24108",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Multimodal",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Jointly pretrained multimodal encoders are a common way to combine modalities, while alternatives integrate their information during downstream training or inference. When does each approach win? We compare three paradigms, instantiated with public checkpoints, across 16 paired datasets in five domains and multiple training-label budgets. JOINT trains a fusion head on frozen, jointly…",
+      "authors": [
+        "Yi Fang, Gaurav Srivastava, Sirui Ding, Xuan Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24108",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 99
+    },
+    {
+      "id": "e2b85a4a6488db896c56",
+      "title": "Pluralistic Alignment in Language Models: Objectives, Human References, and Preference Representations",
+      "url": "https://arxiv.org/abs/2610.24471",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Pluralistic alignment aims to represent meaningful variation in human preferences rather than collapse heterogeneous judgments into a single target. Yet existing work often mixes three distinct questions: what pluralistic behavior a model should exhibit, whose preferences define the reference, and what evidence is sufficient to demonstrate success. We organize the literature around a…",
+      "authors": [
+        "Meng-Chen Wu, Umesh Bodhwani"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24471",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 100
+    },
+    {
       "id": "94a2e0c19e26d2045f65",
       "title": "Dataset Inference for Data Provenance and Privacy Auditing in Tabular Foundation Models",
       "url": "https://arxiv.org/abs/2610.24278",
@@ -3468,6 +3751,94 @@
       "rank": 20
     },
     {
+      "id": "21b35c7f8576cbe0de01",
+      "title": "A white-light endoscopy-based mixed-effects nomogram for predicting small colorectal polyp neoplasia in resource-limited settings.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42899441",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Accurate optical characterization of small colorectal polyps relies on narrow-band imaging (NBI) or artificial intelligence, both of which are unavailable in resource-limited settings. We aimed to develop and validate a web-based nomogram using white-light endoscopy (WLE) and routine clinical variables to predict neoplastic polyp histology. This prospective single-center study (Vietnam,…",
+      "authors": [
+        "Tien M Huynh",
+        "Thinh Ong",
+        "Quang D Le",
+        "Nhan Q Le",
+        "Huy M Le",
+        "Duc T Quach"
+      ],
+      "venue": "Polish archives of internal medicine",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42899441",
+      "doi": "10.20452/pamw.17429",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "bba2623e73432a2f124d",
+      "title": "Transcriptomics analysis and experimental assay to screen prognostic genes of N6-methyladenosine RNA methylation related to cuproptosis in colorectal cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900322",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Cuproptosis and N6-methyladenosine (m6A) RNA methylation have been identified as significant factors in cancer. Consequently, we seek to uncover m6A RNA methylation-related prognostic genes that are correlated with cuproptosis-related genes (CRGs) in colorectal cancer (CRC) and develop an effective prognostic model. Based on public datasets, differential expression analysis, correlation…",
+      "authors": [
+        "Dongjie Sun",
+        "Zhu Liu",
+        "Meiyan Chen",
+        "Yang He",
+        "Xiangpeng Zeng",
+        "Dazhou Li",
+        "Wen Wang"
+      ],
+      "venue": "Medical oncology (Northwood, London, England)",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12032-026-03441-0/MediaObjects/12032_2026_3441_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12032-026-03441-0/MediaObjects/12032_2026_3441_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12032-026-03441-0/MediaObjects/12032_2026_3441_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12032-026-03441-0/MediaObjects/12032_2026_3441_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42900322",
+      "doi": "10.1007/s12032-026-03441-0",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 9
+    },
+    {
       "id": "c9b0d214e386967ee01d",
       "title": "Automated MRI Series Classification Across Heterogeneous Datasets Using Limited Manual Annotation.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42897424",
@@ -3676,6 +4047,148 @@
       "rank": 8
     },
     {
+      "id": "afbec83f483123521a0e",
+      "title": "Autism: epidemiology, genetics, molecular mechanisms, clinical features, diagnosis, and management.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900284",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI for Science"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Autism spectrum disorder (ASD) is a lifelong neurodevelopmental condition characterized by persistent deficits in social communication and restricted, repetitive behaviors. Global prevalence has risen steadily, yet reported rates vary markedly across regions and populations. These discrepancies reflect inequities in diagnostic access and screening capacity rather than true differences…",
+      "authors": [
+        "Ruonan Fan",
+        "Yilin Wang",
+        "Tingting Miao"
+      ],
+      "venue": "Molecular biomedicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs43556-026-00613-2/MediaObjects/43556_2026_613_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs43556-026-00613-2/MediaObjects/43556_2026_613_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs43556-026-00613-2/MediaObjects/43556_2026_613_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs43556-026-00613-2/MediaObjects/43556_2026_613_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42900284",
+      "doi": "10.1186/s43556-026-00613-2",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 11
+    },
+    {
+      "id": "066e4a10bbf013440b35",
+      "title": "Calcium oxalate kidney stone morphology reflects underlying metabolic and clinical conditions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900266",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Nephrolithiasis is a growing public health problem due to dietary changes and global warming. Physical analysis of the composition of urinary stones is recommended to guide treatment but is not always available. A morpho-constitutional classification of kidney stones dividing the prevalent calcium oxalate stones into type I (COM/whewellite Ia-Ie subtypes, related to hyperoxaluria) and…",
+      "authors": [
+        "Valentine Forté",
+        "Ellie Tang",
+        "Dominique Bazin",
+        "Sandrine Lemoine",
+        "Jean-Philippe Haymann",
+        "Francisca Joly",
+        "Frédéric Panthier",
+        "Steeve Doizi"
+      ],
+      "venue": "World journal of urology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00345-026-06865-5/MediaObjects/345_2026_6865_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00345-026-06865-5/MediaObjects/345_2026_6865_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00345-026-06865-5/MediaObjects/345_2026_6865_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42900266",
+      "doi": "10.1007/s00345-026-06865-5",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 12
+    },
+    {
+      "id": "69d5d5daffa1a767baa1",
+      "title": "Large language model responses to structured textual descriptions of salivary gland imaging findings: impact of contextual enrichment on self-reported diagnostic confidence and reporting behavior.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900209",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models (LLMs) are increasingly applied in clinical decision support, yet their behavior when presented with structured textual descriptions of imaging findings, particularly in salivary gland disease, remains poorly defined. The present study was set out to evaluate how the responses of different LLMs change as the textual input is progressively enriched. The models did…",
+      "authors": [
+        "Matteo Lazzeroni",
+        "Pasquale Capaccio",
+        "Carlos Chiesa Estomba",
+        "Giulia Buccichini",
+        "Maria Cristina Firetto",
+        "Lorenzo Pignataro",
+        "Michele Gaffuri",
+        "Gianpaolo Carrafiello"
+      ],
+      "venue": "European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00405-026-10681-3/MediaObjects/405_2026_10681_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00405-026-10681-3/MediaObjects/405_2026_10681_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00405-026-10681-3/MediaObjects/405_2026_10681_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42900209",
+      "doi": "10.1007/s00405-026-10681-3",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 19
+    },
+    {
       "id": "24a351c31d639c23509b",
       "title": "Frozen Echocardiography Foundation Model Embeddings Contain Linearly Recoverable LVOT VTI and TAPSE Report-Label Signal in MIMIC-IV-ECHO.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42897427",
@@ -3860,6 +4373,52 @@
       "rank": 10
     },
     {
+      "id": "1a7cc1d3762a2027e242",
+      "title": "Evaluating the Automated Extraction of Radiation Oncology Trial Data at Scale from the ClinicalTrials.gov Database Using a Large Language Model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900665",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Medical",
+        "Open Source"
+      ],
+      "excerpt": "Background The rapid growth of biomedical publishing in radiation oncology has created a need for automated methods to extract structured information from unstructured text. Large language models (LLMs) show promise in biomedical natural language processing, but their use for clinical trial data curation remains to be systematically evaluated. Methods We evaluated an LLM-based…",
+      "authors": [
+        "Fabio Dennstaedt",
+        "Lena Kretzschmar",
+        "Nikola Cihoric",
+        "Philip Heesen",
+        "Maksym Fritsak",
+        "Siyer Roohani",
+        "Daniel M Aebersold",
+        "Matthias Guckenberger"
+      ],
+      "venue": "Oncology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42900665",
+      "doi": "10.1159/ocl/aebag024",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.7,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
       "id": "6c2a7f9e70f3b163982b",
       "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
       "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
@@ -4014,8 +4573,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-22155-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.8,
+      "freshness_score": 94.0,
+      "priority_score": 76.4,
       "priority_label": "Relevant",
       "rank": 43
     },
@@ -4048,8 +4607,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 74.2,
+      "freshness_score": 94.0,
+      "priority_score": 72.9,
       "priority_label": "Relevant",
       "rank": 168
     },
@@ -4083,8 +4642,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.1,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 77
     },
@@ -4122,9 +4681,9 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-jameel-clinic-fetal-brain.jpg?itok=TGq3tK5p"
       ],
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 81.1,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 79.7,
+      "priority_label": "Relevant",
       "rank": 24
     },
     {
@@ -4162,8 +4721,8 @@
       "related": [],
       "images": [],
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.2,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -19228,8 +19787,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image2-5-768x432.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 76.5,
+      "freshness_score": 72.0,
+      "priority_score": 73.5,
       "priority_label": "Relevant",
       "rank": 23
     },
@@ -19263,8 +19822,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-mcgovern-self-supervisedlearning.jpg?itok=_zXjMM26"
       ],
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 75.0,
+      "freshness_score": 72.0,
+      "priority_score": 71.9,
       "priority_label": "Relevant",
       "rank": 98
     },
@@ -19300,8 +19859,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-lincolnlab-biosecurity.jpg?itok=XhKBx43q"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 77.0,
+      "freshness_score": 72.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 31
     },
@@ -19339,8 +19898,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/08/ML-21771-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 43
     },
@@ -19374,8 +19933,8 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-.2e16d0ba.fill-300x300.format-webp.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.9,
+      "freshness_score": 72.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 14
     },
@@ -19415,9 +19974,9 @@
       ],
       "images": [],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 72.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 85
     },
     {
@@ -35211,8 +35770,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/mit-lincoln-supercomputer.jpg?itok=QZ2fNcDJ"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 68.0,
+      "freshness_score": 56.0,
+      "priority_score": 64.5,
       "priority_label": "Latest",
       "rank": 157
     },
@@ -35242,8 +35801,8 @@
       "related": [],
       "images": [],
       "relevance_score": 47.6,
-      "freshness_score": 72.0,
-      "priority_score": 68.0,
+      "freshness_score": 56.0,
+      "priority_score": 64.4,
       "priority_label": "Latest",
       "rank": 178
     },
@@ -35275,8 +35834,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 125
     },
@@ -35320,9 +35879,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/02/ML-21277-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 54
     },
     {
@@ -35355,8 +35914,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image9-768x432.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 69.0,
+      "freshness_score": 56.0,
+      "priority_score": 65.5,
       "priority_label": "Latest",
       "rank": 108
     },
@@ -35388,9 +35947,9 @@
       "related": [],
       "images": [],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 70.4,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 66.9,
+      "priority_label": "Latest",
       "rank": 83
     },
     {

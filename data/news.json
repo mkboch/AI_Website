@@ -1,15 +1,15 @@
 {
   "schema_version": 2,
   "pipeline_version": "2.3.2",
-  "updated_at": "2026-10-22T05:03:47.700397+00:00",
+  "updated_at": "2026-10-22T12:09:03.831987+00:00",
   "methodology": "Balanced, source-tiered, rule-based research intelligence ranking. Priority is not a scientific-quality score.",
   "item_count": 240,
-  "archive_item_count": 2384,
+  "archive_item_count": 2389,
   "source_summary": {
     "total_sources": 32,
-    "healthy_sources": 32,
-    "sources_with_items": 29,
-    "failed_sources": 0,
+    "healthy_sources": 31,
+    "sources_with_items": 28,
+    "failed_sources": 1,
     "source_classes": {
       "Academic Lab": 2,
       "Academic News": 1,
@@ -34,7 +34,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 80,
-      "elapsed_seconds": 0.63,
+      "elapsed_seconds": 0.56,
       "error": ""
     },
     {
@@ -46,7 +46,7 @@
       "status": "ok",
       "fetched": 25,
       "accepted": 20,
-      "elapsed_seconds": 0.23,
+      "elapsed_seconds": 0.38,
       "error": ""
     },
     {
@@ -58,7 +58,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 60,
-      "elapsed_seconds": 0.18,
+      "elapsed_seconds": 0.39,
       "error": ""
     },
     {
@@ -70,7 +70,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 27,
-      "elapsed_seconds": 0.42,
+      "elapsed_seconds": 0.34,
       "error": ""
     },
     {
@@ -82,7 +82,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 0.19,
+      "elapsed_seconds": 0.2,
       "error": ""
     },
     {
@@ -94,7 +94,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 10,
-      "elapsed_seconds": 1.16,
+      "elapsed_seconds": 1.14,
       "error": ""
     },
     {
@@ -106,7 +106,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 65,
-      "elapsed_seconds": 0.6,
+      "elapsed_seconds": 1.83,
       "error": ""
     },
     {
@@ -118,7 +118,7 @@
       "status": "ok",
       "fetched": 66,
       "accepted": 12,
-      "elapsed_seconds": 0.56,
+      "elapsed_seconds": 0.5,
       "error": ""
     },
     {
@@ -142,7 +142,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 10,
-      "elapsed_seconds": 1.01,
+      "elapsed_seconds": 0.88,
       "error": ""
     },
     {
@@ -151,11 +151,11 @@
       "source_class": "Academic Lab",
       "content_type": "Research",
       "tier": 1,
-      "status": "ok",
-      "fetched": 15,
-      "accepted": 15,
-      "elapsed_seconds": 1.7,
-      "error": ""
+      "status": "error",
+      "fetched": 0,
+      "accepted": 0,
+      "elapsed_seconds": 145.07,
+      "error": "HTTPSConnectionPool(host='ai.stanford.edu', port=443): Max retries exceeded with url: /blog/feed.xml (Caused by ConnectTimeoutError( , 'Connection to ai.stanford.edu timed out. (connect timeout=35)'))"
     },
     {
       "id": "huggingface",
@@ -166,7 +166,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 14,
-      "elapsed_seconds": 0.32,
+      "elapsed_seconds": 0.28,
       "error": ""
     },
     {
@@ -178,7 +178,7 @@
       "status": "ok",
       "fetched": 60,
       "accepted": 60,
-      "elapsed_seconds": 0.13,
+      "elapsed_seconds": 0.16,
       "error": ""
     },
     {
@@ -190,7 +190,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 1.6,
+      "elapsed_seconds": 1.41,
       "error": ""
     },
     {
@@ -202,7 +202,7 @@
       "status": "ok",
       "fetched": 12,
       "accepted": 0,
-      "elapsed_seconds": 2.67,
+      "elapsed_seconds": 1.48,
       "error": ""
     },
     {
@@ -214,7 +214,7 @@
       "status": "ok",
       "fetched": 5,
       "accepted": 2,
-      "elapsed_seconds": 2.48,
+      "elapsed_seconds": 0.43,
       "error": ""
     },
     {
@@ -226,7 +226,7 @@
       "status": "ok",
       "fetched": 50,
       "accepted": 50,
-      "elapsed_seconds": 4.83,
+      "elapsed_seconds": 4.32,
       "error": ""
     },
     {
@@ -238,7 +238,7 @@
       "status": "ok",
       "fetched": 50,
       "accepted": 50,
-      "elapsed_seconds": 1.1,
+      "elapsed_seconds": 0.95,
       "error": ""
     },
     {
@@ -250,7 +250,7 @@
       "status": "ok",
       "fetched": 8,
       "accepted": 8,
-      "elapsed_seconds": 0.78,
+      "elapsed_seconds": 0.17,
       "error": ""
     },
     {
@@ -262,7 +262,7 @@
       "status": "ok",
       "fetched": 70,
       "accepted": 70,
-      "elapsed_seconds": 0.61,
+      "elapsed_seconds": 0.45,
       "error": ""
     },
     {
@@ -286,7 +286,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 20,
-      "elapsed_seconds": 0.09,
+      "elapsed_seconds": 0.12,
       "error": ""
     },
     {
@@ -298,7 +298,7 @@
       "status": "ok",
       "fetched": 10,
       "accepted": 5,
-      "elapsed_seconds": 0.21,
+      "elapsed_seconds": 0.25,
       "error": ""
     },
     {
@@ -310,7 +310,7 @@
       "status": "ok",
       "fetched": 25,
       "accepted": 0,
-      "elapsed_seconds": 0.15,
+      "elapsed_seconds": 0.27,
       "error": ""
     },
     {
@@ -322,7 +322,7 @@
       "status": "ok",
       "fetched": 20,
       "accepted": 0,
-      "elapsed_seconds": 0.08,
+      "elapsed_seconds": 0.2,
       "error": ""
     },
     {
@@ -333,8 +333,8 @@
       "tier": 1,
       "status": "ok",
       "fetched": 60,
-      "accepted": 50,
-      "elapsed_seconds": 1.29,
+      "accepted": 51,
+      "elapsed_seconds": 1.43,
       "error": ""
     },
     {
@@ -346,7 +346,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 80,
-      "elapsed_seconds": 0.77,
+      "elapsed_seconds": 0.58,
       "error": ""
     },
     {
@@ -358,7 +358,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 80,
-      "elapsed_seconds": 0.51,
+      "elapsed_seconds": 0.42,
       "error": ""
     },
     {
@@ -370,7 +370,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 80,
-      "elapsed_seconds": 0.39,
+      "elapsed_seconds": 0.32,
       "error": ""
     },
     {
@@ -382,7 +382,7 @@
       "status": "ok",
       "fetched": 80,
       "accepted": 80,
-      "elapsed_seconds": 0.41,
+      "elapsed_seconds": 0.33,
       "error": ""
     },
     {
@@ -394,7 +394,7 @@
       "status": "ok",
       "fetched": 70,
       "accepted": 70,
-      "elapsed_seconds": 0.31,
+      "elapsed_seconds": 0.26,
       "error": ""
     },
     {
@@ -406,20 +406,20 @@
       "status": "ok",
       "fetched": 7,
       "accepted": 7,
-      "elapsed_seconds": 0.03,
+      "elapsed_seconds": 0.04,
       "error": ""
     }
   ],
   "category_counts": {
     "Foundation Models": 57,
-    "AI Agents": 40,
-    "Medical Imaging": 27,
-    "Trustworthy AI": 26,
-    "Medical AI": 20,
-    "General AI": 19,
+    "AI Agents": 41,
+    "Trustworthy AI": 29,
+    "Medical Imaging": 25,
+    "General AI": 20,
+    "Medical AI": 18,
     "AI for Science": 15,
     "AI4Education": 10,
-    "Robotics & Embodied AI": 8,
+    "Robotics & Embodied AI": 7,
     "Computer Vision": 7,
     "AI Policy & Governance": 6,
     "AI Systems & Hardware": 5
@@ -449,15 +449,15 @@
     "MIT News - Artificial Intelligence": 10,
     "arXiv - Image and Video Processing": 10,
     "arXiv - Robotics": 10,
-    "Mistral AI": 9,
     "Allen Institute for AI": 8,
+    "Mistral AI": 8,
     "AWS Machine Learning Blog": 8,
     "MIT Technology Review - AI": 8,
     "NIH News Releases": 7,
     "Google Research": 7,
+    "Google AI": 6,
     "TechCrunch - AI": 6,
     "Hugging Face": 5,
-    "Google AI": 5,
     "Apple Machine Learning Research": 2,
     "Vector Institute": 1
   },
@@ -882,39 +882,6 @@
       "rank": 10
     },
     {
-      "id": "856c26ca4c2d04bcedc9",
-      "title": "Mistral Advances AI for Engineering with NVIDIA",
-      "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-21T12:00:20+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models"
-      ],
-      "tags": [
-        "Foundation Models"
-      ],
-      "excerpt": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
-        "https://mistral.ai/_astro/Linkedin-Partnership-nvidia_1tHcoA.webp?dpl=6ad891705b98f56fcbc3981c"
-      ],
-      "relevance_score": 91.8,
-      "freshness_score": 100.0,
-      "priority_score": 87.4,
-      "priority_label": "High relevance",
-      "rank": 11
-    },
-    {
       "id": "08ab0b9a3cebff05522c",
       "title": "Outcome measures and monitoring framework in juvenile systemic sclerosis: bridging routine care and clinical trials.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42902254",
@@ -954,7 +921,7 @@
       "freshness_score": 94.0,
       "priority_score": 87.2,
       "priority_label": "High relevance",
-      "rank": 12
+      "rank": 11
     },
     {
       "id": "29e5d9ea6d6231484af2",
@@ -993,7 +960,7 @@
       "freshness_score": 94.0,
       "priority_score": 87.2,
       "priority_label": "High relevance",
-      "rank": 13
+      "rank": 12
     },
     {
       "id": "bba2623e73432a2f124d",
@@ -1039,7 +1006,7 @@
       "freshness_score": 94.0,
       "priority_score": 87.2,
       "priority_label": "High relevance",
-      "rank": 14
+      "rank": 13
     },
     {
       "id": "15d882160d60bc731400",
@@ -1072,7 +1039,7 @@
       "freshness_score": 72.0,
       "priority_score": 87.1,
       "priority_label": "High relevance",
-      "rank": 15
+      "rank": 14
     },
     {
       "id": "302b6603862b9da15df3",
@@ -1111,7 +1078,7 @@
       "freshness_score": 94.0,
       "priority_score": 86.8,
       "priority_label": "High relevance",
-      "rank": 16
+      "rank": 15
     },
     {
       "id": "2ab8fea231d160bdd126",
@@ -1152,7 +1119,7 @@
       "freshness_score": 94.0,
       "priority_score": 86.4,
       "priority_label": "High relevance",
-      "rank": 17
+      "rank": 16
     },
     {
       "id": "06f28fd49993b77c7516",
@@ -1194,6 +1161,39 @@
       "relevance_score": 91.8,
       "freshness_score": 94.0,
       "priority_score": 86.4,
+      "priority_label": "High relevance",
+      "rank": 17
+    },
+    {
+      "id": "856c26ca4c2d04bcedc9",
+      "title": "Mistral Advances AI for Engineering with NVIDIA",
+      "url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering",
+      "source": "Mistral AI",
+      "source_id": "mistral",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-21T12:00:20+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "Mistral is collaborating with NVIDIA to develop a new generation of AI-native engineering workflows powered by NVIDIA accelerated computing.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+        "https://mistral.ai/_astro/Linkedin-Partnership-nvidia_1tHcoA.webp?dpl=6ad891705b98f56fcbc3981c"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 94.0,
+      "priority_score": 86.1,
       "priority_label": "High relevance",
       "rank": 18
     },
@@ -1302,38 +1302,43 @@
       "rank": 21
     },
     {
-      "id": "ea92da5c121ecb452702",
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "source": "OpenAI",
-      "source_id": "openai_news",
-      "source_class": "Frontier Lab",
+      "id": "68b23c2a85af024a04a1",
+      "title": "Navigating the translational chasm: a scoping review of large language models and hybrid architectures in intensive care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42897821",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
       "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-21T07:00:00+00:00",
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-20T00:00:00+00:00",
       "category": "Foundation Models",
       "categories": [
         "Foundation Models"
       ],
       "tags": [
         "Foundation Models",
-        "LLM"
+        "LLM",
+        "Medical"
       ],
-      "excerpt": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "authors": [],
-      "venue": "",
+      "excerpt": "Foundation models, particularly large language models, can process the unstructured data central to the intensive care record, yet their clinical readiness remains poorly defined. This study aimed to map foundation-model and large language model applications in adult intensive care, characterise their architectural paradigms, and chart their validation and deployment features. Empirical…",
+      "authors": [
+        "Xiaoqian Cui",
+        "Hongda Zhang",
+        "Bo Wang",
+        "Wenbin Luo",
+        "Deming Guo",
+        "Xiaoning Liu"
+      ],
+      "venue": "Anaesthesia and intensive care",
       "manual": false,
       "related": [],
-      "images": [
-        "https://images.ctfassets.net/kftzwdyauwt9/GsY5RrFvT4ZOnPC3oZUya/e3168194d55c5d9c8060ce5c5ba6c3ed/building-chatgpt-ad-stack-social.png?w=1600&h=900&fit=fill",
-        "https://images.ctfassets.net/kftzwdyauwt9/2X23NOb0P4V1KDzUBkeNpl/888204b45a1c84ddfa24c9ed31111a9c/OAI_HabitatPT1_Art_Card_1x1.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/26K8mLbrpbaDvoFY0NrE04/8e4ad0b3f28042c22d6d5130bd4f4019/jalapeno-art-card.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/3PyfDzfjOozLbJnaZIkRLD/6aef080bb4e7d6a6b8a6dc23436848db/gpt-live-art-card.png?w=3840&q=90&fm=webp"
-      ],
-      "relevance_score": 86.6,
-      "freshness_score": 100.0,
-      "priority_score": 85.8,
+      "images": [],
+      "pmid": "42897821",
+      "doi": "10.1177/0310057X261494610",
+      "relevance_score": 91.8,
+      "freshness_score": 94.0,
+      "priority_score": 85.7,
       "priority_label": "High relevance",
       "rank": 22
     },
@@ -1556,111 +1561,6 @@
       "rank": 27
     },
     {
-      "id": "c1913c4bc921d7e32c35",
-      "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
-      "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime",
-      "source": "NVIDIA Developer Blog",
-      "source_id": "nvidia_developer",
-      "source_class": "Engineering Lab",
-      "source_tier": 1,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-21T09:52:16+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents"
-      ],
-      "excerpt": "An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using... An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using tools, credentials, and services to pursue their assigned goals.…",
-      "authors": [
-        "Ofir Arkin"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/bluefield-nvidia-sentry-featured-768x432.jpg"
-      ],
-      "relevance_score": 91.8,
-      "freshness_score": 100.0,
-      "priority_score": 85.0,
-      "priority_label": "High relevance",
-      "rank": 28
-    },
-    {
-      "id": "844d2a2689f652be5a45",
-      "title": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
-      "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale",
-      "source": "NVIDIA Developer Blog",
-      "source_id": "nvidia_developer",
-      "source_class": "Engineering Lab",
-      "source_tier": 1,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-21T09:50:14+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents"
-      ],
-      "excerpt": "Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex... Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex tasks over long time horizons leads to compounding risk: the agents…",
-      "authors": [
-        "Elizabeth Goodman"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/OpenShellKVcroppped-768x432.png"
-      ],
-      "relevance_score": 91.8,
-      "freshness_score": 100.0,
-      "priority_score": 85.0,
-      "priority_label": "High relevance",
-      "rank": 29
-    },
-    {
-      "id": "95dedf578de78f3ec264",
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "source": "OpenAI",
-      "source_id": "openai_news",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-21T12:00:00+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models"
-      ],
-      "tags": [
-        "Foundation Models"
-      ],
-      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill",
-        "https://images.ctfassets.net/kftzwdyauwt9/7zjGwFPBZMvK6zwFSMVWRm/6721ac33e5b1aaf88a9b705a3d10c90a/OAI_Oracle_Partnership_1x1_Art_Card.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/6bPStWA6pc66cahnhg0jo6/61786b178401b6e902e9da65fa4da095/Blog_Thumbnail_-_OpenAI_Blog.png?w=3840&q=90&fm=webp",
-        "https://images.ctfassets.net/kftzwdyauwt9/2iQBiqMQEsAlEMnWTgmkaM/ea72c00d0563d60b861c17fffc548d31/Frame.png?w=3840&q=90&fm=webp"
-      ],
-      "relevance_score": 83.4,
-      "freshness_score": 100.0,
-      "priority_score": 84.9,
-      "priority_label": "High relevance",
-      "rank": 30
-    },
-    {
       "id": "32165ee6af8945a5bd83",
       "title": "Bringing GPT-Rosalind to academic research labs",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -1693,7 +1593,7 @@
       "freshness_score": 86.0,
       "priority_score": 84.8,
       "priority_label": "High relevance",
-      "rank": 31
+      "rank": 28
     },
     {
       "id": "82338c01a212c06c91a1",
@@ -1738,7 +1638,43 @@
       "freshness_score": 94.0,
       "priority_score": 84.7,
       "priority_label": "High relevance",
-      "rank": 32
+      "rank": 29
+    },
+    {
+      "id": "ea92da5c121ecb452702",
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "url": "https://openai.com/index/building-chatgpt-ad-stack",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-21T07:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM"
+      ],
+      "excerpt": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/GsY5RrFvT4ZOnPC3oZUya/e3168194d55c5d9c8060ce5c5ba6c3ed/building-chatgpt-ad-stack-social.png?w=1600&h=900&fit=fill",
+        "https://images.ctfassets.net/kftzwdyauwt9/2X23NOb0P4V1KDzUBkeNpl/888204b45a1c84ddfa24c9ed31111a9c/OAI_HabitatPT1_Art_Card_1x1.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/26K8mLbrpbaDvoFY0NrE04/8e4ad0b3f28042c22d6d5130bd4f4019/jalapeno-art-card.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/3PyfDzfjOozLbJnaZIkRLD/6aef080bb4e7d6a6b8a6dc23436848db/gpt-live-art-card.png?w=3840&q=90&fm=webp"
+      ],
+      "relevance_score": 86.6,
+      "freshness_score": 94.0,
+      "priority_score": 84.5,
+      "priority_label": "High relevance",
+      "rank": 30
     },
     {
       "id": "fb630ea19b93482d0416",
@@ -1776,7 +1712,7 @@
       "freshness_score": 100.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 33
+      "rank": 31
     },
     {
       "id": "a19d1f9334dc8de90e5f",
@@ -1812,7 +1748,7 @@
       "freshness_score": 94.0,
       "priority_score": 84.3,
       "priority_label": "High relevance",
-      "rank": 34
+      "rank": 32
     },
     {
       "id": "afd201127a5f5e3b0d81",
@@ -1851,7 +1787,7 @@
       "freshness_score": 100.0,
       "priority_score": 84.0,
       "priority_label": "High relevance",
-      "rank": 35
+      "rank": 33
     },
     {
       "id": "c29b963b126553929efa",
@@ -1891,7 +1827,7 @@
       "freshness_score": 94.0,
       "priority_score": 84.0,
       "priority_label": "High relevance",
-      "rank": 36
+      "rank": 34
     },
     {
       "id": "df8d36ccac1ef355266f",
@@ -1930,7 +1866,7 @@
       "freshness_score": 86.0,
       "priority_score": 83.9,
       "priority_label": "High relevance",
-      "rank": 37
+      "rank": 35
     },
     {
       "id": "63b73a8c608a0faa316a",
@@ -1963,7 +1899,7 @@
       "freshness_score": 72.0,
       "priority_score": 83.9,
       "priority_label": "High relevance",
-      "rank": 38
+      "rank": 36
     },
     {
       "id": "8d173d528dd04aec81e7",
@@ -1996,6 +1932,76 @@
       "relevance_score": 88.5,
       "freshness_score": 72.0,
       "priority_score": 83.8,
+      "priority_label": "High relevance",
+      "rank": 37
+    },
+    {
+      "id": "c1913c4bc921d7e32c35",
+      "title": "Inside NVIDIA Sentry: Secure AI Agents at Runtime",
+      "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-21T09:52:16+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using... An AI agent can complete its assignment and still cross a security boundary. Recent incidents show that agents can circumvent security controls while using tools, credentials, and services to pursue their assigned goals.…",
+      "authors": [
+        "Ofir Arkin"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/bluefield-nvidia-sentry-featured-768x432.jpg"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 94.0,
+      "priority_score": 83.7,
+      "priority_label": "High relevance",
+      "rank": 38
+    },
+    {
+      "id": "844d2a2689f652be5a45",
+      "title": "How NVIDIA OpenShell Reference Architecture Secures and Governs AI Agent Workloads at Scale",
+      "url": "https://developer.nvidia.com/blog/how-nvidia-openshell-reference-architecture-secures-and-governs-ai-agent-workloads-at-scale",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-21T09:50:14+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex... Autonomous agents can work for hours on complex tasks, accessing files, tools, the internet, and spawning other agents to collaborate with. Executing complex tasks over long time horizons leads to compounding risk: the agents…",
+      "authors": [
+        "Elizabeth Goodman"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/OpenShellKVcroppped-768x432.png"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 94.0,
+      "priority_score": 83.7,
       "priority_label": "High relevance",
       "rank": 39
     },
@@ -2066,6 +2072,41 @@
       "rank": 41
     },
     {
+      "id": "95dedf578de78f3ec264",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-21T12:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://images.ctfassets.net/kftzwdyauwt9/659u0DsrtDQd9LxI8L4J9M/0b95908d6a9ed46ffe20b23d081574b4/openai-models-coming-to-google-cloud-social.png?w=1600&h=900&fit=fill",
+        "https://images.ctfassets.net/kftzwdyauwt9/7zjGwFPBZMvK6zwFSMVWRm/6721ac33e5b1aaf88a9b705a3d10c90a/OAI_Oracle_Partnership_1x1_Art_Card.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/6bPStWA6pc66cahnhg0jo6/61786b178401b6e902e9da65fa4da095/Blog_Thumbnail_-_OpenAI_Blog.png?w=3840&q=90&fm=webp",
+        "https://images.ctfassets.net/kftzwdyauwt9/2iQBiqMQEsAlEMnWTgmkaM/ea72c00d0563d60b861c17fffc548d31/Frame.png?w=3840&q=90&fm=webp"
+      ],
+      "relevance_score": 83.4,
+      "freshness_score": 94.0,
+      "priority_score": 83.6,
+      "priority_label": "High relevance",
+      "rank": 42
+    },
+    {
       "id": "4c6292fc5ecba5f2e0a9",
       "title": "Voxtral 3",
       "url": "https://mistral.ai/news/voxtral-3",
@@ -2099,7 +2140,7 @@
       "freshness_score": 94.0,
       "priority_score": 83.6,
       "priority_label": "High relevance",
-      "rank": 42
+      "rank": 43
     },
     {
       "id": "9394bb5d588b9fd80681",
@@ -2135,7 +2176,7 @@
       "freshness_score": 86.0,
       "priority_score": 83.6,
       "priority_label": "High relevance",
-      "rank": 43
+      "rank": 44
     },
     {
       "id": "93a3c6a05f584f10feb6",
@@ -2169,44 +2210,6 @@
       "relevance_score": 91.8,
       "freshness_score": 86.0,
       "priority_score": 83.5,
-      "priority_label": "High relevance",
-      "rank": 44
-    },
-    {
-      "id": "dd68e3e568d2acc85f25",
-      "title": "ReSeg: Retraining-free segmentation of abdominal organs via generalizable semantic representation learning",
-      "url": "https://arxiv.org/abs/2610.29090",
-      "source": "arXiv - Computer Vision",
-      "source_id": "arxiv_cv",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-22T04:00:00+00:00",
-      "category": "Medical Imaging",
-      "categories": [
-        "Medical Imaging"
-      ],
-      "tags": [
-        "Medical Imaging",
-        "Evaluation",
-        "Medical",
-        "Imaging",
-        "Vision",
-        "Privacy"
-      ],
-      "excerpt": "Abdominal organ segmentation is essential in modern medical applications. While existing deep learning approaches demonstrate promising performance, their heavy reliance on large-scale image data raises concerns over generalization capability and privacy risks. This motivates the development of generalizable segmentation training paradigms based on domain-randomized image synthesis,…",
-      "authors": [
-        "Derong Yu, Guoyan Zheng"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2610.29090",
-      "relevance_score": 100.0,
-      "freshness_score": 100.0,
-      "priority_score": 83.4,
       "priority_label": "High relevance",
       "rank": 45
     },
@@ -2257,7 +2260,6 @@
       ],
       "tags": [
         "Medical Imaging",
-        "Medical",
         "Vision"
       ],
       "excerpt": "A generated chest radiograph can be useful as declared augmentation, but the same image becomes unsupported evidence when submitted as the record of a real examination. We study this problem by separating three questions: whether an image passes an automated quality check, whether an origin classifier flags it as generated, and whether a trusted record supports the claimed acquisition.…",
@@ -2288,18 +2290,12 @@
       "date": "2026-10-21T23:36:47+00:00",
       "category": "AI Agents",
       "categories": [
-        "AI Agents",
-        "Foundation Models",
-        "Trustworthy AI"
+        "AI Agents"
       ],
       "tags": [
         "AI Agents",
-        "LLM",
         "Agents",
-        "Evaluation",
-        "Vision",
-        "Open Source",
-        "Reasoning"
+        "Open Source"
       ],
       "excerpt": "Building a multi-agent system is now pretty straightforward. Taking it to production is where the real challenges begin. Thanks to open source frameworks and cloud services, you can set up an agent in a matter of days. A few tool calls, a few lines of prompt, and you have something that looks impressive. But the moment teams try to move beyond a pilot and into real business…",
       "authors": [
@@ -2646,8 +2642,6 @@
       ],
       "tags": [
         "Medical Imaging",
-        "Evaluation",
-        "Medical",
         "Imaging"
       ],
       "excerpt": "Synthesizing high-fidelity 7T MRI from routinely acquired 3T scans offers a practical pathway to enhanced neuroimaging without the prohibitive cost of ultra-high-field scanners. While existing deep learning approaches have achieved promising results, state-of-the-art methods typically rely on either large-scale architectures exceeding 45 million parameters or computationally intensive…",
@@ -2764,7 +2758,7 @@
       "related": [],
       "images": [
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/Magnetar-BlogHeroFeature-1400x788-1-1024x576.jpg",
-        "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/ICLR_WebBanner_1920x720.png",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/OptiMind-TWLIFB-1200x627-1.jpg",
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/Magnetar_NEW_Summary_Simple.png"
       ],
       "relevance_score": 88.2,
@@ -2947,7 +2941,6 @@
       ],
       "tags": [
         "Medical Imaging",
-        "LLM",
         "Medical",
         "Imaging",
         "Reasoning"
@@ -2984,9 +2977,7 @@
       ],
       "tags": [
         "Medical Imaging",
-        "LLM",
-        "Imaging",
-        "Science"
+        "Imaging"
       ],
       "excerpt": "Evaluating the energy transmission ratio of an X-ray beam through a polymer composite is a challenging task in radiation shielding studies. The reference solution with Monte Carlo transport simulation is highly accurate but computationally expensive: each of our reference simulations is capped at $4\\times10^9$ photon histories and a 20,000 s (over 5 hours) time limit, while closed-form…",
       "authors": [
@@ -3021,8 +3012,7 @@
       "tags": [
         "AI Agents",
         "Agents",
-        "Open Source",
-        "Hardware"
+        "Open Source"
       ],
       "excerpt": "Long-horizon agentic reinforcement learning (RL) requires both efficient rollout generation and training on long sequences. However, the memory requirements and model-specific operators of Qwen3.8-Flash-Next make this difficult with existing open-source implementations. To resolve these limitations, we introduce FlashNext-RL, a model-specific RL training optimization framework based on…",
       "authors": [
@@ -3075,9 +3065,9 @@
       "rank": 68
     },
     {
-      "id": "2329642a387a921cd6bf",
-      "title": "Diffusion Posterior Sampling with Uncertain Forward Models",
-      "url": "https://arxiv.org/abs/2610.29102",
+      "id": "7d56cb51f317dfac28c2",
+      "title": "A Unified Evaluation Framework of Physical Adversarial Robustness in the Edge VLM Era",
+      "url": "https://arxiv.org/abs/2610.29196",
       "source": "arXiv - Computer Vision",
       "source_id": "arxiv_cv",
       "source_class": "Research Preprint",
@@ -3085,63 +3075,66 @@
       "content_type": "Preprint",
       "publication_status": "Preprint",
       "date": "2026-10-22T04:00:00+00:00",
-      "category": "Medical Imaging",
+      "category": "Trustworthy AI",
       "categories": [
-        "Medical Imaging"
+        "Trustworthy AI",
+        "Foundation Models"
       ],
       "tags": [
-        "Medical Imaging",
+        "Trustworthy AI",
+        "Multimodal",
         "Evaluation",
-        "Imaging"
+        "Vision"
       ],
-      "excerpt": "Diffusion posterior samplers reconstruct signals by combining a pretrained diffusion prior with a measurement likelihood specified by a forward model and a noise model. Calibration and reference data can characterize uncertainty in the forward model's parameters, such as blur kernels or detector responses. Fixing these parameters at estimated values leaves their uncertainty out of the…",
+      "excerpt": "Recent advancements in Vision-Language Models (VLMs) enable end-to-end visual grounding via language prompts and generative decoding, demonstrating largely improved zero-shot and open-vocabulary detection capabilities. As a result, VLMs are rapidly being deployed at the edge in safety-critical real-world systems. However, the physical adversarial robustness of edge VLMs has not been…",
       "authors": [
-        "Wentao Shangguan, Vivek K Goyal"
+        "Eric Liang, Alan Luo, Kaiwen Yuan"
       ],
       "venue": "",
       "manual": false,
       "related": [],
       "images": [],
-      "arxiv_id": "2610.29102",
-      "relevance_score": 100.0,
+      "arxiv_id": "2610.29196",
+      "relevance_score": 96.7,
       "freshness_score": 100.0,
       "priority_score": 82.2,
       "priority_label": "High relevance",
       "rank": 69
     },
     {
-      "id": "9e8ccf3fee23a70aa5a6",
-      "title": "Improved three component IVIM fitting using physics-informed neural network with multimodal spatial prior",
-      "url": "https://arxiv.org/abs/2610.28873",
-      "source": "arXiv - Image and Video Processing",
-      "source_id": "arxiv_imaging",
+      "id": "97ac6795fe36b55169cd",
+      "title": "Melange: A Synthetic Visual Bias Benchmark for Multi-modal Large Language Models",
+      "url": "https://arxiv.org/abs/2610.29537",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
       "source_class": "Research Preprint",
       "source_tier": 2,
       "content_type": "Preprint",
       "publication_status": "Preprint",
       "date": "2026-10-22T04:00:00+00:00",
-      "category": "Medical Imaging",
+      "category": "Trustworthy AI",
       "categories": [
-        "Medical Imaging",
-        "AI for Science",
-        "Trustworthy AI"
+        "Trustworthy AI",
+        "Foundation Models"
       ],
       "tags": [
-        "Medical Imaging",
-        "Multimodal",
+        "Trustworthy AI",
+        "LLM",
+        "Safety",
         "Evaluation",
-        "Imaging"
+        "Vision",
+        "Open Source"
       ],
-      "excerpt": "Purpose: To mitigate parameter degeneracy and improve robustness of IVIM fitting, a multimodal physics-informed neural network was developed to leverage anatomical information through the combined use of cross attention, selective spatial gating, and anatomy-weighted spatial prior. Methods: T1w and FLAIR anatomical images were co-registered to IVIM signal in native space and segmented…",
+      "excerpt": "Multi-modal Large Language Models (MLLMs) have seen broad adoption, but their biases are still far less examined than those of standard LLMs, creating possible social harms when deployed in real-world settings. Prior efforts to extend bias analyses from LLMs into the multi-modal space either cover only a few bias categories or do not ensure that the groups being compared are clearly…",
       "authors": [
-        "Nhat Hoang, Abrar Faiyaz, Emmanuel A. Mensah, Md Nasir Uddin, Jianhui Zhong, Giovanni Schifitto"
+        "Razieh Rezaei, Ehsaneddin Asgary, Masoud Jalili Sabet"
       ],
       "venue": "",
       "manual": false,
       "related": [],
       "images": [],
-      "arxiv_id": "2610.28873",
-      "relevance_score": 100.0,
+      "arxiv_id": "2610.29537",
+      "relevance_score": 96.7,
       "freshness_score": 100.0,
       "priority_score": 82.2,
       "priority_label": "High relevance",
@@ -3183,44 +3176,6 @@
       "rank": 71
     },
     {
-      "id": "e8348710480a16ca9188",
-      "title": "Estimating Performance for Safe Deployment of Machine Learning Models",
-      "url": "https://arxiv.org/abs/2610.29262",
-      "source": "arXiv - Machine Learning",
-      "source_id": "arxiv_ml",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-22T04:00:00+00:00",
-      "category": "Medical Imaging",
-      "categories": [
-        "Medical Imaging",
-        "Trustworthy AI"
-      ],
-      "tags": [
-        "Medical Imaging",
-        "Evaluation",
-        "Medical",
-        "Imaging",
-        "Vision"
-      ],
-      "excerpt": "The main challenge in applying deep neural networks to real-world scenarios lies in distributional discrepancies between training and test datasets, often caused by variations in data acquisition conditions. Assessing the performance of pre-trained models without labels is crucial for safety, but this is complicated by deep models' overly optimistic probabilistic outputs, often…",
-      "authors": [
-        "Zeju Li, Konstantinos Kamnitsas, Mobarakol Islam, Melanie Roschewitz, Cheng Ouyang, Chen Chen, Ben Glocker"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2610.29262",
-      "relevance_score": 100.0,
-      "freshness_score": 100.0,
-      "priority_score": 82.2,
-      "priority_label": "High relevance",
-      "rank": 72
-    },
-    {
       "id": "20c1c40280b016d4e6ac",
       "title": "Scientists develop high-resolution molecular maps of Alzheimer’s and related brain disorders September 23, 2026 — NIH-funded effort delivers new insights into symptoms and underlying mechanisms of these conditions to improve prevention, detection, treatment, and outcomes.",
       "url": "https://www.nih.gov/news-events/news-releases/scientists-develop-high-resolution-molecular-maps-alzheimers-related-brain-disorders",
@@ -3252,108 +3207,7 @@
       "freshness_score": 72.0,
       "priority_score": 82.2,
       "priority_label": "High relevance",
-      "rank": 73
-    },
-    {
-      "id": "83987afe515df6f48f4b",
-      "title": "StochIKM: Automated High-Fidelity Reconstruction of Individual Patient Data from Published Kaplan-Meier Curves",
-      "url": "https://arxiv.org/abs/2610.29122",
-      "source": "arXiv - Artificial Intelligence",
-      "source_id": "arxiv_ai",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-22T04:00:00+00:00",
-      "category": "Medical AI",
-      "categories": [
-        "Medical AI",
-        "Foundation Models"
-      ],
-      "tags": [
-        "Medical AI",
-        "LLM",
-        "Vision"
-      ],
-      "excerpt": "Individual patient data are the gold standard for secondary analysis of time-to-event evidence, but they are rarely released, and reconstruction from a published Kaplan-Meier figure could help. Existing methods all claim high fidelity, each judged by whichever agreements it happens to achieve, and each returns a single dataset although the map from figure to data is not bijective. We…",
-      "authors": [
-        "Liangze Ke, Daniel Zelterman, Wei Wei, Guannan Gong"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2610.29122",
-      "relevance_score": 96.3,
-      "freshness_score": 100.0,
-      "priority_score": 82.1,
-      "priority_label": "High relevance",
-      "rank": 74
-    },
-    {
-      "id": "8ce4932052a83b10ace1",
-      "title": "FracEvent: Event-Camera Simulation via Fractional-Relaxation Pixel Dynamics",
-      "url": "https://arxiv.org/abs/2606.26636",
-      "source": "arXiv - Image and Video Processing",
-      "source_id": "arxiv_imaging",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-22T04:00:00+00:00",
-      "category": "Medical Imaging",
-      "categories": [
-        "Medical Imaging"
-      ],
-      "tags": [
-        "Medical Imaging",
-        "Vision"
-      ],
-      "excerpt": "arXiv:2606.26636v4 Announce Type: replace-cross Abstract: Event cameras asynchronously report brightness changes with microsecond-level temporal resolution, but real event data remain difficult to collect at scale because specialized sensors, careful synchronization, and task-specific annotations are required. Event-camera simulation is therefore important to event-based vision tasks.…",
-      "authors": [
-        "Langyi Chen, Chuanzhi Xu, Haoxian Zhou, Pengfei Ye, Ziyu Luo, Haodong Chen, Qiang Qu, Xiaoming Chen, Weidong Cai"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2606.26636",
-      "relevance_score": 93.2,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
-      "priority_label": "High relevance",
-      "rank": 75
-    },
-    {
-      "id": "32694d7b05454b04f025",
-      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
-      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "source": "Hugging Face",
-      "source_id": "huggingface",
-      "source_class": "Open Source AI",
-      "source_tier": 2,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-21T10:59:42+00:00",
-      "category": "Robotics & Embodied AI",
-      "categories": [
-        "Robotics & Embodied AI"
-      ],
-      "tags": [
-        "Robotics & Embodied AI",
-        "Robotics"
-      ],
-      "excerpt": "",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 83.6,
-      "freshness_score": 100.0,
-      "priority_score": 81.9,
-      "priority_label": "High relevance",
-      "rank": 76
+      "rank": 72
     },
     {
       "id": "c86815db9dff9ff97356",
@@ -3393,7 +3247,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.9,
       "priority_label": "High relevance",
-      "rank": 77
+      "rank": 73
     },
     {
       "id": "3d5d7f5aaf65de9510f3",
@@ -3439,7 +3293,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.9,
       "priority_label": "High relevance",
-      "rank": 78
+      "rank": 74
     },
     {
       "id": "80339eabc0c13d2f9fa7",
@@ -3473,7 +3327,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 79
+      "rank": 75
     },
     {
       "id": "e6b252ef3669d969c8b9",
@@ -3510,7 +3364,42 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 80
+      "rank": 76
+    },
+    {
+      "id": "6a99d19c4489e4b500fd",
+      "title": "Probing Ambiguity: Adversarial Intent Resolution for Robust Text-to-SQL",
+      "url": "https://arxiv.org/abs/2610.24248",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Agents"
+      ],
+      "excerpt": "Text-to-SQL systems typically assume a one-to-one mapping between natural-language queries and correct SQL translations. In practice, however, many queries are inherently ambiguous, admitting multiple valid interpretations that yield distinct outputs. We introduce Adversarial Intent Resolution (AIR), a multi-agent framework that actively probes and resolves such ambiguity without any…",
+      "authors": [
+        "Youbing Yin, Xujun Peng, Muhammad S. Uddin, Erin Babinsky, Daben Liu, Anoop Kumar"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24248",
+      "relevance_score": 96.7,
+      "freshness_score": 94.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 77
     },
     {
       "id": "b9df294d96cd9c467fa1",
@@ -3544,7 +3433,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 81
+      "rank": 78
     },
     {
       "id": "b18e174399c13af9f9bc",
@@ -3578,7 +3467,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.7,
       "priority_label": "High relevance",
-      "rank": 82
+      "rank": 79
     },
     {
       "id": "cffd2a42303c712e5cc0",
@@ -3613,7 +3502,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 83
+      "rank": 80
     },
     {
       "id": "62bc5a740a333834b412",
@@ -3631,8 +3520,7 @@
         "Foundation Models"
       ],
       "tags": [
-        "Foundation Models",
-        "Evaluation"
+        "Foundation Models"
       ],
       "excerpt": "Recent electroencephalography (EEG) foundation models increasingly emphasize model scale, potentially limiting their deployment on resource-constrained devices and in everyday environments. We argue that transferable EEG features can instead be learned with a compact architecture and introduce BrainCodes, a lightweight foundation model pretrained through self-supervised learning on more…",
       "authors": [
@@ -3647,7 +3535,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 84
+      "rank": 81
     },
     {
       "id": "4f0cc9ba810d15749e77",
@@ -3682,7 +3570,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 85
+      "rank": 82
     },
     {
       "id": "ae3e345e7327621a155d",
@@ -3703,8 +3591,7 @@
       "tags": [
         "AI Agents",
         "LLM",
-        "Agents",
-        "Evaluation"
+        "Agents"
       ],
       "excerpt": "Agentic systems have demonstrated strong capabilities on complex tasks by enabling multiple interacting large language model (LLM)-based agents to collaborate and execute subtasks in parallel. However, this collaborative structure introduces new challenges for reliably evaluating and diagnosing system failures, particularly failure attribution: tracing a system's execution to identify…",
       "authors": [
@@ -3719,7 +3606,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 86
+      "rank": 83
     },
     {
       "id": "4641806fdb3f5f5fb0c4",
@@ -3753,7 +3640,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 87
+      "rank": 84
     },
     {
       "id": "bdd61a78944f367f010f",
@@ -3791,7 +3678,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 88
+      "rank": 85
     },
     {
       "id": "989a1fdc8bfb2f48575d",
@@ -3825,7 +3712,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 89
+      "rank": 86
     },
     {
       "id": "4bccc36d4a28dc145813",
@@ -3861,43 +3748,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 90
-    },
-    {
-      "id": "c85e9ccfdb363cd39562",
-      "title": "DynaWeave: Learning to Adapt through Dynamic Scenario Synthesis",
-      "url": "https://arxiv.org/abs/2610.29443",
-      "source": "arXiv - Computation and Language",
-      "source_id": "arxiv_cl",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-22T04:00:00+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models",
-        "Trustworthy AI"
-      ],
-      "tags": [
-        "Foundation Models",
-        "LLM",
-        "Evaluation"
-      ],
-      "excerpt": "Large language model (LLM) agents increasingly use tools to complete tasks in stateful environments. However, many training environments remain largely static apart from changes caused by the agent's own actions, whereas external events introduced by other users, services, or sudden contingencies in real environments can invalidate ongoing plans. To address this gap, we introduce…",
-      "authors": [
-        "Xuan Yang, Chunxiao Liu, Hongsheng Xin, Hao Xu, Ning Miao"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2610.29443",
-      "relevance_score": 91.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.6,
-      "priority_label": "High relevance",
-      "rank": 91
+      "rank": 87
     },
     {
       "id": "c6210f364ce658061c23",
@@ -3932,7 +3783,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 92
+      "rank": 88
     },
     {
       "id": "8b0d672d91d565ef1218",
@@ -3953,7 +3804,6 @@
         "Foundation Models",
         "LLM",
         "Multimodal",
-        "Evaluation",
         "Vision"
       ],
       "excerpt": "Omni-modal large language models (LLMs) have achieved remarkable progress in audio and video understanding. However, existing models struggle with long-form, multi-speaker videos, especially in understanding the entire video and recognizing who says what and when. To characterize the capability limit of current omni LLMs and guide future model development, we introduce…",
@@ -3969,7 +3819,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 93
+      "rank": 89
     },
     {
       "id": "241a0eb7150b75c2c4dd",
@@ -4001,78 +3851,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.6,
       "priority_label": "High relevance",
-      "rank": 94
-    },
-    {
-      "id": "bc8c23973938532900a0",
-      "title": "Interpretable Cutting Plane Selection for Mixed-Integer Linear Programming Using Genetic Programming",
-      "url": "https://arxiv.org/abs/2610.29311",
-      "source": "arXiv - Machine Learning",
-      "source_id": "arxiv_ml",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-22T04:00:00+00:00",
-      "category": "Trustworthy AI",
-      "categories": [
-        "Trustworthy AI"
-      ],
-      "tags": [
-        "Trustworthy AI",
-        "Evaluation"
-      ],
-      "excerpt": "Cutting planes (cuts) remove fractional solutions from mixed-integer linear programs (MILPs) without excluding any feasible integer solutions, making them a key ingredient in modern MILP solvers. Current state-of-the-art solvers rely on fine-tuned handcrafted cut strategies, which, despite their effectiveness, remain inherently static and can be suboptimal. More recently, learning-based…",
-      "authors": [
-        "Gwen maudet, Mathis Da Cunha, Gr\\'egoire Danoy"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2610.29311",
-      "relevance_score": 96.3,
-      "freshness_score": 100.0,
-      "priority_score": 81.5,
-      "priority_label": "High relevance",
-      "rank": 95
-    },
-    {
-      "id": "bfbd50a6de331f3eae6b",
-      "title": "MOSAIC: An Omni-Modal Benchmark for Long-Term Memory and Cross-Modal Reasoning in Conversational Agents",
-      "url": "https://arxiv.org/abs/2610.29249",
-      "source": "arXiv - Computation and Language",
-      "source_id": "arxiv_cl",
-      "source_class": "Research Preprint",
-      "source_tier": 2,
-      "content_type": "Preprint",
-      "publication_status": "Preprint",
-      "date": "2026-10-22T04:00:00+00:00",
-      "category": "Medical AI",
-      "categories": [
-        "Medical AI"
-      ],
-      "tags": [
-        "Medical AI",
-        "Multimodal",
-        "Evaluation",
-        "Vision",
-        "Reasoning"
-      ],
-      "excerpt": "Omni-modal assistants must remember not only what users say, but also what they show and convey. Existing long-term memory benchmarks are mostly text-and-image or report a single end-to-end score, so they cannot locate whether evidence is lost when it is represented, retrieved, delivered, or read. We introduce MOSAIC, a benchmark of 923 questions over persona-grounded histories of 11-24…",
-      "authors": [
-        "Hong Ting Tsang, Boyi Zhang, Haoyu Huang, Jiaxin Bai, Yufei Li, Yisen Gao, Zhongwei Xie, Hongyu Luo, Jeff Z. Pan, Yangqiu Song"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "arxiv_id": "2610.29249",
-      "relevance_score": 88.3,
-      "freshness_score": 100.0,
-      "priority_score": 81.5,
-      "priority_label": "High relevance",
-      "rank": 96
+      "rank": 90
     },
     {
       "id": "9591b1cd4f512684d53a",
@@ -4087,14 +3866,11 @@
       "date": "2026-10-21T23:38:38+00:00",
       "category": "AI Agents",
       "categories": [
-        "AI Agents",
-        "AI Policy & Governance",
-        "Trustworthy AI"
+        "AI Agents"
       ],
       "tags": [
         "AI Agents",
-        "Agents",
-        "Regulation"
+        "Agents"
       ],
       "excerpt": "When enterprise data sits behind a corporate firewall or in a private on-premises data center, there’s no direct network path from AWS, even though the AI agents and dashboards in Amazon Quick can query virtually any data source. Administrators must make sure their sensitive enterprise data isn’t exposed to the public internet while being accessible for AI-driven insights and actions.…",
       "authors": [
@@ -4113,7 +3889,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.4,
       "priority_label": "High relevance",
-      "rank": 97
+      "rank": 91
     },
     {
       "id": "3f1a11956436b1673800",
@@ -4143,7 +3919,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.4,
       "priority_label": "High relevance",
-      "rank": 98
+      "rank": 92
     },
     {
       "id": "e08619ed2cad1d928f20",
@@ -4180,7 +3956,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.4,
       "priority_label": "High relevance",
-      "rank": 99
+      "rank": 93
     },
     {
       "id": "eb02f18d764038be681c",
@@ -4217,7 +3993,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 100
+      "rank": 94
     },
     {
       "id": "55a761d109b15c48bf84",
@@ -4254,7 +4030,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 101
+      "rank": 95
     },
     {
       "id": "64e6837678bcb95880be",
@@ -4291,7 +4067,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 102
+      "rank": 96
     },
     {
       "id": "0df2d582e82075729d79",
@@ -4328,7 +4104,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 103
+      "rank": 97
     },
     {
       "id": "fe84660c82f126a680ef",
@@ -4364,7 +4140,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.3,
       "priority_label": "High relevance",
-      "rank": 104
+      "rank": 98
     },
     {
       "id": "dff674507a87f6322b5c",
@@ -4399,7 +4175,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 105
+      "rank": 99
     },
     {
       "id": "1ff5fe73b2f1908041e8",
@@ -4433,7 +4209,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 106
+      "rank": 100
     },
     {
       "id": "fe03470b224a6300504d",
@@ -4452,8 +4228,6 @@
       ],
       "tags": [
         "Medical AI",
-        "LLM",
-        "Evaluation",
         "Medical"
       ],
       "excerpt": "Automatic phenotype information extraction plays an important role in rare disease diagnosis, genotype-phenotype analysis, and precision medicine. However, accurately identifying phenotype concepts and determining their associations with specific patients remain challenging, particularly in full-text biomedical articles involving multiple patients and complex clinical descriptions. This…",
@@ -4469,7 +4243,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 107
+      "rank": 101
     },
     {
       "id": "b24077eaba5115ad9df8",
@@ -4504,7 +4278,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 108
+      "rank": 102
     },
     {
       "id": "1c054507baba738a661f",
@@ -4538,7 +4312,7 @@
       "freshness_score": 100.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 109
+      "rank": 103
     },
     {
       "id": "542ed0bcb34611a395d9",
@@ -4579,7 +4353,7 @@
       "freshness_score": 94.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 110
+      "rank": 104
     },
     {
       "id": "57c3309db5bedcdec4e0",
@@ -4615,7 +4389,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 111
+      "rank": 105
     },
     {
       "id": "200a5d3dd39c6bfb7a20",
@@ -4651,7 +4425,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 112
+      "rank": 106
     },
     {
       "id": "1dc99b611b2499a3b881",
@@ -4686,7 +4460,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 113
+      "rank": 107
     },
     {
       "id": "d96a2391b623b2cb26cc",
@@ -4723,7 +4497,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 114
+      "rank": 108
     },
     {
       "id": "9bf93d58cc35db9987f8",
@@ -4758,7 +4532,7 @@
       "freshness_score": 72.0,
       "priority_score": 81.2,
       "priority_label": "High relevance",
-      "rank": 115
+      "rank": 109
     },
     {
       "id": "682cbcd4b7088eb1d8d2",
@@ -4792,7 +4566,42 @@
       "freshness_score": 100.0,
       "priority_score": 81.1,
       "priority_label": "High relevance",
-      "rank": 116
+      "rank": 110
+    },
+    {
+      "id": "147faa697ca744457def",
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T10:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "AI Agents"
+      ],
+      "tags": [
+        "AI4Education",
+        "Agents",
+        "Education"
+      ],
+      "excerpt": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead is…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 90.2,
+      "freshness_score": 100.0,
+      "priority_score": 81.0,
+      "priority_label": "High relevance",
+      "rank": 111
     },
     {
       "id": "8b4d765c48d48ce35f8e",
@@ -4829,7 +4638,7 @@
       "freshness_score": 86.0,
       "priority_score": 81.0,
       "priority_label": "High relevance",
-      "rank": 117
+      "rank": 112
     },
     {
       "id": "3418413a7bcd27345e25",
@@ -4866,7 +4675,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 118
+      "rank": 113
     },
     {
       "id": "bfa0c6ebfd4621ac9e2d",
@@ -4900,7 +4709,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 119
+      "rank": 114
     },
     {
       "id": "64d8eb745152e9724abb",
@@ -4936,7 +4745,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
-      "rank": 120
+      "rank": 115
     },
     {
       "id": "706e555a196dc1079bc1",
@@ -4970,6 +4779,181 @@
       "images": [],
       "arxiv_id": "2503.23179",
       "relevance_score": 100.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 116
+    },
+    {
+      "id": "d12bd6e507650ac45e0f",
+      "title": "GLOW: General Linear Models Optimized with Ward's Method",
+      "url": "https://arxiv.org/abs/2610.24085",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging"
+      ],
+      "excerpt": "Neuroimaging seeks brain regions whose imaging features correlate with variables of interest (e.g., diagnosis, age), usually via the General Linear Model (GLM). Region-Based Analysis dilutes or splits any effect that does not fill exactly one atlas region. Voxel-Based Analysis, with Cluster Extent Thresholding and Threshold-Free Cluster Enhancement built on it, fits a GLM per voxel and…",
+      "authors": [
+        "Matt Higger"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24085",
+      "relevance_score": 100.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 117
+    },
+    {
+      "id": "df66cbe3234d34c363bb",
+      "title": "GliomaINK: A Tumor and Anatomy Conditioned Flow Matching Framework for 3D MRI Sequence Synthesis in Glioma Patients",
+      "url": "https://arxiv.org/abs/2610.24044",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "Background: Incomplete multiparametric MR examinations limit glioma characterization and downstream AI tools. Generative models can synthesize missing MRI sequences, but anatomical structure and clinically relevant tumor features are challenging to preserve. We propose GliomaINK, an anatomy-guided conditional flow matching framework for cross-sequence 3D brain MRI synthesis. Methods: A…",
+      "authors": [
+        "Moinak Bhattacharya, Annie Singh, Mohammad Chaudhry, Prateek Prasanna, Gagandeep Singh"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24044",
+      "relevance_score": 100.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 118
+    },
+    {
+      "id": "5228a456725047bda561",
+      "title": "DinoMUSE: A DINOv2-guided Framework for Unsupervised Lateral Motion Estimation in Ultrasound Elastography",
+      "url": "https://arxiv.org/abs/2610.24020",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Vision"
+      ],
+      "excerpt": "Quasi-static ultrasound elastography (USE) is a non-invasive imaging method for assessing soft tissue mechanical properties. Limited by low resolution, low sampling frequency and lack of phase information in the lateral direction, accurate lateral motion estimation remains a critical bottleneck in USE. Existing methods mainly rely on local image matching and physical constraints (such…",
+      "authors": [
+        "Xiyao Meng, Xingyue Wei, Baihua Luo, Bo Peng, Jianwen Luo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24020",
+      "relevance_score": 100.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 119
+    },
+    {
+      "id": "94a2e0c19e26d2045f65",
+      "title": "Dataset Inference for Data Provenance and Privacy Auditing in Tabular Foundation Models",
+      "url": "https://arxiv.org/abs/2610.24278",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Privacy"
+      ],
+      "excerpt": "Tabular foundation models (TFMs) are increasingly deployed through black-box APIs and trained on large collections of real-world tabular datasets. As this training paradigm becomes more widely adopted, private or proprietary datasets may be incorporated into pre-training corpora, yet there are currently no dedicated methods for determining whether a given tabular dataset was used to…",
+      "authors": [
+        "Dariush Wahdany (CISPA Helmholtz Center for Information Security), Jesse Cresswell (Layer 6 AI), Naiqing Guan (Layer 6 AI), Atiyeh Ashari Ghomi (Layer 6 AI), Franziska Boenisch (CISPA Helmholtz Center for Information Security), Adam Dziedzic (CISPA Helmholtz Center for Information Security)"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24278",
+      "relevance_score": 96.7,
+      "freshness_score": 94.0,
+      "priority_score": 80.9,
+      "priority_label": "High relevance",
+      "rank": 120
+    },
+    {
+      "id": "a0f20aa59ae70b9c2f2d",
+      "title": "Muse Glimmer 30B: An On-Device Agentic Model",
+      "url": "https://arxiv.org/abs/2610.24628",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-20T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Vision",
+        "Open Source",
+        "Reasoning"
+      ],
+      "excerpt": "We introduce Muse Glimmer, an open-source 30B parameter causal language model with perception encoder, purpose-built for autonomous agentic tasks on consumer hardware. Muse Glimmer integrates multi-step reasoning, reliable tool use and failure recovery into a single model that runs locally on consumer devices without requiring cloud infrastructure. The model accepts text and image…",
+      "authors": [
+        "Arash Ebrahim Abtahizadeh, Muna Aghamelu, Adil Ahmed, Juan C. Angeles Acuna, Alexis Audran-Reiss, Asaf Avrahamy, Yoram Bachrach, Can Balioglu, Amar Budhiraja, Onur \\c{C}elebi, Gaurav Chaurasia, Joy Chen, Lynn Cherif, Lucia Cipolina-Kun, Gal Cohen, Timoth\\'ee Darcet, Beto de Paola, Digant Desai, Sam Devlin, Derek Dunfield, Ivan Evtimov, Maryam Fazel-Zarandi, Rob Fergus, Jean-Christophe Gagnon-Audet, Grant Gardner, Bhavul Gauri, Paris Giampouras, Sujan Kumar Gonugondla, Antoine Grosnit, Young Han, Michael Hassid, Monuril Islam, Masoud Jalili Sabet, Songhao Jia, Narine Kokhlikyan, Svetlana Kurtsman, Sandra Lefdal, Chee Hau Leow, Noam Levi, Mike Lewis, Sanae Lotfi, Xiyang Luo, Despoina Magka, Saeed Mahloujifar, Neal Mangaokar, Ishita Mediratta, Alexander H. Miller, Hela Momand, Saba Nazir, Kelvin Niu, Mattia Opper, Parth Pathak, Alberto Pepe, Danielle Pintz, Mikhail Plekhanov, Sidhartha Reddy Potu, Anton Protopopov, Shengyi Qian, Shashank Rajput, Joseph Rocca, Scott Roy, Luca Sbordone, Amin Shakeri, Tatiana Shavrina, Michael Shvartsman, Ruan Silva, Anya Sims, Eric Michael Smith, Hugo Touvron, Mabel Ubong, Isabel Urrego, Yanzheng Xiang, Zhiyuan Yao, Alex Yarmula, He Ye, Jade Yu, Luke Zettlemoyer, Arman Zharmagambetov, Perpetua Fathima Ahlijah, Tremo Ahmed, Enrique Alfonseca, Pedram Bashiri, Nikolay Bashlykov, Aaron Berman, Rohith Bhatia, Siddharth Bhattacharya, Prashant Bhende, Chloe Bi, Shuchao Bi, Clement Anthonioz Blanc, Allen Bolourchi, Andrea Caciolai, Erica Cai, Xiang Tony Cao, Yue Cao, Andrew Caples, Jinzhao Chang, Lele Chen, Moya Chen, Weijie Chen, Wenhu Chen, Xiaobai Chen, Yinyin Chen, Zhengxing Chen, Wei Cheng, Pavel Chikulaev, Edward Chou, Sy Choudhury, Brian Clerkin, Marta R. Costa-juss\\`a, Curtis Davis, Myra Deng, Dujian Ding, Hantian Ding, Shuangrui Ding, Jesse Dodge, Shweta Doshi, Shirin Eghtesadi, Faith Eischen, Athyu Eleti, Alex Fabbri, Han Fang, Paula Farani, Aiman Farooq, Christoph Feichtenhofer, Darius Feher, Amanda Felix, Carl Chengyan Fu, Sean Gahagan, Yifan Gao, Itai Gat, Akashdeep Goel, Ahuva Goldstand, Bo He, David Heineman, Dylan Herman, Irene Hjelt, Joonas Hjelt, Alexander Holz, Rui Hou, Annie Hu, Yuan-Ting Hu, Bernie Huang, Jing Huang, Kun Huang, Pere-Llu\\'is Huguet Cabot, Ashley Hunter, Srinivasan Iyer, Somya Jain, Michael Jiang, Song Jiang, Wenwen Jiang, Lin Jin, Jacob Kahn, Melanie Kambadur, Yingxin Kang, Justine Kao, Stephane Kasriel, Hossein Kavianihamedani, Ameya Khandekar, Yash Khare, Gefen Kohavi, Kavya Kopparapu, Praveen Krishnan, Venu Kuchibhotla, Ananya Kumar, Leona Lan, Jack Lanchantin, Hunter Lang, Nikolay Pavlovich Laptev, Yuanzhi Li, Yunlu Li, Asad Liaqat, Johnson Lin, Runwei Lin, Zhichao Lin, Shaun Lindsay, Yaron Lipman, Frederick Liu, Mengchen Liu, Qiang Liu, Yinghai Lu, Yujie Lu, Christopher Luc, Faye Ma, Pingchuan Ma, Tengyu Ma, Wufei Ma, Xiaodong Ma, Damir Maksyutov, Josh Malone, Udeep Manchanda, Thomas Mann, Kalyani Marathe, Roberto-Rafael Maura-Rivero, Ruslan Mavlyutov, Thomas Mesnard, Julian Michael, Sagar Miglani, Todor Mihaylov, Naureen Mitha, Archi Mitra, Leo Mok, Naila Murray, Muthukumaravel Muthuraman, Mergen Nachin, Nese Demir Nalci, Saaketh Narayan, Alyssa Newcomb, Peter Ney, Joycelyn Ng, Devin Norder, Maxwell Nye, Rajvardhan Oak, Cody Ohlsen, Artidoro Pagnoni, Yi Pan, Nilesh Pandey, Guan Pang, Richard Yuanzhe Pang, Mahesh Pasupuleti, Parth Patel, Yash Patel, Vladan Petrovic, Norman Ponte, Yundi Qian, Zengyi Qin, Jack Rae, Emmanuel Ramirez, Ramya Raghavendra, Nikhila Ravi, Hongyu Ren, Riandy Riandy, Harrison Rudolph, Kalyan Saladi, Eduardo S\\'anchez, Karthik Abinav Sankararaman, Aman Shankar, Paresh Shenoy, Alana Shine, Hamid Shojanazeri, Iva Simon-Bubalo, Mitesh Kumar Singh, Tiffany Siqi, Pawan Sisodiya, Ali Sol, Sten Sootla, Leslie St. Pierre, DiJia Su, Suraj Subramanian, Brian Sun, Tony Sun, Zhiqing Sun, Natacha Supper, Jason Talpalar, Ellen Xiaoqing Tan, Liang Tan, Jean-Christophe Testud, Parth Thakkar, Joseph Tighe, Ty Toledano, T Tse, Igor Tufanov, Alex Vaughan, Josh Walters, Alex Wang, Bethany Wang, Meng Wang, Rocky Wang, Weiyue Wang, Xiaolan Wang, Xin Wang, Zijian Wang, Bram Wasti, Quentin Wellens, Yeming Wen, Mary Williamson, Yuncheng Wu, Fei Xia, Tian Xie, David Xu, Jacob Xu, Puxin Xu, Zheng Xu, Shen Yan, Megan Yang, Yining Yang, Nick Yannopoulos, Kevin Yao, Michihiro Yasunaga, Haoxuan You, Michael You, Dingli Yu, Tianhe Yu, Summer Yue, Xiang Yue, Shuwei Zeng, Hanwen Zha, Chen Zhang, Hongming Zhang, Kaiyu Zhang, Meng Zhang, Mingyang Zhang, Yi Zhang, Shengjia Zhao, Chao Zhou, Claire Zhou, Shuyan Zhou, Yanjun Zhou, Yaxuan Zhou, Rosalie Zhu, Yun Zhu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.24628",
+      "relevance_score": 91.8,
       "freshness_score": 94.0,
       "priority_score": 80.9,
       "priority_label": "High relevance",
@@ -5011,6 +4995,43 @@
       "rank": 122
     },
     {
+      "id": "c963f9a832ad35377589",
+      "title": "SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges",
+      "url": "https://arxiv.org/abs/2610.28886",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-22T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "LLM judges increasingly mediate benchmark evaluation, model selection, data curation, and training. Their decisions are useful only when each judge responds reliably to changes affecting its scoring criterion. Existing methods for reliability testing perturb inputs with known expected effects on judge scores. Prominent LLM-judge testing harnesses combine human-authored perturbation…",
+      "authors": [
+        "Ethan Ludwick, Yu-Chung Hsiao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.28886",
+      "relevance_score": 91.8,
+      "freshness_score": 100.0,
+      "priority_score": 80.8,
+      "priority_label": "High relevance",
+      "rank": 123
+    },
+    {
       "id": "298ab808d89166c7be15",
       "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
       "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat",
@@ -5041,7 +5062,7 @@
       "freshness_score": 100.0,
       "priority_score": 80.8,
       "priority_label": "High relevance",
-      "rank": 123
+      "rank": 124
     },
     {
       "id": "e7b8ac319d53b4c93efe",
@@ -5074,7 +5095,7 @@
       "freshness_score": 94.0,
       "priority_score": 80.7,
       "priority_label": "High relevance",
-      "rank": 124
+      "rank": 125
     },
     {
       "id": "37d50d4579c514fc3830",
@@ -5095,10 +5116,8 @@
       "tags": [
         "AI for Science",
         "LLM",
-        "Evaluation",
         "Science",
-        "Reasoning",
-        "Regulation"
+        "Reasoning"
       ],
       "excerpt": "LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials. We introduce Speculative Evolution (SpecEvo), a multi-LLM framework that coordinates lightweight and frontier models through continual…",
       "authors": [
@@ -5113,7 +5132,7 @@
       "freshness_score": 100.0,
       "priority_score": 80.6,
       "priority_label": "High relevance",
-      "rank": 125
+      "rank": 126
     },
     {
       "id": "a80ac8068cf5aba129cc",
@@ -5148,48 +5167,38 @@
       "freshness_score": 72.0,
       "priority_score": 80.6,
       "priority_label": "High relevance",
-      "rank": 126
+      "rank": 127
     },
     {
-      "id": "09befc0971f622e6c05d",
-      "title": "Utilizing Artificial Intelligence in audiology and speech-language pathology education: Insights from ASLP students.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42867900",
-      "source": "PubMed - Medical AI",
-      "source_id": "pubmed_medical_ai",
-      "source_class": "Biomedical Index",
-      "source_tier": 1,
-      "content_type": "Biomedical",
-      "publication_status": "Journal Article",
-      "date": "2026-10-13T00:00:00+00:00",
-      "category": "AI4Education",
+      "id": "32694d7b05454b04f025",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories",
+      "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
+      "source": "Hugging Face",
+      "source_id": "huggingface",
+      "source_class": "Open Source AI",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-21T10:59:42+00:00",
+      "category": "Robotics & Embodied AI",
       "categories": [
-        "AI4Education",
-        "Medical AI"
+        "Robotics & Embodied AI"
       ],
       "tags": [
-        "AI4Education",
-        "Medical",
-        "Education"
+        "Robotics & Embodied AI",
+        "Robotics"
       ],
-      "excerpt": "BackgroundEmerging artificial intelligence-based technologies are increasingly influencing teaching and learning practices in healthcare education, offering new opportunities for student engagement, learning, and skill development.ObjectiveThe purpose of this study was to explore utilization of artificial intelligence in audiology and speech-language pathology education based on…",
-      "authors": [
-        "Komal Aggarwal",
-        "Rohit Ravi",
-        "Dhanshree R Gunjawate",
-        "Krishna Yerraguntla",
-        "Kaushlendra Kumar"
-      ],
-      "venue": "Work (Reading, Mass.)",
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
       "manual": false,
       "related": [],
       "images": [],
-      "pmid": "42867900",
-      "doi": "10.1177/10519815261491757",
-      "relevance_score": 90.2,
-      "freshness_score": 72.0,
-      "priority_score": 80.4,
+      "relevance_score": 83.6,
+      "freshness_score": 94.0,
+      "priority_score": 80.5,
       "priority_label": "High relevance",
-      "rank": 127
+      "rank": 128
     },
     {
       "id": "ad159791a7e240b880a5",
@@ -5218,42 +5227,6 @@
       "manual": false,
       "related": [],
       "images": [],
-      "relevance_score": 91.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.2,
-      "priority_label": "High relevance",
-      "rank": 128
-    },
-    {
-      "id": "3d42f5bc85a72e6c5f67",
-      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
-      "source": "MIT Technology Review - AI",
-      "source_id": "mit_tech_review_ai",
-      "source_class": "Technology News",
-      "source_tier": 2,
-      "content_type": "News",
-      "publication_status": "News",
-      "date": "2026-10-19T09:08:05+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models",
-        "AI Agents"
-      ],
-      "tags": [
-        "Foundation Models",
-        "Agents"
-      ],
-      "excerpt": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to write instructions that moved their virtual avatars around the simulated…",
-      "authors": [
-        "Amit Katwala"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840"
-      ],
       "relevance_score": 91.8,
       "freshness_score": 94.0,
       "priority_score": 80.2,
@@ -5861,14 +5834,10 @@
       "date": "2026-10-22T04:00:00+00:00",
       "category": "Robotics & Embodied AI",
       "categories": [
-        "Robotics & Embodied AI",
-        "Foundation Models",
-        "Trustworthy AI"
+        "Robotics & Embodied AI"
       ],
       "tags": [
         "Robotics & Embodied AI",
-        "LLM",
-        "Multimodal",
         "Evaluation",
         "Robotics"
       ],
@@ -6173,6 +6142,42 @@
       "rank": 154
     },
     {
+      "id": "3d42f5bc85a72e6c5f67",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-19T09:08:05+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Agents"
+      ],
+      "excerpt": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone . The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to write instructions that moved their virtual avatars around the simulated…",
+      "authors": [
+        "Amit Katwala"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840"
+      ],
+      "relevance_score": 91.8,
+      "freshness_score": 86.0,
+      "priority_score": 78.4,
+      "priority_label": "Relevant",
+      "rank": 155
+    },
+    {
       "id": "704b90a84e93c542dd60",
       "title": "AICR v1.0: Open, stable, and verifiable GPU cluster configuration",
       "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration",
@@ -6206,7 +6211,7 @@
       "freshness_score": 56.0,
       "priority_score": 78.4,
       "priority_label": "Relevant",
-      "rank": 155
+      "rank": 156
     },
     {
       "id": "280dfa1c42107b8212c9",
@@ -6244,7 +6249,7 @@
       "freshness_score": 56.0,
       "priority_score": 78.4,
       "priority_label": "Relevant",
-      "rank": 156
+      "rank": 157
     },
     {
       "id": "bfa70917f3b198d14601",
@@ -6277,7 +6282,7 @@
       "freshness_score": 94.0,
       "priority_score": 78.1,
       "priority_label": "Relevant",
-      "rank": 157
+      "rank": 158
     },
     {
       "id": "7ee79eecb360c6d0bfd2",
@@ -6317,7 +6322,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.9,
       "priority_label": "Relevant",
-      "rank": 158
+      "rank": 159
     },
     {
       "id": "a3c8e138d995ff558ec9",
@@ -6350,7 +6355,7 @@
       "freshness_score": 42.0,
       "priority_score": 77.9,
       "priority_label": "Relevant",
-      "rank": 159
+      "rank": 160
     },
     {
       "id": "4de77bd2d9bbdc7406a1",
@@ -6383,7 +6388,43 @@
       "freshness_score": 94.0,
       "priority_score": 77.8,
       "priority_label": "Relevant",
-      "rank": 160
+      "rank": 161
+    },
+    {
+      "id": "d98fc085b7493311c6d0",
+      "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+      "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-14T16:10:45+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes... AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes reliability a major barrier to production adoption. In multistage engineering…",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/agentic-workflow-768x432.png"
+      ],
+      "relevance_score": 88.2,
+      "freshness_score": 72.0,
+      "priority_score": 77.8,
+      "priority_label": "Relevant",
+      "rank": 162
     },
     {
       "id": "c08402b8f22a4b159df3",
@@ -6415,7 +6456,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.7,
       "priority_label": "Relevant",
-      "rank": 161
+      "rank": 163
     },
     {
       "id": "b49099cde7e97e60f531",
@@ -6450,7 +6491,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.7,
       "priority_label": "Relevant",
-      "rank": 162
+      "rank": 164
     },
     {
       "id": "721de6922a1a6b9fd6bd",
@@ -6484,7 +6525,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.7,
       "priority_label": "Relevant",
-      "rank": 163
+      "rank": 165
     },
     {
       "id": "ef1b3a4772eab8370f46",
@@ -6517,7 +6558,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.7,
       "priority_label": "Relevant",
-      "rank": 164
+      "rank": 166
     },
     {
       "id": "05dce4322e459d220d19",
@@ -6549,7 +6590,7 @@
       "freshness_score": 94.0,
       "priority_score": 77.6,
       "priority_label": "Relevant",
-      "rank": 165
+      "rank": 167
     },
     {
       "id": "71337cf68638cffa3aa2",
@@ -6586,7 +6627,7 @@
       "freshness_score": 94.0,
       "priority_score": 77.6,
       "priority_label": "Relevant",
-      "rank": 166
+      "rank": 168
     },
     {
       "id": "a2d65710e20f63dc4355",
@@ -6620,7 +6661,7 @@
       "freshness_score": 94.0,
       "priority_score": 77.6,
       "priority_label": "Relevant",
-      "rank": 167
+      "rank": 169
     },
     {
       "id": "fa2bb646c4b88b13d0bb",
@@ -6653,7 +6694,7 @@
       "freshness_score": 94.0,
       "priority_score": 77.6,
       "priority_label": "Relevant",
-      "rank": 168
+      "rank": 170
     },
     {
       "id": "993aae17b8198fa9e052",
@@ -6687,7 +6728,7 @@
       "freshness_score": 100.0,
       "priority_score": 77.3,
       "priority_label": "Relevant",
-      "rank": 169
+      "rank": 171
     },
     {
       "id": "0a6234d11cd823102fc1",
@@ -6702,14 +6743,11 @@
       "date": "2026-10-22T04:00:00+00:00",
       "category": "Computer Vision",
       "categories": [
-        "Computer Vision",
-        "Foundation Models"
+        "Computer Vision"
       ],
       "tags": [
         "Computer Vision",
-        "LLM",
-        "Vision",
-        "Open Source"
+        "Vision"
       ],
       "excerpt": "Managed and wild bees sustain roughly a third of the global food products, yet colonies face mounting stress from climate-change including extreme weather patterns, altered parasite and disease patterns. Timely assessment of colony condition such as understanding colony strength, brood area, honey and pollen storage, comb usage, is essential to adaptive management. However, manual hive…",
       "authors": [
@@ -6724,41 +6762,44 @@
       "freshness_score": 100.0,
       "priority_score": 77.3,
       "priority_label": "Relevant",
-      "rank": 170
+      "rank": 172
     },
     {
-      "id": "8ac8568d654cd43433b0",
-      "title": "Achieve Productive AI Capacity Faster and More Predictably with NVIDIA DSX POD",
-      "url": "https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod",
-      "source": "NVIDIA Developer Blog",
-      "source_id": "nvidia_developer",
-      "source_class": "Engineering Lab",
-      "source_tier": 1,
-      "content_type": "Engineering",
-      "publication_status": "Engineering",
-      "date": "2026-10-21T09:35:32+00:00",
+      "id": "bbe8759f3c898013e695",
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T08:41:18+00:00",
       "category": "AI Systems & Hardware",
       "categories": [
         "AI Systems & Hardware"
       ],
       "tags": [
-        "AI Systems & Hardware"
+        "AI Systems & Hardware",
+        "RAG",
+        "Vision",
+        "Hardware"
       ],
-      "excerpt": "AI factories turn energy into intelligence. But before an AI workload can produce its first token, operators must bring an interconnected system of compute,... AI factories turn energy into intelligence. But before an AI workload can produce its first token, operators must bring an interconnected system of compute, networking, storage, power, cooling, and software online as one…",
+      "excerpt": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs to be stored. But data storage is one…",
       "authors": [
-        "Tanya Lenz"
+        "Tim Rausch"
       ],
       "venue": "",
       "manual": false,
       "related": [],
       "images": [
-        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/ai-infrastructure-modual-aif-768x432.jpg"
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/WD-MITTR-Infographic-Final@2x.png"
       ],
-      "relevance_score": 65.4,
+      "relevance_score": 77.0,
       "freshness_score": 100.0,
       "priority_score": 77.1,
       "priority_label": "Relevant",
-      "rank": 171
+      "rank": 173
     },
     {
       "id": "dc8b067fd032df200ce8",
@@ -6801,7 +6842,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.0,
       "priority_label": "Relevant",
-      "rank": 172
+      "rank": 174
     },
     {
       "id": "d100e7052f5d6239d808",
@@ -6833,7 +6874,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.0,
       "priority_label": "Relevant",
-      "rank": 173
+      "rank": 175
     },
     {
       "id": "93854539beed00dbac45",
@@ -6869,7 +6910,7 @@
       "freshness_score": 56.0,
       "priority_score": 77.0,
       "priority_label": "Relevant",
-      "rank": 174
+      "rank": 176
     },
     {
       "id": "cd6b1a9fdcf8c65db2ee",
@@ -6884,8 +6925,7 @@
       "date": "2026-10-22T04:00:00+00:00",
       "category": "AI Policy & Governance",
       "categories": [
-        "AI Policy & Governance",
-        "Trustworthy AI"
+        "AI Policy & Governance"
       ],
       "tags": [
         "AI Policy & Governance",
@@ -6905,7 +6945,7 @@
       "freshness_score": 100.0,
       "priority_score": 76.9,
       "priority_label": "Relevant",
-      "rank": 175
+      "rank": 177
     },
     {
       "id": "6c062b861d6d205bc313",
@@ -6938,7 +6978,7 @@
       "freshness_score": 56.0,
       "priority_score": 76.7,
       "priority_label": "Relevant",
-      "rank": 176
+      "rank": 178
     },
     {
       "id": "6aa5f67846a0e9a10337",
@@ -6971,7 +7011,7 @@
       "freshness_score": 94.0,
       "priority_score": 76.6,
       "priority_label": "Relevant",
-      "rank": 177
+      "rank": 179
     },
     {
       "id": "c52858d598c175281b28",
@@ -7006,7 +7046,7 @@
       "freshness_score": 94.0,
       "priority_score": 76.5,
       "priority_label": "Relevant",
-      "rank": 178
+      "rank": 180
     },
     {
       "id": "6aae488b1bb65e59bc91",
@@ -7036,7 +7076,7 @@
       "freshness_score": 42.0,
       "priority_score": 76.5,
       "priority_label": "Relevant",
-      "rank": 179
+      "rank": 181
     },
     {
       "id": "5071b6ceb6a21c737e7e",
@@ -7077,7 +7117,7 @@
       "freshness_score": 94.0,
       "priority_score": 76.1,
       "priority_label": "Relevant",
-      "rank": 180
+      "rank": 182
     },
     {
       "id": "b867a460107a6a3e6980",
@@ -7116,7 +7156,7 @@
       "freshness_score": 72.0,
       "priority_score": 76.1,
       "priority_label": "Relevant",
-      "rank": 181
+      "rank": 183
     },
     {
       "id": "e9e1470690b03f8063d3",
@@ -7156,7 +7196,7 @@
       "freshness_score": 86.0,
       "priority_score": 75.9,
       "priority_label": "Relevant",
-      "rank": 182
+      "rank": 184
     },
     {
       "id": "7e414f126d4a50e87450",
@@ -7201,7 +7241,7 @@
       "freshness_score": 56.0,
       "priority_score": 75.9,
       "priority_label": "Relevant",
-      "rank": 183
+      "rank": 185
     },
     {
       "id": "2947b34346514aae0973",
@@ -7231,7 +7271,7 @@
       "freshness_score": 42.0,
       "priority_score": 75.9,
       "priority_label": "Relevant",
-      "rank": 184
+      "rank": 186
     },
     {
       "id": "ce196ca9fba47cb74cfc",
@@ -7262,7 +7302,7 @@
       "freshness_score": 56.0,
       "priority_score": 75.7,
       "priority_label": "Relevant",
-      "rank": 185
+      "rank": 187
     },
     {
       "id": "0559eeb70b9ad5e24715",
@@ -7297,7 +7337,7 @@
       "freshness_score": 94.0,
       "priority_score": 75.5,
       "priority_label": "Relevant",
-      "rank": 186
+      "rank": 188
     },
     {
       "id": "bfc4355d370530a85bd8",
@@ -7327,7 +7367,7 @@
       "freshness_score": 56.0,
       "priority_score": 75.2,
       "priority_label": "Relevant",
-      "rank": 187
+      "rank": 189
     },
     {
       "id": "08a3d9b2900ccf7dfe1f",
@@ -7359,7 +7399,7 @@
       "freshness_score": 42.0,
       "priority_score": 75.0,
       "priority_label": "Relevant",
-      "rank": 188
+      "rank": 190
     },
     {
       "id": "f5f3fe2846a1077a4279",
@@ -7397,7 +7437,7 @@
       "freshness_score": 56.0,
       "priority_score": 74.6,
       "priority_label": "Relevant",
-      "rank": 189
+      "rank": 191
     },
     {
       "id": "70a5d3bd151a623147cf",
@@ -7428,7 +7468,7 @@
       "freshness_score": 42.0,
       "priority_score": 74.6,
       "priority_label": "Relevant",
-      "rank": 190
+      "rank": 192
     },
     {
       "id": "56bfec926244076beb99",
@@ -7459,7 +7499,7 @@
       "freshness_score": 42.0,
       "priority_score": 74.6,
       "priority_label": "Relevant",
-      "rank": 191
+      "rank": 193
     },
     {
       "id": "4d11ed62a144a3f4c2f6",
@@ -7489,7 +7529,7 @@
       "freshness_score": 42.0,
       "priority_score": 74.6,
       "priority_label": "Relevant",
-      "rank": 192
+      "rank": 194
     },
     {
       "id": "afa8c33f8eb7996a3941",
@@ -7525,41 +7565,7 @@
       "freshness_score": 56.0,
       "priority_score": 74.3,
       "priority_label": "Relevant",
-      "rank": 193
-    },
-    {
-      "id": "c9f8263218d16e7752e2",
-      "title": "Building a safer path to autonomous industrial AI",
-      "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai",
-      "source": "MIT Technology Review - AI",
-      "source_id": "mit_tech_review_ai",
-      "source_class": "Technology News",
-      "source_tier": 2,
-      "content_type": "News",
-      "publication_status": "News",
-      "date": "2026-10-08T08:17:32+00:00",
-      "category": "AI Agents",
-      "categories": [
-        "AI Agents",
-        "Foundation Models"
-      ],
-      "tags": [
-        "AI Agents",
-        "Agents"
-      ],
-      "excerpt": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems, where an…",
-      "authors": [
-        "MIT Technology Review Insights"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 88.2,
-      "freshness_score": 72.0,
-      "priority_score": 74.2,
-      "priority_label": "Relevant",
-      "rank": 194
+      "rank": 195
     },
     {
       "id": "caed2b7e642ba54e5122",
@@ -7594,7 +7600,7 @@
       "freshness_score": 56.0,
       "priority_score": 74.1,
       "priority_label": "Relevant",
-      "rank": 195
+      "rank": 196
     },
     {
       "id": "b05df22ee898887491f1",
@@ -7630,7 +7636,7 @@
       "freshness_score": 56.0,
       "priority_score": 74.0,
       "priority_label": "Relevant",
-      "rank": 196
+      "rank": 197
     },
     {
       "id": "813cd9f4296a9ed0a6dd",
@@ -7664,7 +7670,7 @@
       "freshness_score": 56.0,
       "priority_score": 74.0,
       "priority_label": "Relevant",
-      "rank": 197
+      "rank": 198
     },
     {
       "id": "ac1810bfeaf4bc159b09",
@@ -7698,7 +7704,7 @@
       "freshness_score": 86.0,
       "priority_score": 73.9,
       "priority_label": "Relevant",
-      "rank": 198
+      "rank": 199
     },
     {
       "id": "876267fe4c4097eeb940",
@@ -7738,37 +7744,6 @@
       ],
       "relevance_score": 78.6,
       "freshness_score": 72.0,
-      "priority_score": 73.9,
-      "priority_label": "Relevant",
-      "rank": 199
-    },
-    {
-      "id": "ee4dc087c20018324226",
-      "title": "Hallo, Deutschland!",
-      "url": "https://mistral.ai/news/hallo-deutschland",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-09-28T15:57:59+00:00",
-      "category": "Foundation Models",
-      "categories": [
-        "Foundation Models",
-        "AI for Science"
-      ],
-      "tags": [
-        "Foundation Models"
-      ],
-      "excerpt": "Mistral opens a Munich hub for Physics AI and Industrial AI research, partnering with German industry.",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 83.4,
-      "freshness_score": 56.0,
       "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 200
@@ -7845,36 +7820,6 @@
       "rank": 202
     },
     {
-      "id": "370d8453b070a7bffccc",
-      "title": "Introducing Timestral",
-      "url": "https://mistral.ai/news/timestral",
-      "source": "Mistral AI",
-      "source_id": "mistral",
-      "source_class": "Frontier Lab",
-      "source_tier": 1,
-      "content_type": "Official",
-      "publication_status": "Official",
-      "date": "2026-10-15T12:00:00+00:00",
-      "category": "General AI",
-      "categories": [
-        "General AI"
-      ],
-      "tags": [
-        "General AI"
-      ],
-      "excerpt": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.",
-      "authors": [],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [],
-      "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 73.3,
-      "priority_label": "Relevant",
-      "rank": 203
-    },
-    {
       "id": "095eb3012d75db8fc414",
       "title": "Teaching future scientists to interrogate AI tools for scientific discovery",
       "url": "https://allenai.org/blog/autodiscovery-student-challenge",
@@ -7906,46 +7851,7 @@
       "freshness_score": 42.0,
       "priority_score": 73.0,
       "priority_label": "Relevant",
-      "rank": 204
-    },
-    {
-      "id": "93c31b5defc3d49a908d",
-      "title": "AI breakthroughs in robotics won’t change your life any time soon",
-      "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon",
-      "source": "MIT Technology Review - AI",
-      "source_id": "mit_tech_review_ai",
-      "source_class": "Technology News",
-      "source_tier": 2,
-      "content_type": "News",
-      "publication_status": "News",
-      "date": "2026-10-08T09:00:00+00:00",
-      "category": "Robotics & Embodied AI",
-      "categories": [
-        "Robotics & Embodied AI"
-      ],
-      "tags": [
-        "Robotics & Embodied AI",
-        "Robotics",
-        "Vision"
-      ],
-      "excerpt": "The story is a collaboration between MIT Technology Review and Aventine , a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped like a human—white with a black head and torso—has been popping up on video feeds. Perhaps you’ve seen it dance or pass popcorn, put trash in a bin, vacuum, or press the…",
-      "authors": [
-        "Jamie Condliffe"
-      ],
-      "venue": "",
-      "manual": false,
-      "related": [],
-      "images": [
-        "https://wp.technologyreview.com/wp-content/uploads/2026/10/AP25364739329087_1.jpg",
-        "https://wp.technologyreview.com/wp-content/uploads/2026/10/clutter_env.webp?w=840",
-        "https://wp.technologyreview.com/wp-content/uploads/2026/10/kitchen_env.webp?w=840",
-        "https://wp.technologyreview.com/wp-content/uploads/2026/10/hammer_env.webp?w=840"
-      ],
-      "relevance_score": 83.6,
-      "freshness_score": 72.0,
-      "priority_score": 72.9,
-      "priority_label": "Relevant",
-      "rank": 205
+      "rank": 203
     },
     {
       "id": "78cebe09803b57417ff2",
@@ -7980,7 +7886,7 @@
       "freshness_score": 94.0,
       "priority_score": 72.8,
       "priority_label": "Relevant",
-      "rank": 206
+      "rank": 204
     },
     {
       "id": "252684366be4bd9dc11d",
@@ -8010,7 +7916,7 @@
       "freshness_score": 94.0,
       "priority_score": 72.8,
       "priority_label": "Relevant",
-      "rank": 207
+      "rank": 205
     },
     {
       "id": "6fb8d323a664475248cd",
@@ -8045,7 +7951,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.8,
       "priority_label": "Relevant",
-      "rank": 208
+      "rank": 206
     },
     {
       "id": "8348f8f60db16b79faa1",
@@ -8080,7 +7986,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.3,
       "priority_label": "Relevant",
-      "rank": 209
+      "rank": 207
     },
     {
       "id": "489d5fcf8020ccbf81e0",
@@ -8117,7 +8023,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.1,
       "priority_label": "Relevant",
-      "rank": 210
+      "rank": 208
     },
     {
       "id": "7f2cf9a968c6645192d9",
@@ -8151,7 +8057,7 @@
       "freshness_score": 56.0,
       "priority_score": 72.1,
       "priority_label": "Relevant",
-      "rank": 211
+      "rank": 209
     },
     {
       "id": "5e1dbe5c8ee2d59e93fa",
@@ -8184,7 +8090,7 @@
       "freshness_score": 56.0,
       "priority_score": 71.7,
       "priority_label": "Relevant",
-      "rank": 212
+      "rank": 210
     },
     {
       "id": "a0595c813318ccae8c08",
@@ -8214,7 +8120,7 @@
       "freshness_score": 86.0,
       "priority_score": 71.0,
       "priority_label": "Relevant",
-      "rank": 213
+      "rank": 211
     },
     {
       "id": "3b88e631408680364ea9",
@@ -8246,7 +8152,7 @@
       "freshness_score": 86.0,
       "priority_score": 71.0,
       "priority_label": "Relevant",
-      "rank": 214
+      "rank": 212
     },
     {
       "id": "cb60e8a9a088b9504234",
@@ -8277,7 +8183,7 @@
       "freshness_score": 56.0,
       "priority_score": 70.8,
       "priority_label": "Relevant",
-      "rank": 215
+      "rank": 213
     },
     {
       "id": "86ec4964d4576824d2fc",
@@ -8309,7 +8215,7 @@
       "freshness_score": 56.0,
       "priority_score": 70.8,
       "priority_label": "Relevant",
-      "rank": 216
+      "rank": 214
     },
     {
       "id": "30aa7c0acfe7f3809f1c",
@@ -8340,7 +8246,7 @@
       "freshness_score": 56.0,
       "priority_score": 70.4,
       "priority_label": "Relevant",
-      "rank": 217
+      "rank": 215
     },
     {
       "id": "b127abe2bbeb491103b8",
@@ -8375,7 +8281,37 @@
       "freshness_score": 56.0,
       "priority_score": 70.3,
       "priority_label": "Relevant",
-      "rank": 218
+      "rank": 216
+    },
+    {
+      "id": "370d8453b070a7bffccc",
+      "title": "Introducing Timestral",
+      "url": "https://mistral.ai/news/timestral",
+      "source": "Mistral AI",
+      "source_id": "mistral",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-15T12:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 47.6,
+      "freshness_score": 72.0,
+      "priority_score": 70.2,
+      "priority_label": "Relevant",
+      "rank": 217
     },
     {
       "id": "48b18568b4dcf1a9d3bb",
@@ -8410,7 +8346,7 @@
       "freshness_score": 42.0,
       "priority_score": 70.2,
       "priority_label": "Relevant",
-      "rank": 219
+      "rank": 218
     },
     {
       "id": "825546b9e9e150a70467",
@@ -8442,7 +8378,7 @@
       "freshness_score": 42.0,
       "priority_score": 70.2,
       "priority_label": "Relevant",
-      "rank": 220
+      "rank": 219
     },
     {
       "id": "9a68e948c26f7b488b06",
@@ -8475,7 +8411,7 @@
       "freshness_score": 42.0,
       "priority_score": 70.0,
       "priority_label": "Latest",
-      "rank": 221
+      "rank": 220
     },
     {
       "id": "b76b11a1199f73b7027f",
@@ -8508,7 +8444,7 @@
       "freshness_score": 72.0,
       "priority_score": 69.8,
       "priority_label": "Latest",
-      "rank": 222
+      "rank": 221
     },
     {
       "id": "2d0dbb5662da80a4c8a5",
@@ -8543,7 +8479,7 @@
       "freshness_score": 42.0,
       "priority_score": 69.7,
       "priority_label": "Latest",
-      "rank": 223
+      "rank": 222
     },
     {
       "id": "2980ff74d9555dec9dd6",
@@ -8578,7 +8514,7 @@
       "freshness_score": 56.0,
       "priority_score": 69.3,
       "priority_label": "Latest",
-      "rank": 224
+      "rank": 223
     },
     {
       "id": "2b2dc5490e08b63f9de4",
@@ -8609,7 +8545,7 @@
       "freshness_score": 56.0,
       "priority_score": 69.3,
       "priority_label": "Latest",
-      "rank": 225
+      "rank": 224
     },
     {
       "id": "94a5f6526eada9bc0f52",
@@ -8639,7 +8575,7 @@
       "freshness_score": 100.0,
       "priority_score": 69.2,
       "priority_label": "Latest",
-      "rank": 226
+      "rank": 225
     },
     {
       "id": "a9cf57ed6d0d4129b51d",
@@ -8671,7 +8607,7 @@
       "freshness_score": 72.0,
       "priority_score": 68.8,
       "priority_label": "Latest",
-      "rank": 227
+      "rank": 226
     },
     {
       "id": "c3f9aa1e97f35f2465d0",
@@ -8701,7 +8637,7 @@
       "freshness_score": 72.0,
       "priority_score": 68.0,
       "priority_label": "Latest",
-      "rank": 228
+      "rank": 227
     },
     {
       "id": "ad577cc4d385593cb7c0",
@@ -8731,7 +8667,7 @@
       "freshness_score": 72.0,
       "priority_score": 68.0,
       "priority_label": "Latest",
-      "rank": 229
+      "rank": 228
     },
     {
       "id": "bd03643a45398d758140",
@@ -8766,7 +8702,7 @@
       "freshness_score": 86.0,
       "priority_score": 67.6,
       "priority_label": "Latest",
-      "rank": 230
+      "rank": 229
     },
     {
       "id": "8dfaa84d0cb212f1538c",
@@ -8798,7 +8734,7 @@
       "freshness_score": 72.0,
       "priority_score": 67.3,
       "priority_label": "Latest",
-      "rank": 231
+      "rank": 230
     },
     {
       "id": "e04d1da693503b0f1282",
@@ -8832,7 +8768,7 @@
       "freshness_score": 56.0,
       "priority_score": 66.3,
       "priority_label": "Latest",
-      "rank": 232
+      "rank": 231
     },
     {
       "id": "08aa8115cb5d9c892099",
@@ -8864,7 +8800,7 @@
       "freshness_score": 56.0,
       "priority_score": 66.3,
       "priority_label": "Latest",
-      "rank": 233
+      "rank": 232
     },
     {
       "id": "1043d9fe80283e6f409b",
@@ -8896,7 +8832,7 @@
       "freshness_score": 56.0,
       "priority_score": 66.3,
       "priority_label": "Latest",
-      "rank": 234
+      "rank": 233
     },
     {
       "id": "75049eb9ec1979078910",
@@ -8927,7 +8863,7 @@
       "freshness_score": 56.0,
       "priority_score": 65.8,
       "priority_label": "Latest",
-      "rank": 235
+      "rank": 234
     },
     {
       "id": "1949e926c4e3b5f8fb79",
@@ -8959,7 +8895,7 @@
       "freshness_score": 56.0,
       "priority_score": 65.6,
       "priority_label": "Latest",
-      "rank": 236
+      "rank": 235
     },
     {
       "id": "d185427efe0f19141d19",
@@ -8991,7 +8927,7 @@
       "freshness_score": 56.0,
       "priority_score": 65.3,
       "priority_label": "Latest",
-      "rank": 237
+      "rank": 236
     },
     {
       "id": "790abf1d1569947e0a0c",
@@ -9023,7 +8959,7 @@
       "freshness_score": 56.0,
       "priority_score": 64.6,
       "priority_label": "Latest",
-      "rank": 238
+      "rank": 237
     },
     {
       "id": "2ee55c894d54d6ef378c",
@@ -9054,7 +8990,7 @@
       "freshness_score": 56.0,
       "priority_score": 64.4,
       "priority_label": "Latest",
-      "rank": 239
+      "rank": 238
     },
     {
       "id": "aacb8ca8a4a96bc0cfec",
@@ -9083,6 +9019,38 @@
       "related": [],
       "images": [
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/September_AI_Recap_hero.max-600x600.format-webp.webp"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 56.0,
+      "priority_score": 64.4,
+      "priority_label": "Latest",
+      "rank": 239
+    },
+    {
+      "id": "7ba7170e114ec367c0ae",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize",
+      "source": "Google AI",
+      "source_id": "google_ai_blog",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-09-28T19:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/futurevisionxprize_social.max-600x600.format-webp.webp"
       ],
       "relevance_score": 47.6,
       "freshness_score": 56.0,

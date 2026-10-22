@@ -1,9 +1,81 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-22T05:03:47.212456+00:00",
-  "item_count": 1510,
+  "updated_at": "2026-10-22T12:09:03.468556+00:00",
+  "item_count": 1515,
   "items": [
+    {
+      "id": "147faa697ca744457def",
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T10:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "AI Agents"
+      ],
+      "tags": [
+        "AI4Education",
+        "Agents",
+        "Education"
+      ],
+      "excerpt": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead is…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 75.6,
+      "priority_label": "Relevant",
+      "rank": 111
+    },
+    {
+      "id": "bbe8759f3c898013e695",
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T08:41:18+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "RAG",
+        "Vision",
+        "Hardware"
+      ],
+      "excerpt": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs to be stored. But data storage is one…",
+      "authors": [
+        "Tim Rausch"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/WD-MITTR-Infographic-Final@2x.png"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.7,
+      "priority_label": "Relevant",
+      "rank": 173
+    },
     {
       "id": "db5ca2372c398c601cef",
       "title": "Beyond Binary Labels: Diagnostic Evaluation of LLM Safety with Prompt-Level Rubrics",
@@ -1076,6 +1148,82 @@
       "rank": 87
     },
     {
+      "id": "7d56cb51f317dfac28c2",
+      "title": "A Unified Evaluation Framework of Physical Adversarial Robustness in the Edge VLM Era",
+      "url": "https://arxiv.org/abs/2610.29196",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-22T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Recent advancements in Vision-Language Models (VLMs) enable end-to-end visual grounding via language prompts and generative decoding, demonstrating largely improved zero-shot and open-vocabulary detection capabilities. As a result, VLMs are rapidly being deployed at the edge in safety-critical real-world systems. However, the physical adversarial robustness of edge VLMs has not been…",
+      "authors": [
+        "Eric Liang, Alan Luo, Kaiwen Yuan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.29196",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 69
+    },
+    {
+      "id": "97ac6795fe36b55169cd",
+      "title": "Melange: A Synthetic Visual Bias Benchmark for Multi-modal Large Language Models",
+      "url": "https://arxiv.org/abs/2610.29537",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-22T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Vision",
+        "Open Source"
+      ],
+      "excerpt": "Multi-modal Large Language Models (MLLMs) have seen broad adoption, but their biases are still far less examined than those of standard LLMs, creating possible social harms when deployed in real-world settings. Prior efforts to extend bias analyses from LLMs into the multi-modal space either cover only a few bias categories or do not ensure that the groups being compared are clearly…",
+      "authors": [
+        "Razieh Rezaei, Ehsaneddin Asgary, Masoud Jalili Sabet"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.29537",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 70
+    },
+    {
       "id": "4cae2a042a32eb112aed",
       "title": "VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents",
       "url": "https://arxiv.org/abs/2610.28679",
@@ -1218,6 +1366,43 @@
       "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 175
+    },
+    {
+      "id": "c963f9a832ad35377589",
+      "title": "SANE: Automated Scorer-Specific Metamorphic Testing for LLM Judges",
+      "url": "https://arxiv.org/abs/2610.28886",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-22T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "LLM judges increasingly mediate benchmark evaluation, model selection, data curation, and training. Their decisions are useful only when each judge responds reliably to changes affecting its scoring criterion. Existing methods for reliability testing perturb inputs with known expected effects on judge scores. Prominent LLM-judge testing harnesses combine human-authored perturbation…",
+      "authors": [
+        "Ethan Ludwick, Yu-Chung Hsiao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.28886",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.4,
+      "priority_label": "Relevant",
+      "rank": 123
     },
     {
       "id": "989a1fdc8bfb2f48575d",
@@ -1978,8 +2163,8 @@
         "https://mistral.ai/_astro/Linkedin-Partnership-nvidia_1tHcoA.webp?dpl=6ad891705b98f56fcbc3981c"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 16
     },
@@ -2013,8 +2198,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/2iQBiqMQEsAlEMnWTgmkaM/ea72c00d0563d60b861c17fffc548d31/Frame.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 31
     },
@@ -2044,8 +2229,8 @@
       "related": [],
       "images": [],
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 76.5,
+      "freshness_score": 94.0,
+      "priority_score": 75.1,
       "priority_label": "Relevant",
       "rank": 79
     },
@@ -2079,8 +2264,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/bluefield-nvidia-sentry-featured-768x432.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 79.6,
+      "freshness_score": 94.0,
+      "priority_score": 78.3,
       "priority_label": "Relevant",
       "rank": 27
     },
@@ -2114,8 +2299,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/OpenShellKVcroppped-768x432.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 79.6,
+      "freshness_score": 94.0,
+      "priority_score": 78.3,
       "priority_label": "Relevant",
       "rank": 28
     },
@@ -2148,8 +2333,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/ai-infrastructure-modual-aif-768x432.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 169
     },
@@ -2184,8 +2369,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/3PyfDzfjOozLbJnaZIkRLD/6aef080bb4e7d6a6b8a6dc23436848db/gpt-live-art-card.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 23
     },
@@ -9551,8 +9736,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 72
     },
@@ -17562,8 +17747,8 @@
       "related": [],
       "images": [],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 73.3,
+      "freshness_score": 72.0,
+      "priority_score": 70.2,
       "priority_label": "Relevant",
       "rank": 163
     },
@@ -33700,8 +33885,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/3Hk9zuCKHDPnqEZgcPfypY/d83b6eecc5c764dd7b101b85ee401ae9/pollo-ai-beverage-campaign.jpg?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 31
     },
@@ -33743,8 +33928,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/hammer_env.webp?w=840"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.9,
+      "freshness_score": 56.0,
+      "priority_score": 66.4,
       "priority_label": "Latest",
       "rank": 85
     },
@@ -33781,9 +33966,9 @@
       "related": [],
       "images": [],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.4,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 46
     },
     {

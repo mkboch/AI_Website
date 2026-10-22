@@ -1,9 +1,332 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-22T12:09:03.468556+00:00",
-  "item_count": 1515,
+  "updated_at": "2026-10-22T17:22:54.151855+00:00",
+  "item_count": 1528,
   "items": [
+    {
+      "id": "d6886caf53962cb24205",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T16:47:17+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+      "authors": [
+        "Zack Whittaker"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 160
+    },
+    {
+      "id": "d52968d2b0a9b010f48c",
+      "title": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
+      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-22T16:39:09+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "LLM",
+        "Hardware"
+      ],
+      "excerpt": "GPU applications are processing ever-growing datasets with increasingly powerful accelerators. According to the 2025 Stanford AI Index, compute for notable AI... GPU applications are processing ever-growing datasets with increasingly powerful accelerators. According to the 2025 Stanford AI Index, compute for notable AI models has been doubling approximately every five months, while the…",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/03/ai-data-768x432.png"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 75.2,
+      "priority_label": "Relevant",
+      "rank": 123
+    },
+    {
+      "id": "986e2ea6ee80b8b5fafe",
+      "title": "Stop guessing auto scaling targets for TTS on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-22T16:30:06+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Vision",
+        "Hardware",
+        "Regulation"
+      ],
+      "excerpt": "A traffic spike hits your self-hosted text-to-speech (TTS) endpoint, and requests start queueing. Latency climbs past your service level objective (SLO) right when the most callers are listening. The auto scaling policy behind that endpoint was supposed to prevent this, but the target value it scales on was a guess, and guesses like that fail silently until real traffic proves them…",
+      "authors": [
+        "Joseph Cottingham"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21705-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 60
+    },
+    {
+      "id": "23aa3d120b551ff011ac",
+      "title": "How Rescale built an AI triage agent with Strands Agents and AI-DLC",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-22T16:25:57+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Open Source",
+        "Regulation"
+      ],
+      "excerpt": "Every engineering team knows the ritual, and Rescale was no exception. A nightly test suite fails. An on-call engineer pulls the logs, classifies the root cause, and routes it to the right team, only to repeat the process the next morning. At scale, across distributed services and dozens of repositories, this ritual becomes a full-time job hiding inside an on-call rotation. Rescale is…",
+      "authors": [
+        "Isha Doshi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21405-1-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21405-2-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21405-3-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-21405-4-3.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 61
+    },
+    {
+      "id": "d6172869a6c9d34ff449",
+      "title": "Flint-interactive: A language for creating interactive data visualizations",
+      "url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+      "source": "Microsoft Research",
+      "source_id": "microsoft_research",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-22T16:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "At a glance Brings rich interactivity to AI-generated charts: Flint-interactive enables agents to create data visualizations that users can explore directly through clicking, filtering, zooming, highlighting, and cross-chart interactions. Makes complex interactions easier to build: Instead of requiring low-level visualization code, Flint-interactive lets users and agents define…",
+      "authors": [
+        "Chenglong Wang, Yuwei Xiao, Alper Sarikaya, Michel Galley, Chris Quirk, Jianfeng Gao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/FlintInteractive-BlogHeroFeature-1400x788-1.jpg",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/04/Jaime-Jenna-Jake-Rebecca-Ideas_Hero_Feature_River_No_Text_1400x788.jpg",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/flint-blog-fig-1.png",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/NEW_Flint-Figure.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.3,
+      "priority_label": "High relevance",
+      "rank": 16
+    },
+    {
+      "id": "2f32a876015ee666ac58",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T15:03:58+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 161
+    },
+    {
+      "id": "8f93170faf71fda6558b",
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "source": "Google DeepMind",
+      "source_id": "google_deepmind",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-22T14:30:24+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.1,
+      "priority_label": "Relevant",
+      "rank": 195
+    },
+    {
+      "id": "f674cb3a2ea47ac11335",
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T13:53:26+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "Claude Duet is available through waitlist for Pro and Max plan users.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 150
+    },
+    {
+      "id": "feacd6de002e3968f976",
+      "title": "DeepSeek reportedly raises $15B days after US restrictions",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-22T13:11:13+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+      "authors": [
+        "Kate Park"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 151
+    },
     {
       "id": "147faa697ca744457def",
       "title": "Making the case for context-aware AI",
@@ -75,6 +398,71 @@
       "priority_score": 71.7,
       "priority_label": "Relevant",
       "rank": 173
+    },
+    {
+      "id": "2f70043cc1819c045717",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://allenai.org/blog/olmoearth-v1-3",
+      "source": "Allen Institute for AI",
+      "source_id": "allenai",
+      "source_class": "Research Institute",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-22T08:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "OlmoEarth v1.3 brings state-of-the-art satellite embeddings, precomputed global data, and a browser-based Embeddings Explorer for mapping and analyzing the planet.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.datocms-assets.com/64837/1792613095-olmoearth-v1-3-blog-thumbnail.png?w=200"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 201
+    },
+    {
+      "id": "47abee776e53ac9fc334",
+      "title": "A crop-mapping benchmark for the tropics",
+      "url": "https://allenai.org/blog/planteur",
+      "source": "Allen Institute for AI",
+      "source_id": "allenai",
+      "source_class": "Research Institute",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-22T08:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI",
+        "Evaluation"
+      ],
+      "excerpt": "PLANTEUR extends the PASTIS crop-mapping benchmark to six tropical regions to help evaluate geospatial models across more diverse agricultural systems.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.datocms-assets.com/64837/1792681400-planteur-tropical-regions-tan.png?w=200"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.5,
+      "priority_label": "Relevant",
+      "rank": 193
     },
     {
       "id": "db5ca2372c398c601cef",
@@ -464,6 +852,40 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 145
+    },
+    {
+      "id": "b158aabc9ddbc6fa157e",
+      "title": "Query Feedback and Teaching for Stable and Certifiable Language Generation",
+      "url": "https://arxiv.org/abs/2610.28918",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-22T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "Language generation in the limit studies whether a learner observing an enumeration of an unknown target language can eventually generate only valid, previously unseen elements. We study stability, introduced by Kalavasis, Mehrotra, and Velegkas (2025), which requires the generator's infinite output set to eventually remain unchanged, and introduce the stronger notion of certifiability,…",
+      "authors": [
+        "Farnam Mansouri, Alireza F. Pour, Grigoris Velegkas, Sandra Zilles"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.28918",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 75.7,
+      "priority_label": "Relevant",
+      "rank": 132
     },
     {
       "id": "afd201127a5f5e3b0d81",
@@ -1222,6 +1644,43 @@
       "priority_score": 76.8,
       "priority_label": "Relevant",
       "rank": 70
+    },
+    {
+      "id": "e9998e4722768f0f9aa1",
+      "title": "Offline Apprenticeship Learning for Human-Centric Environments",
+      "url": "https://arxiv.org/abs/2610.28716",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-22T04:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI4Education",
+        "Evaluation",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "Effective decision-making in human-centric environments such as Intelligent Tutoring Systems (ITSs) and clinical healthcare requires policies that are adaptive, data-efficient, and ethically deployable. Apprenticeship Learning (AL) infers policies directly from expert demonstrations by recovering the underlying reward structure, enabling strictly offline learning without environment…",
+      "authors": [
+        "Md Mirajul Islam"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.28716",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 142
     },
     {
       "id": "4cae2a042a32eb112aed",
@@ -2100,8 +2559,8 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/KLS-illustration-scaled.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.3,
+      "freshness_score": 94.0,
+      "priority_score": 80.0,
       "priority_label": "High relevance",
       "rank": 24
     },
@@ -2130,8 +2589,8 @@
       "related": [],
       "images": [],
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 78.6,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -9459,8 +9918,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2025/11/Solving-Math-768x432.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 73.9,
+      "freshness_score": 86.0,
+      "priority_score": 72.1,
       "priority_label": "Relevant",
       "rank": 102
     },
@@ -9503,8 +9962,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/16/ML-22008-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 55
     },
@@ -9546,8 +10005,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21906-6-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -9579,8 +10038,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 72.2,
+      "freshness_score": 86.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 144
     },
@@ -9623,8 +10082,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/15/ML-21812-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 76.4,
+      "freshness_score": 86.0,
+      "priority_score": 74.7,
       "priority_label": "Relevant",
       "rank": 44
     },
@@ -9665,8 +10124,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/15/ML-21811-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 57
     },
@@ -9698,8 +10157,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 73.8,
+      "freshness_score": 86.0,
+      "priority_score": 72.0,
       "priority_label": "Relevant",
       "rank": 131
     },
@@ -17497,9 +17956,9 @@
         "https://lh3.googleusercontent.com/Xgnc_DxAUS2Fs9H2rokxsYwPnnM_KOkPyPtKm7V2C_sjZ7YS4N1-D6lD8wjYIRQoKaiSwHUXB7qmw77m6FCfHLZenWdNymO7B_JLChlB6ied6emR=w528-h297-n-nu-rw-lo"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 185
     },
     {
@@ -17537,8 +17996,8 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/ICLR_WebBanner_1920x720.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.2,
+      "freshness_score": 72.0,
+      "priority_score": 75.2,
       "priority_label": "Relevant",
       "rank": 26
     },
@@ -17580,8 +18039,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-22119-2-1.jpg"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 35
     },
@@ -17613,9 +18072,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 136
     },
     {
@@ -17649,8 +18108,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/Nemotron-3-5-Super-VL-e1792075881894-768x432.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 76.5,
+      "freshness_score": 72.0,
+      "priority_score": 73.5,
       "priority_label": "Relevant",
       "rank": 46
     },
@@ -17681,9 +18140,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 72.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 144
     },
     {
@@ -17717,8 +18176,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/1NIa0MXiVT1HpZdWR3jggG/1862b5773b745c19f38fe20e6b21fb61/how-albertsons-companies-is-reimagining-retail-from-the-inside-out-cover.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 78.4,
+      "freshness_score": 72.0,
+      "priority_score": 75.3,
       "priority_label": "Relevant",
       "rank": 27
     },
@@ -33783,8 +34242,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/05/iam_idc_permissionsets.png"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 74.0,
+      "freshness_score": 56.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 27
     },
@@ -33816,8 +34275,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 126
     },
@@ -33849,8 +34308,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 127
     },

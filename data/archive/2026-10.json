@@ -1,9 +1,47 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-26T05:02:18.053074+00:00",
-  "item_count": 1752,
+  "updated_at": "2026-10-26T13:21:31.863901+00:00",
+  "item_count": 1774,
   "items": [
+    {
+      "id": "007c8953914a9cefba68",
+      "title": "The focus on AI safety disasters ignores everyday harms",
+      "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-26T09:01:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Education",
+        "Regulation"
+      ],
+      "excerpt": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide . A social media platform makes it more difficult for children to buy fentanyl . These are important protections, and they should have existed all along. But companies can clear these low bars while continuing to make products that leave young people dependent on…",
+      "authors": [
+        "Sam Hiner, Emma Leiken"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200%2C600"
+      ],
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 35
+    },
     {
       "id": "d4524a82f7c8aad83cad",
       "title": "Augmentation Strategy for DINO in Glaucoma Classification",
@@ -295,6 +333,110 @@
       "rank": 181
     },
     {
+      "id": "8b58e8064161a83734b1",
+      "title": "PRISM: Promoting Sampling Diversity of Large Language Models with Implicit Stochastic Modulation",
+      "url": "https://arxiv.org/abs/2610.32101",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Large language models (LLMs) exhibit mode collapse, where their output distribution concentrates on familiar semantic modes. When diversity disappears, repeated sampling becomes semantic repetition rather than discovery, making rare but stronger solutions unlikely to surface and leaving self-evolution and continual learning difficult to sustain. Most remedies intervene only at inference…",
+      "authors": [
+        "Qixin Xu, Zihan Zhu, Xiaojiang Liu, Bohan Lyu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32101",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 113
+    },
+    {
+      "id": "7b65f06b5c284c39f8d7",
+      "title": "REACT: Representational Early Analysis and Control of Chain-of-Thought Trajectories",
+      "url": "https://arxiv.org/abs/2610.32113",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Reasoning"
+      ],
+      "excerpt": "Chain-of-thought (CoT) generation offers an opportunity to intervene before a reasoning model completes its answer. But does the point at which risk is easiest to detect also offer the most effective control? We study this question with REACT, a conditional activation intervention that learns a safety direction from paired safe and unsafe trajectories and applies it once to an early CoT…",
+      "authors": [
+        "Hanwen Zhang, Enyi Jiang, Ruike Zhu, Qinan Yu, Sanmi Koyejo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32113",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 114
+    },
+    {
+      "id": "51a58af5273a19570109",
+      "title": "Beyond Data Schedule: Fast LLM Pretraining on Data Mixtures by Loss-Reweighting",
+      "url": "https://arxiv.org/abs/2610.32141",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models often acquire specialized capabilities through successive pretraining stages, but these gains can come at the cost of forgetting earlier knowledge. In this work, we investigate whether such trade-offs can be improved by changing how strongly each domain contributes to learning while keeping its data exposure fixed. We find that, in controlled knowledge--mathematics…",
+      "authors": [
+        "Jiazheng Li, Huaqing Zhang, Jing Xu, Tianle Cai, Jingzhao Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32141",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 115
+    },
+    {
       "id": "0f4ec91f100ad964c69d",
       "title": "TIE: Training-free CLIP Embedding Guidance for Compositional Text-to-Image Alignment",
       "url": "https://arxiv.org/abs/2610.32407",
@@ -580,6 +722,46 @@
       "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 155
+    },
+    {
+      "id": "bdf7aada48e51d20e7ad",
+      "title": "RynnUnify: Towards Unified Embodied Brain",
+      "url": "https://arxiv.org/abs/2610.32965",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Multimodal",
+        "Agents",
+        "Robotics",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "We introduce RynnUnify, a 16B unified embodied model that combines strong embodied understanding with long-horizon visual planning through interleaved video--language reasoning. With capabilities spanning spatial reasoning, physical prediction, and grounding, RynnUnify connects an understanding of the physical world with visual anticipation of how it evolves across successive subtasks.…",
+      "authors": [
+        "Minghao Zhu, Bohan Hou, Kun Xiang, Zixuan Wang, Yinzhou Tang, Yifei Yang, Zhikai Wang, Tianyi Zhang, Kehan Li, Haoyu Zhao, Siteng Huang, Leigang Qu, Sicong Leng, Dongchi Huang, Mingxiu Chen, Shijian Lu, Yue Wang, Xiaodan Liang, Zhenyu Zeng, Deli Zhao, Chengju Liu, Jianfei Yang, Xin Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32965",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 97
     },
     {
       "id": "3e7d532d81843b39ea18",
@@ -873,6 +1055,81 @@
       "priority_score": 69.9,
       "priority_label": "Latest",
       "rank": 182
+    },
+    {
+      "id": "410f509d0696f36e1d2a",
+      "title": "Do AI-for-Science Agents Preserve Model Safety?",
+      "url": "https://arxiv.org/abs/2610.32045",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Science",
+        "Regulation"
+      ],
+      "excerpt": "AI-for-Science agents are increasingly being used for formulating scientific hypotheses, running autonomous experiments, and interpreting evidence. These agents are constructed by integrating a large language model (LLM) into a domain-specific agent harness, which in turn can improve the LLM's scientific capability and enable the model to orchestrate scientific tools. In this work, we…",
+      "authors": [
+        "Michael Yew Chuan Lee, Manya Sriram, N. Benjamin Erichson"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32045",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 77
+    },
+    {
+      "id": "b850b580d92571225d72",
+      "title": "Kolibri: A Sovereign European Model on the Pareto Frontier",
+      "url": "https://arxiv.org/abs/2610.31945",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "AI Systems & Hardware",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents",
+        "Evaluation",
+        "Open Source",
+        "Reasoning"
+      ],
+      "excerpt": "This report introduces Kolibri, an English-German mixture-of-experts transformer with 78.1B total parameters and 3.46B active parameters per token, released as open weights under the Apache 2.0 licence. We built Kolibri for sovereign and specialised deployment, with a particular focus on German and on regulated domains such as public administration, industry, and aerospace. To support…",
+      "authors": [
+        "Aleph Alpha, :, Moritz Althaus, Artur Baranowski, Michael Barlow, Fabien C. Y. Benureau, Felix Berkenkamp, Amrita Bhattacherjee, Lukas Bl\\\"ubaum, Duncan Blythe, Augustijn de Boer, Bastian Boll, Thomas F. Burns, Bj\\\"orn Deiseroth, Niko D\\\"urr, B\\'eni Bal\\'azs Egressy, Niklas Finken, Niklas Freymuth, Fabian Gebhart, Max Hammer, Bastian Harren, Andreas Hartel, Johann Higl, Steffen Hirschmann, Pablo Iyu Guerrero, Yasser Jadidi, Andreas Jagusch, Mitja Kleider, Markus Klein, Jonas Knupp, Murali Kondragunta, Garwin Lechner, Dominik L\\^e-Kellner, Jurek Leonhardt, Jiaze Li, Sohir Maskey, Omar Mehio, Pit Neitemeier, Letitia Parcalabescu, Alejandro Petry Pacheco, Pranav Ragupathy, Martin Reinhardt, Peter Rodenkirch Nfissi, Dylan Rodriquez, Leonard Salewski, Raziye Sari, Jordan Sassoon, Ivo Schaper, Ilhan Scheer, Frank Schneider, Philipp Scholl, Lukas Schott, Eric Schreiber, Pablo Schumacher, Alessio Serra, Philipp Siedler, Prabhu Teja Sivaprasad, Mohamed Soliman, Till Speicher, Volker Stampa, Simon Thel, Serge Thilges, Irina Vidal Migall\\'on, Denis Wa{\\ss}mann, Samuel Weinbach, Sascha Wirges, Michael W\\\"uthrich, Alexei Zacharov"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.31945",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 78.1,
+      "priority_label": "Relevant",
+      "rank": 91
     },
     {
       "id": "27d91617c2cbf123d6e3",
@@ -1481,6 +1738,41 @@
       "rank": 146
     },
     {
+      "id": "5dd8be0f58e6f2098993",
+      "title": "OlmoEarth v1.3: Embeddings",
+      "url": "https://arxiv.org/abs/2610.32294",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Multimodal",
+        "Hardware"
+      ],
+      "excerpt": "We make some OlmoEarth embeddings. To do this, we train a new model: OlmoEarth v1.3. OlmoEarth v1.3 is designed to condense multimodal, multitemporal remote sensing data into a single digestible 64 or 128-dimensional vector. OlmoEarth v1.3 produces state-of-the-art embeddings. In addition, OlmoEarth v1.3 is a strong encoder backbone -- competitive with OlmoEarth v1 and v1.2 -- while…",
+      "authors": [
+        "Gabriel Tseng, Favyen Bastani, Patrick Alan Johnson, Yawen Zhang, Piper Wolters, Ando Shah, Hadrien Sablon, Joseph Redmon, Heather DeHaven, Rachel Ratner, Sasha Levy, Jordan Steward, Katrina Midgley, Andrew Howe, Hunter Pitelka, Ted Schmitt"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32294",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 185
+    },
+    {
       "id": "b290b3698e77f1dcff4a",
       "title": "Training an MoE LLM in MXFP4: How We Closed the Gap to BF16",
       "url": "https://arxiv.org/abs/2610.32229",
@@ -1734,6 +2026,42 @@
       "rank": 184
     },
     {
+      "id": "1355d776197d1c607a2d",
+      "title": "A curated multi-endpoint drug-protein bioactivity dataset with construct-aware protein targets",
+      "url": "https://arxiv.org/abs/2610.32490",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "Evaluation",
+        "Science"
+      ],
+      "excerpt": "Public drug-protein bioactivity resources commonly identify targets by UniProt accession, although one accession may represent distinct experimental sequences. We present Curate-DTI, a construct-aware dataset derived from the 1 July 2026 BindingDB export, with IC50, Ki, Kd and EC50 processed independently. The release contains 2,919,717 measurements, 1,291,872 standardized ligands,…",
+      "authors": [
+        "Lina Abou-Abbas, Nour Mhanna, Hasan Bazzi, Sleiman El Hajj, Abdulkader Helwan, Rabah Omrani, Khadidja Henni"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32490",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 75.9,
+      "priority_label": "Relevant",
+      "rank": 112
+    },
+    {
       "id": "0b1f81ff700804f233bc",
       "title": "SOPO: Socratic Guided Policy Optimization for Span-Level Hallucination Detection",
       "url": "https://arxiv.org/abs/2610.32212",
@@ -1887,6 +2215,76 @@
       "rank": 159
     },
     {
+      "id": "a8293eb6a5c15e404287",
+      "title": "DELA: Learning Controllable Edits for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2610.32096",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Reasoning"
+      ],
+      "excerpt": "Diffusion language models (DLMs) support bidirectional denoising and iterative refinement, but generation remains largely controlled by token-level masking schedules. This leaves draft-level refinement implicit and limits explicit control over when to insert missing content, delete redundant spans, revisit uncertain regions, or stop editing. We introduce Diffusion Editing Language…",
+      "authors": [
+        "Xinsong Feng, Chenan Wang, Leshu Tang, Johnny Liu, Dong Li, Da Li, Haipeng Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32096",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 74
+    },
+    {
+      "id": "d8e747a58630bb69e02a",
+      "title": "Natural Language Autoencoders Identify Without Explaining",
+      "url": "https://arxiv.org/abs/2610.32691",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Reasoning"
+      ],
+      "excerpt": "Natural Language Autoencoders (NLAs) express a model's internal activations in the form of readable text. The verbalizer turns an activation into an English explanation; the reconstructor then converts that explanation back into an activation, and the explanation is considered successful if the round trip brings back the original activation. We claim that this criterion evaluates…",
+      "authors": [
+        "Kristina \\v{S}ekrst, Barbara Geld"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32691",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 81
+    },
+    {
       "id": "96550ac0b4216cb52d0b",
       "title": "High-Fidelity Synthetic Transmission Electron Microscopy Image Generation Using Diffusion Probabilistic Models for Data-Limited Semiconductor Metrology",
       "url": "https://arxiv.org/abs/2606.24817",
@@ -1922,6 +2320,39 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 147
+    },
+    {
+      "id": "e8fccccb508af7bbe181",
+      "title": "RoboCode: Learning Reusable Action Primitives for Robot Manipulation",
+      "url": "https://arxiv.org/abs/2610.32225",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI"
+      ],
+      "excerpt": "Recent robot manipulation policies commonly predict continuous action chunks directly from observations, without explicitly modeling reusable structure in the action space. However, manipulation demonstrations often contain recurring short-horizon motion patterns that are shared across tasks. We introduce \\textsc{RoboCode}, which learns these patterns through a shared soft-gated…",
+      "authors": [
+        "Xianyue Peng, Devi Amarsaikhan, Iman Soltani"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32225",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 133
     },
     {
       "id": "0d399c3a035877955e1a",
@@ -1960,6 +2391,41 @@
       "priority_score": 74.7,
       "priority_label": "Relevant",
       "rank": 106
+    },
+    {
+      "id": "c622986eb1b7aab7f3d5",
+      "title": "KrishokTech: A Bengali Agricultural Advisory System with Explicit Authorization Controls",
+      "url": "https://arxiv.org/abs/2610.32817",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-26T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "For agricultural advisory, generating an answer is only part of the problem: the system must also control unsafe requests, work with limited connectivity, and accommodate changing guidance. KRISHOKTECH is a Bengali agricultural advisory system built around an explicit authorization boundary around generation. Before retrieval, normalization and rule-based admission checks refer…",
+      "authors": [
+        "Khan Raiyan Ibne Reza, Sanjana Aktar Maria, Shakil Ahmed, Faiyad Hossain, Sumaiya Tabassum Nimi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32817",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.2,
+      "priority_label": "Relevant",
+      "rank": 199
     },
     {
       "id": "901dd5bf3bd4fb96f636",
@@ -2065,6 +2531,345 @@
       "priority_score": 76.2,
       "priority_label": "Relevant",
       "rank": 113
+    },
+    {
+      "id": "9a064d95901e645ea065",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Announcements Oct 26, 2026",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.1,
+      "priority_label": "Relevant",
+      "rank": 191
+    },
+    {
+      "id": "8d015cbe6a59f9634676",
+      "title": "Real-World Identification of Obesity: Development and Internal Validation of a Machine Learning Algorithm.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928053",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "To develop and internally validate machine learning (ML) models to retrospectively identify people with obesity (PwO) (body mass index [BMI] ≥ 30 kg/m2) using administrative claims and electronic health record (EHR) data. This study used US commercial and Medicare Advantage claims and EHR data from the Healthcare Integrated Research Database (HIRD) enriched with clinical, laboratory and…",
+      "authors": [
+        "Michael A Head",
+        "Anindit Chhibber",
+        "Malvika Venkataraman",
+        "Effie Kuti",
+        "Chia-Chen Teng",
+        "Lattoya Lartey",
+        "Bonnie M K Donato",
+        "Hiangkiat Tan"
+      ],
+      "venue": "Diabetes, obesity & metabolism",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42928053",
+      "doi": "10.1111/dom.71468",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
+    {
+      "id": "b356fdb9dba2c0f3f9f9",
+      "title": "Improving Haemorrhage Prediction in General Ward Patients by Incorporating Patterns of Change Derived From Routine Ward Measurements.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928406",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "To evaluate whether patterns of change derived from routine ward measurements provide additional predictive value beyond the most recent clinical measurements for haemorrhage prediction in general ward patients. A retrospective cohort study. Among 16,197 adult patients admitted to general wards in three university-affiliated hospitals in South Korea, 1152 (7.1%) experienced haemorrhage,…",
+      "authors": [
+        "Yeonsu Kim",
+        "Hee-Jin Choo",
+        "Sun-Mi Lee"
+      ],
+      "venue": "Journal of clinical nursing",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42928406",
+      "doi": "10.1111/jocn.70611",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
+      "id": "21bdd1037c5c4af84966",
+      "title": "Bridge2AI recommendations for AI-ready genomic data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928829",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Editorial",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI for Science"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "Rapid advancements in technology have led to an increased use of artificial intelligence (AI) technologies in medicine and bioinformatics research. In anticipation of this, the National Institutes of Health (NIH) assembled the Bridge to Artificial Intelligence (Bridge2AI) consortium to coordinate development of \"AI-ready\" datasets that can be leveraged by AI models to address grand…",
+      "authors": [
+        "Matthew Cannon",
+        "Wesley Goar",
+        "In-Hee Lee",
+        "James Stevenson",
+        "Amy Heiser",
+        "Nathan C Sheffield",
+        "James Eddy",
+        "Monica Munoz-Torres"
+      ],
+      "venue": "Bioinformatics advances",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42928829",
+      "doi": "10.1093/bioadv/vbag305",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.4,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "434bd0f7504047c3ff7d",
+      "title": "AI-based automated body composition analysis from whole-body MRI and (PET-) CT: an intermodal comparison from same-day examinations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928255",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Multimodal",
+        "Imaging"
+      ],
+      "excerpt": "To determine intermodal agreement of AI-derived volumetric body composition metrics between [18 F]FDG-PET/CT-derived low-dose CT and whole-body MRI (wb-MRI). We retrospectively analyzed same-day whole-body low-dose CT, obtained from [18F]FDG-PET/CT, and wb-MRI from consecutive multiple myeloma patients from the prospective GMMG-HD7- and GMMG-HD8-/DSMM-XIX-trials. An automated deep…",
+      "authors": [
+        "Julius C Holzschuh",
+        "Lukas T Rotkopf",
+        "Christian Neelsen",
+        "Fabian Bauer",
+        "Kevin S Zhang",
+        "Ekaterina Menis",
+        "Marina Hajiyianni",
+        "Elias Karl Mai"
+      ],
+      "venue": "Cancer imaging : the official publication of the International Cancer Imaging Society",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs40644-026-01134-5/MediaObjects/40644_2026_1134_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs00261-025-05170-w/MediaObjects/261_2025_5170_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs40644-020-00328-9/MediaObjects/40644_2020_328_Fig1_HTML.png",
+        "https://media.springernature.com/w92h120/springer-static/cover-hires/book/978-3-658-51100-5?as=webp"
+      ],
+      "pmid": "42928255",
+      "doi": "10.1186/s40644-026-01134-5",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 2
+    },
+    {
+      "id": "7d2469e6daf8c87c1f12",
+      "title": "Evaluation of Potential Prognostic Biomarkers for Identifying Adults Hospitalised with COVID-19 at Increased Risk of Adverse Clinical Outcomes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928084",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Elevated levels of circulating cytokines and immune cells are often observed in patients with coronavirus disease 2019 (COVID-19), some of which have been associated with disease severity and clinical outcomes across various medical interventions. We evaluated 50 biomarkers and immune cell types in blood from patients in a randomised controlled trial and hypothesised that baseline…",
+      "authors": [
+        "Xuguang Hu",
+        "A Francesca Setiadi",
+        "Laurent Detalle",
+        "Dan Sexton",
+        "Richard D Finkelman",
+        "Marcia C Teixeira Dos Santos",
+        "Cassandra E Burns",
+        "Kimberly H Notari"
+      ],
+      "venue": "Advances in therapy",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12325-026-03798-8/MediaObjects/12325_2026_3798_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41591-020-1051-9/MediaObjects/41591_2020_1051_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs10875-020-00899-z/MediaObjects/10875_2020_899_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs12879-020-05681-5/MediaObjects/12879_2020_5681_Fig1_HTML.png"
+      ],
+      "pmid": "42928084",
+      "doi": "10.1007/s12325-026-03798-8",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "bf51520bfa78f7ecb850",
+      "title": "From Isolated Intelligence to Interpretive Infrastructure in Radiology AI.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928622",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Regulation"
+      ],
+      "excerpt": "Radiology has more regulatory-cleared artificial intelligence tools than any other medical specialty, yet they have delivered less consistent clinical impact than their benchmark performance suggested. We argue that the dominant response, scaling perceptual models and extending them toward autonomous agency, mistakes the nature of the problem. The limitation is architectural, not…",
+      "authors": [
+        "Nalan Karunanayake",
+        "Javin Schefflein",
+        "Binsheng Zhao",
+        "Lawrence H Schwartz"
+      ],
+      "venue": "The British journal of radiology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42928622",
+      "doi": "10.1093/bjr/tqag259",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 86.5,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "4e256e3f165c6f520142",
+      "title": "Contextual diagnostic framework for evaluating histopathology grey zones: a proposal with medicolegal implications using breast pathology as a model.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42928370",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-26T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "An acceptable standard of care in medical practice, including histopathology, is both a professional and legal requirement, yet its definition is increasingly challenged by rapid technological advances, including molecular testing, digital pathology and artificial intelligence, alongside evolving diagnostic thresholds. Although the interpretative nature of histopathology and its…",
+      "authors": [
+        "Emad A Rakha",
+        "Abeer M Shaaban",
+        "Mieke R Van Bockstal",
+        "Thomas Decker",
+        "Maria Pia Foschini",
+        "Sunil Badve",
+        "Muna A Abuhejleh",
+        "Basel Altrabulsi"
+      ],
+      "venue": "Virchows Archiv : an international journal of pathology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00428-026-04686-w/MediaObjects/428_2026_4686_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00428-026-04686-w/MediaObjects/428_2026_4686_Fig2_HTML.png?as=webp"
+      ],
+      "pmid": "42928370",
+      "doi": "10.1007/s00428-026-04686-w",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 5
     },
     {
       "id": "32605a3f56f690f82020",
@@ -2887,6 +3692,48 @@
       "priority_score": 80.3,
       "priority_label": "High relevance",
       "rank": 19
+    },
+    {
+      "id": "86ea02c917e5c40ca682",
+      "title": "Clinical Reliability of Large Language Model-Generated Information in Colorectal Care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42921671",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-25T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical"
+      ],
+      "excerpt": "",
+      "authors": [
+        "Alpaslan Sahin"
+      ],
+      "venue": "Diseases of the colon and rectum",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/pdf/wkmrid/JOURNAL%252Fdcolr%252F04.03%252F00003453-990000000-01444%252Froot%252Fv%252F2026-10-23T201241Z%252Fr%252Fapplication-pdf/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/pdf/wkmrid/JOURNAL%252Fdcolr%252F04.03%252F00003453-990000000-01444%252Froot%252Fv%252F2026-10-23T201241Z%252Fr%252Fapplication-pdf/width/1200.png"
+      ],
+      "pmid": "42921671",
+      "doi": "10.1097/DCR.0000000000004513",
+      "relevance_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
+      "priority_label": "High relevance",
+      "rank": 17
     },
     {
       "id": "b601a8b8e657cfd57f96",
@@ -3811,8 +4658,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/gZcNDR8oQMXK0mKTE38tq/a0c172a9a8f6fae352fea551a377e036/securing-our-frontier-model-training-environment-diagram-mobile-dark.png?w=3840&q=70&fm=webp"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 83.7,
+      "freshness_score": 86.0,
+      "priority_score": 82.0,
       "priority_label": "High relevance",
       "rank": 7
     },
@@ -3843,8 +4690,8 @@
         "https://www.datocms-assets.com/64837/1792764970-litpivot-featured-staircase-1512x1080.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.1,
+      "freshness_score": 86.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 201
     },
@@ -18871,9 +19718,9 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/261016_AgentsonIsland_embed1.png?w=840"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 72
     },
     {

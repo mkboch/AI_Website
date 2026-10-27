@@ -1,9 +1,45 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-27T05:19:38.123220+00:00",
-  "item_count": 1862,
+  "updated_at": "2026-10-27T12:29:51.708542+00:00",
+  "item_count": 1877,
   "items": [
+    {
+      "id": "f8519fe88bfdc387df9f",
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-27T11:19:18+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor variation deserves a…",
+      "authors": [
+        "Michael MacKenzie"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-1367303200.jpg?w=840"
+      ],
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 173
+    },
     {
       "id": "e06754fb9e139b4233cc",
       "title": "Learning Pathology-Sensitive Representations for Unsupervised Retinal OCT Anomaly Detection",
@@ -206,7 +242,11 @@
       "venue": "",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
       "arxiv_id": "2610.33039",
       "relevance_score": 73.8,
       "freshness_score": 100.0,
@@ -501,6 +541,43 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 140
+    },
+    {
+      "id": "f0733e987380ac3a7821",
+      "title": "When Personas Become Harmful: Guiding LLMs with Global Citizenship Values Alignment",
+      "url": "https://arxiv.org/abs/2610.33899",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-27T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Agents",
+        "Safety"
+      ],
+      "excerpt": "LLMs are increasingly being used by users from diverse demographics with pluralistic values and distinct backgrounds. Maintaining safety while respecting value-laden personas is uniquely challenging because persona-conditioned requests are often not overtly malicious, unlike those in existing safety benchmarks. Alignment methods aimed at adversarial requests therefore may miss the harm…",
+      "authors": [
+        "Siqi Shen, Lajanugen Logeswaran, Moontae Lee, Honglak Lee, Rada Mihalcea"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.33899",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 81
     },
     {
       "id": "1482959735b4181b8f4c",
@@ -976,7 +1053,11 @@
       "venue": "",
       "manual": false,
       "related": [],
-      "images": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
       "arxiv_id": "2610.35842",
       "relevance_score": 78.7,
       "freshness_score": 100.0,
@@ -1416,6 +1497,75 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 139
+    },
+    {
+      "id": "d41cde94a803d7b45fda",
+      "title": "Spectrally optimized implicit neural representations mitigate acquisition-related image quality trade-offs in intracranial 4D Flow MRI",
+      "url": "https://arxiv.org/abs/2610.33124",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-27T04:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "4D Flow MRI promises opportunities for non-invasive mapping of neurovascular hemodynamics, but its clinical utility faces trade-offs between resolution, acquisition time, and noise. Deep learning-based super-resolution offers a post-scan solution, but supervised approaches require paired or domain-specific data, while patient-specific physics-informed models can be computationally…",
+      "authors": [
+        "Oliver Welin Odeback, Nerea Gonz\\'alez-Aranceta, Sebasti\\'an Jofre, Javier Bisbal, Edward Ferdian, Alistair A. Young, Pia Callmer, Sameer A. Ansari, Mia Bonini, David Nordsletten, Patrick Winter, Susanne Schnell, Tobias Granberg, Alexander Fyrdahl, David Marlevi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.33124",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 58
+    },
+    {
+      "id": "663d44095a840752563d",
+      "title": "IAR: An Interaction-Aware Approach to Post-Seek Recovery in Adaptive HLS Streaming",
+      "url": "https://arxiv.org/abs/2610.33120",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-27T04:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance"
+      ],
+      "excerpt": "After an unbuffered seek, an adaptive bitrate (ABR) player has little forward buffer at the new position, while its controller may retain a bandwidth estimate from earlier downloads. An expensive first request can delay resumption; later requests may interrupt playback while the buffer rebuilds. We introduce Interaction-Aware Recovery (IAR), a temporary layer around the hls.js ABR…",
+      "authors": [
+        "Mahdi Naseri Majd, Amirfarhad Farhadi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.33120",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.7,
+      "priority_label": "Relevant",
+      "rank": 197
     },
     {
       "id": "25078d95235e9ef147af",
@@ -1859,6 +2009,41 @@
       "rank": 130
     },
     {
+      "id": "6e218aa9f58c0cf7f226",
+      "title": "Online Continual Learning in Edge-Cloud Applications",
+      "url": "https://arxiv.org/abs/2610.32472",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-27T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Deployed machine learning models in real-world IoT and edge/cloud systems face a critical reliability bottleneck: the requirement for online adaptation to non-stationary data streams while operating without access to the full original training dataset. Performance is severely degraded when models encounter Out-of-Distribution (OOD) inputs or suffer from catastrophic forgetting.…",
+      "authors": [
+        "Charalampos Davalas, Dimitrios Michail, Christos Diou, Iraklis Varlamis, Konstantinos Tserpes"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.32472",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 122
+    },
+    {
       "id": "6149d141ab3202176ce3",
       "title": "HerHealthGPT: An Evidence-Grounded Conversational AI System for Women's Reproductive Health Copy title",
       "url": "https://arxiv.org/abs/2610.33931",
@@ -1993,6 +2178,450 @@
       "priority_score": 73.6,
       "priority_label": "Relevant",
       "rank": 143
+    },
+    {
+      "id": "c8b1bce60bcb51e55de4",
+      "title": "Ambient AI scribes are here: What every PA needs to know before clicking \"Sign\".",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934911",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "LLM",
+        "Medical"
+      ],
+      "excerpt": "Ambient artificial intelligence (AI) scribes, which record patient encounters and automatically draft clinical notes, are rapidly entering frontline practice. They rely on large language models to convert recorded conversations into structured documentation and are marketed as a way to reduce the documentation burden that contributes to clinician burnout. Early evidence from multicenter…",
+      "authors": [
+        "Matthew Bell"
+      ],
+      "venue": "JAAPA : official journal of the American Academy of Physician Assistants",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fjaapa%252F04.03%252F01720610-202611000-00004%252Ffigure1%252Fv%252F2026-10-15T102219Z%252Fr%252Fimage-jpeg/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fjaapa%252F04.03%252F01720610-202611000-00004%252Ffigure1%252Fv%252F2026-10-15T102219Z%252Fr%252Fimage-jpeg/width/710.png",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fjaapa%252F04.03%252F01720610-202611000-00004%252Ffigure2%252Fv%252F2026-10-15T102219Z%252Fr%252Fimage-jpeg/width/1200.webp"
+      ],
+      "pmid": "42934911",
+      "doi": "10.1097/01.JAA.0000000000000433",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "d64ab3ef7ee36bc49bb9",
+      "title": "LLaMIA: Few-Shot Medical Image Lesion Localization Analysis with Large Language Models.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934481",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "LLM",
+        "Multimodal",
+        "Safety",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Accurate lesion localization in medical imaging is essential for reliable diagnosis and treatment planning, yet existing methods often require large-scale annotations that are costly and time-consuming. Few-shot lesion localization alleviates this challenge by requiring only a small number of annotated samples; however, performance remains highly dependent on limited support information…",
+      "authors": [
+        "Ruiwei Xie",
+        "An Zeng",
+        "Dan Pan",
+        "Yuqing Zhao"
+      ],
+      "venue": "Interdisciplinary sciences, computational life sciences",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs12539-026-00871-2/MediaObjects/12539_2026_871_Figa_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12539-026-00871-2/MediaObjects/12539_2026_871_Fig1_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12539-026-00871-2/MediaObjects/12539_2026_871_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs12539-026-00871-2/MediaObjects/12539_2026_871_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42934481",
+      "doi": "10.1007/s12539-026-00871-2",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
+    {
+      "id": "14ad143582fcc910b6ec",
+      "title": "Diagnostic Performance of Artificial Intelligence in Detecting Periodontal Diseases Using Cone-Beam Computed Tomography: A Systematic Review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42935223",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Recent advances in artificial intelligence (AI) have shown promise for the detection of periodontal disease. This study aimed to synthesize current evidence on the diagnostic performance of AI models applied to cone-beam computed tomography (CBCT) for periodontal disease. A comprehensive literature search of MEDLINE, Scopus, Web of Science, and Embase was conducted to identify studies…",
+      "authors": [
+        "Bo Dong",
+        "Rongkai Cao",
+        "Shengyun Lin",
+        "Yijia Chen",
+        "Qinghang Bao",
+        "Hexian Zhang",
+        "Junwen Wang",
+        "Zhen Fan"
+      ],
+      "venue": "Oral diseases",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42935223",
+      "doi": "10.1111/odi.70528",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "165314b662cde2f3d168",
+      "title": "The Potential for Large Language Models in Eating Disorder Care: Opportunities for Education, Detection and Assessment, and Intervention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934406",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Policy & Governance",
+        "AI4Education"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Medical",
+        "Education",
+        "Regulation"
+      ],
+      "excerpt": "Large language models (LLMs) are anticipated to transform the eating disorder field, offering new opportunities for education, detection and assessment, and intervention. This paper synthesizes evidence on these emerging opportunities and sets a future research agenda. Early research provides encouraging evidence that LLMs have clinically relevant capabilities in eating disorders. For…",
+      "authors": [
+        "Jake Linardon"
+      ],
+      "venue": "Current psychiatry reports",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11920-026-01721-0/MediaObjects/11920_2026_1721_Fig1_HTML.png"
+      ],
+      "pmid": "42934406",
+      "doi": "10.1007/s11920-026-01721-0",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 16
+    },
+    {
+      "id": "a3291574dc69c11e0f07",
+      "title": "From Target to Trial: Artificial Intelligence in Psychiatric Drug Development.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42935183",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Editorial",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Plain Language SummaryHow Artificial Intelligence Could Improve Psychiatric Drug DevelopmentDeveloping new medicines for mental health conditions is difficult, expensive, and often unsuccessful. One reason is that people with the same diagnosis can differ greatly in their underlying biology and in how they respond to treatment. Clinical trials also rely heavily on symptom ratings and…",
+      "authors": [
+        "Lotenna Olisaeloka",
+        "John-Jose Nunez",
+        "Ram C Shankaraiah",
+        "Raymond W Lam",
+        "Daniel V Vigo",
+        "Lakshmi N Yatham"
+      ],
+      "venue": "Canadian journal of psychiatry. Revue canadienne de psychiatrie",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42935183",
+      "doi": "10.1177/07067437261499503",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
+      "id": "2ab5f38633823a9711b0",
+      "title": "Flexible Large Language Models for Multi-variable Extraction in Sarcoma Pathology Notes: A Pilot Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934448",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical",
+        "Open Source"
+      ],
+      "excerpt": "Bone and soft tissue sarcomas are heterogeneous cancers. We developed a large language model (LLM)-based extraction workflow to extract six variables from surgical pathology reports of patients with musculoskeletal sarcoma: tumor diagnosis, greatest dimension, closest margin, tumor grade, necrosis, and viability. We hypothesized that the pipeline could achieve clinically acceptable…",
+      "authors": [
+        "Marisa N Ulrich",
+        "Linjun Yang",
+        "Amirali Khosravi",
+        "Derek Crossman",
+        "Monty Khela",
+        "Srikar R Namireddy",
+        "Miguel M Girod-Hoffman",
+        "Sami Saniei"
+      ],
+      "venue": "Annals of surgical oncology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1245%2Fs10434-026-20775-1/MediaObjects/10434_2026_20775_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1245%2Fs10434-026-20775-1/MediaObjects/10434_2026_20775_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs00432-025-06304-9/MediaObjects/432_2025_6304_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs12032-018-1196-2/MediaObjects/12032_2018_1196_Fig1_HTML.jpg"
+      ],
+      "pmid": "42934448",
+      "doi": "10.1245/s10434-026-20775-1",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 17
+    },
+    {
+      "id": "ce77198f5f670edc28c5",
+      "title": "Artificial intelligence early-warning systems for sepsis: From risk scores to bedside action.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42935182",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "BackgroundSepsis remains a leading cause of preventable mortality in critical care. Timely recognition is essential for effective bundle-based management, and artificial intelligence-enabled early-warning systems (AI-EWS) may facilitate earlier detection by converting electronic health record and bedside monitoring data into actionable risk estimates.ObjectiveThis review aimed to…",
+      "authors": [
+        "Zekai Yu",
+        "Chengwen Song"
+      ],
+      "venue": "Technology and health care : official journal of the European Society for Engineering and Medicine",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42935182",
+      "doi": "10.1177/09287329261502097",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "022bfc0d1991fca0efd5",
+      "title": "An Explainable Multimodal Deep-Learning Model Using Histopathological Image and Clinical Information for Prognosis Prediction in Colorectal Cancer: A Multi-Center Cohort Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934824",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Accurate prognostication is crucial for the individualized management of patients with colorectal cancer (CRC), while the accuracy and interpretability of current models still need to be improved. This study aims to develop and validate an explainable multimodal model for precise survival prediction. 3381 patients with resected CRC are enrolled from three medical centers, and a…",
+      "authors": [
+        "Zhihan Jiang",
+        "Xiangchao Shi",
+        "Chenghan Su",
+        "Yao Ma",
+        "Rui Li",
+        "Menglei Chen",
+        "Jianxin Cui",
+        "Nicholas Hawkins"
+      ],
+      "venue": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42934824",
+      "doi": "10.1002/advs.78417",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "082d97a0f701411494a7",
+      "title": "Predicting Findings from Radiology Indication Text: BERT vs Naïve Bayes Classification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934381",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "This retrospective study evaluated Naïve Bayes (NB) and transformer-based BERT models for predicting findings from radiology order Indication text for use in radiology informatics and automated worklist triage systems. From the MIMIC-CXR-JPG dataset, 219,995 chest radiograph orders were extracted, and the indication text was paired with CheXpert-generated labels for a binary…",
+      "authors": [
+        "Anthony F Peressini"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02404-1/MediaObjects/10278_2026_2404_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02404-1/MediaObjects/10278_2026_2404_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02404-1/MediaObjects/10278_2026_2404_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs10278-026-02404-1/MediaObjects/10278_2026_2404_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42934381",
+      "doi": "10.1007/s10278-026-02404-1",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 2
+    },
+    {
+      "id": "022099ca3e0d6e2a7d88",
+      "title": "Development of a multimodel predictive framework for gangrenous cholecystitis with SHAP-based interpretability.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42934670",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-27T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical",
+        "Science"
+      ],
+      "excerpt": "Gangrenous Cholecystitis (GC) is a critical pathological type of acute cholecystitis that tends to induce gallbladder wall necrosis or perforation, thereby leading to localized or diffuse peritonitis and is associated with high morbidity and mortality. Due to its nonspecific clinical symptoms and strong heterogeneous manifestations, timely and accurate identification of GC…",
+      "authors": [
+        "Qi-Guang Niu",
+        "Yang Yu",
+        "Fang Xu",
+        "Wei-Qi Kong",
+        "Jia-Yang Li",
+        "De-Feng Tang",
+        "Yi Wang"
+      ],
+      "venue": "BMC medical informatics and decision making",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs12911-026-03705-9/MediaObjects/12911_2026_3705_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12911-026-03705-9/MediaObjects/12911_2026_3705_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12911-026-03705-9/MediaObjects/12911_2026_3705_Fig3_HTML.png?as=webp",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12911-026-03705-9/MediaObjects/12911_2026_3705_Fig4_HTML.png?as=webp"
+      ],
+      "pmid": "42934670",
+      "doi": "10.1186/s12911-026-03705-9",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 9
     },
     {
       "id": "a9c488820a62ac4adcd9",
@@ -2484,8 +3113,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/monkeys-teen3.jpg?resize=1200%2C600"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.2,
       "priority_label": "Relevant",
       "rank": 35
     },
@@ -18402,8 +19031,8 @@
         "https://mistral.ai/audio/voxtral-3-library/Catalan-default-Jordi.mp3"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.9,
+      "freshness_score": 72.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 30
     },
@@ -18444,8 +19073,8 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/09/Fig-3-TripleTen-Contributed-v4.png"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 74.5,
+      "freshness_score": 72.0,
+      "priority_score": 71.4,
       "priority_label": "Relevant",
       "rank": 98
     },
@@ -18478,9 +19107,9 @@
         "https://wp.technologyreview.com/wp-content/uploads/2026/10/map.png?w=840"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 139
     },
     {
@@ -18519,8 +19148,8 @@
         "https://www.datocms-assets.com/64837/1791813343-fairstress-blog-draft-google-docs-image-1-1.png?w=200"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 79.3,
+      "freshness_score": 72.0,
+      "priority_score": 76.2,
       "priority_label": "Relevant",
       "rank": 13
     },
@@ -18554,8 +19183,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/2TfOmA6DYwo9dYjcrmzQPt/e23da6e7e88388dbdd3ec932ad3cf85f/terminal-x-eval-agent-paper-background-thin-border.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.9,
+      "freshness_score": 72.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 15
     },
@@ -38366,8 +38995,8 @@
         "https://images.ctfassets.net/kftzwdyauwt9/1QYuGKBKSzphKj2bCMG4Tp/aab097df8ead5298a1cbce05209801f7/oai_higgsfield_1x1.png?w=3840&q=90&fm=webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 25
     },
@@ -38406,9 +39035,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 39
     },
     {
@@ -38441,8 +39070,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.9,
+      "freshness_score": 56.0,
+      "priority_score": 66.4,
       "priority_label": "Latest",
       "rank": 83
     },
@@ -38473,8 +39102,8 @@
         "https://www.datocms-assets.com/64837/1791919335-adobestock-554340853-1550x810-2026-10-13t18-36-01.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 72.0,
-      "priority_score": 68.8,
+      "freshness_score": 56.0,
+      "priority_score": 65.3,
       "priority_label": "Latest",
       "rank": 173
     },

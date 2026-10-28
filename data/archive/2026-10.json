@@ -1,9 +1,272 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-28T13:15:57.924876+00:00",
-  "item_count": 1972,
+  "updated_at": "2026-10-28T22:44:52.787350+00:00",
+  "item_count": 1993,
   "items": [
+    {
+      "id": "a6bc564ba8236e2b33a3",
+      "title": "Creating AI value with enterprise context",
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-28T20:32:02+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a proper understanding of…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/MIT_Atlan-Cover-28-26.png?w=840",
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_FigureSocials3.png",
+        "https://wp.technologyreview.com/wp-content/uploads/2026/10/MITTR2026_Quotes_Rev3-1.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.1,
+      "priority_label": "Relevant",
+      "rank": 111
+    },
+    {
+      "id": "a15f6ab37c7893ad7440",
+      "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-28T18:28:26+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Agents",
+        "Evaluation",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "If you’ve tried to get an agent into production, the model and tool use are not the blocker. The main bottleneck is everything around them: how many teams can build within a secure environment, which team owns each model and tool, how AgentOps and error handling stay inside a pre-defined boundary, and how platform, Workstream, and finance teams see cost and health across accounts. For a…",
+      "authors": [
+        "Omar Elkharbotly"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21798-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/10/ML-21281-3-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21798-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21798-3.jpg"
+      ],
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
+      "rank": 38
+    },
+    {
+      "id": "5b54fb74a59ffe3f5477",
+      "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-28T18:19:54+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Education",
+        "Vision",
+        "Open Source",
+        "Hardware"
+      ],
+      "excerpt": "What usually stops PyTorch training from scaling out to a cluster is the container, not the model code. Every container needs the same CUDA runtime , a PyTorch build compiled against it, NCCL (NVIDIA Collective Communications Library), the Elastic Fabric Adapter (EFA) userspace libraries, the AWS OFI NCCL plugin that connects NCCL to EFA, and a Ray version the cluster operator agrees…",
+      "authors": [
+        "Sunita Koppar"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22002-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22002-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22002-3-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22002-4-1.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 53
+    },
+    {
+      "id": "3592c2289faff55994bb",
+      "title": "Accelerating software delivery with agentic QA automation using Amazon Nova Act – Part 3",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-software-delivery-with-agentic-qa-automation-using-amazon-nova-act-part-3",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-10-28T18:12:13+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Vision"
+      ],
+      "excerpt": "As quality assurance (QA) automation adoption grows inside an organization, a new problem appears that has nothing to do with writing tests. A platform team stands up test automation, then a second team wants to join, then a dozen more. Soon hundreds of test cases belong to different products and squads, and everyone can see everyone else’s tests. No one can answer a basic question at a…",
+      "authors": [
+        "Vinicius Pedroni"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21434-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21434-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21434-3-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-21434-4-1.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 54
+    },
+    {
+      "id": "3e32bae570ff21ee59e5",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "source": "Google DeepMind",
+      "source_id": "google_deepmind",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-28T17:00:58+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_header.width-200.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon__evals-table.width-1200.format-webp.webp",
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_secbench-pro.width-1200.format-webp.webp"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 83.6,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
+      "id": "090274bcc4740a7076a1",
+      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+      "source": "TechCrunch - AI",
+      "source_id": "techcrunch_ai",
+      "source_class": "Technology News",
+      "source_tier": 3,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-28T17:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 140
+    },
+    {
+      "id": "ba816ae2c66dda0a8ef1",
+      "title": "3 Questions: Why infrastructure is entering a defining era",
+      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-10-28T16:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "For centuries, infrastructure has evolved alongside technology. New materials and engineering techniques enabled taller buildings, longer bridges, and larger cities. Computing and digital technologies later transformed how infrastructure was designed, monitored, and operated. Now, the pace of change is accelerating, and challenges are arriving simultaneously. Climate change is…",
+      "authors": [
+        "Stephanie Martinovich | Department of Civil and Environmental Engineering"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cee-Infrastructure-CambridgeView.jpg?itok=VxEHmdNx"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 70.7,
+      "priority_label": "Relevant",
+      "rank": 217
+    },
     {
       "id": "67c6b18b0a76451db874",
       "title": "Legora is building the agentic operating system for legal work",
@@ -27,13 +290,51 @@
       "authors": [],
       "venue": "",
       "manual": false,
-      "related": [],
+      "related": [
+        {
+          "source": "OpenAI",
+          "url": "https://openai.com/index/legora",
+          "content_type": "Official"
+        }
+      ],
       "images": [],
       "relevance_score": 73.8,
       "freshness_score": 100.0,
       "priority_score": 82.0,
       "priority_label": "High relevance",
       "rank": 12
+    },
+    {
+      "id": "b5772b92228d8771f842",
+      "title": "How researchers are adapting olmOCR 2 for historical and archaeological archives",
+      "url": "https://allenai.org/blog/olmocr-2-historical-archives",
+      "source": "Allen Institute for AI",
+      "source_id": "allenai",
+      "source_class": "Research Institute",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-10-28T08:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Researchers are adapting olmOCR 2 to make historical photo libraries searchable locally and improve transcription of handwritten archaeological records.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.datocms-assets.com/64837/1793156211-olmocr-featured.png?w=200"
+      ],
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.4,
+      "priority_label": "Relevant",
+      "rank": 203
     },
     {
       "id": "9eab77713c3920c6ed1b",
@@ -537,6 +838,42 @@
       "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 143
+    },
+    {
+      "id": "ec7a4eed9556207ef4e3",
+      "title": "Guided-RLVR: Guided Exploration in Reinforcement Learning with Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2610.37041",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-28T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Reasoning"
+      ],
+      "excerpt": "Reinforcement learning with verifiable rewards (RLVR) has shown strong empirical gains in improving the reasoning ability of large language models (LLMs) on tasks such as mathematics and programming. However, recent studies have shown that RLVR rollouts often collapse onto a narrow set of reasoning trajectories, limiting the explored reasoning space. Motivated by findings that thinking…",
+      "authors": [
+        "Bo Yang, Zishuai Zhang, Weihua Li, Qinnan Zhang, Sijia Wen, Hainan Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.37041",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 84
     },
     {
       "id": "34a26cb46e9b456642eb",
@@ -1824,6 +2161,39 @@
       "rank": 137
     },
     {
+      "id": "e63c44ee253751eb72ae",
+      "title": "AI for Science expands to foundations and research institutions",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+      "source": "Anthropic",
+      "source_id": "anthropic_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science"
+      ],
+      "tags": [
+        "AI for Science"
+      ],
+      "excerpt": "We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program. Announcements Oct 28, 2026",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www-cdn.anthropic.com/images/4zrzovbb/website/2c317246f4ac7eaf0667d90a76ac05a7a7b601fc-1200x630.jpg",
+        "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b18c53b35c0425fda21efaf2c3bcf10761798ec-2000x1125.jpg&w=1920&q=75"
+      ],
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 81.0,
+      "priority_label": "High relevance",
+      "rank": 20
+    },
+    {
       "id": "763384ea3c59b6b0db85",
       "title": "Clinical role and timing of osteoporosis evaluation and treatment after distal radius fracture: a scoping review.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42946792",
@@ -1868,6 +2238,96 @@
       "priority_score": 84.3,
       "priority_label": "High relevance",
       "rank": 6
+    },
+    {
+      "id": "236bbba0cc404bcb4796",
+      "title": "Automation Bias and Deskilling in Radiology AI: A Confidence-stratified Triage Model for Workflow Integration.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949520",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Radiology is adopting artificial intelligence (AI) faster than it is studying what AI does to radiologists' perceptual expertise and interpretive skill. The question has partly shifted from whether these tools perform well on benchmark tasks to what happens to clinical judgment when use of these tools becomes routine. Two risks accompany this transition: automation bias, the tendency to…",
+      "authors": [
+        "Nalan Karunanayake",
+        "Javin Schefflein",
+        "Binsheng Zhao",
+        "Lawrence H Schwartz"
+      ],
+      "venue": "Radiology. Artificial intelligence",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42949520",
+      "doi": "10.1148/ryai.260591",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "b0702b64e41c9adad7a1",
+      "title": "Label-free Raman spectroscopy for cancer therapy response: from methodological framework to clinical translation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949705",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "The early detection of therapy-induced biomolecular changes and the prediction of therapeutic response remain major challenges in oncology. Current clinical methods often assess treatment response through macroscopic or morphological endpoints, whereas molecular alterations associated with sensitivity, resistance, or recurrence may arise earlier and remain undetected. Raman spectroscopy…",
+      "authors": [
+        "Victor Alcolea-Rodriguez",
+        "Arianna Bresci",
+        "Anna Mühlig",
+        "Chiara Agrimi",
+        "Carlo Morasso",
+        "Dario Polli",
+        "Orlando Guntinas-Lichius",
+        "Renzo Vanna"
+      ],
+      "venue": "Chemical Society reviews",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42949705",
+      "doi": "10.1039/d6cs00966b",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 11
     },
     {
       "id": "c3d9232429c26d188a9c",
@@ -1963,6 +2423,94 @@
       "rank": 7
     },
     {
+      "id": "fcf5115e92ff37881c41",
+      "title": "Perceived Ratings of AI-Generated and Expert-Reviewed vs Clinician-Developed Virtual Cardiology Patient Scenarios Among Medical Students: Randomized Controlled Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42950240",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Safety",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "Virtual patients (VPs) are widely used in medical education, but creating high-quality cases requires clinical expertise, iterative revision, and alignment with educational objectives. Generative AI may support VP authoring, but direct comparisons between AI-generated and clinician-developed cases delivered within the same educational setting remain limited. This study aimed to compare…",
+      "authors": [
+        "Marios Georgios Bantidos",
+        "Eleni Dafli",
+        "Efstratios Karagiannidis",
+        "Barbara Fyntanidou",
+        "Sotiria Gilou",
+        "Athina Nasoufidou",
+        "Panagiotis Bamidis"
+      ],
+      "venue": "JMIR medical education",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42950240",
+      "doi": "10.2196/100839",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 82.8,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
+      "id": "7eae9aa046a0ec88efcf",
+      "title": "Integrating large language models and expert knowledge to identify risk factors and predict mode of delivery with machine learning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949299",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical"
+      ],
+      "excerpt": "Accurately predicting the mode of delivery is a significant challenge in obstetrics, with implications for maternal healthcare planning, resource allocation, and personalized patient counseling. While machine learning offers promising predictive capabilities, the selection of relevant clinical and socioeconomic risk factors from vast possibilities remains a critical and nontrivial step…",
+      "authors": [
+        "Farzaneh Rashidi",
+        "Saba Qanbarzadeh",
+        "Azam Orooji"
+      ],
+      "venue": "International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42949299",
+      "doi": "10.1002/ijgo.71376",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 16
+    },
+    {
       "id": "0195e7741aac01883c55",
       "title": "Development and Clinical Validation of a Stroke Risk Decision System for Patients With Carotid Artery Plaque Based on AI-Powered Handheld Ultrasound and Laboratory Markers.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42947532",
@@ -2055,6 +2603,219 @@
       "rank": 3
     },
     {
+      "id": "19e021d1787b9c038277",
+      "title": "Noninvasive Detection and Subtyping of Esophageal Cancer by Circulating Cell-Free mtDNA Fragmentomics: A Multi-Center Validation Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949655",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Esophageal cancer (EC) is highly lethal due to late diagnosis, and accurate non-invasive tools for early detection and subtyping remain lacking. Circulating cell-free mitochondrial DNA (ccf-mtDNA) fragmentomics offers a promising biomarker source. In this large multi-center study enrolling 1,260 participants spanning healthy control (HC), benign esophageal diseases (BED), precancerous…",
+      "authors": [
+        "Yue Liu",
+        "Wenying Yang",
+        "Yu Li",
+        "Siyuan Wang",
+        "Xiang Li",
+        "Fan Peng",
+        "Miao Dang",
+        "Huanqin Zhang"
+      ],
+      "venue": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42949655",
+      "doi": "10.1002/advs.78377",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
+    {
+      "id": "3c8f31cbf1380bd3b23f",
+      "title": "Editorial Commentary: A Coffee's Worth of Time: Artificial Intelligence May Accelerate, Not Replace, Preoperative Planning for High Tibial Osteotomy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949143",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Editorial",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Artificial intelligence is advancing quickly in orthopaedic imaging, yet remarkably, few tools have entered daily surgical practice. The most convincing near-term use cases for orthopaedic surgeons are tasks that are repetitive, time-consuming, and prone to error; automated landmark detection with subsequent coronal-plane planning for high tibial osteotomy fits that description. Deep…",
+      "authors": [
+        "Marco-Christopher Rupp",
+        "Julius Watrinet",
+        "Sebastian Siebenlist"
+      ],
+      "venue": "Arthroscopy : the journal of arthroscopic & related surgery : official publication of the Arthroscopy Association of North America and the International Arthroscopy Association",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42949143",
+      "doi": "10.1002/arj.70689",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 12
+    },
+    {
+      "id": "19ba1da702902b51f359",
+      "title": "Deep learning models to detect neurodegenerative diseases across different modalities, datasets, and stages: A systematic review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949499",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical"
+      ],
+      "excerpt": "BackgroundNeurodegenerative diseases like Alzheimer's and Parkinson's pose significant diagnostic challenges because they are incurable. Their symptoms often overlap with those of normal ageing and involve progressive neuronal loss. This makes early prediction, proper diagnosis, and ongoing monitoring crucial at every stage of the disease. Deep learning has become a useful tool for…",
+      "authors": [
+        "Kriti Poddar",
+        "Charu Wahi"
+      ],
+      "venue": "Technology and health care : official journal of the European Society for Engineering and Medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42949499",
+      "doi": "10.1177/09287329261502060",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.2,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "32fda8c9fd202280700d",
+      "title": "Orientation Sessions Regarding Application of Artificial Intelligence in Obstetric Nursing: Its Effect on Maternity Students' Knowledge and Attitude.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42948764",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "Artificial intelligence (AI) is transforming healthcare and nursing education globally. Despite its growing relevance, limited research has explored how orientation sessions influence nursing students' knowledge and attitudes toward AI, particularly in maternity care settings in Egypt. This study evaluated the effect of structured orientation sessions on maternity nursing students'…",
+      "authors": [
+        "Eman Mostafa Sayed Ahmed",
+        "Wafaa Gomaa Abdallah Eliewa",
+        "Somaia Ragab Eid",
+        "Samah Osman Ali",
+        "Eman Said Abo El Ella Hassan"
+      ],
+      "venue": "Nursing research and practice",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42948764",
+      "doi": "10.1155/nrp/2885750",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 81.2,
+      "priority_label": "High relevance",
+      "rank": 18
+    },
+    {
+      "id": "78b1e72f22ec4560a507",
+      "title": "A Case-Based Framework for Teaching Artificial Intelligence Applications in Medical Education.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42948325",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Medical",
+        "Education",
+        "Reasoning"
+      ],
+      "excerpt": "Artificial intelligence (AI) and machine learning (ML)-based tools are emerging across many areas of medicine. The next generation of medical professionals must be prepared to critically assess the tools they will use, including how they work and the ethical or legal implications of their implementation. To address this need, we developed a generalizable case-writing framework that…",
+      "authors": [
+        "Rafael C Schulman",
+        "Ali Shervin Razavi",
+        "Céline Hardy",
+        "Prithi Chakrapani",
+        "Abdel Rhman Daoud",
+        "Mitchell Mazza",
+        "Ankita Saxena",
+        "Jason Grullon"
+      ],
+      "venue": "MedEdPORTAL : the journal of teaching and learning resources",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42948325",
+      "doi": "10.15766/mep_2374-8265.11644",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 81.2,
+      "priority_label": "High relevance",
+      "rank": 19
+    },
+    {
       "id": "9232540c7743f42f7929",
       "title": "Would Artificial Intelligence Make 'Good' Decisions About Thyroid Nodule Biopsies?",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42946678",
@@ -2144,6 +2905,57 @@
       "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 9
+    },
+    {
+      "id": "564c497df705eb7a53b1",
+      "title": "Artificial Intelligence-generated Clinical Images for Plastic Surgery Education: A Prospective Randomized Double-blind Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42948812",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Trustworthy AI",
+        "AI4Education"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical",
+        "Education",
+        "Privacy"
+      ],
+      "excerpt": "High-quality clinical images are essential for plastic surgery education and board examinations, but privacy concerns and limited case diversity constrain their use. The educational validity of generative artificial intelligence (AI) images remains uncertain. In a prospective randomized double-blind study, 47 plastic surgeons (40 residents, 7 senior surgeons) each evaluated 60…",
+      "authors": [
+        "Fabrizio Schonauer",
+        "Annachiara Cavaliere",
+        "Tatiana Zaporojan",
+        "Ludovica De Gregorio",
+        "Concetta Errico",
+        "Francesco D'Andrea",
+        "Simone La Padula"
+      ],
+      "venue": "Plastic and reconstructive surgery. Global open",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fprcsgo%252F04.03%252F01720096-202610000-00081%252Ffigure1%252Fv%252F2026-10-26T132759Z%252Fr%252Fimage-jpeg/width/1200.webp",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fprcsgo%252F04.03%252F01720096-202610000-00081%252Ffigure1%252Fv%252F2026-10-26T132759Z%252Fr%252Fimage-jpeg/width/710.png",
+        "https://www.ovid.com/image-api/imgsrv/article/i/thumb/wkmrid/JOURNAL%252Fprcsgo%252F04.03%252F01720096-202610000-00081%252Ffigure2%252Fv%252F2026-10-26T132759Z%252Fr%252Fimage-jpeg/width/1200.webp"
+      ],
+      "pmid": "42948812",
+      "doi": "10.1097/GOX.0000000000008221",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.3,
+      "priority_label": "High relevance",
+      "rank": 8
     },
     {
       "id": "df7f39b94eced5b19649",
@@ -2239,6 +3051,44 @@
       "rank": 8
     },
     {
+      "id": "2ad21715a477c0d842dc",
+      "title": "Optimizing Artificial Intelligence (AI) Generated Guidance: Calibrating AI's Communicative Style in Radiology.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42949362",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging",
+        "Regulation"
+      ],
+      "excerpt": "",
+      "authors": [
+        "Pratik P Patel"
+      ],
+      "venue": "AJR. American journal of roentgenology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42949362",
+      "doi": "10.2214/AJR.26.35909",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.4,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
       "id": "db05b50ceb26005ac81d",
       "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
       "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication",
@@ -2298,8 +3148,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 159
     },
@@ -2333,9 +3183,9 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Open-Learning-Prabha-Jha.JPG?itok=UyNc7ADw"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 78.8,
+      "priority_label": "Relevant",
       "rank": 50
     },
     {
@@ -2368,8 +3218,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/CUDAMemoryKV-768x432.webp"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 102
     },
@@ -2405,8 +3255,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/26/22275-author-100x133.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 82
     },
@@ -2439,8 +3289,8 @@
         "https://storage.googleapis.com/gweb-research2023-media/original_images/LLMSleep_Cover.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.3,
+      "freshness_score": 94.0,
+      "priority_score": 80.0,
       "priority_label": "High relevance",
       "rank": 20
     },
@@ -2470,8 +3320,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 51
     },
@@ -2515,8 +3365,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/23/ML-21882-4-2.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 74.5,
+      "freshness_score": 94.0,
+      "priority_score": 73.2,
       "priority_label": "Relevant",
       "rank": 118
     },
@@ -2550,8 +3400,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image6-2-768x432.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 106
     },
@@ -2592,8 +3442,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/26/ML-21124-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 52
     },
@@ -2635,8 +3485,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-22072-3.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 53
     },
@@ -2667,8 +3517,8 @@
         "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w528-h297-n-nu-rw-lo"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 100.0,
-      "priority_score": 74.1,
+      "freshness_score": 94.0,
+      "priority_score": 72.8,
       "priority_label": "Relevant",
       "rank": 192
     },
@@ -2698,8 +3548,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 83.0,
+      "freshness_score": 94.0,
+      "priority_score": 81.7,
       "priority_label": "High relevance",
       "rank": 22
     },
@@ -19439,8 +20289,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-19699-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 75.8,
+      "freshness_score": 72.0,
+      "priority_score": 72.8,
       "priority_label": "Relevant",
       "rank": 34
     },
@@ -19469,8 +20319,8 @@
       "related": [],
       "images": [],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 74.5,
+      "freshness_score": 72.0,
+      "priority_score": 71.4,
       "priority_label": "Relevant",
       "rank": 98
     },
@@ -19510,8 +20360,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/20/ML-22120-3.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 60
     },
@@ -19543,9 +20393,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 72.3,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.2,
+      "priority_label": "Latest",
       "rank": 111
     },
     {
@@ -19573,8 +20423,8 @@
       "related": [],
       "images": [],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 66.1,
+      "freshness_score": 72.0,
+      "priority_score": 63.1,
       "priority_label": "Latest",
       "rank": 225
     },
@@ -19615,8 +20465,8 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/KLS-illustration-scaled.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.2,
+      "freshness_score": 72.0,
+      "priority_score": 75.2,
       "priority_label": "Relevant",
       "rank": 24
     },
@@ -38397,8 +39247,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 136
     },
@@ -38439,9 +39289,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/02/07/vivek_phonetool.jpeg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 51
     },
     {
@@ -38475,9 +39325,9 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/agentic-workflow-768x432.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 73.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 33
     },
     {
@@ -38508,8 +39358,8 @@
       "related": [],
       "images": [],
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 68.0,
+      "freshness_score": 56.0,
+      "priority_score": 64.5,
       "priority_label": "Latest",
       "rank": 164
     },
@@ -38541,8 +39391,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 137
     },
@@ -38586,9 +39436,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/09/ML-19250-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 52
     },
     {
@@ -38629,9 +39479,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/12/ML-21356-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 53
     },
     {

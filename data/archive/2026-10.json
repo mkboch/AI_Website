@@ -1,9 +1,293 @@
 {
   "schema_version": 2,
   "month": "2026-10",
-  "updated_at": "2026-10-28T22:44:52.787350+00:00",
-  "item_count": 1993,
+  "updated_at": "2026-10-29T06:03:28.568852+00:00",
+  "item_count": 2005,
   "items": [
+    {
+      "id": "f197b93b84b909daa451",
+      "title": "Verifiable Efficiency Limits of Innate LLM Planning in Sliding Puzzles",
+      "url": "https://arxiv.org/abs/2610.36415",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Tool-assisted planning success can reflect external search and verification, leaving a model's unaided planning ability unresolved. We isolate innate planning through complete plans generated in one response without tools or execution feedback. We propose a verifiable framework that decomposes success-weighted plan efficiency as $\\mathrm{SPE}=R\\times Q\\times E$: execution reliability,…",
+      "authors": [
+        "Yezhou Cheng, Charles Ling"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.36415",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 62
+    },
+    {
+      "id": "5829391c0b7d779e61b3",
+      "title": "LoRA on a Budget: Function-Aware Post-Hoc Compression for Adapter Fleets",
+      "url": "https://arxiv.org/abs/2610.36386",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Low-Rank Adaptation (LoRA) has become a key mechanism for efficiently specializing foundation models into many task- and user-specific variants. Serving many LoRA adapters under a shared resource budget turns post-hoc compression into a two-level allocation problem: rank must be distributed across layers within each adapter and across adapters within the fleet. Although trained LoRAs…",
+      "authors": [
+        "Shenghui Li, Thiemo voigt"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.36386",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 63
+    },
+    {
+      "id": "c5b511acc67cfa99ae26",
+      "title": "CASEL: Consequence-Aware Selective Execution for Reliable Long-Horizon Tool-Using Agents",
+      "url": "https://arxiv.org/abs/2610.36570",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Tool-using language agents increasingly modify external systems, yet most runtime safeguards allocate scrutiny by generic uncertainty scores or coarse mutation heuristics. We introduce CASEL (Consequence-Aware Selective Execution Layer), a model-agnostic runtime allocation policy that combines calibrated failure probability, state-dependent consequence, reversibility, ambiguity, and…",
+      "authors": [
+        "Yanyan Zhang, Fei Shen, Ting Yan, Hao Zhang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.36570",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 78
+    },
+    {
+      "id": "0136b5c6d71803cc1eca",
+      "title": "An Incremental Knowledge-Graph Learner Digital Twin for Evidence-Grounded Early Warning",
+      "url": "https://arxiv.org/abs/2610.36820",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI4Education"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Early-warning models in learning analytics can identify learners at risk of failure or withdrawal, but the resulting alerts are often only weakly connected to inspectable learning evidence. A risk score may indicate that intervention is needed without showing which traces, assessment events, or temporal patterns justify the alert. This paper introduces an incremental Learner Digital…",
+      "authors": [
+        "Ngoc Luyen Le, Marie-H\\'el\\`ene Abel, Bertrand Laforge"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.36820",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 79
+    },
+    {
+      "id": "d694333ff02e53fc7c78",
+      "title": "GraphRAGProv: GraphRAG Meets How-Provenance",
+      "url": "https://arxiv.org/abs/2610.37237",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM"
+      ],
+      "excerpt": "GraphRAG systems often use knowledge graphs to retrieve relevant context for an LLM that produces the final answer. That makes answers more inscrutable and therefore less appealing for domains where transparency is paramount. We present GraphRAGProv, an architecture that executes SPARQL queries over source-grounded RDF graphs to compute answers and their how-provenance polynomials.…",
+      "authors": [
+        "Wadie El Amrani, Luis Gal\\'arraga"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.37237",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 64
+    },
+    {
+      "id": "4b79534cb69a0e8556c0",
+      "title": "TCM-DiagCommit: A TCM-SD-Derived Benchmark for Evidence-Conditioned Syndrome Selection and Commitment",
+      "url": "https://arxiv.org/abs/2610.37243",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Traditional Chinese Medicine (TCM) syndrome differentiation is usually evaluated as static final-label selection over complete clinical records. This setting hides three diagnostic behaviors: whether a model distinguishes semantic-neighbor syndrome labels from easy random distractors, whether it updates predictions as evidence fields are revealed, and whether it should commit under…",
+      "authors": [
+        "Erwei Hou, Yue Hu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.37243",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 65
+    },
+    {
+      "id": "1c70473a4293fbcb6f0f",
+      "title": "Ontology-guided multi-agent reasoning for explainable differential diagnosis",
+      "url": "https://arxiv.org/abs/2610.36325",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "AI Agents",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Agents",
+        "Safety",
+        "Medical",
+        "Reasoning"
+      ],
+      "excerpt": "Effective differential diagnosis depends on well structured and unambiguous patient case descriptions, since incomplete or ambiguous clinical information readily leads to diagnostic errors and inconsistent reasoning. Large Language Models (LLMs) have recently shown promising capabilities in medical question answering and clinical reasoning; however, even when achieving competitive…",
+      "authors": [
+        "Roxana Ramona Szomiu, George Ursu, Adrian Groza"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.36325",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 66
+    },
+    {
+      "id": "bc98fd2a6a8f81c08e0b",
+      "title": "R\\`enyi-Regularized Flow-Based Variational Inference for Bayesian Calibration",
+      "url": "https://arxiv.org/abs/2610.37169",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-10-29T04:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Variational inference with normalizing flows provides a flexible posterior approximation for Bayesian model calibration, but struggles when the posterior has several modes separated by regions of low probability mass. We study this behavior in a two-parameter twin experiment and regularize the variational objective. Under Gaussian observation errors and a Gaussian prior, the…",
+      "authors": [
+        "Exauc\\`e Luweh Adjim Ngarti (AIRSEA), \\'Elise Arnaud (AIRSEA), L\\'eo Nicoletti (Mines Saint-\\'Etienne MSE, LIMOS, FAYOL-ENSMSE, FAYOL-ENSMSE), Victor Trappler (Mines Saint-\\'Etienne MSE, LIMOS, FAYOL-ENSMSE, FAYOL-ENSMSE), Arthur Vidard (AIRSEA)"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.37169",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 67
+    },
     {
       "id": "a6bc564ba8236e2b33a3",
       "title": "Creating AI value with enterprise context",
@@ -369,8 +653,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-Paris-Smaragdis_01-press.jpg?itok=6wvNzBlz"
       ],
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 76.1,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 126
     },
@@ -406,8 +690,8 @@
       "images": [],
       "arxiv_id": "2610.37026",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 77.8,
+      "freshness_score": 94.0,
+      "priority_score": 76.5,
       "priority_label": "Relevant",
       "rank": 40
     },
@@ -444,8 +728,8 @@
       "images": [],
       "arxiv_id": "2610.36364",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 55
     },
@@ -481,8 +765,8 @@
       "images": [],
       "arxiv_id": "2610.36444",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 71
     },
@@ -515,8 +799,8 @@
       "images": [],
       "arxiv_id": "2610.37201",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 72
     },
@@ -552,8 +836,8 @@
       "images": [],
       "arxiv_id": "2610.36767",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 87
     },
@@ -589,8 +873,8 @@
       "images": [],
       "arxiv_id": "2610.36006",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 88
     },
@@ -624,8 +908,8 @@
       "images": [],
       "arxiv_id": "2610.37215",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 142
     },
@@ -659,8 +943,8 @@
       "images": [],
       "arxiv_id": "2610.35960",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -695,8 +979,8 @@
       "images": [],
       "arxiv_id": "2610.37074",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 57
     },
@@ -731,8 +1015,8 @@
       "images": [],
       "arxiv_id": "2610.36405",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 75.9,
+      "freshness_score": 94.0,
+      "priority_score": 74.6,
       "priority_label": "Relevant",
       "rank": 80
     },
@@ -765,8 +1049,8 @@
       "images": [],
       "arxiv_id": "2610.35963",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 89
     },
@@ -801,8 +1085,8 @@
       "images": [],
       "arxiv_id": "2610.36761",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 90
     },
@@ -834,8 +1118,8 @@
       "images": [],
       "arxiv_id": "2610.37547",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 143
     },
@@ -870,8 +1154,8 @@
       "images": [],
       "arxiv_id": "2610.37041",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 84
     },
@@ -904,8 +1188,8 @@
       "images": [],
       "arxiv_id": "2610.36718",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 91
     },
@@ -938,8 +1222,8 @@
       "images": [],
       "arxiv_id": "2610.36751",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 140
     },
@@ -976,8 +1260,8 @@
       "images": [],
       "arxiv_id": "2610.36013",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 144
     },
@@ -1010,8 +1294,8 @@
       "images": [],
       "arxiv_id": "2610.37323",
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 71.7,
+      "freshness_score": 94.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 183
     },
@@ -1049,8 +1333,8 @@
       ],
       "arxiv_id": "2610.36428",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 79.8,
+      "freshness_score": 94.0,
+      "priority_score": 78.5,
       "priority_label": "Relevant",
       "rank": 24
     },
@@ -1089,8 +1373,8 @@
       ],
       "arxiv_id": "2610.36517",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
       "priority_label": "Relevant",
       "rank": 32
     },
@@ -1125,8 +1409,8 @@
       "images": [],
       "arxiv_id": "2610.37245",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.2,
+      "freshness_score": 94.0,
+      "priority_score": 75.9,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -1159,8 +1443,8 @@
       "images": [],
       "arxiv_id": "2610.36235",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 58
     },
@@ -1194,8 +1478,8 @@
       "images": [],
       "arxiv_id": "2610.36328",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 73
     },
@@ -1228,8 +1512,8 @@
       "images": [],
       "arxiv_id": "2610.35869",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 102
     },
@@ -1263,9 +1547,9 @@
       "images": [],
       "arxiv_id": "2610.36812",
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 71.2,
-      "priority_label": "Relevant",
+      "freshness_score": 94.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
       "rank": 188
     },
     {
@@ -1300,8 +1584,8 @@
       "images": [],
       "arxiv_id": "2610.37381",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 135
     },
@@ -1337,8 +1621,8 @@
       "images": [],
       "arxiv_id": "2610.36583",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 77
     },
@@ -1370,8 +1654,8 @@
       "images": [],
       "arxiv_id": "2610.36649",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 103
     },
@@ -1404,8 +1688,8 @@
       "images": [],
       "arxiv_id": "2610.36633",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 92
     },
@@ -1440,8 +1724,8 @@
       "images": [],
       "arxiv_id": "2610.36929",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 93
     },
@@ -1476,8 +1760,8 @@
       "images": [],
       "arxiv_id": "2610.36420",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 74.7,
+      "freshness_score": 94.0,
+      "priority_score": 73.4,
       "priority_label": "Relevant",
       "rank": 122
     },
@@ -1513,8 +1797,8 @@
       "images": [],
       "arxiv_id": "2610.36445",
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 136
     },
@@ -1549,8 +1833,8 @@
       "images": [],
       "arxiv_id": "2610.36589",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.2,
+      "freshness_score": 94.0,
+      "priority_score": 75.9,
       "priority_label": "Relevant",
       "rank": 48
     },
@@ -1585,8 +1869,8 @@
       "images": [],
       "arxiv_id": "2610.36100",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 61
     },
@@ -1620,8 +1904,8 @@
       "images": [],
       "arxiv_id": "2610.36204",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 78
     },
@@ -1657,8 +1941,8 @@
       "images": [],
       "arxiv_id": "2610.36848",
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 71.7,
+      "freshness_score": 94.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 170
     },
@@ -1693,8 +1977,8 @@
       "images": [],
       "arxiv_id": "2610.36951",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 60
     },
@@ -1729,8 +2013,8 @@
       "images": [],
       "arxiv_id": "2610.37350",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 94
     },
@@ -1765,8 +2049,8 @@
       "images": [],
       "arxiv_id": "2610.36195",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.2,
+      "freshness_score": 94.0,
+      "priority_score": 75.9,
       "priority_label": "Relevant",
       "rank": 103
     },
@@ -1801,8 +2085,8 @@
       "images": [],
       "arxiv_id": "2610.37649",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.2,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 74
     },
@@ -1838,8 +2122,8 @@
       ],
       "arxiv_id": "2610.36850",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 77.3,
       "priority_label": "Relevant",
       "rank": 33
     },
@@ -1872,8 +2156,8 @@
       "images": [],
       "arxiv_id": "2610.36844",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 73.7,
+      "freshness_score": 94.0,
+      "priority_score": 72.4,
       "priority_label": "Relevant",
       "rank": 141
     },
@@ -1911,8 +2195,8 @@
       ],
       "arxiv_id": "2610.36340",
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 72.8,
+      "freshness_score": 94.0,
+      "priority_score": 71.4,
       "priority_label": "Relevant",
       "rank": 156
     },
@@ -1947,8 +2231,8 @@
       "images": [],
       "arxiv_id": "2610.36363",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 41
     },
@@ -1983,8 +2267,8 @@
       "images": [],
       "arxiv_id": "2610.36838",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 77.6,
+      "freshness_score": 94.0,
+      "priority_score": 76.3,
       "priority_label": "Relevant",
       "rank": 42
     },
@@ -2019,8 +2303,8 @@
       "images": [],
       "arxiv_id": "2610.36859",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 75.8,
+      "freshness_score": 94.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 95
     },
@@ -2053,8 +2337,8 @@
       "images": [],
       "arxiv_id": "2510.00051",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 76.8,
+      "freshness_score": 94.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 59
     },
@@ -2087,8 +2371,8 @@
       "images": [],
       "arxiv_id": "2610.37465",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 75.9,
+      "freshness_score": 94.0,
+      "priority_score": 74.6,
       "priority_label": "Relevant",
       "rank": 81
     },
@@ -2121,8 +2405,8 @@
       "images": [],
       "arxiv_id": "2610.37015",
       "relevance_score": 65.6,
-      "freshness_score": 100.0,
-      "priority_score": 71.9,
+      "freshness_score": 94.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 167
     },
@@ -2155,8 +2439,8 @@
       "images": [],
       "arxiv_id": "2610.35961",
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 137
     },
@@ -2188,9 +2472,9 @@
         "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F5b18c53b35c0425fda21efaf2c3bcf10761798ec-2000x1125.jpg&w=1920&q=75"
       ],
       "relevance_score": 70.5,
-      "freshness_score": 100.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 79.7,
+      "priority_label": "Relevant",
       "rank": 20
     },
     {
@@ -2234,8 +2518,8 @@
       "pmid": "42946792",
       "doi": "10.1007/s00198-026-08296-9",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.3,
+      "freshness_score": 94.0,
+      "priority_score": 83.0,
       "priority_label": "High relevance",
       "rank": 6
     },
@@ -2276,8 +2560,8 @@
       "pmid": "42949520",
       "doi": "10.1148/ryai.260591",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.2,
+      "freshness_score": 94.0,
+      "priority_score": 83.8,
       "priority_label": "High relevance",
       "rank": 4
     },
@@ -2324,8 +2608,8 @@
       "pmid": "42949705",
       "doi": "10.1039/d6cs00966b",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 11
     },
@@ -2369,8 +2653,8 @@
       "pmid": "42946562",
       "doi": "10.1016/j.acra.2026.09.071",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.3,
+      "freshness_score": 94.0,
+      "priority_score": 84.0,
       "priority_label": "High relevance",
       "rank": 1
     },
@@ -2417,8 +2701,8 @@
       "pmid": "42946784",
       "doi": "10.1038/s44401-026-00160-6",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.3,
+      "freshness_score": 94.0,
+      "priority_score": 83.0,
       "priority_label": "High relevance",
       "rank": 7
     },
@@ -2464,8 +2748,8 @@
       "pmid": "42950240",
       "doi": "10.2196/100839",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.8,
+      "freshness_score": 94.0,
+      "priority_score": 81.5,
       "priority_label": "High relevance",
       "rank": 13
     },
@@ -2505,8 +2789,8 @@
       "pmid": "42949299",
       "doi": "10.1002/ijgo.71376",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.7,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
       "priority_label": "High relevance",
       "rank": 16
     },
@@ -2548,8 +2832,8 @@
       "pmid": "42947532",
       "doi": "10.1002/jcu.70419",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.3,
+      "freshness_score": 94.0,
+      "priority_score": 84.0,
       "priority_label": "High relevance",
       "rank": 2
     },
@@ -2597,8 +2881,8 @@
       "pmid": "42947052",
       "doi": "10.1186/s12880-026-02626-3",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.3,
+      "freshness_score": 94.0,
+      "priority_score": 84.0,
       "priority_label": "High relevance",
       "rank": 3
     },
@@ -2641,10 +2925,107 @@
       "pmid": "42949655",
       "doi": "10.1002/advs.78377",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.3,
+      "freshness_score": 94.0,
+      "priority_score": 83.0,
       "priority_label": "High relevance",
       "rank": 7
+    },
+    {
+      "id": "1eefa5effde743bd44ea",
+      "title": "Evaluating Large Language Models for Patient-Facing Total Knee Arthroplasty Information in Knee Osteoarthritis: Development and Application of the Composite Clinical Reliability Score.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42950900",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Total knee arthroplasty (TKA) is the definitive surgical treatment for advanced knee osteoarthritis. As patients increasingly consult large language models (LLMs) for medical guidance, reliability, safety, and readability are concerns. This study compared patient-facing TKA information from three LLMs using the Composite Clinical Reliability Score (CCRS). We used 90 patient-facing TKA…",
+      "authors": [
+        "Sathish Muthu",
+        "Dhibin Vikash Kolarpatti Ponnusamy",
+        "Manimekalai Muthiah Rathinam",
+        "Vibhu Krishnan Viswanathan",
+        "Sathish Kumar Rajappan Chandra",
+        "Khan Sharun"
+      ],
+      "venue": "The Journal of arthroplasty",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42950900",
+      "doi": "10.1016/j.arth.2026.10.030",
+      "relevance_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 81.6,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
+      "id": "acf6589dc7ec37d0dbe6",
+      "title": "Moving beyond overconfidence: A clinical roadmap for integrating uncertainty-aware AI models into medical workflows.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42950830",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Conventional artificial intelligence (AI) models can remain overconfident when their predictions are unreliable, limiting clinical adoption. Uncertainty quantification (UQ) supplements predictions with information about confidence, but the literature is often mathematically dense and difficult to translate into action. In this clinically oriented review, we synthesize current evidence…",
+      "authors": [
+        "Yilong Luo",
+        "Meng Wang",
+        "Tian Lin",
+        "Aidi Lin",
+        "Yifan Chen",
+        "Guiqin He",
+        "Zhuanling Lin",
+        "Li Jia Chen"
+      ],
+      "venue": "Cell reports. Medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42950830",
+      "doi": "10.1016/j.xcrm.2026.103124",
+      "relevance_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
+      "priority_label": "High relevance",
+      "rank": 21
     },
     {
       "id": "3c8f31cbf1380bd3b23f",
@@ -2683,8 +3064,8 @@
       "pmid": "42949143",
       "doi": "10.1002/arj.70689",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 12
     },
@@ -2722,8 +3103,8 @@
       "pmid": "42949499",
       "doi": "10.1177/09287329261502060",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.2,
+      "freshness_score": 94.0,
+      "priority_score": 83.8,
       "priority_label": "High relevance",
       "rank": 5
     },
@@ -2764,9 +3145,9 @@
       "pmid": "42948764",
       "doi": "10.1155/nrp/2885750",
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 81.2,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 79.8,
+      "priority_label": "Relevant",
       "rank": 18
     },
     {
@@ -2810,9 +3191,9 @@
       "pmid": "42948325",
       "doi": "10.15766/mep_2374-8265.11644",
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 81.2,
-      "priority_label": "High relevance",
+      "freshness_score": 94.0,
+      "priority_score": 79.8,
+      "priority_label": "Relevant",
       "rank": 19
     },
     {
@@ -2857,10 +3238,55 @@
       "pmid": "42946678",
       "doi": "10.1210/clinem/dgag433",
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.7,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
       "priority_label": "High relevance",
       "rank": 13
+    },
+    {
+      "id": "da702e76e9a305f32e31",
+      "title": "An Adversarial Deep Learning Framework for Non-Rigid Brain MRI Registration in Brain Shift Compensation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42951246",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Safety",
+        "Imaging",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Accurate compensation for intra-operative brain shift remains a fundamental challenge in neurosurgical procedures, as misalignment between pre-operative and intra-operative images can lead to suboptimal surgical guidance. In this work, we propose a bidirectional, unsupervised 3D brain shift compensation framework for non-rigid MRI registration, designed to directly estimate dense…",
+      "authors": [
+        "Eashrat Jahan Muniya",
+        "Gernot Kronreif",
+        "Ander Biguri",
+        "Wolfgang Birkfellner",
+        "Sepideh Hatamikia"
+      ],
+      "venue": "Journal of neuroradiology = Journal de neuroradiologie",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42951246",
+      "doi": "10.1016/j.neurad.2026.101607",
+      "relevance_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 1
     },
     {
       "id": "fb4cc327a8469a4774f0",
@@ -2901,10 +3327,49 @@
       "pmid": "42947537",
       "doi": "10.1017/S0266462326104310",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 9
+    },
+    {
+      "id": "25ced67fee5ed4d195b7",
+      "title": "Site-based raters versus independent reviewers: A comparison of individual PANSS item scores in schizophrenia trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42950690",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-10-28T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Paired site-based and independent reviewer ratings of individual items from the Positive and Negative Syndrome Scale (PANSS) obtained from two large cohorts of PANSS interviews conducted during clinical trials of schizophrenia were examined to identify individual PANSS items that were highly concordant or vulnerable to rater disagreement among the 30 PANSS items. Two methods of…",
+      "authors": [
+        "Steven D Targum"
+      ],
+      "venue": "Schizophrenia research",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42950690",
+      "doi": "10.1016/j.schres.2026.10.015",
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
+      "priority_label": "High relevance",
+      "rank": 24
     },
     {
       "id": "564c497df705eb7a53b1",
@@ -2952,8 +3417,8 @@
       "pmid": "42948812",
       "doi": "10.1097/GOX.0000000000008221",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.3,
+      "freshness_score": 94.0,
+      "priority_score": 83.0,
       "priority_label": "High relevance",
       "rank": 8
     },
@@ -3000,8 +3465,8 @@
       "pmid": "42946916",
       "doi": "10.1007/s10278-026-02446-5",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.2,
+      "freshness_score": 94.0,
+      "priority_score": 83.8,
       "priority_label": "High relevance",
       "rank": 4
     },
@@ -3045,8 +3510,8 @@
       "pmid": "42946951",
       "doi": "10.1007/s40290-026-00641-x",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 84.4,
+      "freshness_score": 94.0,
+      "priority_score": 83.1,
       "priority_label": "High relevance",
       "rank": 8
     },
@@ -3083,8 +3548,8 @@
       "pmid": "42949362",
       "doi": "10.2214/AJR.26.35909",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 85.4,
+      "freshness_score": 94.0,
+      "priority_score": 84.1,
       "priority_label": "High relevance",
       "rank": 1
     },
@@ -3115,8 +3580,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 145
     },
@@ -7590,8 +8055,8 @@
       "images": [],
       "arxiv_id": "2610.32511",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 51
     },
@@ -7628,8 +8093,8 @@
       "images": [],
       "arxiv_id": "2610.31838",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 77.3,
+      "freshness_score": 86.0,
+      "priority_score": 75.6,
       "priority_label": "Relevant",
       "rank": 62
     },
@@ -7662,8 +8127,8 @@
       "images": [],
       "arxiv_id": "2610.31810",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 69
     },
@@ -7696,8 +8161,8 @@
       "images": [],
       "arxiv_id": "2610.32026",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 70
     },
@@ -7734,8 +8199,8 @@
       "images": [],
       "arxiv_id": "2610.32725",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 71
     },
@@ -7768,8 +8233,8 @@
       "images": [],
       "arxiv_id": "2610.31944",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 82
     },
@@ -7807,8 +8272,8 @@
       "images": [],
       "arxiv_id": "2610.31713",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 83
     },
@@ -7843,8 +8308,8 @@
       "images": [],
       "arxiv_id": "2610.32243",
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 68.6,
+      "freshness_score": 86.0,
+      "priority_score": 66.8,
       "priority_label": "Latest",
       "rank": 181
     },
@@ -7878,8 +8343,8 @@
       "images": [],
       "arxiv_id": "2610.32101",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 73.0,
+      "freshness_score": 86.0,
+      "priority_score": 71.2,
       "priority_label": "Relevant",
       "rank": 113
     },
@@ -7912,8 +8377,8 @@
       "images": [],
       "arxiv_id": "2610.32113",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 73.0,
+      "freshness_score": 86.0,
+      "priority_score": 71.2,
       "priority_label": "Relevant",
       "rank": 114
     },
@@ -7947,8 +8412,8 @@
       "images": [],
       "arxiv_id": "2610.32141",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 73.0,
+      "freshness_score": 86.0,
+      "priority_score": 71.2,
       "priority_label": "Relevant",
       "rank": 115
     },
@@ -7983,8 +8448,8 @@
       "images": [],
       "arxiv_id": "2610.32311",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 80
     },
@@ -8020,8 +8485,8 @@
       "images": [],
       "arxiv_id": "2610.32407",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -8056,8 +8521,8 @@
       "images": [],
       "arxiv_id": "2610.32377",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 52
     },
@@ -8093,8 +8558,8 @@
       "images": [],
       "arxiv_id": "2610.32396",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 53
     },
@@ -8130,8 +8595,8 @@
       "images": [],
       "arxiv_id": "2610.32525",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 54
     },
@@ -8164,8 +8629,8 @@
       "images": [],
       "arxiv_id": "2610.32863",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 72
     },
@@ -8200,8 +8665,8 @@
       "images": [],
       "arxiv_id": "2610.26872",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 80
     },
@@ -8234,8 +8699,8 @@
       "images": [],
       "arxiv_id": "2610.31899",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 100
     },
@@ -8270,9 +8735,9 @@
       "images": [],
       "arxiv_id": "2610.32452",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 71.2,
-      "priority_label": "Relevant",
+      "freshness_score": 86.0,
+      "priority_score": 69.4,
+      "priority_label": "Latest",
       "rank": 155
     },
     {
@@ -8310,8 +8775,8 @@
       "images": [],
       "arxiv_id": "2610.32965",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 97
     },
@@ -8349,8 +8814,8 @@
       "images": [],
       "arxiv_id": "2610.32415",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.1,
+      "freshness_score": 86.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 98
     },
@@ -8384,8 +8849,8 @@
       "images": [],
       "arxiv_id": "2610.31722",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 73.0,
+      "freshness_score": 86.0,
+      "priority_score": 71.2,
       "priority_label": "Relevant",
       "rank": 122
     },
@@ -8419,8 +8884,8 @@
       "images": [],
       "arxiv_id": "2610.32196",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.9,
+      "freshness_score": 86.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 41
     },
@@ -8456,8 +8921,8 @@
       "images": [],
       "arxiv_id": "2610.32114",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.9,
+      "freshness_score": 86.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 42
     },
@@ -8492,8 +8957,8 @@
       "images": [],
       "arxiv_id": "2610.32575",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.9,
+      "freshness_score": 86.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 43
     },
@@ -8530,8 +8995,8 @@
       "images": [],
       "arxiv_id": "2610.32041",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 55
     },
@@ -8564,8 +9029,8 @@
       "images": [],
       "arxiv_id": "2610.32781",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.0,
+      "freshness_score": 86.0,
+      "priority_score": 74.3,
       "priority_label": "Relevant",
       "rank": 68
     },
@@ -8604,8 +9069,8 @@
       "images": [],
       "arxiv_id": "2610.32060",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 73
     },
@@ -8640,8 +9105,8 @@
       "images": [],
       "arxiv_id": "2610.32451",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 107
     },
@@ -8677,8 +9142,8 @@
       "images": [],
       "arxiv_id": "2610.32909",
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 68.6,
+      "freshness_score": 86.0,
+      "priority_score": 66.8,
       "priority_label": "Latest",
       "rank": 182
     },
@@ -8714,8 +9179,8 @@
       "images": [],
       "arxiv_id": "2610.32045",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 77
     },
@@ -8752,8 +9217,8 @@
       "images": [],
       "arxiv_id": "2610.31945",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 76.8,
+      "freshness_score": 86.0,
+      "priority_score": 75.0,
       "priority_label": "Relevant",
       "rank": 91
     },
@@ -8788,8 +9253,8 @@
       "images": [],
       "arxiv_id": "2610.32890",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 83
     },
@@ -8825,8 +9290,8 @@
       "images": [],
       "arxiv_id": "2610.32961",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -8860,8 +9325,8 @@
       "images": [],
       "arxiv_id": "2610.31704",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 61
     },
@@ -8895,8 +9360,8 @@
       "images": [],
       "arxiv_id": "2610.32184",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 84
     },
@@ -8931,8 +9396,8 @@
       "images": [],
       "arxiv_id": "2610.31845",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.4,
+      "freshness_score": 86.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 131
     },
@@ -8965,8 +9430,8 @@
       "images": [],
       "arxiv_id": "2610.31929",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.4,
+      "freshness_score": 86.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 132
     },
@@ -9000,8 +9465,8 @@
       "images": [],
       "arxiv_id": "2610.32941",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.4,
+      "freshness_score": 86.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 133
     },
@@ -9035,9 +9500,9 @@
       "images": [],
       "arxiv_id": "2610.32390",
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 70.4,
-      "priority_label": "Relevant",
+      "freshness_score": 86.0,
+      "priority_score": 68.6,
+      "priority_label": "Latest",
       "rank": 196
     },
     {
@@ -9071,8 +9536,8 @@
       "images": [],
       "arxiv_id": "2610.32440",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 74
     },
@@ -9108,8 +9573,8 @@
       ],
       "arxiv_id": "2610.32071",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 35
     },
@@ -9145,8 +9610,8 @@
       "images": [],
       "arxiv_id": "2610.32221",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.9,
+      "freshness_score": 86.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 44
     },
@@ -9182,8 +9647,8 @@
       "images": [],
       "arxiv_id": "2610.30282",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.9,
+      "freshness_score": 86.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 45
     },
@@ -9218,8 +9683,8 @@
       "images": [],
       "arxiv_id": "2610.32266",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 57
     },
@@ -9252,8 +9717,8 @@
       "images": [],
       "arxiv_id": "2610.32491",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 58
     },
@@ -9289,8 +9754,8 @@
       "images": [],
       "arxiv_id": "2509.17323",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 76.4,
+      "freshness_score": 86.0,
+      "priority_score": 74.6,
       "priority_label": "Relevant",
       "rank": 74
     },
@@ -9324,8 +9789,8 @@
       "images": [],
       "arxiv_id": "2610.31731",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 101
     },
@@ -9360,8 +9825,8 @@
       "images": [],
       "arxiv_id": "2610.32477",
       "relevance_score": 72.2,
-      "freshness_score": 94.0,
-      "priority_score": 74.3,
+      "freshness_score": 86.0,
+      "priority_score": 72.6,
       "priority_label": "Relevant",
       "rank": 121
     },
@@ -9396,8 +9861,8 @@
       "images": [],
       "arxiv_id": "2603.25903",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.4,
+      "freshness_score": 86.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 134
     },
@@ -9430,8 +9895,8 @@
       "images": [],
       "arxiv_id": "2610.31747",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.4,
+      "freshness_score": 86.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 146
     },
@@ -9465,9 +9930,9 @@
       "images": [],
       "arxiv_id": "2610.32294",
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 86.0,
+      "priority_score": 68.8,
+      "priority_label": "Latest",
       "rank": 185
     },
     {
@@ -9501,8 +9966,8 @@
       "images": [],
       "arxiv_id": "2610.32229",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.5,
+      "freshness_score": 86.0,
+      "priority_score": 73.7,
       "priority_label": "Relevant",
       "rank": 59
     },
@@ -9537,8 +10002,8 @@
       "images": [],
       "arxiv_id": "2610.31937",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 75
     },
@@ -9574,8 +10039,8 @@
       "images": [],
       "arxiv_id": "2610.32285",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 76
     },
@@ -9608,8 +10073,8 @@
       "images": [],
       "arxiv_id": "2610.31931",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 77
     },
@@ -9648,8 +10113,8 @@
       "images": [],
       "arxiv_id": "2610.31685",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 78
     },
@@ -9683,8 +10148,8 @@
       "images": [],
       "arxiv_id": "2610.31681",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 85
     },
@@ -9718,8 +10183,8 @@
       "images": [],
       "arxiv_id": "2610.32666",
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 69.9,
+      "freshness_score": 86.0,
+      "priority_score": 68.1,
       "priority_label": "Latest",
       "rank": 184
     },
@@ -9754,8 +10219,8 @@
       "images": [],
       "arxiv_id": "2610.32490",
       "relevance_score": 70.5,
-      "freshness_score": 94.0,
-      "priority_score": 74.6,
+      "freshness_score": 86.0,
+      "priority_score": 72.9,
       "priority_label": "Relevant",
       "rank": 112
     },
@@ -9792,8 +10257,8 @@
       "images": [],
       "arxiv_id": "2610.32212",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 86
     },
@@ -9832,8 +10297,8 @@
       "images": [],
       "arxiv_id": "2610.32443",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 87
     },
@@ -9869,8 +10334,8 @@
       "images": [],
       "arxiv_id": "2610.32463",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 88
     },
@@ -9907,9 +10372,9 @@
       "images": [],
       "arxiv_id": "2610.32459",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 71.6,
-      "priority_label": "Relevant",
+      "freshness_score": 86.0,
+      "priority_score": 69.8,
+      "priority_label": "Latest",
       "rank": 159
     },
     {
@@ -9942,8 +10407,8 @@
       "images": [],
       "arxiv_id": "2610.32096",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.5,
       "priority_label": "Relevant",
       "rank": 74
     },
@@ -9977,8 +10442,8 @@
       "images": [],
       "arxiv_id": "2610.32691",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 81
     },
@@ -10014,8 +10479,8 @@
       "images": [],
       "arxiv_id": "2606.24817",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.4,
+      "freshness_score": 86.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 147
     },
@@ -10047,8 +10512,8 @@
       "images": [],
       "arxiv_id": "2610.32225",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.4,
+      "freshness_score": 86.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 133
     },
@@ -10085,8 +10550,8 @@
       "images": [],
       "arxiv_id": "2610.32971",
       "relevance_score": 65.6,
-      "freshness_score": 94.0,
-      "priority_score": 73.4,
+      "freshness_score": 86.0,
+      "priority_score": 71.7,
       "priority_label": "Relevant",
       "rank": 106
     },
@@ -10120,8 +10585,8 @@
       "images": [],
       "arxiv_id": "2610.32817",
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 69.9,
+      "freshness_score": 86.0,
+      "priority_score": 68.1,
       "priority_label": "Latest",
       "rank": 199
     },
@@ -10155,8 +10620,8 @@
       "images": [],
       "arxiv_id": "2610.32802",
       "relevance_score": 72.2,
-      "freshness_score": 94.0,
-      "priority_score": 75.6,
+      "freshness_score": 86.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 50
     },
@@ -10189,8 +10654,8 @@
       "images": [],
       "arxiv_id": "2610.32362",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 74.5,
+      "freshness_score": 86.0,
+      "priority_score": 72.7,
       "priority_label": "Relevant",
       "rank": 89
     },
@@ -10225,8 +10690,8 @@
       "images": [],
       "arxiv_id": "2610.32492",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 74.8,
+      "freshness_score": 86.0,
+      "priority_score": 73.1,
       "priority_label": "Relevant",
       "rank": 113
     },
@@ -10256,8 +10721,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 82.5,
+      "freshness_score": 86.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 7
     },
@@ -10288,8 +10753,8 @@
         "https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fcbdc2eac6dfb37cf596d8f9fb32783036b5737c2-2000x1125.jpg&w=3840&q=75"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.8,
+      "freshness_score": 86.0,
+      "priority_score": 71.0,
       "priority_label": "Relevant",
       "rank": 191
     },
@@ -10330,8 +10795,8 @@
       "pmid": "42928053",
       "doi": "10.1111/dom.71468",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 7
     },
@@ -10368,8 +10833,8 @@
       "pmid": "42928406",
       "doi": "10.1111/jocn.70611",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 10
     },
@@ -10409,9 +10874,9 @@
       "pmid": "42929207",
       "doi": "10.1097/j.jcrs.0000000000002088",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 81.5,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 79.8,
+      "priority_label": "Relevant",
       "rank": 12
     },
     {
@@ -10453,8 +10918,8 @@
       "pmid": "42933584",
       "doi": "10.1016/j.biotechadv.2026.109083",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 18
     },
@@ -10495,8 +10960,8 @@
       "pmid": "42929535",
       "doi": "10.1128/spectrum.02335-26",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 83.4,
+      "freshness_score": 86.0,
+      "priority_score": 81.6,
       "priority_label": "High relevance",
       "rank": 8
     },
@@ -10538,8 +11003,8 @@
       "pmid": "42934072",
       "doi": "10.1016/j.acra.2026.08.091",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 5
     },
@@ -10584,8 +11049,8 @@
       "pmid": "42931997",
       "doi": "10.1007/s10140-026-02550-7",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 83.8,
+      "freshness_score": 86.0,
+      "priority_score": 82.1,
       "priority_label": "High relevance",
       "rank": 2
     },
@@ -10630,8 +11095,8 @@
       "pmid": "42932021",
       "doi": "10.1007/s10266-026-01584-0",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 82.2,
+      "freshness_score": 86.0,
+      "priority_score": 80.4,
       "priority_label": "High relevance",
       "rank": 9
     },
@@ -10672,8 +11137,8 @@
       "pmid": "42932871",
       "doi": "10.2196/90687",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 83.0,
+      "freshness_score": 86.0,
+      "priority_score": 81.2,
       "priority_label": "High relevance",
       "rank": 4
     },
@@ -10720,8 +11185,8 @@
       "pmid": "42931840",
       "doi": "10.1007/s00405-026-10734-7",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 11
     },
@@ -10764,8 +11229,8 @@
       "pmid": "42928829",
       "doi": "10.1093/bioadv/vbag305",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 83.1,
+      "freshness_score": 86.0,
+      "priority_score": 81.4,
       "priority_label": "High relevance",
       "rank": 4
     },
@@ -10812,8 +11277,8 @@
       "pmid": "42932315",
       "doi": "10.1371/journal.pdig.0001364",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 5
     },
@@ -10857,8 +11322,8 @@
       "pmid": "42934014",
       "doi": "10.1016/j.landig.2026.101081",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 6
     },
@@ -10900,8 +11365,8 @@
       "pmid": "42932909",
       "doi": "10.1021/acsami.6c17334",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 16
     },
@@ -10948,8 +11413,8 @@
       "pmid": "42928255",
       "doi": "10.1186/s40644-026-01134-5",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 84.0,
+      "freshness_score": 86.0,
+      "priority_score": 82.2,
       "priority_label": "High relevance",
       "rank": 2
     },
@@ -10996,8 +11461,8 @@
       "pmid": "42928084",
       "doi": "10.1007/s12325-026-03798-8",
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 81.8,
+      "freshness_score": 86.0,
+      "priority_score": 80.1,
       "priority_label": "High relevance",
       "rank": 8
     },
@@ -11048,9 +11513,9 @@
       "pmid": "42931836",
       "doi": "10.1007/s00405-026-10725-8",
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 81.4,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 79.6,
+      "priority_label": "Relevant",
       "rank": 13
     },
     {
@@ -11089,8 +11554,8 @@
       "pmid": "42932861",
       "doi": "10.2196/94310",
       "relevance_score": 72.2,
-      "freshness_score": 94.0,
-      "priority_score": 79.8,
+      "freshness_score": 86.0,
+      "priority_score": 78.1,
       "priority_label": "Relevant",
       "rank": 17
     },
@@ -11132,8 +11597,8 @@
       "pmid": "42928622",
       "doi": "10.1093/bjr/tqag259",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 85.1,
+      "freshness_score": 86.0,
+      "priority_score": 83.4,
       "priority_label": "High relevance",
       "rank": 1
     },
@@ -11180,8 +11645,8 @@
       "pmid": "42928370",
       "doi": "10.1007/s00428-026-04686-w",
       "relevance_score": 82.0,
-      "freshness_score": 94.0,
-      "priority_score": 82.8,
+      "freshness_score": 86.0,
+      "priority_score": 81.0,
       "priority_label": "High relevance",
       "rank": 5
     },
@@ -17186,8 +17651,8 @@
       "images": [],
       "arxiv_id": "2610.29225",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.1,
+      "freshness_score": 72.0,
+      "priority_score": 71.0,
       "priority_label": "Relevant",
       "rank": 56
     },
@@ -17223,8 +17688,8 @@
       "images": [],
       "arxiv_id": "2610.29358",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 65
     },
@@ -17258,9 +17723,9 @@
       "images": [],
       "arxiv_id": "2610.28770",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 83
     },
     {
@@ -17292,9 +17757,9 @@
       "images": [],
       "arxiv_id": "2610.29320",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 84
     },
     {
@@ -17326,8 +17791,8 @@
       "images": [],
       "arxiv_id": "2610.29311",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
       "priority_label": "Relevant",
       "rank": 95
     },
@@ -17363,8 +17828,8 @@
       "images": [],
       "arxiv_id": "2610.29249",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 75.6,
+      "freshness_score": 72.0,
+      "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 96
     },
@@ -17398,9 +17863,9 @@
       "images": [],
       "arxiv_id": "2610.29289",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 72.7,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.6,
+      "priority_label": "Latest",
       "rank": 105
     },
     {
@@ -17432,9 +17897,9 @@
       "images": [],
       "arxiv_id": "2610.29396",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 72.7,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.6,
+      "priority_label": "Latest",
       "rank": 106
     },
     {
@@ -17468,9 +17933,9 @@
       "images": [],
       "arxiv_id": "2610.29606",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 72.7,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.6,
+      "priority_label": "Latest",
       "rank": 107
     },
     {
@@ -17503,9 +17968,9 @@
       "images": [],
       "arxiv_id": "2610.29438",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 72.7,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.6,
+      "priority_label": "Latest",
       "rank": 108
     },
     {
@@ -17537,9 +18002,9 @@
       "images": [],
       "arxiv_id": "2610.29159",
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 145
     },
     {
@@ -17571,9 +18036,9 @@
       "images": [],
       "arxiv_id": "2610.28918",
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 72.6,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.5,
+      "priority_label": "Latest",
       "rank": 132
     },
     {
@@ -17610,8 +18075,8 @@
       ],
       "arxiv_id": "2610.29165",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 35
     },
@@ -17645,8 +18110,8 @@
       "images": [],
       "arxiv_id": "2610.29152",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 74.8,
+      "freshness_score": 72.0,
+      "priority_score": 71.7,
       "priority_label": "Relevant",
       "rank": 47
     },
@@ -17681,8 +18146,8 @@
       "images": [],
       "arxiv_id": "2610.28709",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 66
     },
@@ -17717,8 +18182,8 @@
       "images": [],
       "arxiv_id": "2610.28998",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 67
     },
@@ -17752,8 +18217,8 @@
       "images": [],
       "arxiv_id": "2610.28985",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 68
     },
@@ -17786,9 +18251,9 @@
       "images": [],
       "arxiv_id": "2610.28914",
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 72.6,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.5,
+      "priority_label": "Latest",
       "rank": 116
     },
     {
@@ -17825,9 +18290,9 @@
       "images": [],
       "arxiv_id": "2610.30043",
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 146
     },
     {
@@ -17859,8 +18324,8 @@
       "images": [],
       "arxiv_id": "2610.28856",
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 68.8,
+      "freshness_score": 72.0,
+      "priority_score": 65.7,
       "priority_label": "Latest",
       "rank": 169
     },
@@ -17896,8 +18361,8 @@
       "images": [],
       "arxiv_id": "2610.29283",
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 68.8,
+      "freshness_score": 72.0,
+      "priority_score": 65.7,
       "priority_label": "Latest",
       "rank": 170
     },
@@ -17932,8 +18397,8 @@
       "images": [],
       "arxiv_id": "2610.29141",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 74.1,
+      "freshness_score": 72.0,
+      "priority_score": 71.0,
       "priority_label": "Relevant",
       "rank": 57
     },
@@ -17967,8 +18432,8 @@
       "images": [],
       "arxiv_id": "2610.29102",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 69
     },
@@ -18005,8 +18470,8 @@
       "images": [],
       "arxiv_id": "2610.28873",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 70
     },
@@ -18039,8 +18504,8 @@
       "images": [],
       "arxiv_id": "2606.26636",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 75.5,
+      "freshness_score": 72.0,
+      "priority_score": 72.5,
       "priority_label": "Relevant",
       "rank": 75
     },
@@ -18074,9 +18539,9 @@
       "images": [],
       "arxiv_id": "2610.28773",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 85
     },
     {
@@ -18111,9 +18576,9 @@
       "images": [],
       "arxiv_id": "2610.28811",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 86
     },
     {
@@ -18146,8 +18611,8 @@
       "images": [],
       "arxiv_id": "2610.29248",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 74.5,
+      "freshness_score": 72.0,
+      "priority_score": 71.5,
       "priority_label": "Relevant",
       "rank": 94
     },
@@ -18182,8 +18647,8 @@
       "images": [],
       "arxiv_id": "2610.29122",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 73.8,
+      "freshness_score": 72.0,
+      "priority_score": 70.7,
       "priority_label": "Relevant",
       "rank": 74
     },
@@ -18216,9 +18681,9 @@
       "images": [],
       "arxiv_id": "2610.28791",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 72.7,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.6,
+      "priority_label": "Latest",
       "rank": 109
     },
     {
@@ -18254,8 +18719,8 @@
       "images": [],
       "arxiv_id": "2610.29090",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 74.9,
+      "freshness_score": 72.0,
+      "priority_score": 71.8,
       "priority_label": "Relevant",
       "rank": 45
     },
@@ -18288,9 +18753,9 @@
       "images": [],
       "arxiv_id": "2610.29250",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 87
     },
     {
@@ -18325,8 +18790,8 @@
       "images": [],
       "arxiv_id": "2610.29196",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 73.8,
+      "freshness_score": 72.0,
+      "priority_score": 70.7,
       "priority_label": "Relevant",
       "rank": 69
     },
@@ -18364,8 +18829,8 @@
       "images": [],
       "arxiv_id": "2610.29537",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 73.8,
+      "freshness_score": 72.0,
+      "priority_score": 70.7,
       "priority_label": "Relevant",
       "rank": 70
     },
@@ -18401,9 +18866,9 @@
       "images": [],
       "arxiv_id": "2610.28716",
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 70.8,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.7,
+      "priority_label": "Latest",
       "rank": 142
     },
     {
@@ -18436,8 +18901,8 @@
       "images": [],
       "arxiv_id": "2610.28679",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.1,
+      "freshness_score": 72.0,
+      "priority_score": 71.0,
       "priority_label": "Relevant",
       "rank": 58
     },
@@ -18471,8 +18936,8 @@
       "images": [],
       "arxiv_id": "2610.29362",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 71
     },
@@ -18509,9 +18974,9 @@
       "images": [],
       "arxiv_id": "2610.30136",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 88
     },
     {
@@ -18545,8 +19010,8 @@
       "images": [],
       "arxiv_id": "2610.30017",
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 69.9,
+      "freshness_score": 72.0,
+      "priority_score": 66.9,
       "priority_label": "Latest",
       "rank": 175
     },
@@ -18582,9 +19047,9 @@
       "images": [],
       "arxiv_id": "2610.28886",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 72.3,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.2,
+      "priority_label": "Latest",
       "rank": 123
     },
     {
@@ -18618,9 +19083,9 @@
       "images": [],
       "arxiv_id": "2610.29063",
       "relevance_score": 72.2,
-      "freshness_score": 86.0,
-      "priority_score": 70.8,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.7,
+      "priority_label": "Latest",
       "rank": 145
     },
     {
@@ -18652,9 +19117,9 @@
       "images": [],
       "arxiv_id": "2610.28787",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 89
     },
     {
@@ -18688,9 +19153,9 @@
       "images": [],
       "arxiv_id": "2610.29326",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 90
     },
     {
@@ -18722,8 +19187,8 @@
       "images": [],
       "arxiv_id": "2610.28934",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.1,
+      "freshness_score": 72.0,
+      "priority_score": 71.0,
       "priority_label": "Relevant",
       "rank": 59
     },
@@ -18758,8 +19223,8 @@
       "images": [],
       "arxiv_id": "2610.29110",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 61
     },
@@ -18794,9 +19259,9 @@
       "images": [],
       "arxiv_id": "2610.29443",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 91
     },
     {
@@ -18829,9 +19294,9 @@
       "images": [],
       "arxiv_id": "2610.28992",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 92
     },
     {
@@ -18864,9 +19329,9 @@
       "images": [],
       "arxiv_id": "2610.29161",
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 147
     },
     {
@@ -18898,9 +19363,9 @@
       "images": [],
       "arxiv_id": "2610.29246",
       "relevance_score": 65.6,
-      "freshness_score": 86.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 148
     },
     {
@@ -18936,8 +19401,8 @@
       "images": [],
       "arxiv_id": "2610.29262",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 73.7,
+      "freshness_score": 72.0,
+      "priority_score": 70.6,
       "priority_label": "Relevant",
       "rank": 72
     },
@@ -18972,9 +19437,9 @@
       "images": [],
       "arxiv_id": "2610.30125",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 72.7,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.6,
+      "priority_label": "Latest",
       "rank": 107
     },
     {
@@ -19011,9 +19476,9 @@
       "images": [],
       "arxiv_id": "2610.28706",
       "relevance_score": 70.5,
-      "freshness_score": 86.0,
-      "priority_score": 72.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 125
     },
     {
@@ -19048,9 +19513,9 @@
       "images": [],
       "arxiv_id": "2610.29455",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 73.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 70.0,
+      "priority_label": "Latest",
       "rank": 93
     },
     {
@@ -19081,8 +19546,8 @@
         "https://www-cdn.anthropic.com/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.9,
+      "freshness_score": 72.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 16
     },
@@ -19111,9 +19576,9 @@
       "related": [],
       "images": [],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 208
     },
     {
@@ -19155,9 +19620,9 @@
       "pmid": "42903694",
       "doi": "10.1016/j.esmorw.2026.100788",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 2
     },
     {
@@ -19201,9 +19666,9 @@
       "pmid": "42906870",
       "doi": "10.1016/j.mri.2026.110823",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 3
     },
     {
@@ -19236,9 +19701,9 @@
       "pmid": "42907964",
       "doi": "10.1177/10781552261498674",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 9
     },
     {
@@ -19276,9 +19741,9 @@
       "pmid": "42905931",
       "doi": "10.1021/acssensors.6c00720",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 10
     },
     {
@@ -19325,8 +19790,8 @@
       "pmid": "42906863",
       "doi": "10.1016/j.survophthal.2026.10.008",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 22
     },
@@ -19369,9 +19834,9 @@
       "pmid": "42905697",
       "doi": "10.1001/jamapsychiatry.2026.3232",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 4
     },
     {
@@ -19409,9 +19874,9 @@
       "pmid": "42905582",
       "doi": "10.1109/JBHI.2026.3745763",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 5
     },
     {
@@ -19454,9 +19919,9 @@
       "pmid": "42905015",
       "doi": "10.1148/ryai.260538",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 3
     },
     {
@@ -19496,8 +19961,8 @@
       "pmid": "42904373",
       "doi": "10.2196/90750",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 79.9,
+      "freshness_score": 72.0,
+      "priority_score": 76.8,
       "priority_label": "Relevant",
       "rank": 9
     },
@@ -19541,8 +20006,8 @@
       "pmid": "42902842",
       "doi": "10.2196/96886",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 17
     },
@@ -19590,9 +20055,9 @@
       "pmid": "42907483",
       "doi": "10.1038/s44401-026-00157-1",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 21
     },
     {
@@ -19630,9 +20095,9 @@
       "pmid": "42904440",
       "doi": "10.1515/revneuro-2026-0186",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 8
     },
     {
@@ -19674,8 +20139,8 @@
       "pmid": "42902828",
       "doi": "10.2196/102862",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 18
     },
@@ -19726,8 +20191,8 @@
       "pmid": "42905016",
       "doi": "10.1148/ryai.260234",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 19
     },
@@ -19773,9 +20238,9 @@
       "pmid": "42907936",
       "doi": "10.1186/s40644-026-01140-7",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 11
     },
     {
@@ -19810,9 +20275,9 @@
       "pmid": "42903526",
       "doi": "10.1002/fsn3.72458",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 7
     },
     {
@@ -19854,9 +20319,9 @@
       "pmid": "42903696",
       "doi": "10.1039/d6na00705h",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 12
     },
     {
@@ -19897,8 +20362,8 @@
       "pmid": "42906143",
       "doi": "10.2196/71614",
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 78.6,
+      "freshness_score": 72.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 23
     },
@@ -19941,9 +20406,9 @@
       "pmid": "42904771",
       "doi": "10.1002/advs.76577",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.2,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.1,
+      "priority_label": "Relevant",
       "rank": 1
     },
     {
@@ -19986,9 +20451,9 @@
       "pmid": "42906280",
       "doi": "10.1016/j.oraloncology.2026.108192",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 81.2,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.1,
+      "priority_label": "Relevant",
       "rank": 6
     },
     {
@@ -20028,9 +20493,9 @@
       "pmid": "42902900",
       "doi": "10.1039/d6an00751a",
       "relevance_score": 78.7,
-      "freshness_score": 86.0,
-      "priority_score": 80.1,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
       "rank": 11
     },
     {
@@ -20072,9 +20537,9 @@
       "pmid": "42904142",
       "doi": "10.1016/j.isci.2026.117255",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 4
     },
     {
@@ -20114,9 +20579,9 @@
       "pmid": "42902951",
       "doi": "10.1021/acs.bioconjchem.6c00394",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 5
     },
     {
@@ -20158,9 +20623,9 @@
       "pmid": "42904642",
       "doi": "10.1021/acschemneuro.6c00406",
       "relevance_score": 82.0,
-      "freshness_score": 86.0,
-      "priority_score": 81.0,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 78.0,
+      "priority_label": "Relevant",
       "rank": 6
     },
     {
@@ -20199,8 +20664,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/19/ML-20213-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 97
     },
@@ -20244,8 +20709,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/14/ML-21081-4-1.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.7,
+      "freshness_score": 72.0,
+      "priority_score": 71.6,
       "priority_label": "Relevant",
       "rank": 48
     },
@@ -36188,9 +36653,9 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/MIT-3Q-Collision-01-press_1.jpg?itok=BLOydoCM"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 72.4,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 74
     },
     {
@@ -36226,9 +36691,9 @@
       "images": [],
       "arxiv_id": "2610.19050",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 71.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.4,
+      "priority_label": "Latest",
       "rank": 39
     },
     {
@@ -36263,8 +36728,8 @@
       "images": [],
       "arxiv_id": "2610.19302",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 69
     },
@@ -36299,8 +36764,8 @@
       "images": [],
       "arxiv_id": "2610.19604",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 68.6,
+      "freshness_score": 56.0,
+      "priority_score": 65.0,
       "priority_label": "Latest",
       "rank": 113
     },
@@ -36334,8 +36799,8 @@
       "images": [],
       "arxiv_id": "2610.19601",
       "relevance_score": 72.2,
-      "freshness_score": 72.0,
-      "priority_score": 69.5,
+      "freshness_score": 56.0,
+      "priority_score": 66.0,
       "priority_label": "Latest",
       "rank": 118
     },
@@ -36368,8 +36833,8 @@
       "images": [],
       "arxiv_id": "2610.19495",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 129
     },
@@ -36405,8 +36870,8 @@
       "images": [],
       "arxiv_id": "2610.18991",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 66.9,
+      "freshness_score": 56.0,
+      "priority_score": 63.3,
       "priority_label": "Latest",
       "rank": 156
     },
@@ -36439,8 +36904,8 @@
       "images": [],
       "arxiv_id": "2610.14959",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 118
     },
@@ -36477,9 +36942,9 @@
       ],
       "arxiv_id": "2610.19118",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 31
     },
     {
@@ -36510,9 +36975,9 @@
       "images": [],
       "arxiv_id": "2610.19729",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 65
     },
     {
@@ -36544,8 +37009,8 @@
       "images": [],
       "arxiv_id": "2610.19114",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 70
     },
@@ -36583,8 +37048,8 @@
       "images": [],
       "arxiv_id": "2610.19762",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 71
     },
@@ -36618,8 +37083,8 @@
       "images": [],
       "arxiv_id": "2610.19178",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 80
     },
@@ -36653,8 +37118,8 @@
       "images": [],
       "arxiv_id": "2610.19191",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 81
     },
@@ -36690,8 +37155,8 @@
       "images": [],
       "arxiv_id": "2610.20121",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.2,
+      "freshness_score": 56.0,
+      "priority_score": 65.7,
       "priority_label": "Latest",
       "rank": 100
     },
@@ -36729,8 +37194,8 @@
       "images": [],
       "arxiv_id": "2610.20157",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 116
     },
@@ -36763,8 +37228,8 @@
       "images": [],
       "arxiv_id": "2610.19677",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 130
     },
@@ -36800,8 +37265,8 @@
       "images": [],
       "arxiv_id": "2610.19026",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 63.7,
+      "freshness_score": 56.0,
+      "priority_score": 60.2,
       "priority_label": "Latest",
       "rank": 177
     },
@@ -36836,9 +37301,9 @@
       "images": [],
       "arxiv_id": "2610.19372",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 44
     },
     {
@@ -36872,9 +37337,9 @@
       "images": [],
       "arxiv_id": "2610.19063",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 54
     },
     {
@@ -36909,9 +37374,9 @@
       "images": [],
       "arxiv_id": "2610.19327",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 59
     },
     {
@@ -36946,8 +37411,8 @@
       "images": [],
       "arxiv_id": "2610.18878",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 82
     },
@@ -36982,9 +37447,9 @@
       "images": [],
       "arxiv_id": "2610.14707",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 94
     },
     {
@@ -37015,9 +37480,9 @@
       "images": [],
       "arxiv_id": "2610.14996",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 110
     },
     {
@@ -37050,8 +37515,8 @@
       "images": [],
       "arxiv_id": "2610.19347",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 65.7,
+      "freshness_score": 56.0,
+      "priority_score": 62.2,
       "priority_label": "Latest",
       "rank": 151
     },
@@ -37085,8 +37550,8 @@
       "images": [],
       "arxiv_id": "2610.19786",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 65.0,
+      "freshness_score": 56.0,
+      "priority_score": 61.5,
       "priority_label": "Latest",
       "rank": 173
     },
@@ -37122,8 +37587,8 @@
       "images": [],
       "arxiv_id": "2610.19735",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 63.7,
+      "freshness_score": 56.0,
+      "priority_score": 60.2,
       "priority_label": "Latest",
       "rank": 188
     },
@@ -37157,8 +37622,8 @@
       "images": [],
       "arxiv_id": "2610.19563",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 75
     },
@@ -37192,9 +37657,9 @@
       "images": [],
       "arxiv_id": "2610.19164",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 72.8,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.2,
+      "priority_label": "Latest",
       "rank": 67
     },
     {
@@ -37227,8 +37692,8 @@
       "images": [],
       "arxiv_id": "2610.19362",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 83
     },
@@ -37262,8 +37727,8 @@
       "images": [],
       "arxiv_id": "2610.19481",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 114
     },
@@ -37298,8 +37763,8 @@
       "images": [],
       "arxiv_id": "2610.19536",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 77
     },
@@ -37331,9 +37796,9 @@
       "images": [],
       "arxiv_id": "2610.14625",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 107
     },
     {
@@ -37369,9 +37834,9 @@
       ],
       "arxiv_id": "2610.19120",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 32
     },
     {
@@ -37410,9 +37875,9 @@
       "images": [],
       "arxiv_id": "2610.19823",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 45
     },
     {
@@ -37448,8 +37913,8 @@
       "images": [],
       "arxiv_id": "2610.19475",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 72
     },
@@ -37486,8 +37951,8 @@
       "images": [],
       "arxiv_id": "2610.14389",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.2,
+      "freshness_score": 56.0,
+      "priority_score": 65.7,
       "priority_label": "Latest",
       "rank": 101
     },
@@ -37521,8 +37986,8 @@
       "images": [],
       "arxiv_id": "2610.19753",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 131
     },
@@ -37555,8 +38020,8 @@
       "images": [],
       "arxiv_id": "2610.19220",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 65.7,
+      "freshness_score": 56.0,
+      "priority_score": 62.2,
       "priority_label": "Latest",
       "rank": 152
     },
@@ -37588,8 +38053,8 @@
       "images": [],
       "arxiv_id": "2610.19912",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 65.7,
+      "freshness_score": 56.0,
+      "priority_score": 62.2,
       "priority_label": "Latest",
       "rank": 153
     },
@@ -37628,9 +38093,9 @@
       "images": [],
       "arxiv_id": "2610.19466",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 71.7,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.2,
+      "priority_label": "Latest",
       "rank": 42
     },
     {
@@ -37663,9 +38128,9 @@
       "images": [],
       "arxiv_id": "2610.19314",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 52
     },
     {
@@ -37700,9 +38165,9 @@
       "images": [],
       "arxiv_id": "2610.19399",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.5,
+      "priority_label": "Latest",
       "rank": 53
     },
     {
@@ -37739,9 +38204,9 @@
       "images": [],
       "arxiv_id": "2610.19901",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 60
     },
     {
@@ -37774,8 +38239,8 @@
       "images": [],
       "arxiv_id": "2610.19525",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 84
     },
@@ -37808,8 +38273,8 @@
       "images": [],
       "arxiv_id": "2610.19123",
       "relevance_score": 70.5,
-      "freshness_score": 72.0,
-      "priority_score": 69.0,
+      "freshness_score": 56.0,
+      "priority_score": 65.5,
       "priority_label": "Latest",
       "rank": 105
     },
@@ -37843,8 +38308,8 @@
       "images": [],
       "arxiv_id": "2610.19913",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 131
     },
@@ -37876,9 +38341,9 @@
       "images": [],
       "arxiv_id": "2610.19478",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 71.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.9,
+      "priority_label": "Latest",
       "rank": 94
     },
     {
@@ -37920,9 +38385,9 @@
       ],
       "arxiv_id": "2505.03380",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 72.8,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.2,
+      "priority_label": "Latest",
       "rank": 29
     },
     {
@@ -37957,9 +38422,9 @@
       "images": [],
       "arxiv_id": "2610.19189",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 70.6,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.1,
+      "priority_label": "Latest",
       "rank": 61
     },
     {
@@ -37992,8 +38457,8 @@
       "images": [],
       "arxiv_id": "2610.19071",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 65.7,
+      "freshness_score": 56.0,
+      "priority_score": 62.2,
       "priority_label": "Latest",
       "rank": 154
     },
@@ -38026,8 +38491,8 @@
       "images": [],
       "arxiv_id": "2610.19640",
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 63.7,
+      "freshness_score": 56.0,
+      "priority_score": 60.2,
       "priority_label": "Latest",
       "rank": 190
     },
@@ -38062,9 +38527,9 @@
       "images": [],
       "arxiv_id": "2610.18879",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 70.7,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.2,
+      "priority_label": "Latest",
       "rank": 79
     },
     {
@@ -38096,8 +38561,8 @@
       "images": [],
       "arxiv_id": "2610.19817",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 80
     },
@@ -38135,9 +38600,9 @@
       ],
       "arxiv_id": "2605.06727",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 68.9,
+      "priority_label": "Latest",
       "rank": 33
     },
     {
@@ -38168,8 +38633,8 @@
       "images": [],
       "arxiv_id": "2610.14356",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 85
     },
@@ -38207,8 +38672,8 @@
       "images": [],
       "arxiv_id": "2610.14777",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 86
     },
@@ -38243,8 +38708,8 @@
       "images": [],
       "arxiv_id": "2610.14005",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.2,
+      "freshness_score": 56.0,
+      "priority_score": 65.7,
       "priority_label": "Latest",
       "rank": 102
     },
@@ -38280,8 +38745,8 @@
       "images": [],
       "arxiv_id": "2610.14883",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.2,
+      "freshness_score": 56.0,
+      "priority_score": 65.7,
       "priority_label": "Latest",
       "rank": 103
     },
@@ -38318,8 +38783,8 @@
       "images": [],
       "arxiv_id": "2610.20055",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.0,
+      "freshness_score": 56.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 66
     },
@@ -38355,8 +38820,8 @@
       "images": [],
       "arxiv_id": "2610.14643",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 106
     },
@@ -38390,9 +38855,9 @@
       "images": [],
       "arxiv_id": "2610.19268",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 63
     },
     {
@@ -38424,8 +38889,8 @@
       "images": [],
       "arxiv_id": "2610.14489",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 87
     },
@@ -38458,8 +38923,8 @@
       "images": [],
       "arxiv_id": "2610.19035",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 69.6,
+      "freshness_score": 56.0,
+      "priority_score": 66.1,
       "priority_label": "Latest",
       "rank": 83
     },
@@ -38494,9 +38959,9 @@
       "images": [],
       "arxiv_id": "2610.19155",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 71.3,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.8,
+      "priority_label": "Latest",
       "rank": 48
     },
     {
@@ -38529,8 +38994,8 @@
       "images": [],
       "arxiv_id": "2610.20150",
       "relevance_score": 65.6,
-      "freshness_score": 72.0,
-      "priority_score": 67.5,
+      "freshness_score": 56.0,
+      "priority_score": 64.0,
       "priority_label": "Latest",
       "rank": 134
     },
@@ -38559,8 +39024,8 @@
       "related": [],
       "images": [],
       "relevance_score": 47.6,
-      "freshness_score": 72.0,
-      "priority_score": 68.0,
+      "freshness_score": 56.0,
+      "priority_score": 64.4,
       "priority_label": "Latest",
       "rank": 208
     },
@@ -38606,8 +39071,8 @@
       "pmid": "42881113",
       "doi": "10.1016/j.euo.2026.09.015",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 8
     },
@@ -38653,8 +39118,8 @@
       "pmid": "42879775",
       "doi": "10.2196/95417",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 77.8,
+      "freshness_score": 56.0,
+      "priority_score": 74.3,
       "priority_label": "Relevant",
       "rank": 10
     },
@@ -38701,8 +39166,8 @@
       "pmid": "42875693",
       "doi": "10.1007/s10278-026-02383-3",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 6
     },
@@ -38749,8 +39214,8 @@
       "pmid": "42879762",
       "doi": "10.2196/81472",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 79.3,
+      "freshness_score": 56.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 2
     },
@@ -38792,8 +39257,8 @@
       "pmid": "42879769",
       "doi": "10.2196/95709",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 76.5,
+      "freshness_score": 56.0,
+      "priority_score": 73.0,
       "priority_label": "Relevant",
       "rank": 17
     },
@@ -38834,8 +39299,8 @@
       "pmid": "42875611",
       "doi": "10.1007/s00266-026-06352-7",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.5,
+      "freshness_score": 56.0,
+      "priority_score": 72.0,
       "priority_label": "Relevant",
       "rank": 15
     },
@@ -38878,8 +39343,8 @@
       "pmid": "42880582",
       "doi": "10.1016/j.pnpbp.2026.111977",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 77.0,
+      "freshness_score": 56.0,
+      "priority_score": 73.5,
       "priority_label": "Relevant",
       "rank": 21
     },
@@ -38918,8 +39383,8 @@
       "pmid": "42875930",
       "doi": "10.1002/jcu.70440",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 7
     },
@@ -38968,8 +39433,8 @@
       "pmid": "42875623",
       "doi": "10.1007/s11060-026-05827-6",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 79.1,
+      "freshness_score": 56.0,
+      "priority_score": 75.6,
       "priority_label": "Relevant",
       "rank": 2
     },
@@ -39016,8 +39481,8 @@
       "pmid": "42875691",
       "doi": "10.1007/s10278-026-02379-z",
       "relevance_score": 82.0,
-      "freshness_score": 72.0,
-      "priority_score": 78.0,
+      "freshness_score": 56.0,
+      "priority_score": 74.4,
       "priority_label": "Relevant",
       "rank": 8
     },
@@ -39055,8 +39520,8 @@
       "pmid": "42875727",
       "doi": "10.1111/eje.70323",
       "relevance_score": 72.2,
-      "freshness_score": 72.0,
-      "priority_score": 75.0,
+      "freshness_score": 56.0,
+      "priority_score": 71.5,
       "priority_label": "Relevant",
       "rank": 20
     },
@@ -39091,8 +39556,8 @@
       "pmid": "42880210",
       "doi": "10.1177/08404704261494446",
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 78.3,
+      "freshness_score": 56.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 6
     },
@@ -39142,8 +39607,8 @@
       "pmid": "42876871",
       "doi": "10.1007/s13755-026-00482-7",
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.5,
+      "freshness_score": 56.0,
+      "priority_score": 72.0,
       "priority_label": "Relevant",
       "rank": 15
     },
@@ -39179,8 +39644,8 @@
         "https://mlr.cdn-apple.com/media/Discover_1440x420_2x_9c465d585e.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 24
     },
@@ -39214,8 +39679,8 @@
         "https://mlr.cdn-apple.com/media/Discover_1440x420_2x_9c465d585e.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.2,
+      "freshness_score": 56.0,
+      "priority_score": 71.6,
       "priority_label": "Relevant",
       "rank": 19
     },

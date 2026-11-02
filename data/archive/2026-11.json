@@ -1,9 +1,2450 @@
 {
   "schema_version": 2,
   "month": "2026-11",
-  "updated_at": "2026-11-01T22:14:36.795790+00:00",
-  "item_count": 2,
+  "updated_at": "2026-11-02T06:29:11.768715+00:00",
+  "item_count": 73,
   "items": [
+    {
+      "id": "3936cc8a26adc8d25654",
+      "title": "Safin-1.5: Safety-Native Architecture and Verifiable Reasoning for Recursive Safety Improvement",
+      "url": "https://arxiv.org/abs/2610.40751",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Recursive self-improvement (RSI) enables large language models to advance their capabilities through successive updates, but these updates can also introduce new risks and weaken existing safeguards. In line with the AI-45{\\deg} Law, we pursue Safety RSI, in which safety develops as an intrinsic capability alongside general model capabilities through continual risk discovery and repair,…",
+      "authors": [
+        "Jingnan Zheng, Cheng Jin, Ming Zhang, Huan Sun, Zhongtian Ma, Kaisen Yang, Ziyuan Zhou, Tong Wu, Dongcheng Zhang, Yi Zhang, Xiao Wang, Han Qi, Shu Yu, Ermo Hua, Zongji Yu, Chaozhuo Li, Xiaoyu Wen, Zhekai Chen, Jiawei Zhou, Sirui Chen, Ning Ding, An Zhang, Tat-Seng Chua, Xiangnan He, Xia Hu, Bowen Zhou, Qiaosheng Zhang, Youbang Sun, Xiang Wang, Zhongyu Huang, Chaochao Lu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40751",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 43
+    },
+    {
+      "id": "26e360c4442ab2437e33",
+      "title": "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
+      "url": "https://arxiv.org/abs/2610.40938",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Privacy"
+      ],
+      "excerpt": "Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcripts offer an alternative data source, but their discourse fidelity and residual confidentiality risks require assessment. We introduce DiRAFT (Discourse Realization from Aggregate…",
+      "authors": [
+        "Yunbai Zhang, Yunyi Gao, Han-Tai Shiao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40938",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 54
+    },
+    {
+      "id": "44400771794c25a5648b",
+      "title": "Advancing Clinical Trial Outcome Prediction with Domain-Specific Large Language Models",
+      "url": "https://arxiv.org/abs/2610.41710",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical AI",
+        "LLM",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Clinical trial failures are a major barrier to efficient drug development, incurring substantial costs and delaying patient access to effective therapies. Structured approaches such as the Hierarchical Interaction Network (HINT) predict trial outcomes by explicitly modelling interactions between drugs, diseases and protocols, but make limited use of the free text in trial registrations.…",
+      "authors": [
+        "Burak Bakkar, Hana Moalla, Mohamed Salem Jedidi, Haifa Ben Messaoud, Nicolas Lopez Carranza"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41710",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 55
+    },
+    {
+      "id": "f2d022669a2cb07c33fc",
+      "title": "Mechanistic Interpretability for End-to-End Self-Driving",
+      "url": "https://arxiv.org/abs/2610.41185",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Vision"
+      ],
+      "excerpt": "End-to-end (E2E) autonomous driving models achieve strong planning performance but remain largely opaque, limiting observability and trust. We apply mechanistic interpretability to E2E driving by training Sparse Autoencoders (SAEs) on the internal activations of a simple, single-camera end-to-end path planning model. Unsupervised clustering of SAE latents reveals interpretable structure…",
+      "authors": [
+        "Manav Gagvani, Benjamin Namikas, Sivamurugan Velmurugan, Nysa Kumar, Shrey Sharma, Thomas Peterson, Pratyush Mathur, Hyunseo Chang, Rohan Paleja"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41185",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 97
+    },
+    {
+      "id": "f2d9d67b6ed049218c07",
+      "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+      "url": "https://arxiv.org/abs/2610.40747",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum across midtraining, SFT, and RL. To power this curriculum at scale, Mage-CUA-Forge replaces…",
+      "authors": [
+        "Xiaoyi Zhang, Haoqing Wang, Xinjie Zhang, Xiang Ming, Xing Wang, Senqiao Yang, Kaichen Zhang, Zhaoyang Jia, Andong Tan, Xinjiang Wang, Jinghao Guo, Yifei Shen, Xiao Li, Peng Zhang, Xun Guo, Jiahao Li, Shicheng Zheng, Jinglu Wang, Zongyu Guo, Wenxuan Xie, Bin Li, Yan Lu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40747",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 109
+    },
+    {
+      "id": "8e29ff67f862ed6060c6",
+      "title": "BlindToChange: AI Agents Can Find Changes When Asked But Do They Look When Needed?",
+      "url": "https://arxiv.org/abs/2610.41435",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Given that AI agents can search the web broadly and deeply in real time, it is tempting to conclude that their outputs account for recent world events. We show that this conclusion does not hold in practice. While agents can search and easily find recent changes, the correctness of their responses depends on whether they search and what they search for. Popular agentic search benchmarks…",
+      "authors": [
+        "Anirudh Phukan, Tanya Goyal, Danish Pruthi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41435",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 110
+    },
+    {
+      "id": "62704a38ce2c2424676c",
+      "title": "Implicit Assumptions About Tasks in Continual Learning",
+      "url": "https://arxiv.org/abs/2610.41792",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "Continual learning is the study of how a model accumulates knowledge from data received over time, rather than all at once. In practice, this is typically achieved by dividing a dataset into tasks and presenting them sequentially. Explanations of the resulting measurements take into account factors such as the similarity between segments, the rate at which the data changes and the order…",
+      "authors": [
+        "Kathrin Korte, Christian Metzner, Akshay Bedhotiya, Viet Anh Khoa Tran, Eleni Nisioti, Sebastian Risi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41792",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 74.9,
+      "priority_label": "Relevant",
+      "rank": 140
+    },
+    {
+      "id": "f31a2cdbcf8a5fc30e2f",
+      "title": "rl_rob: A transparent, from-scratch Python library for teaching reinforcement learning from tabular methods to deep policy gradients",
+      "url": "https://arxiv.org/abs/2610.41303",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education",
+        "Open Source"
+      ],
+      "excerpt": "rl_rob is an open-source Python library for teaching reinforcement learning. It implements the arc of a modern course, from tabular temporal-difference learning through linear function approximation to deep value-based and policy-gradient methods, with every algorithm written from first principles so that its update rule is visible in a few lines of code. All agents share one interface,…",
+      "authors": [
+        "Abdulrahman Altahhan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41303",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 74.5,
+      "priority_label": "Relevant",
+      "rank": 147
+    },
+    {
+      "id": "a16df226a40c60d7a099",
+      "title": "Spatial Atlas-Informed Loss Ensembles for Whole-Body PSMA PET/CT Metastasis Segmentation",
+      "url": "https://arxiv.org/abs/2610.40834",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging"
+      ],
+      "excerpt": "Existing whole-body PSMA PET/CT prostate metastasis segmentation methods generally rely on images alone, without explicitly incorporating where metastases tend to occur. We investigate whether a population metastasis atlas can improve lesion detection when integrated into model training. We constructed voxel-wise mean and standard deviation maps from 375 expert-annotated training scans…",
+      "authors": [
+        "Grant N. Chau, Bashirul A. Biswas, Biratal Wagle, Matthew E. Maeder, Michael S. Leapman, James B. Yu, Indrani Bhattacharya"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40834",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 56
+    },
+    {
+      "id": "9da729354d31843e9f4d",
+      "title": "Specification-Guided Generation for Large Language Models",
+      "url": "https://arxiv.org/abs/2610.41511",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models (LLMs) can generate structured outputs, but existing constrained-decoding methods mainly enforce syntax and cannot directly enforce satisfaction of a formal specification. We introduce a neuro-symbolic, specification-guided decoding framework that combines LLM generation with symbolic reasoning. At each step, the framework refines the decoding grammar by filtering…",
+      "authors": [
+        "Alessandro Previti, Konstantinos Vandikas, Mario Alviano, Mats Carlsson, Albin Larsson Forsberg, Alexandros Nikou, Athanasios Karapantelakis, Aneta Vulgarakis"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41511",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 72
+    },
+    {
+      "id": "f7469ecdf744b3c31fca",
+      "title": "A prospective randomized study of patient-centered AI for clinical visit preparation",
+      "url": "https://arxiv.org/abs/2610.41437",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "LLM",
+        "Safety",
+        "Medical"
+      ],
+      "excerpt": "Patients often arrive at brief, time-constrained clinical visits unsure of what to expect or ask, and millions of adults now turn to general-purpose AI chatbots to prepare beforehand. Yet whether conversational AI improves visit readiness remains unclear. We designed a large language model (LLM)-based visit preparation agent to guide patients before an appointment by gathering clinical…",
+      "authors": [
+        "Xincheng Tan, Matthew Thompson, Xiang Ji, Angelica Willis, Will Vaughan, Roma Ruparel, Michael A. Sanchez, Sean Chang, Joseph Xu, Bhavna Daryani, Preeti Singh, Pinal Bavishi, Kejia Chen, Fan Zhang, Priya Gupta, Ernest Lim, Christina Chen, Bob Lou, Dimitrios Antos, Zach Wasson, Ray Luo, Fadi Yousif, Florence Thng, Mark Malhotra, Joseph Breda, Daniel McDuff, Kavi Goel, Katherine Chou, Dale R. Webster, Avinatan Hassidim, Yossi Matias, Po-Hsuan Cameron Chen, Yun Liu, Mike Schaekermann, Quang Duong, Jackie M. Barr"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41437",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.0,
+      "priority_label": "Relevant",
+      "rank": 80
+    },
+    {
+      "id": "06f7083edb347c43ab71",
+      "title": "From fleet trajectories to single-cell promises: hierarchically weighted conformal prediction for battery SOH monitoring",
+      "url": "https://arxiv.org/abs/2610.41696",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Science"
+      ],
+      "excerpt": "Interval predictions from conformal prediction are usually read as \"90% coverage\", but on nested battery data that number promises the fleet average, not the individual cell. We measure the gap on 124 public LFP cells under a preregistered three-tier reporting protocol (fleet, batch, cell): pooled coverage looks healthy (0.875-0.906 across splits) while the worst cell is covered 0.1-2%…",
+      "authors": [
+        "Xiangyu Liu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41696",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 82
+    },
+    {
+      "id": "990da2e19e867f074e1d",
+      "title": "SketchMate: Agentic Geometric Reasoning for Zero-Shot Precision Insertion",
+      "url": "https://arxiv.org/abs/2610.41844",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "Multimodal",
+        "Agents",
+        "Reasoning"
+      ],
+      "excerpt": "Inserting an unseen part requires sub-millimetre precision and the correct orientation of keyed features. Current zero-shot agentic manipulation methods built on vision-language models (VLMs) produce spatial outputs that are far too coarse for this. We propose to let a VLM build a sketch model of the task, i.e., a few geometric primitives and two mate frames, which a VLM agent measures…",
+      "authors": [
+        "Jiaming Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41844",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 111
+    },
+    {
+      "id": "e643e7ed6240c78de6fe",
+      "title": "Subliminal Reinforcement Learning: traits travel through a judge's scores",
+      "url": "https://arxiv.org/abs/2610.41301",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "Subliminal learning, the transfer of a model's trait through data with no semantic trace of it, has been shown for students trained on a teacher's text. Post-training relies on group relative policy optimization with a language-model judge, where the student learns only from its own outputs and one judge's scores. We show this suffices: a student writes invented syllables or numbers, a…",
+      "authors": [
+        "Keuntae Kim, Yong Suk Choi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41301",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 152
+    },
+    {
+      "id": "16d64cf69a055fdd3382",
+      "title": "From WSIs to Bulk, Spatial and Single-Cell Transcriptomics via Multi-Scale Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2610.41692",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical"
+      ],
+      "excerpt": "Understanding the spatial distribution of gene expression is key to studying complex diseases like cancer. While Spatial Transcriptomics (ST) and Single-Cell Transcriptomics (scT) provide high-resolution insights, they remain expensive and scarce. In contrast, standard histopathology Whole-Slide Images (WSIs) paired with bulk RNA sequencing are widely available. This work introduces a…",
+      "authors": [
+        "Miguel Andrade, Jos\\'e Almeida, Carlos Santiago, Catarina Barata"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41692",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
+      "rank": 38
+    },
+    {
+      "id": "9e6f9fdc923d2969870e",
+      "title": "SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs",
+      "url": "https://arxiv.org/abs/2610.41280",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Scientific data selection is typically driven by relevance or utility scores, providing limited insight into why a document is retained. We introduce SciGraphSelect, a reference-grounded framework for auditable scientific data selection. SciGraphSelect organizes domain-specific knowledge, reusable reasoning operations, and reference-attested relations into a typed knowledge--reasoning…",
+      "authors": [
+        "MiHyeon Kim, Ji-Eun Han, Eunkyeong Lee, Jeehyun Lim, Hwijung Ryu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41280",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 44
+    },
+    {
+      "id": "b7268995261f0acff5ba",
+      "title": "Physically Constrained Kinematic Calibration for High-Precision Robotic Needle Guidance",
+      "url": "https://arxiv.org/abs/2610.41429",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical",
+        "Robotics",
+        "Regulation"
+      ],
+      "excerpt": "Percutaneous needle insertion is a common practice in minimally invasive procedures whose clinical success depends on accurate needle placement. However, achieving the necessary precision is a challenge for manual operators. Robotic assistance can improve targeting accuracy and reduce operator dependence, but residual millimeter-scale errors persist because nominal kinematic models do…",
+      "authors": [
+        "Prabhu Nithin Gollapudi, Andreas Maier, Franziska Mathis-Ullrich, Water Zhao, Jia Wang, Siming Bayer"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41429",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 53
+    },
+    {
+      "id": "44f998393d8d5dfa4ff9",
+      "title": "VariaFlow: Uncertainty-Aware Flow Matching for Unsupervised Anomaly Detection",
+      "url": "https://arxiv.org/abs/2610.41494",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "Reconstruction-based anomaly detection no longer fails at reconstruction. Generative models produce high-quality pseudo-healthy reconstructions, and the remaining difficulty is the step of scoring residuals. The residual between a scan and its reconstruction has two indistinguishable sources, genuine pathology and the anatomical variation that separates one healthy brain from another.…",
+      "authors": [
+        "Arnela Hadzic, Martin Urschler, Cosmin I. Bercea"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41494",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 57
+    },
+    {
+      "id": "31a7efdb1e85a3b36469",
+      "title": "DiffUltra: Task-Guided Pathology Synthesis for Large-Scale Real-World Lung Ultrasound Data",
+      "url": "https://arxiv.org/abs/2610.40705",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Despite their scale, large medical imaging datasets may underrepresent clinically relevant pathological presentations. Synthetic data can expand coverage, but findings must remain compatible with surrounding anatomy. This is challenging in ultrasound, where findings resemble surrounding tissue and must be positioned relative to anatomical landmarks. We propose DiffUltra, a task-guided…",
+      "authors": [
+        "Gary Y. Li, Yu-Cheng Chou, Li Chen, Mohsen Zahiri, Priyam Patel, Balasundar Raju, Jochen Kruecker, Alvin Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40705",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 58
+    },
+    {
+      "id": "9dfc25ba9d302ac682f8",
+      "title": "Integrating AI for Human-Centric Breast Cancer Diagnostics: A Multi-Scale and Multi-View Swin Transformer Framework",
+      "url": "https://arxiv.org/abs/2503.13309",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Despite advancements in Computer-Aided Diagnosis (CAD) systems, breast cancer remains one of the leading causes of cancer-related deaths among women worldwide. Recent breakthroughs in Artificial Intelligence (AI) have shown significant promise in development of advanced Deep Learning (DL) architectures for breast cancer diagnosis through mammography. In this context, the paper focuses…",
+      "authors": [
+        "Farnoush Bayatmakou, Reza Taleei, Milad Amir Toutounchian, Arash Mohammadi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2503.13309",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 83
+    },
+    {
+      "id": "036b4e561b3c71b2c9ad",
+      "title": "TraceSpec: Understanding and Improving Speculative Decoding for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41177",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "LLM agents execute tasks through repeated model calls over evolving histories of reasoning, actions, and tool feedback. Aggregate speculative-decoding metrics merge these distinct decisions, providing limited guidance on where draft supervision is needed. We present TraceSpec, a framework connecting trajectory evaluation with adaptive draft training. It combines dynamic execution with…",
+      "authors": [
+        "Jihao Zhao, Shuaishuai Zu, Pengfei Li, Biao Qin, Guanghuan Fang, Ben Feng, Baochuan Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41177",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.6,
+      "priority_label": "Relevant",
+      "rank": 93
+    },
+    {
+      "id": "edb3113bbdd720b300ad",
+      "title": "Locality-Controlled Out-of-Distribution Guidance for Robust Regulatory DNA Sequence Design",
+      "url": "https://arxiv.org/abs/2610.41736",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "Designing regulatory DNA sequences for targeted gene-expression control is an important challenge. Recent approaches frame this task as property-conditioned generation, where diffusion models trained on natural sequences are guided toward high predicted activity through reward-based fine-tuning or sampling-time guidance. We show that single-reward evaluation can obscure reward-hacking…",
+      "authors": [
+        "Dabin Jeong, Marwane Bourdim, Mo Lotfollahi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41736",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.2,
+      "priority_label": "Relevant",
+      "rank": 185
+    },
+    {
+      "id": "ee59be84a7a2f394c70e",
+      "title": "Language-Conditioned Behavioral Cloning for Autonomous Endoscope Guidance",
+      "url": "https://arxiv.org/abs/2610.41978",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Vision",
+        "Regulation"
+      ],
+      "excerpt": "Automated endoscope guidance reduces the need for continuous manual camera control during minimally invasive surgery. However, the desired camera motion depends on the surgeon's immediate intentions and cannot always be inferred from the visual operative scene alone. We propose to automate the task using language-conditioned behavioral cloning; we define 6 clinically relevant guidance…",
+      "authors": [
+        "Ariel Rodriguez, Lorenzo Mazza, Ortrun Hellig, Alejandra Toscano, Rayan Younis, Stefanie Speidel"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41978",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.2,
+      "priority_label": "Relevant",
+      "rank": 186
+    },
+    {
+      "id": "93c097ae5b29a4c82256",
+      "title": "GazeRIB: Systematic Evaluation of Multi-Reader Gaze-Guided Chest X-ray Learning",
+      "url": "https://arxiv.org/abs/2610.42152",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Radiologists' visual attention can supervise medical image learning, but how reader panel composition affects its value remains untested. We evaluated GazeRIB (Gaze-guided Radiologist-Informed Blackout), which masks unviewed regions during training and uses unmasked images at inference. Eight experts repeatedly read the same 80 chest X-rays (CXRs). We compared individual readers with…",
+      "authors": [
+        "Nattakorn Kittisut, Roy M. Gabriel, Marly van Assen, Mohammadreza Zandehshahvar, Carlo N. De Cecco, Elizabeth A. Krupinski, Ali Adibi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.42152",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 59
+    },
+    {
+      "id": "ce2674e2055922449003",
+      "title": "TheseusSyn: Unified Medical Image Synthesis via Context-Conditioned Masked Autoregression",
+      "url": "https://arxiv.org/abs/2610.40706",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision",
+        "Privacy"
+      ],
+      "excerpt": "High-fidelity medical image synthesis is promising for data-efficient learning and privacy-preserving model development. However, most existing approaches rely on symbolic or label-based conditioning, which constrains generative diversity and limits case-specific contextual fidelity. Inspired by the Ship of Theseus paradox, we propose TheseusSyn, a novel context-conditioned synthesis…",
+      "authors": [
+        "Shibo Li, Venet Osmani"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40706",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 60
+    },
+    {
+      "id": "52289474d8031574248f",
+      "title": "Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization",
+      "url": "https://arxiv.org/abs/2610.41157",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Iterative language-model optimizers refine prompts and programs by evaluating a candidate, showing a proposer model a sample of failing cases, and keeping revisions that improve performance. Recent work attributes the limits of this loop to narrow single-round reflection, introducing full-set error clustering, targeted minibatches, or larger proposer models so the optimizer sees more…",
+      "authors": [
+        "Shanglin Yang, Zhan Shi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41157",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 73
+    },
+    {
+      "id": "83a40980f41835c19746",
+      "title": "NormDetect: Anchored Calibration for Low-False-Positive Detection of Machine-Generated Web Text",
+      "url": "https://arxiv.org/abs/2610.41459",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "Web platforms screen posts for text written by large language models, and every false flag hits a human writer. Detectors must therefore run at a very low false positive rate (FPR). Zero-shot detectors such as Binoculars score text with frozen language models, but invisible edits such as homoglyphs shatter tokenization and push machine text into the human range. Unicode normalization…",
+      "authors": [
+        "Hanshuai Cui, Fanshuai Meng, Zhiqing Tang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41459",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 84
+    },
+    {
+      "id": "36186f04dfefaf33e046",
+      "title": "META-Robot: Self-Cognition and Capability Scaling in Agentic Robots",
+      "url": "https://arxiv.org/abs/2610.41868",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Evaluation",
+        "Robotics",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "LLM-based robotic agent systems can generate programs for robot control, yet their generalization to new tasks often depends on elaborate scaffolding. Expanding their skill repertoires alone offers limited guidance on how to assess new capabilities or identify what remains beyond their reach. We introduce META-Robot, a framework that couples self cognition with capability scaling by…",
+      "authors": [
+        "Xuanzhi Feng, Zeyu Liu, Weiheng Gao, Xinchen Li, Jiankun Tang, Fangqi Zhu, Quanxin Shou, Hao Chen, Zhengyang Yan, Hualei Zhang, Junhao Li, Zhiyao Wu, Jie Zhang, Song Guo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41868",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.5,
+      "priority_label": "Relevant",
+      "rank": 49
+    },
+    {
+      "id": "79304b77585961e4b388",
+      "title": "Report-Derived Labels, an Image Teacher and the Gap to Expert Labels in Knee MRI: An Analysis of One Entry to the RSNA 2026 Knee Abnormality Detection Challenge",
+      "url": "https://arxiv.org/abs/2610.40708",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "In the RSNA 2026 Knee Abnormality Detection challenge, 58 of 4,407 training studies have expert labels for 12 findings, and the rest have only a radiology report. We compare training targets built from a language-model reading of the reports and from a public image model against two references: the expert labels and the 39,248 study-finding cells that the reports state as present or…",
+      "authors": [
+        "Soheil Kooklan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40708",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 61
+    },
+    {
+      "id": "8d5868f7adf3430c5974",
+      "title": "Zonal-Aware Prostate Cancer Detection and Classification via Hadamard-Fused Mamba-UNet",
+      "url": "https://arxiv.org/abs/2610.40720",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "Accurate clinically significant prostate cancer (csPCa) detection from prostate MRI requires a detailed understanding of the prostate anatomical context. Deep learning approaches have achieved promising results in zonal and lesion segmentation; however, the joint analysis of prostate zonal anatomy and lesion morphology in a unified framework remains relatively underexplored. In this…",
+      "authors": [
+        "Emadeldeen Hamdan, Gorkem Durak, Muhammed Enes Tasci, Halil Ertugrul Aktas, Fergan Bol, Elif Bilge Gok, Mehmet Eralp Akpinar, Ali Berke Vural, Andrea M. Bejar, Wanying Dou, Elif Keles, Frank H Miller, Hiten D. Patel, Ashley E Ross, Hatice Savas, Ahmet Enis Cetin, Ulas Bagci"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40720",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 62
+    },
+    {
+      "id": "47ee1e4f4d7313a6ae6a",
+      "title": "FARO: Function-Space Adaptive Return-to-Risk Optimization via Cross-Block Equal-Risk-Contribution Budget Allocation",
+      "url": "https://arxiv.org/abs/2610.40858",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM"
+      ],
+      "excerpt": "Training a large language model is compute-bound, and current recipes divide the work between optimizers by hand: orthogonalized momentum for attention and MLP matrices, Adam-style updates for the rest. This division rests on human priors about which layer type deserves which geometry, and it fixes a single global update budget that every parameter block shares. We introduce FARO, a…",
+      "authors": [
+        "Xiaojun Wu, Cehao Yang, Xuhui Jiang, Chengjin Xu, Jia Li, Jian Guo"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40858",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 74
+    },
+    {
+      "id": "b3c95a5369553afafd79",
+      "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
+      "url": "https://arxiv.org/abs/2610.42097",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics",
+        "Regulation"
+      ],
+      "excerpt": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction. We introduce a reinforcement learning method with contact-supported geometric escape guidance, which rewards incremental reduction of robot-obstacle overlap…",
+      "authors": [
+        "Yidan Lu, Jiayuan Yu, Zongrui Cai, Jingwen Sun, Jinrui Han, Jing Wang, Ping Luo, Peng Lu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.42097",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 75.0,
+      "priority_label": "Relevant",
+      "rank": 100
+    },
+    {
+      "id": "e06c486f82d978a2584f",
+      "title": "Inter-Frame Predictive Contour Coding for Semantic Map Compression",
+      "url": "https://arxiv.org/abs/2610.40887",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Vision"
+      ],
+      "excerpt": "Dynamic semantic maps have become an important intermediate representation for many computer vision applications. Efficient lossless compression of such maps is essential for reducing storage and transmission costs. Existing contour-based semantic map compression methods mainly exploit spatial redundancy within individual frames while largely ignoring the strong temporal correlation…",
+      "authors": [
+        "Runyu Yang, Hyomin Choi, Fabien Racap\\'e, Ivan V. Baji\\'c"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40887",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 159
+    },
+    {
+      "id": "4759ddb6762604e6e25e",
+      "title": "SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations",
+      "url": "https://arxiv.org/abs/2610.41308",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "Large language models increasingly generate structured outputs consumed by programs and downstream systems, where semantic correctness alone does not guarantee reliable execution. We introduce SERIAL-7, a Korean-English benchmark built around an executable verification framework for machine-verifiable generation across seven representations. Using 177 validated canonical artifacts,…",
+      "authors": [
+        "Youngkyung Seo, MiHyeon Kim, Jisoo Lee, Hwijung Ryu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-nc-nd-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.41308",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 26
+    },
+    {
+      "id": "d10d179d019c61066ca8",
+      "title": "Bayesian PET Reconstruction with Learned Flow Matching Priors via Langevin Sampling",
+      "url": "https://arxiv.org/abs/2610.41337",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Image reconstruction for positron emission tomography (PET) is a challenging inverse problem due to its inherent ill-posedness and Poisson counting noise, particularly in low-dose acquisitions. In this work, we introduce a novel Bayesian PET reconstruction framework that leverages a flow-matching generative prior learned from high-quality PET images. By incorporating this prior, we…",
+      "authors": [
+        "Hengjia Ran, Huafeng Liu, Bo Zhao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.41337",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
+      "rank": 28
+    },
+    {
+      "id": "636df7d37afc90c967fe",
+      "title": "ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual Replay",
+      "url": "https://arxiv.org/abs/2610.41025",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Evaluation"
+      ],
+      "excerpt": "When a language-model agent fails a multi-step task, can another model find the decisive mistake and fix it with a single action? We introduce ReplayRCA, a benchmark that scores such diagnoses by intervention rather than by agreement with annotations: the environment is restored to the state preceding the chosen step, the proposed action replaces the agent's own, and the same agent…",
+      "authors": [
+        "Jeremy Canale, Fabien Soulis"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41025",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 45
+    },
+    {
+      "id": "ae685cc724de266d5956",
+      "title": "FOCUS: First-Order Control Using Optimal Transport Supervision for Imitation from Observations",
+      "url": "https://arxiv.org/abs/2610.41540",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Robotics"
+      ],
+      "excerpt": "Imitation learning from observations must recover behavior from state-only demonstrations without known temporal correspondence. Differentiable simulators provide pathwise policy gradients, but differentiating through long, contact-rich trajectories can make optimization unstable. We introduce FOCUS, which combines local optimal-transport alignment with short-horizon differentiable…",
+      "authors": [
+        "Jo\\~ao A. C\\^andido Ramos, Lionel Blond\\'e, Hugues Vinzant, Jacopo Castellini, Alexandros Kalousis"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41540",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 46
+    },
+    {
+      "id": "62ef386c79d6a47083ee",
+      "title": "HandMimicX: Learning Human-Like Dexterous Manipulation via an Object-Centric Policy from Egocentric Videos",
+      "url": "https://arxiv.org/abs/2610.41336",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics"
+      ],
+      "excerpt": "Learning dexterous manipulation from human videos remains an open challenge, particularly in the context of transferring a single demonstration into a spatially generalizable robotic skill and maintaining physically plausible human-like interactions. Unlike prior works that emphasize hand-motion imitation, we introduce an object-centric framework for acquiring dexterous skills from…",
+      "authors": [
+        "Zihan Gao, Yufei Liu, Yuhong Zhang, Zhen Yu, Xinhao Huang, Zhinan You, Kai W. Ho, Zipeng Ye, Peng Jiao, Haoqian Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41336",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 131
+    },
+    {
+      "id": "92a41766f89c66f3131c",
+      "title": "MotorSense: A Video-EMG Dataset of Motoric Representations for Action Understanding",
+      "url": "https://arxiv.org/abs/2610.41127",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Safety",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "Computer vision models learn hand action only from its visual consequences, without access to the underlying embodied motor signals. We address this absence with MotorSense, the first large-scale paired egocentric video and surface electromyography (EMG) dataset. MotorSense pairs bimanual EMG bands with egocentric video and yields synchronized video, bimanual EMG and IMU, and audio…",
+      "authors": [
+        "Eadom Dessalene, Michael Maynord, Amir-Hossein Shahidzadeh, Botao He, Yasamin Tabatabaee, Ruoshi Liu, Ruohan Gao, Paul Pu Liang, Yiannis Aloimonos"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41127",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 72.9,
+      "priority_label": "Relevant",
+      "rank": 148
+    },
+    {
+      "id": "34ba71b233ecd92d27a3",
+      "title": "WorkIng: A Real-World and Synthetic Highway Work-Zone Benchmark Dataset for Autonomous Navigation",
+      "url": "https://arxiv.org/abs/2610.41772",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "Highway work zones are critical edge cases for autonomous vehicles (AVs), combining atypical geometries and jurisdiction-specific regulations that existing benchmarks fail to capture: real-world datasets lack 360{\\deg} multi-modal, full-scene 3D work zone annotation, and no single recorded site can span the layouts and regulatory variants needed for generalizable models. We present…",
+      "authors": [
+        "Xujun Xie, Dominik R\\\"o{\\ss}le, Adithya Mohan, Daniel Cremers, Torsten Sch\\\"on"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41772",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.2,
+      "priority_label": "Relevant",
+      "rank": 175
+    },
+    {
+      "id": "9b6a61d8643232eb956c",
+      "title": "Measuring What Matters: A Causal Reliance Score for Histopathology Image Segmentation",
+      "url": "https://arxiv.org/abs/2610.41763",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Reliable histopathology segmentation requires models that rely on pathology-relevant structures rather than spurious background correlations. In this work, we argue that improving architectures alone is insufficient if models continue to rely on spurious correlations rather than pathology-relevant features. We introduce a causality-inspired evaluation framework based on controlled…",
+      "authors": [
+        "Samuel Thomas, Daniel Tweneboah Anyimadu, Ahmed Karam Eldaly, Somaia Elsheikh, Mohammed M. Abdelsamea"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.41763",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 79.7,
+      "priority_label": "Relevant",
+      "rank": 19
+    },
+    {
+      "id": "37691985ad389b7126b0",
+      "title": "LAPIS: Clinically Constrained Patient-Identity Residual Learning for Chest X-Ray Anonymization",
+      "url": "https://arxiv.org/abs/2610.40722",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Biometric information in chest radiographs limits their release for research, as patients can be re-identified. We propose LAPIS, which jointly adapts a spatial chest-radiograph latent space so that patient-discriminative information concentrates in a compact, replaceable channel residual while most clinically relevant content stays in the complement. The residual is defined by an…",
+      "authors": [
+        "Nishi Kanta Paul, Md Shihabul Islam Shovo, D\\'esir\\'e Sidib\\'e"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.40722",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 78.4,
+      "priority_label": "Relevant",
+      "rank": 32
+    },
+    {
+      "id": "8ccd6c7a9f52ecfeb784",
+      "title": "Do Language Models Know What Compelling Scientific Evidence Looks Like?",
+      "url": "https://arxiv.org/abs/2610.41015",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "Expert scientists excel at weighing empirical findings from multiple sources that vary in both statistical reliability and epistemic relevance. To what extent are language models, which are increasingly driving autonomous discovery systems, capable of such evidence deliberation? We introduce EDB-Bio, a scientific reasoning benchmark curated from real-world data in three biological…",
+      "authors": [
+        "Conor Igoe, Gabriel Grand, Zane Koch, Albert Bou, Eli Moss, Michaela M. Hinks, Samuel G. Rodriques, Andrew White, Siddharth Narayanan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41015",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 37
+    },
+    {
+      "id": "35ee4ed2a1a8a5b31d65",
+      "title": "Cross-Device Transfer of a Hospital-Trained Fetal Head Circumference Model to a Low-Cost Handheld Ultrasound Probe",
+      "url": "https://arxiv.org/abs/2610.40710",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Automated fetal head circumference (HC) measurement reaches near-expert accuracy on the HC18 benchmark, but published models are trained and evaluated on hospital-grade equipment. We quantify what happens when such a model is carried to a low-cost handheld probe. A lightweight segmentation network (CSM, 0.13M parameters) was trained on HC18 across five independent runs and applied…",
+      "authors": [
+        "Patrick Gao, Lara Hart, Ken Sullivan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40710",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 77.8,
+      "priority_label": "Relevant",
+      "rank": 40
+    },
+    {
+      "id": "80930cd8f08d243366c0",
+      "title": "RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design",
+      "url": "https://arxiv.org/abs/2610.41225",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Reasoning"
+      ],
+      "excerpt": "Large language models offer a promising route to register-transfer-level (RTL) design, but reliable implementations require checking and revision based on electronic design automation (EDA) tools' feedback. Existing RTL-specialized models often lack learned interaction with such EDA tools or rely on separate generation and repair components. We introduce RTL-Interact, a multi-task…",
+      "authors": [
+        "Wenxuan Shi, Yaoyu Zhu, Di Huang, Chongxiao Li, Xiaoyun Zhang, Muxin Song, Yutong Wu, Ziyuan Nan, Pengwei Jin, Tian Zhi, Xishan Zhang, Rui Zhang, Xing Hu, Zidong Du, Qi Guo, Yunji Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41225",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 75
+    },
+    {
+      "id": "35fe15951d8552cbb0a2",
+      "title": "Prevented is Not Protected: What Attack Success Rate Hides about RAG",
+      "url": "https://arxiv.org/abs/2610.40742",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Evaluation"
+      ],
+      "excerpt": "Retrieval-Augmented Generation (RAG) is vulnerable to knowledge poisoning, where adversaries manipulate retrieved evidence to influence model outputs. Existing defenses are primarily evaluated using attack success rate (ASR), which obscures defense-induced failures and the mechanisms behind apparent attack prevention. To address this issue, this work introduces \\textbf{Aligned RAG…",
+      "authors": [
+        "Chahana Dahal, Zuobin Xiong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40742",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 106
+    },
+    {
+      "id": "8a61fcb692d3c95ecb82",
+      "title": "Stepwise-Querying: Distilling Reasoning without Access to Teacher Chain-of-Thought",
+      "url": "https://arxiv.org/abs/2610.41769",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI4Education",
+        "LLM",
+        "Education",
+        "Reasoning"
+      ],
+      "excerpt": "Reasoning distillation is widely used to transfer the reasoning capabilities of large language models to smaller students through teacher-generated supervision. In the black-box setting, however, teachers may expose only final answers and brief solutions, leaving intermediate calculations and validity conditions unavailable and thus limiting the reasoning supervision available for…",
+      "authors": [
+        "Dicong Yu, Wenhua Wang, Tian Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41769",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 127
+    },
+    {
+      "id": "08c1411afdd2e2308efd",
+      "title": "STAR: Steering Action Representations during Inference",
+      "url": "https://arxiv.org/abs/2610.41009",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Multimodal",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "Vision-language-action models (VLAs) map language instructions and visual observations to robot actions, showing strong capabilities across robotic manipulation tasks. However, in our probing experiment, we find that action representations near the action output do not fully preserve task-relevant visual grounding. Motivated by this late-layer grounding gap, we introduce STAR, for…",
+      "authors": [
+        "Guangyu Zhao, Yongchang Zhang, Haoxuan Ru, Kaichen He, Haoran Wen, Kun Zhan, Zeyu Zhang, Yin Li, Yiwu Zhong"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41009",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 132
+    },
+    {
+      "id": "5a5e2dc088b523c138b2",
+      "title": "Flexibility-Aware Robotic Manipulation: Deformation Estimation, Kinematics, and Control via Distributed Inertial Measurement",
+      "url": "https://arxiv.org/abs/2610.41702",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics"
+      ],
+      "excerpt": "Flexible robot links challenge the rigid-body assumption, making joint measurements alone insufficient for accurate manipulation. This paper introduces a flexibility-aware manipulation framework that connects structural dynamics directly to sensing, kinematics, and control. Instead of prescribing a dense inertial measurement unit (IMU) network, the dominant vibration modes of each…",
+      "authors": [
+        "Amir Hossein Barjini, Sadeq Yaqubi, Pauli Mustalahti, Jouni Mattila"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41702",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.7,
+      "priority_label": "Relevant",
+      "rank": 133
+    },
+    {
+      "id": "0acca2c9d41006a6896f",
+      "title": "FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D",
+      "url": "https://arxiv.org/abs/2610.41162",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Evaluation",
+        "Robotics",
+        "Reasoning"
+      ],
+      "excerpt": "To accelerate materials discovery, language models must be able to address problems at the research frontier. Yet textbook- and examination-derived benchmarks primarily assess established knowledge, leaving performance on frontier research problems largely untested. We introduce FrontierMat, a benchmark of 330 problems drawn from frontier academic and industrial research in fields…",
+      "authors": [
+        "Feng Chen, Jianguo Huang, Yushan Xiao, Yue Li, Bijun Tang, Xuyu Dong, Xingguo Wang, Feiyang Xie, Jianhui Gu, Dongfeng Cao, Hongda Chen, Yongji Gong, Ruiqi Li, Shuxin Li, Xingji Li, Ruitao Lv, Li Song, Lei Wang, Ye Zhang, Xiaoxu Zhao, Xitao Zheng, Bo An, Zheng Liu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41162",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.7,
+      "priority_label": "Relevant",
+      "rank": 134
+    },
+    {
+      "id": "1fb814d2f9b2ef192d69",
+      "title": "BABA-Bench: Evaluating Long-Horizon Patient-Advocacy Agents",
+      "url": "https://arxiv.org/abs/2610.41076",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "An LLM agent that helps a patient get care must do two things. It must reach the correct outcome, and it must follow the necessary procedure. For example, the agent must get the patient's permission before it shares the patient's records. We introduce BABA-Bench, a benchmark of 47 interactive worlds. We built each world from a de-identified, real patient advocacy case that expert…",
+      "authors": [
+        "Shriram Vasudevan, Videet Mehta, Connor Sweeney"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41076",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.2,
+      "priority_label": "Relevant",
+      "rank": 52
+    },
+    {
+      "id": "92c6d2837cd5c78af299",
+      "title": "RECITE: Revising Eligibility Criteria Incorporating Textual Evidence",
+      "url": "https://arxiv.org/abs/2610.41368",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Agents",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Overly restrictive eligibility criteria contribute to widespread enrollment failure in clinical trials, yet published recommendations for how specific criteria should be broadened remain disconnected from trial design at scale. We introduce RECITE (Revising Eligibility Criteria Incorporating Textual Evidence), a framework for automated discovery, extraction, and implementation of…",
+      "authors": [
+        "Russell Ro, Reza Abbasi-Asl"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41368",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 76
+    },
+    {
+      "id": "65b69778c39eb74ea962",
+      "title": "Enhancing Medical Lesion Segmentation via Several Simple Modules",
+      "url": "https://arxiv.org/abs/2610.41652",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "This work introduces three lightweight enhancement modules for medical lesion segmentation to improve clinical applicability, particularly under data-scarce and computationally constrained environments. Current mainstream methods struggle with the lack of high-quality annotations for rare pathologies, which often leads to severe morphological distortions during inference, despite…",
+      "authors": [
+        "Ruichen Li, Zhao Yao"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41652",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 79
+    },
+    {
+      "id": "6f91aace294a15d03033",
+      "title": "ProSearch: Benchmarking Multi-Constraint Protocol Retrieval in Experimental Science",
+      "url": "https://arxiv.org/abs/2610.41396",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science",
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "AI for Science",
+        "LLM",
+        "Evaluation"
+      ],
+      "excerpt": "In AI for Science scenarios, experimental design and method reproduction require retrieving protocols that satisfy multiple interdependent constraints, yet existing benchmarks lack systematic evaluation of this capability. To address this gap, we introduce ProSearch, a benchmark for multi-constraint protocol retrieval in experimental science. ProSearch has three key features: (1)…",
+      "authors": [
+        "Wenliang Liang, Zhiyuan Ning, Haolin Chen, Yuanchun Zhou, Wenjuan Cui, Yi Du"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41396",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 99
+    },
+    {
+      "id": "d1555ab444897a36d795",
+      "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
+      "url": "https://arxiv.org/abs/2610.40901",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, released code also requires manual maintenance. Thus, TSF researchers must constantly adapt or implement…",
+      "authors": [
+        "ChengAo Shen, Yanjun Zhao, Haoxin Liu, Bonnie Chen, Miles Ma, Dongjin Song, Hanghang Tong, Qingsong Wen, Jingrui He, Jingchao Ni"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40901",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.9,
+      "priority_label": "Relevant",
+      "rank": 81
+    },
+    {
+      "id": "2193f88e4403a3bc5ea6",
+      "title": "Task-Performance Routing for Multi-Teacher Distillation in CT Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2610.41362",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Pre-trained models offer complementary strengths in CT organ segmentation, but their relative accuracy varies across organs and spatial regions. Multi-teacher knowledge distillation can combine these strengths in a single student, yet global or instance-level teacher weights overlook variation within a 3D volume. We propose Task-Performance Routing (TPR), which uses region-wise…",
+      "authors": [
+        "Jiaye Yang, Yao Liu, Die Dai, Hanwen Zhang, Peiyuan Jiang, Qiao Liu, Yutong Xie, Peng Wang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41362",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 63
+    },
+    {
+      "id": "e1df53ad2dea28f3b4f7",
+      "title": "GraphNIAH: A Benchmark for Long-Context Reasoning over Real-World Graphs",
+      "url": "https://arxiv.org/abs/2610.41704",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Reasoning"
+      ],
+      "excerpt": "The needle-in-a-haystack (NIAH) benchmark was introduced as a test for measuring a model's ability to find small relevant facts within a very large body of input text. However, existing NIAH benchmarks each suffer from one or more of the following limitations: (1) reliance on synthetic data, so their evaluations may not generalize to real-world settings; (2) reuse of previously…",
+      "authors": [
+        "Minh-Nam Tran, Abulhair Saparov"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41704",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.4,
+      "priority_label": "Relevant",
+      "rank": 95
+    },
+    {
+      "id": "25737527cb3d68e50e83",
+      "title": "GenDSR: Transferring Representations from Video Generation Models for Dynamic Spatial Reasoning",
+      "url": "https://arxiv.org/abs/2610.41314",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Multimodal",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Dynamic spatial reasoning is essential for connecting visual intelligence to thephysical world, yet remains challenging for vision-language models (VLMs), which must preserve scene state while tracking how spatial relations evolve over time. Meanwhile, video generation models (VGMs), trained to synthesize temporally coherent world dynamics, offer a rich source of spatiotemporal…",
+      "authors": [
+        "Ke Yang, Zhenyu Zhang, Jun Li"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41314",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 71.9,
+      "priority_label": "Relevant",
+      "rank": 168
+    },
+    {
+      "id": "bdf68bb3613e1644dd1f",
+      "title": "Hierarchical Residuals: A Minimalist Decoupling of Residual Width from Compute Width",
+      "url": "https://arxiv.org/abs/2610.41711",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Policy & Governance"
+      ],
+      "excerpt": "Residual connections underpin Transformers, but they implicitly tie the residual width carried through depth to the compute width used inside each layer. We introduce Hierarchical Residuals (HiRes), a minimalist architectural change that decouples these dimensions, widening the residual state while keeping per-layer compute width fixed. HiRes groups layers into blocks: standard…",
+      "authors": [
+        "Ziteng Wang, Jianqiao Lu, Xinyu Ma, Jintao Zhang, Jun Zhu, Yiyuan Ma, Jianfei Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41711",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.7,
+      "priority_label": "Relevant",
+      "rank": 196
+    },
+    {
+      "id": "0961f12dbe68e1b76bb3",
+      "title": "Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali",
+      "url": "https://arxiv.org/abs/2610.40996",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "When a language model invents a Qur'anic verse or hadith, it gives false authority to text that readers may treat as sacred. Existing Islamic hallucination benchmarks are largely Arabic and often closed-ended, while Bengali resources mainly study general-domain hallucination or factual knowledge. We introduce BILAL-BENCH, a 240-question expert-verified benchmark for open-ended…",
+      "authors": [
+        "Sabah Nushra, Md Kishor Morol"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/icons/licenses/by-nc-nd-4.0.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.40996",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 27
+    },
+    {
+      "id": "8ae2a3c3e89e8fdcdde4",
+      "title": "From Transcription to Reformulation: Defining and Benchmarking Grounded Generative Speech Recognition",
+      "url": "https://arxiv.org/abs/2610.41292",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Safety",
+        "Evaluation"
+      ],
+      "excerpt": "Speech language models have expanded automatic speech recognition (ASR) from transcription to general speech-to-text generation. Yet existing benchmarks still assume a single ground-truth transcript per utterance, an assumption that struggles when models produce readable, formatted, or structured outputs. In this work, we introduce Grounded Generative Speech Recognition (GSR),…",
+      "authors": [
+        "Qing Wang, Qihan Hu, Hang Lv, Yan Yang, Boqing Liu, Xuechao Zhu, Zehan Li, Hongjie Chen, Jian Kang, Jie Li, Yongxiang Li, Lei Xie"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41292",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 77.6,
+      "priority_label": "Relevant",
+      "rank": 47
+    },
+    {
+      "id": "1ffcc23197af1b655a6c",
+      "title": "CS-LDM: Clinically Guided Structure-Aware Latent Diffusion for Knee Radiographic Forecasting",
+      "url": "https://arxiv.org/abs/2610.40717",
+      "source": "arXiv - Image and Video Processing",
+      "source_id": "arxiv_imaging",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Knee osteoarthritis (KOA) is a leading cause of physical disability and currently has no curative clinical treatment. Early diagnosis and accurate prognosis are therefore vital for managing its progression. Existing methods mainly predict future severity grades and provide limited visual explanation of structural change. Recent generation-guided approaches synthesize follow-up…",
+      "authors": [
+        "Shaotian Li, Chenhui Wang, Wenhua Wu, Yanqiu Wu, Xiaohan Yu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.40717",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 64
+    },
+    {
+      "id": "1e0bc2359c215f186473",
+      "title": "Segment Anything Pancreas: A Unified MRI Segmentation Model for Pancreatic Cancer Radiotherapy",
+      "url": "https://arxiv.org/abs/2610.41063",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Imaging"
+      ],
+      "excerpt": "Background: Limited tumor annotations and incomplete labels across MRI datasets hinder unified segmentation of pancreatic tumors and organs at risk (OARs) for MRI-guided radiotherapy. Purpose: We propose Pancreas-MedNeXt, a unified model that segments the whole pancreas, its subregions, tumors, and surrounding OARs from one MRI volume. Methods: The model uses a shared MedNeXt…",
+      "authors": [
+        "Zach Eidex, Mojtaba Safari, Kundan Thind, Parag J. Parikh, Zhen Tian, Xiaofeng Yang"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41063",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 65
+    },
+    {
+      "id": "7bd9c6f56b4cdd6fcdb5",
+      "title": "TalentRL: Strategy-Guided Reinforcement Learning for Hierarchical Skill Routing",
+      "url": "https://arxiv.org/abs/2610.41143",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents"
+      ],
+      "excerpt": "Natural-language skills enable large language model (LLM) agents to reuse procedures across tasks, yet most systems retrieve individual skills from a flat SkillBank without explicitly modeling the high-level strategy that governs their selection and use. We introduce TalentRL, a strategy-guided reinforcement learning framework for hierarchical routing over procedural memory.…",
+      "authors": [
+        "Huancheng Chen, Xiaodi Sun, Zhaoqiong Huang, Michelle Chang, Jingwen Lu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.41143",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 76.2,
+      "priority_label": "Relevant",
+      "rank": 77
+    },
+    {
+      "id": "6081ba0f40164e826f6b",
+      "title": "GeoFlip: Benchmarking Geometry-Sensitive Physics in Video Generation",
+      "url": "https://arxiv.org/abs/2610.42002",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Computer Vision",
+      "categories": [
+        "Computer Vision",
+        "Trustworthy AI",
+        "AI for Science"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Multimodal",
+        "Evaluation",
+        "Vision"
+      ],
+      "excerpt": "Video generation models synthesize realistic motion, but can they respond correctly to changes in initial geometry? We introduce GeoFlip, a video generation benchmark centered on physical outcome flips induced by geometry. With shared physical settings and textual prompts held fixed, GeoFlip applies controlled interventions to support extent, object placement, and mechanism…",
+      "authors": [
+        "Yuqi Li, Junming Liu, Bowen Hu, Ruize Niu, Huiran Duan, Yingli Tian, Hao Wu"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2610.42002",
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 74.7,
+      "priority_label": "Relevant",
+      "rank": 113
+    },
+    {
+      "id": "d35c40f37f61741c92cd",
+      "title": "P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior",
+      "url": "https://arxiv.org/abs/2610.40959",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-02T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Evaluation",
+        "Regulation"
+      ],
+      "excerpt": "Large language models (LLMs) are increasingly used for personal tasks, yet evaluating their safe use of personal context remains difficult because such contexts are private, fragmented, dynamic, and socially situated. We introduce P-ContextBench, a realistic, verifiable, and scalable benchmark for evaluating personal-context understanding. P-ContextBench constructs…",
+      "authors": [
+        "Grant Nasir Brown, Abdul Basir Bari, Anmol Tadikonda, Isabel Song"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/bibsonomy.png",
+        "https://arxiv.org/static/browse/0.3.4/images/icons/social/reddit.png"
+      ],
+      "arxiv_id": "2610.40959",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 31
+    },
+    {
+      "id": "606eff8b9ee345e4d6d5",
+      "title": "Machine learning-assisted intraoperative hyperspectral imaging in cranial meningioma surgery: interim results of an ongoing study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967340",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-01T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging",
+        "AI Policy & Governance",
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "Hyperspectral imaging (HSI) is a label-free optical technique that might extend conventional intraoperative visualization by providing quantitative spectral information from the operative field. The aim of this study was to evaluate whether intraoperative in vivo HSI combined with machine learning (ML)-based analysis can distinguish cranial meningioma from adjacent intracranial tissues,…",
+      "authors": [
+        "Annekatrin Pfahl",
+        "Ferdinand Weber",
+        "Martin Vychopen",
+        "Felix Arlt",
+        "Andreas Melzer",
+        "Alonso Barrantes-Freer",
+        "Erdem Güresir",
+        "Hannes Köhler"
+      ],
+      "venue": "Neurosurgical focus",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42967340",
+      "doi": "10.3171/2026.8.FOCUS26414",
+      "relevance_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 82.8,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
     {
       "id": "c12b347579e270ffd979",
       "title": "[Differential diagnosis of rheumatoid arthritis pain: the role of subjective DAS28 scores, joint ultrasound, and digital biomarkers in therapeutic decision-making].",
@@ -43,10 +2484,99 @@
       "pmid": "42967259",
       "doi": "10.1556/650.2026.33672",
       "relevance_score": 82.0,
-      "freshness_score": 100.0,
-      "priority_score": 84.1,
+      "freshness_score": 94.0,
+      "priority_score": 82.8,
       "priority_label": "High relevance",
       "rank": 1
+    },
+    {
+      "id": "e6018b4cac230f84c6ae",
+      "title": "Real world clinical outcomes of deep learning based versus manual proton therapy planning for oropharyngeal cancer: A matched cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967539",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-01T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Recent deep learning (DL)-based planning approaches to intensity-modulated proton therapy (IMPT) have shown promise for improving planning efficiency and quality. A recent study demonstrated clinical acceptable DL-based plan quality in patients with oropharyngeal cancer (OPC), this study used real-world clinical outcomes to compare oncological outcomes acute and early late side effects…",
+      "authors": [
+        "I G van Bruggen",
+        "H P van der Laan",
+        "A C Hessels",
+        "R J H M Steenbakkers",
+        "J G M van den Hoek",
+        "E Oldehinkel",
+        "H H G Verbeek",
+        "M Atasoyu"
+      ],
+      "venue": "Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42967539",
+      "doi": "10.1016/j.radonc.2026.111856",
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
+      "priority_label": "High relevance",
+      "rank": 8
+    },
+    {
+      "id": "90ec89c68c808b024302",
+      "title": "Rapid and label-free analysis of biological characteristics of hepatocelluar carcinoma tissues based on histological images.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967526",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-01T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "Hepatocellular carcinoma (HCC) exhibits substantial molecular heterogeneity, complicating treatment selection and clinical management. We developed an artificial intelligence-based histopathological framework to predict HCC biological characteristics from routine hematoxylin and eosin (H&E)-stained slides. Using The Cancer Genome Atlas Liver Hepatocellular Carcinoma (TCGA-LIHC) cohort,…",
+      "authors": [
+        "Hailin Zhang",
+        "Jia Li",
+        "Jiaqi Sheng",
+        "Zhiyong Li",
+        "Wei Jiang",
+        "Kejin Xu",
+        "Shenqi Han",
+        "Qianshan Ding"
+      ],
+      "venue": "Journal of advanced research",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42967526",
+      "doi": "10.1016/j.jare.2026.10.067",
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
+      "priority_label": "High relevance",
+      "rank": 10
     },
     {
       "id": "de5e17b673bebd58bfa2",
@@ -87,10 +2617,96 @@
       "pmid": "42967232",
       "doi": "10.2196/98094",
       "relevance_score": 78.7,
-      "freshness_score": 100.0,
-      "priority_score": 83.1,
+      "freshness_score": 94.0,
+      "priority_score": 81.8,
       "priority_label": "High relevance",
       "rank": 8
+    },
+    {
+      "id": "3bb796ed13728add29dd",
+      "title": "Intraoperative artificial intelligence for brain tumor surgery: from tissue diagnosis to real-time surgical guidance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967344",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-01T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging",
+        "AI Policy & Governance"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "The 2021 WHO CNS tumor classification marked a fundamental shift in neuro-oncology: molecular markers rather than histological appearance now define glioma diagnosis and guide treatment. Yet, in clinical practice the molecular information that matters most to a surgeon-IDH status, 1p/19q codeletion, and methylation class-typically arrives days to weeks after the operation it was meant…",
+      "authors": [
+        "Nicolas K Goff",
+        "John E Markert",
+        "Minjun Park",
+        "Alexandra Springer",
+        "Anna M Chen",
+        "Daniel A Orringer"
+      ],
+      "venue": "Neurosurgical focus",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42967344",
+      "doi": "10.3171/2026.8.FOCUS26439",
+      "relevance_score": 78.7,
+      "freshness_score": 94.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "51366f25b4d78e551def",
+      "title": "Clinical Decision-Making Among Community Nurses: A Comparative Human and Generative AI-Assisted Qualitative Analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967829",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-01T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Medical"
+      ],
+      "excerpt": "To explore how community nurses describe clinical decision-making across simulated cases and to examine how themes and quotations from human thematic analysis compare with those from generative artificial intelligence-assisted analysis. Qualitative descriptive study using simulated clinical cases and semi-structured debriefing interviews. Between May and July 2024, 68 academic nurses…",
+      "authors": [
+        "Chedva Levin",
+        "Dor Zafar",
+        "Mor Saban"
+      ],
+      "venue": "Nursing open",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn.ncbi.nlm.nih.gov/pubmed/persistent/pubmed-meta-image-v2.jpg"
+      ],
+      "pmid": "42967829",
+      "doi": "10.1002/nop2.71007",
+      "relevance_score": 73.8,
+      "freshness_score": 94.0,
+      "priority_score": 80.3,
+      "priority_label": "High relevance",
+      "rank": 15
     }
   ]
 }

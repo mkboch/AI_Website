@@ -1,9 +1,413 @@
 {
   "schema_version": 2,
   "month": "2026-11",
-  "updated_at": "2026-11-06T07:03:01.938743+00:00",
-  "item_count": 439,
+  "updated_at": "2026-11-06T19:35:48.488414+00:00",
+  "item_count": 468,
   "items": [
+    {
+      "id": "0bb49f96544d94ecd80e",
+      "title": "How to predict the behavior of molecules from scant data",
+      "url": "https://news.mit.edu/2026/how-to-predict-molecule-behavior-with-scant-data-1106",
+      "source": "MIT News - Artificial Intelligence",
+      "source_id": "mit_news_ai",
+      "source_class": "Academic News",
+      "source_tier": 1,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-11-06T19:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Policy & Governance",
+        "AI for Science"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Education",
+        "Science",
+        "Open Source",
+        "Regulation"
+      ],
+      "excerpt": "Discovering new molecules for specific uses is a major driver of progress in a wide variety of industries, whether it’s pharmaceutical companies looking for new drugs, or electronics or energy companies seeking new materials with particular properties. But it’s also largely a trial-and-error process, because there is not yet any way to perfectly predict how a given chemical compound…",
+      "authors": [
+        "David L. Chandler | Department of Chemical Engineering"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-cheme-chemeleon.jpg?itok=sxUBAH56"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 78.6,
+      "priority_label": "Relevant",
+      "rank": 60
+    },
+    {
+      "id": "581dcf5cabc7cf1758ba",
+      "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+      "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective",
+      "source": "NVIDIA Developer Blog",
+      "source_id": "nvidia_developer",
+      "source_class": "Engineering Lab",
+      "source_tier": 1,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-06T18:03:26+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Hardware"
+      ],
+      "excerpt": "During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For... During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For training efficiency, it is common to run inference and training in parallel on…",
+      "authors": [
+        "Tanya Lenz"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/green-cube.webp"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 75.2,
+      "priority_label": "Relevant",
+      "rank": 120
+    },
+    {
+      "id": "819549b983fd9118af23",
+      "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+      "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-06T18:01:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "LLM",
+        "Vision",
+        "Hardware",
+        "Regulation"
+      ],
+      "excerpt": "When you deploy a model to a GPU endpoint, the smallest unit of GPU you can request is one whole accelerator. This constraint can cost you twice. First, you can’t host more models on an instance than it has accelerators. An ml.p4d.24xlarge has eight A100s, so it holds eight models, whether each one needs 40 GB or 14 GB. Second, and less obvious, it makes every deployment come down to a…",
+      "authors": [
+        "Shantanu Tripathi"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-1-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-3-1.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/05/ML-22216-4-1.jpg"
+      ],
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 72.7,
+      "priority_label": "Relevant",
+      "rank": 149
+    },
+    {
+      "id": "2e5ff519dea4168bfd3f",
+      "title": "Taxonomy of agentic primitives in Amazon Quick",
+      "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-06T17:34:45+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "Agents",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Over the past year, as we built Amazon Quick, our agents went from answering questions to taking actions: scheduling meetings, running research, generating reports. As the system evolved, one problem kept resurfacing: there was no shared definition of the primitives that agentic work is built from. The same few ideas kept getting rebuilt under different names: an actor that does the…",
+      "authors": [
+        "Thomas Delteil"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21505-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21505-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21505-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21505-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 54
+    },
+    {
+      "id": "1109c7dc5eeb22026df6",
+      "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+      "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-06T17:13:13+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "LLM",
+        "RAG",
+        "Agents"
+      ],
+      "excerpt": "Organizations building applications powered by artificial intelligence (AI) face a recurring challenge: giving large language model (LLM) agents access to enterprise data lakes without duplicating integration logic across every agent and application. Most teams begin by wiring agents directly to databases and APIs, with no shared gateway such as a Model Context Protocol (MCP) server in…",
+      "authors": [
+        "Aishwarya Pawar"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-20343-1.jpeg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-20343-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-20343-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/04/ML-20343-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 55
+    },
+    {
+      "id": "e22092f79218deeb3820",
+      "title": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+      "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-06T17:09:23+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Medical",
+        "Regulation"
+      ],
+      "excerpt": "In Part 1 , you built a task agent on Amazon Bedrock AgentCore , a platform to build, connect, and optimize agents at scale, with any framework or model. The agent runs on Amazon Bedrock AgentCore runtime, a capability of Amazon Bedrock AgentCore, and acts for signed-in users through Okta Cross App Access (XAA). Okta decided which agent might act for which user, and Amazon Bedrock…",
+      "authors": [
+        "Hammad Ausaf"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [
+        {
+          "source": "AWS Machine Learning Blog",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1",
+          "content_type": "Engineering"
+        }
+      ],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21547-p2-1.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21547-p2-2.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21547-p2-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21547-p2-4.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 56
+    },
+    {
+      "id": "39d0fa8ab15570a16f24",
+      "title": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-06T16:55:05+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Agents",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Greenlight Financial resolves more than 90 percent of up to 4,000 security and risk cases each month without human intervention. Greenlight’s Luna uses Amazon Bedrock AgentCore , infrastructure for building, connecting, and optimizing agents at scale. Specifically, Greenlight uses AgentCore runtime, a capability of Amazon Bedrock AgentCore, to host Luna’s agent code. It uses AgentCore…",
+      "authors": [
+        "Adam Maksimuk"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/c-ml-21973-arch.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21973-2.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21973-3.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-21973-4.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 57
+    },
+    {
+      "id": "8dc1ca775a3702bbbdcd",
+      "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore",
+      "source": "AWS Machine Learning Blog",
+      "source_id": "aws_ml",
+      "source_class": "Engineering Lab",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-06T16:49:42+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI Agents"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "RAG",
+        "Agents",
+        "Evaluation",
+        "Vision",
+        "Reasoning"
+      ],
+      "excerpt": "Taxbit is a digital-asset tax and accounting compliance platform. Founded in 2018, Taxbit helps enterprises such as exchanges, payment services, and brokers calculate gains and losses, collect tax documentation, and file information returns at scale. Now, a cited, permission-aware AI assistant helps compliance teams find answers right inside the product dashboard. But the knowledge…",
+      "authors": [
+        "Karan Nayak"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21532-3.png",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21532-4.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21532-5.jpg",
+        "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/03/ML-21532-6.jpg"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 58
+    },
+    {
+      "id": "ecfeadb473d9a2deeee6",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
+      "source": "MIT Technology Review - AI",
+      "source_id": "mit_tech_review_ai",
+      "source_class": "Technology News",
+      "source_tier": 2,
+      "content_type": "News",
+      "publication_status": "News",
+      "date": "2026-11-06T10:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Robotics",
+        "Privacy",
+        "Regulation"
+      ],
+      "excerpt": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed up for the waitlist. I wanted my apartment to feel like The Jetsons , even if just for an hour. I was also…",
+      "authors": [
+        "Grace Huckins"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 73.6,
+      "priority_label": "Relevant",
+      "rank": 139
+    },
+    {
+      "id": "921b78122bbdc803b5bb",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://allenai.org/blog/toyblocks",
+      "source": "Allen Institute for AI",
+      "source_id": "allenai",
+      "source_class": "Research Institute",
+      "source_tier": 1,
+      "content_type": "Research",
+      "publication_status": "Research",
+      "date": "2026-11-06T08:00:00+00:00",
+      "category": "Robotics & Embodied AI",
+      "categories": [
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Robotics & Embodied AI",
+        "Evaluation"
+      ],
+      "excerpt": "ToyBlocks is an open simulation framework for studying robot learning through automated task generation, training demonstrations, and evaluation in a controlled tabletop world.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [
+        {
+          "source": "Hugging Face",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "content_type": "Engineering"
+        }
+      ],
+      "images": [
+        "https://www.datocms-assets.com/64837/1793826687-david-thumbnail-download-1.jpg?w=200"
+      ],
+      "relevance_score": 65.6,
+      "freshness_score": 100.0,
+      "priority_score": 78.9,
+      "priority_label": "Relevant",
+      "rank": 25
+    },
     {
       "id": "a83a56374fd6aa91bfb5",
       "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
@@ -510,6 +914,46 @@
       "rank": 112
     },
     {
+      "id": "669640f17b3b018175d1",
+      "title": "HITCH: Teaching a Vision-Language Model to Operate a Humanoid through a Whole-Body Harness",
+      "url": "https://arxiv.org/abs/2611.08039",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-06T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "AI4Education",
+        "Robotics & Embodied AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Multimodal",
+        "Education",
+        "Robotics",
+        "Vision"
+      ],
+      "excerpt": "Enabling vision-language models (VLMs) to control humanoid robots requires both reliable whole-body interfaces and knowledge of how to use the body that carries over across tasks. We present HITCH (Harness Interfaces To Command Humanoids), a harness in which perception returns the 3D position of any point the VLM selects in its image, and execution turns commands for the pelvis, torso,…",
+      "authors": [
+        "Qingzhou Lu, Chenxin Liu, Xinming Wang, Liu Cao, Yanjiang Guo, Mengdi Xu, Jianyu Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.08039",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 74.3,
+      "priority_label": "Relevant",
+      "rank": 128
+    },
+    {
       "id": "70d16a7365ac197fd2b9",
       "title": "RoboARCade: Benchmarking Agentic Robot Control",
       "url": "https://arxiv.org/abs/2611.08209",
@@ -901,6 +1345,40 @@
       "rank": 190
     },
     {
+      "id": "0bfb822cfc38db38a19e",
+      "title": "Closed-Loop Agent Evaluation: Layered Measurement and Self-Calibration",
+      "url": "https://arxiv.org/abs/2611.07051",
+      "source": "arXiv - Artificial Intelligence",
+      "source_id": "arxiv_ai",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-06T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation"
+      ],
+      "excerpt": "Once an agent is live, teams want to know whether it is doing its job, not just whether it throws errors. Yet most evaluation is one-off: a benchmark run, a look at traces, a single score. Its conclusions neither check themselves nor reach the agent. We propose closed-loop evaluation, an evaluation method for deployed agents. It models evaluation as performance estimation under biased…",
+      "authors": [
+        "Ruifeng Ren, Gun Ahn"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.07051",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 66
+    },
+    {
       "id": "e7eb8cf1ac3074b5ba98",
       "title": "Shaping & Monitoring Models through their Internal Representations",
       "url": "https://arxiv.org/abs/2611.07071",
@@ -1265,6 +1743,39 @@
       "rank": 76
     },
     {
+      "id": "dd4cfb3fe4537d2fb7a0",
+      "title": "RLGPA: A Reinforcement Learning-Guided Granularity Planning Attack for Decision-Based Sparse Adversarial Examples",
+      "url": "https://arxiv.org/abs/2611.07512",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-06T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Decision-based sparse attacks must reduce perturbation support using only the victim's predicted label. The best restoration strategy varies as support contracts: coarse removal works early, while tail states need finer, history-aware tests. We propose RLGPA, an online reinforcement learning method that schedules support-reduction executors and their granularity under a hard query…",
+      "authors": [
+        "Chao Zhou, Shenghua He, Jiaxin Mo, Qiangguo Yu, Fengchuang Xing"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.07512",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 85
+    },
+    {
       "id": "0c3efc155b3a7fd20bb8",
       "title": "Presentation Sensitivity in Typed Decision Models for Subjective Text Evaluation",
       "url": "https://arxiv.org/abs/2611.06384",
@@ -1444,6 +1955,39 @@
       "rank": 155
     },
     {
+      "id": "5cc23ef347cb1911dd61",
+      "title": "Reweighting is not Harmless: Understanding the Role of Dataset Characteristics",
+      "url": "https://arxiv.org/abs/2611.07258",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-06T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI"
+      ],
+      "excerpt": "Reweighting is a widely used pre-processing method for promoting discrimination-free model behavior by assigning different weights to data points during model training. While it is often credited with improving fairness, particularly by mitigating systematic underestimation for underrepresented groups, it can also introduce unintended harms under certain data conditions. Using…",
+      "authors": [
+        "Amalia Ionescu, Jose G. Hernandez, Emily F. Wong, Anil K. Saini, Jason H. Moore, Tiffani J. Bright"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.07258",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 78.7,
+      "priority_label": "Relevant",
+      "rank": 90
+    },
+    {
       "id": "abdc864535915585b316",
       "title": "Householder Motion Embedding: Noise Modulation for Motion-Controllable Video Generation",
       "url": "https://arxiv.org/abs/2611.07294",
@@ -1513,6 +2057,640 @@
       "priority_score": 77.6,
       "priority_label": "Relevant",
       "rank": 45
+    },
+    {
+      "id": "45483fac3eb4e862d36c",
+      "title": "Towards ecologically meaningful foundation models",
+      "url": "https://www.nature.com/articles/s42256-026-01317-6",
+      "source": "Nature Machine Intelligence",
+      "source_id": "nature_machine_intelligence",
+      "source_class": "Scientific Journal",
+      "source_tier": 1,
+      "content_type": "Journal",
+      "publication_status": "Journal",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models"
+      ],
+      "excerpt": "Nature Machine Intelligence, Published online: 06 November 2026; doi:10.1038/s42256-026-01317-6 Ecology struggles to make broad predictions, as ecological data and theories are scattered across many different sources, scales and approaches. Gardiner et al. propose to create ecological foundation models, which combine large, multi-modal ecological datasets with ecological theory, as a…",
+      "authors": [
+        "Ross J. Gardiner",
+        "Henry Cerbone",
+        "Hammed A. Akande",
+        "Carly H. Batist",
+        "Amber Cowans",
+        "Stella M. Felsinger",
+        "Premdeep S. Gill",
+        "Taniya Kapoor"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs42256-026-01317-6/MediaObjects/42256_2026_1317_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs42256-026-01317-6/MediaObjects/42256_2026_1317_Fig2_HTML.png?as=webp"
+      ],
+      "doi": "10.1038/s42256-026-01317-6",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 83.7,
+      "priority_label": "High relevance",
+      "rank": 9
+    },
+    {
+      "id": "5f721228af3682c2417b",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
+      "source_id": "openai_news",
+      "source_class": "Frontier Lab",
+      "source_tier": 1,
+      "content_type": "Official",
+      "publication_status": "Official",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents",
+        "Evaluation"
+      ],
+      "excerpt": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 84.9,
+      "priority_label": "High relevance",
+      "rank": 3
+    },
+    {
+      "id": "c51ebe1a2de510893e20",
+      "title": "Artificial intelligence in dialysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42989632",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Medical AI",
+        "LLM",
+        "Evaluation",
+        "Medical",
+        "Education",
+        "Regulation"
+      ],
+      "excerpt": "Artificial intelligence (AI) and machine learning in dialysis have matured beyond the initial phase of algorithm development. Recent work has shifted toward clinical implementation, evaluation, and governance. During the past year, the first randomized trial of AI-guided dosing in maintenance hemodialysis has been published, a meta-analysis of technology-guided dry-weight adjustment has…",
+      "authors": [
+        "Len A Usvyat"
+      ],
+      "venue": "Current opinion in nephrology and hypertension",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://www.ovid.com//images/og_image_white.webp"
+      ],
+      "pmid": "42989632",
+      "doi": "10.1097/MNH.0000000000001234",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 2
+    },
+    {
+      "id": "9bffcb40b5ffecc45cd5",
+      "title": "Developing and Externally Validating Explainable Machine Learning for Elastography-Defined Steatotic Liver Disease.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992694",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Explainable machine learning is widely applied to non-invasive detection of steatotic liver disease, but published pipelines are rarely tested against a properly specified regression comparator, rarely validated independently, and almost never examined for measurement artifact in the outcome label itself. This protocol addresses those gaps in a form that can be re-executed end-to-end on…",
+      "authors": [
+        "Enes Zafer",
+        "Mehmet Yıldız"
+      ],
+      "venue": "Journal of visualized experiments : JoVE",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42992694",
+      "doi": "10.3791/75602",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
+      "id": "cea9d7890916cc27cb9b",
+      "title": "A Global Perspective on Calibration and Standardization in Oral Cancer Screening Training.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42989832",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Evaluation",
+        "Medical",
+        "Vision"
+      ],
+      "excerpt": "Early oral cancer detection improves survival, but diagnosing early, asymptomatic lesions remains challenging. Screening effectiveness depends heavily on examiner competency, highlighting the need for structured training and calibration. This narrative review examines the evolution, current practices, and future directions of examiner training, calibration, and standardization in global…",
+      "authors": [
+        "Rosnah Binti Zain",
+        "Anand Ramanathan",
+        "Wan Maria Nabillah Ghani"
+      ],
+      "venue": "Oral diseases",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42989832",
+      "doi": "10.1111/odi.70559",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 15
+    },
+    {
+      "id": "edfe2e25eb809bf9d1e6",
+      "title": "A Fully Automated Segment-Specific CCTA Plaque Quantification Workflow using Deep Learning.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42989025",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Coronary computed tomography angiography (CCTA) remains essential for diagnosing coronary artery disease, while the focus has moved from stenosis to plaque burden. Current workflows either need manual adjustments that limit consistency and efficiency, or they lack segment-specific precision. This study evaluated the effectiveness and reliability of a fully automated deep learning-based…",
+      "authors": [
+        "Hongsen Wang",
+        "Xiaofei Hou",
+        "Zifan Liu",
+        "Jielin Yang",
+        "Juan Shen",
+        "Zhe Tang",
+        "Jinyao Zhang",
+        "Tao Chen"
+      ],
+      "venue": "Journal of imaging informatics in medicine",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs10278-026-02478-x/MediaObjects/10278_2026_2478_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs12872-022-02951-9/MediaObjects/12872_2022_2951_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1186%2Fs12880-026-02379-z/MediaObjects/12880_2026_2379_Fig1_HTML.png",
+        "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1007%2Fs00330-022-08801-8/MediaObjects/330_2022_8801_Fig1_HTML.png"
+      ],
+      "pmid": "42989025",
+      "doi": "10.1007/s10278-026-02478-x",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "7af50763f915a4759686",
+      "title": "AI for reducing claims and compensation payments from missed fractures on radiographs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42988990",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "To evaluate the potential of BoneView, an artificial intelligence (AI) tool for fracture detection on radiographs in claims cases related to missed fractures that resulted in financial compensation. This retrospective, multicenter study included all patients who submitted a claim and received financial compensation for missed fractures on radiographs between January 2013 and December…",
+      "authors": [
+        "Mickael Tordjman",
+        "Laure Gracia",
+        "Enora Guillo",
+        "Raphael Amar",
+        "Jeanne Ventre",
+        "Ian Bolger",
+        "Anis Meribout",
+        "Elisabeth Dion"
+      ],
+      "venue": "European radiology",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs00330-026-13028-y/MediaObjects/330_2026_13028_Figa_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00330-026-13028-y/MediaObjects/330_2026_13028_Fig1_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00330-026-13028-y/MediaObjects/330_2026_13028_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs00330-026-13028-y/MediaObjects/330_2026_13028_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42988990",
+      "doi": "10.1007/s00330-026-13028-y",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 85.3,
+      "priority_label": "High relevance",
+      "rank": 1
+    },
+    {
+      "id": "8363969a902942b164ef",
+      "title": "Decoding Ewing sarcoma: from EWSR1::FLI1 translocation to advanced diagnostic approaches.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42989476",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Science"
+      ],
+      "excerpt": "This review discusses Ewing sarcoma and its diagnostic approaches, highlighting emerging high-throughput technologies that address current diagnostic limitations by enabling rapid, accurate, and personalized diagnostic strategies. Diagnostic approaches for Ewing sarcoma encompass conventional imaging modalities, including X-ray, Magnetic Resonance Imaging (MRI), and Positron Emission…",
+      "authors": [
+        "Anjali Maurya",
+        "Savy Panamkuttiyiel Minal",
+        "Sunil Kumar",
+        "Neha Ramani",
+        "Subhash Chandra Yadav"
+      ],
+      "venue": "Expert review of molecular diagnostics",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42989476",
+      "doi": "10.1080/14737159.2026.2756222",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "140123b74eb164025022",
+      "title": "A transformer-based deep learning model for predicting the use of atherectomy devices during PCI from preprocedural cardiac computed tomography angiography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992073",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Severe coronary calcification complicates percutaneous coronary intervention (PCI), often necessitating atherectomy-based debulking devices that increase procedural complexity and risk. We aimed to develop and externally validate a Transformer-based deep learning model using preprocedural cardiac computed tomography angiography (CCTA) to predict atherectomy device use during PCI and…",
+      "authors": [
+        "Rissei Hino",
+        "Yasuhiro Nakano",
+        "Ichika Seo",
+        "Kaito Shiku",
+        "Masaaki Okutsu",
+        "Kenji Sadamatsu",
+        "Takeshi Serikawa",
+        "Katsuyuki Hasegawa"
+      ],
+      "venue": "European heart journal. Digital health",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42992073",
+      "doi": "10.1093/ehjdh/ztag160",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "c51e4dd0d5b606451bea",
+      "title": "Lifecycle tissue engineering: An AI-enabled multimodal sensing and digital twin roadmap.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992015",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "The clinical translation of tissue engineering (TE) is critically hampered by the absence of real-time, non-invasive monitoring throughout the entire lifecycle of tissue fabrication and repair. Current reliance on end-point assessments obscures dynamic biological events, making early detection of deviations and failures challenging. While multimodal sensing offers rich data streams,…",
+      "authors": [
+        "Xing Liu",
+        "Yitao Zhou",
+        "Cuiyi Wang",
+        "Lewei Tu",
+        "Xiaoxuan Zhao",
+        "Jingjing Gu",
+        "Qiuhua Sun",
+        "Malcolm Xing"
+      ],
+      "venue": "Bioactive materials",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42992015",
+      "doi": "10.1016/j.bioactmat.2026.06.044",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 16
+    },
+    {
+      "id": "8f47581293b840a1cc84",
+      "title": "A tri-contrast signal retrieval neural network for grating-based low-dose X-ray imaging.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42990101",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical Imaging",
+      "categories": [
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical Imaging",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Grating-based X-Ray imaging (GBXI) can obtain tri-contrast signals of absorption, phase, and dark-field with a laboratory X-ray source and shows a promising future in clinical applications. However, this technique needs a high radiation dose to generate high-quality contrast images. A tri-contrast signal retrieval neural network (TRNN) is presented for low-dose GBXI, consisting of…",
+      "authors": [
+        "Xu Linhai",
+        "Zhang Changsheng",
+        "Fu Jian"
+      ],
+      "venue": "Journal of X-ray science and technology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42990101",
+      "doi": "10.1177/08953996261503188",
+      "relevance_score": 82.0,
+      "freshness_score": 100.0,
+      "priority_score": 84.1,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
+    {
+      "id": "8a17ddf356b2ac98a81f",
+      "title": "When expertise fails: detection of artificial intelligence - generated vitiligo imagery across the spectrum of dermatological experience; a cross-sectional exploratory study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42988918",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Evaluation",
+        "Medical",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Generative artificial intelligence (AI) can produce highly realistic dermatological images, raising concerns about clinicians' ability to distinguish authentic pathology from synthetic representations. To assess whether dermatological expertise influences the detection of AI-generated vitiligo images, and to evaluate the self-detection capabilities of the algorithm, we conducted a…",
+      "authors": [
+        "Jonathan Shapiro",
+        "Itay Cohen",
+        "Mor Atlas",
+        "Anna Lyakhovitsky",
+        "Shany Sherman",
+        "Riad Kassem"
+      ],
+      "venue": "Visual computing for industry, biomedicine, and art",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1186%2Fs42492-026-00239-9/MediaObjects/42492_2026_239_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs42492-026-00239-9/MediaObjects/42492_2026_239_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs42492-026-00239-9/MediaObjects/42492_2026_239_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "42988918",
+      "doi": "10.1186/s42492-026-00239-9",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 10
+    },
+    {
+      "id": "b4c7228ef21881a135d0",
+      "title": "Percutaneous Transhepatic Cholangioscopy: Technical Evolution and Expanding Clinical Roles.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992699",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Percutaneous transhepatic cholangioscopy (PTCS) has evolved from a niche diagnostic technique into an increasingly versatile platform for managing complex biliary diseases, particularly in patients with surgically altered anatomy or failed conventional endoscopic access. Early applications were limited by suboptimal visualization, rigid instrumentation, and procedural complexity.…",
+      "authors": [
+        "Yu-Tong Zhang",
+        "Long Gu",
+        "Xue-Qi Pan",
+        "Jian Tang",
+        "Yan Jiao",
+        "Ya-Hui Liu"
+      ],
+      "venue": "Journal of visualized experiments : JoVE",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42992699",
+      "doi": "10.3791/74131",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 11
+    },
+    {
+      "id": "e9870e2c570b43d5d412",
+      "title": "Policy, ethical, and practical considerations of artificial intelligence use in the internal medicine clerkship: results of a survey of clerkship directors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42989549",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "AI4Education"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "The integration of artificial intelligence (AI) into medical education is accelerating, yet the policies guiding its use remain unclear. This study aimed to characterize the landscape of AI-related policies in U.S. internal medicine (IM) clerkships and examine clerkship directors' (CDs) perspectives on ethical and practical considerations for student AI use. An annual, nationally…",
+      "authors": [
+        "Casey N McQuade",
+        "Navin L Kumar",
+        "Verity Schaye",
+        "Andrew P J Olson",
+        "Kathryn K Hufmeyer",
+        "Elexis McBee",
+        "Michael Kisielewski",
+        "Nora Y Osman"
+      ],
+      "venue": "Academic medicine : journal of the Association of American Medical Colleges",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42989549",
+      "doi": "10.1093/acamed/wvag350",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 12
+    },
+    {
+      "id": "51fd2cbcb434ffee987f",
+      "title": "Proteomics Reveals Novel Biomarkers in the Blood for Sepsis Diagnosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992862",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-06T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Early sepsis diagnosis in critically ill patients remains a major unmet need. We employed a multiphase proteomic strategy integrating discovery by data-independent acquisition, targeted verification by parallel reaction monitoring, clinical confirmation with ELISA, and machine learning to identify robust blood biomarkers. In discovery and verification cohorts, three consistently…",
+      "authors": [
+        "Zhenjun Fan",
+        "Meiling Chen",
+        "Ye Sun",
+        "Pingsen Zhao"
+      ],
+      "venue": "Journal of proteome research",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "42992862",
+      "doi": "10.1021/acs.jproteome.6c00385",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 13
     },
     {
       "id": "1121cf54e69f72cb6b4f",
@@ -1664,8 +2842,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/30/ML-20598-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 77.1,
+      "freshness_score": 94.0,
+      "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 53
     },
@@ -1696,8 +2874,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 141
     },
@@ -1736,8 +2914,8 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 83.8,
+      "freshness_score": 94.0,
+      "priority_score": 82.5,
       "priority_label": "High relevance",
       "rank": 8
     },
@@ -1767,8 +2945,8 @@
       "related": [],
       "images": [],
       "relevance_score": 72.2,
-      "freshness_score": 100.0,
-      "priority_score": 81.5,
+      "freshness_score": 94.0,
+      "priority_score": 80.2,
       "priority_label": "High relevance",
       "rank": 38
     },
@@ -1802,8 +2980,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/dsx-os-cluster-readiness-featured-768x432.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 101
     },
@@ -1837,8 +3015,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 159
     },
@@ -1878,8 +3056,8 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig03-ticket-desk_NEW_PDD-Kit.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.3,
+      "freshness_score": 94.0,
+      "priority_score": 80.0,
       "priority_label": "High relevance",
       "rank": 19
     },
@@ -1913,8 +3091,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/image5-1-768x432.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 155
     },
@@ -1946,8 +3124,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 142
     },
@@ -1978,8 +3156,8 @@
       "related": [],
       "images": [],
       "relevance_score": 70.5,
-      "freshness_score": 100.0,
-      "priority_score": 72.6,
+      "freshness_score": 94.0,
+      "priority_score": 71.3,
       "priority_label": "Relevant",
       "rank": 160
     },
@@ -2012,8 +3190,8 @@
         "https://mistral.ai/_astro/business-process_ZmGxpx.webp?dpl=6aecd6311d05ce92b71f34a5"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 26
     },
@@ -2042,8 +3220,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 83.8,
+      "freshness_score": 94.0,
+      "priority_score": 82.5,
       "priority_label": "High relevance",
       "rank": 9
     },
@@ -2072,8 +3250,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 82.0,
+      "freshness_score": 94.0,
+      "priority_score": 80.7,
       "priority_label": "High relevance",
       "rank": 26
     },
@@ -8377,8 +9555,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/NEMO-meeting-2026_0.jpeg?itok=K5PP4PlO"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 72.9,
+      "freshness_score": 86.0,
+      "priority_score": 71.1,
       "priority_label": "Relevant",
       "rank": 181
     },
@@ -8416,9 +9594,9 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/WeishungMike-MSRPod_TW_LI_FB_1920x1080-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.0,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.2,
+      "priority_label": "Relevant",
       "rank": 27
     },
     {
@@ -8449,9 +9627,9 @@
         "https://lh3.googleusercontent.com/UFTBrp1IrRBrc6_f4ibNgtV35iY8F2iTYaqOb1lzR-qZNy-Mb5726xrLKTozohfdZ_3quHe50uyn8z-Wh_Eril_8CVh7py7gH0188sl_EXkoJknlqg=w528-h297-n-nu-rw-lo"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.7,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.9,
+      "priority_label": "Relevant",
       "rank": 12
     },
     {
@@ -8490,8 +9668,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/27/ML-22035-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 51
     },
@@ -8529,8 +9707,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-21070-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 52
     },
@@ -8571,8 +9749,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/29/ML-22210-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 53
     },
@@ -8615,8 +9793,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/28/ML-22159-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 54
     },
@@ -8660,8 +9838,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/10/22/ML-21700-4.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 75.8,
+      "freshness_score": 86.0,
+      "priority_score": 74.0,
       "priority_label": "Relevant",
       "rank": 55
     },
@@ -8691,8 +9869,8 @@
       "related": [],
       "images": [],
       "relevance_score": 72.2,
-      "freshness_score": 94.0,
-      "priority_score": 75.3,
+      "freshness_score": 86.0,
+      "priority_score": 73.5,
       "priority_label": "Relevant",
       "rank": 109
     },
@@ -8736,8 +9914,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/02/ML-22220-4-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 79.2,
+      "freshness_score": 86.0,
+      "priority_score": 77.4,
       "priority_label": "Relevant",
       "rank": 16
     },
@@ -8775,8 +9953,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 76.3,
+      "freshness_score": 86.0,
+      "priority_score": 74.6,
       "priority_label": "Relevant",
       "rank": 40
     },
@@ -8807,8 +9985,8 @@
         "https://www.datocms-assets.com/64837/1792006215-statebench-draft-blog-google-docs-image-1.png?w=200"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.1,
+      "freshness_score": 86.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 202
     },

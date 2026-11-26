@@ -1,9 +1,45 @@
 {
   "schema_version": 2,
   "month": "2026-11",
-  "updated_at": "2026-11-26T08:37:31.850243+00:00",
-  "item_count": 1806,
+  "updated_at": "2026-11-26T21:44:18.972965+00:00",
+  "item_count": 1824,
   "items": [
+    {
+      "id": "a734da9d3a1d876054f8",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face",
+      "source_id": "huggingface",
+      "source_class": "Open Source AI",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-26T11:37:17+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://cdn-uploads.huggingface.co/production/uploads/67289c93ff90038d9a6e5675/tbIvyMSISXCm64WYP3atl.png",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/65baa31607366d903890bcf4/6M9WaawnvJ-2h5wSUic1I.jpeg",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/1642598610696-noauth.jpeg",
+        "https://cdn-avatars.huggingface.co/v1/production/uploads/67289c93ff90038d9a6e5675/klana6SP95tj8-VwXnIYC.png"
+      ],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 80.0,
+      "priority_label": "Relevant",
+      "rank": 24
+    },
     {
       "id": "08585c6aa6d955525850",
       "title": "Frame geometry, fascicle extrapolation and leaderboard overfitting in muscle ultrasound",
@@ -75,6 +111,41 @@
       "priority_score": 71.9,
       "priority_label": "Relevant",
       "rank": 163
+    },
+    {
+      "id": "955b3aa6b68e7f1ba680",
+      "title": "Rethinking Knowledge Distillation for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2611.33670",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-26T05:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI4Education",
+        "Education"
+      ],
+      "excerpt": "Knowledge distillation has recently proven highly effective for improving autoregressive models, but its applicability to DLMs remains poorly understood. We present the first systematic study of KD for DLMs and uncover two non-intuitive failures of classical forward-KL (FKL) distillation: (i) student perplexity does not improve monotonically with more teacher-generated data, and (ii) on…",
+      "authors": [
+        "Yuxuan Sun, Yuanjian Xu, Jianing Hao, Yu Li, Sowmen Das, Zhong Li, Sangwoong Yoon, Miguel R. D. Rodrigues"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.33670",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 73.8,
+      "priority_label": "Relevant",
+      "rank": 143
     },
     {
       "id": "1c83d5688acaf62f03cc",
@@ -334,6 +405,41 @@
       "priority_score": 75.8,
       "priority_label": "Relevant",
       "rank": 88
+    },
+    {
+      "id": "493532c22bea1f6c9590",
+      "title": "Triage Before Fine-Tuning: Feasibility-Gated Selection and Monitored Adaptation of Embodied Foundation Models for a Fixed Physical Platform",
+      "url": "https://arxiv.org/abs/2611.33772",
+      "source": "arXiv - Robotics",
+      "source_id": "arxiv_robotics",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-26T05:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models"
+      ],
+      "tags": [
+        "Foundation Models",
+        "Evaluation",
+        "Robotics"
+      ],
+      "excerpt": "Embodied foundation models are increasingly deployed by selection: a practitioner picks a public checkpoint by benchmark rank and fine-tunes it on local data. The platform is fixed before the model is chosen, with little or no local data. We ask what such a checkpoint loses on a fixed platform and which part of the loss local data can buy back. We split the gap by what can repair it. A…",
+      "authors": [
+        "Zilin Huang, Zhengyang Wan, Zihao Sheng, Boyue Wang, Ruolin Yang, Yuhao Luo, Sikai Chen"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.33772",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 75.4,
+      "priority_label": "Relevant",
+      "rank": 101
     },
     {
       "id": "de5081479b6d8214ff26",
@@ -629,6 +735,44 @@
       "rank": 177
     },
     {
+      "id": "084331a09308fff88424",
+      "title": "Lightweight Reasoning Transfer via Chain-of-Thought Vector Projection",
+      "url": "https://arxiv.org/abs/2611.34183",
+      "source": "arXiv - Computation and Language",
+      "source_id": "arxiv_cl",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-26T05:00:00+00:00",
+      "category": "AI4Education",
+      "categories": [
+        "AI4Education",
+        "Foundation Models"
+      ],
+      "tags": [
+        "AI4Education",
+        "LLM",
+        "Evaluation",
+        "Education",
+        "Reasoning"
+      ],
+      "excerpt": "Transferring reasoning capabilities from large language models to smaller ones often requires extensive teacher supervision or costly student adaptation. We study projected cross-model Chain-of-Thought (CoT) Vector transfer, a two-stage approach that keeps both models frozen. First, we learn a task-level CoT Vector in the teacher using dataset-provided solution traces and final-answer…",
+      "authors": [
+        "Yulin Qi, Shuo Xu, Shuxia Lin, Qingjian Ni, Xu Yang, Xin Geng"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.34183",
+      "relevance_score": 72.2,
+      "freshness_score": 100.0,
+      "priority_score": 74.9,
+      "priority_label": "Relevant",
+      "rank": 135
+    },
+    {
       "id": "e9eb1cffec38d2df15ab",
       "title": "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control",
       "url": "https://arxiv.org/abs/2611.33922",
@@ -878,6 +1022,45 @@
       "priority_score": 75.2,
       "priority_label": "Relevant",
       "rank": 135
+    },
+    {
+      "id": "0866cfda44734353b211",
+      "title": "VTK-Bench: A Diagnostic Benchmark for Distinguishing Language Priors and Text Modal Bias in Visual Language Models",
+      "url": "https://arxiv.org/abs/2611.33725",
+      "source": "arXiv - Computer Vision",
+      "source_id": "arxiv_cv",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-26T05:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Multimodal",
+        "Safety",
+        "Evaluation",
+        "Vision",
+        "Open Source"
+      ],
+      "excerpt": "Visual language models (VLMs) have demonstrated exceptional capabilities across various multimodal tasks, but they remain susceptible to hallucinations, undermining their reliability. Existing hallucination benchmarks primarily focus on identifying hallucinations and describing their manifestations, often neglecting their underlying causes. Specifically, multimodal hallucinations can…",
+      "authors": [
+        "Yao Lu, Yuhang Zheng, Yaxin Gao, Zhe Tang, Zhaowei Zhu, Jiaheng Wei, Yunhao Wang, Shanqing Yu, Qi Xuan"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.33725",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 76.8,
+      "priority_label": "Relevant",
+      "rank": 63
     },
     {
       "id": "e0a0e284f0ab5b037e05",
@@ -1241,6 +1424,41 @@
       "rank": 81
     },
     {
+      "id": "b62488b8a74ea50e0589",
+      "title": "Fast and Scalable Abstract Interpretation for Deep Neural Networks",
+      "url": "https://arxiv.org/abs/2611.33259",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-26T05:00:00+00:00",
+      "category": "AI Systems & Hardware",
+      "categories": [
+        "AI Systems & Hardware"
+      ],
+      "tags": [
+        "AI Systems & Hardware",
+        "Evaluation",
+        "Hardware"
+      ],
+      "excerpt": "Abstract interpretation can certify properties of Deep Neural Networks (DNNs), but precise analyses remain expensive. General implementations repeat work when analyzing the same architecture under different inputs and properties. Interleaving this work with numerical operations limits GPU utilization and restricts how much of the analysis a tensor compiler can process together. We…",
+      "authors": [
+        "Avaljot Singh, Dushyant Bharadwaj, Yasmin Chandini Sarita, Heng Zhong, Charith Mendis, Gagandeep Singh"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.33259",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 69.9,
+      "priority_label": "Latest",
+      "rank": 183
+    },
+    {
       "id": "c5fe34615f5caa145eea",
       "title": "DynaRC: Dynamics-Robust 4-D Radar Relocalization with Rate-Adaptive Sequence Matching",
       "url": "https://arxiv.org/abs/2611.34453",
@@ -1572,6 +1790,41 @@
       "rank": 113
     },
     {
+      "id": "f0251b7d0baa160a8ac8",
+      "title": "DiffER$^2$: Diffusion Ensembles for Retrosynthesis Prediction with SMILES Adapted Particle Guidance",
+      "url": "https://arxiv.org/abs/2611.33557",
+      "source": "arXiv - Machine Learning",
+      "source_id": "arxiv_ml",
+      "source_class": "Research Preprint",
+      "source_tier": 2,
+      "content_type": "Preprint",
+      "publication_status": "Preprint",
+      "date": "2026-11-26T05:00:00+00:00",
+      "category": "AI Policy & Governance",
+      "categories": [
+        "AI Policy & Governance",
+        "AI for Science"
+      ],
+      "tags": [
+        "AI Policy & Governance",
+        "Regulation"
+      ],
+      "excerpt": "Computational retrosynthesis prediction has the potential to reduce development time for newly discovered drugs by automatically generating potential reactions for a target product. Data-driven approaches commonly treat this as a sequence-to-sequence generation task on SMILES strings. In this work, we construct ensembles of discrete-time and continuous-time diffusion models for…",
+      "authors": [
+        "Sean Current, Daniel Adu-Ampratwum, Xia Ning, Srinivasan Parthasarathy"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "arxiv_id": "2611.33557",
+      "relevance_score": 59.0,
+      "freshness_score": 100.0,
+      "priority_score": 71.2,
+      "priority_label": "Relevant",
+      "rank": 187
+    },
+    {
       "id": "29252427812367a0fccc",
       "title": "PoVi: Agentic Poetry-to-Video Generation with Knowledge Grounding and Figurative Understanding",
       "url": "https://arxiv.org/abs/2611.34690",
@@ -1757,6 +2010,466 @@
       "rank": 82
     },
     {
+      "id": "d256a80ab8e050fe5c31",
+      "title": "A measurement noise scaling law for cellular representation learning",
+      "url": "https://www.nature.com/articles/s42256-026-01332-7",
+      "source": "Nature Machine Intelligence",
+      "source_id": "nature_machine_intelligence",
+      "source_class": "Scientific Journal",
+      "source_tier": 1,
+      "content_type": "Journal",
+      "publication_status": "Journal",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "AI for Science",
+      "categories": [
+        "AI for Science"
+      ],
+      "tags": [
+        "AI for Science"
+      ],
+      "excerpt": "Nature Machine Intelligence, Published online: 26 November 2026; doi:10.1038/s42256-026-01332-7 Gowri et al. identify a simple mathematical relationship between the performance of a machine learning model and noise in its training data. The relationship might help to guide machine learning efforts in biology and other fields where data are noisy.",
+      "authors": [
+        "Gokul Gowri",
+        "Igor Sadalski",
+        "Dan Raviv",
+        "Peng Yin",
+        "Jonathan Rosenfeld",
+        "Allon Klein"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs42256-026-01332-7/MediaObjects/42256_2026_1332_Fig1_HTML.png",
+        "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs42256-026-01332-7/MediaObjects/42256_2026_1332_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/lw276/springer-static/image/art%3A10.1038%2Fs42256-026-01332-7/MediaObjects/42256_2026_1332_Figa_HTML.png"
+      ],
+      "doi": "10.1038/s42256-026-01332-7",
+      "relevance_score": 70.5,
+      "freshness_score": 100.0,
+      "priority_score": 82.7,
+      "priority_label": "High relevance",
+      "rank": 27
+    },
+    {
+      "id": "90807555dfa8a9372e20",
+      "title": "Accelerating inverse materials design using generative diffusion models with reinforcement learning",
+      "url": "https://www.nature.com/articles/s42256-026-01334-5",
+      "source": "Nature Machine Intelligence",
+      "source_id": "nature_machine_intelligence",
+      "source_class": "Scientific Journal",
+      "source_tier": 1,
+      "content_type": "Journal",
+      "publication_status": "Journal",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "General AI",
+      "categories": [
+        "General AI"
+      ],
+      "tags": [
+        "General AI"
+      ],
+      "excerpt": "Nature Machine Intelligence, Published online: 26 November 2026; doi:10.1038/s42256-026-01334-5 Chen et al. present MatInvent, a reinforcement learning workflow that fine-tunes diffusion models to design crystals meeting single or multiple property targets, with far fewer property calculations than previous methods.",
+      "authors": [
+        "Junwu Chen",
+        "Jeff Guo",
+        "Edvin Fako",
+        "Philippe Schwaller"
+      ],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "doi": "10.1038/s42256-026-01334-5",
+      "relevance_score": 47.6,
+      "freshness_score": 100.0,
+      "priority_score": 75.8,
+      "priority_label": "Relevant",
+      "rank": 170
+    },
+    {
+      "id": "59bbc4d34196850d36f3",
+      "title": "Eosinophilic gastrointestinal diseases 2024 single topic symposium proceedings part 2: State of the field.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43095891",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Medical Imaging"
+      ],
+      "tags": [
+        "Medical AI",
+        "Medical"
+      ],
+      "excerpt": "While advances in the management of eosinophilic esophagitis (EoE) have transformed clinical practice, eosinophilic gastrointestinal diseases beyond the esophagus (non-EoE EGIDs, including eosinophilic gastritis [EoG], enteritis [EoN], and colitis [EoC]) remain incompletely defined and understudied. The 2024 North American Society for Pediatric Gastroenterology, Hepatology and Nutrition…",
+      "authors": [
+        "James P Franciosi",
+        "Erin P Syverson",
+        "Sandeep Gupta",
+        "Vincent Mukkada",
+        "Nathalie Nguyen",
+        "Carla M Davis",
+        "Chris Liacouras",
+        "Margaret Marcon"
+      ],
+      "venue": "Journal of pediatric gastroenterology and nutrition",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "43095891",
+      "doi": "10.1002/jpn3.70625",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 6
+    },
+    {
+      "id": "7808a0330fd28e794ed3",
+      "title": "Free-breathing cardiac T1 mapping registration with PCA low-rank and physics-informed constraints.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43086535",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Medical Imaging",
+        "Medical AI"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "Safety",
+        "Medical",
+        "Imaging",
+        "Vision"
+      ],
+      "excerpt": "Cardiac T1 mapping is an important quantitative MRI technique for evaluating myocardial tissue properties, with significant clinical value in the early diagnosis of cardiovascular diseases. Motion correction of free-breathing T1 mapping sequences via image registration enables high-quality quantitative T1 imaging without breath-holding. However, the large non-rigid deformations caused…",
+      "authors": [
+        "Shuangshuang Jia",
+        "Qing Chang"
+      ],
+      "venue": "Medical & biological engineering & computing",
+      "manual": false,
+      "related": [],
+      "images": [
+        "https://media.springernature.com/m685/springer-static/image/art%3A10.1007%2Fs11517-026-03714-w/MediaObjects/11517_2026_3714_Figc_HTML.png",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs11517-026-03714-w/MediaObjects/11517_2026_3714_Fig1_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs11517-026-03714-w/MediaObjects/11517_2026_3714_Fig2_HTML.png?as=webp",
+        "https://media.springernature.com/m312/springer-static/image/art%3A10.1007%2Fs11517-026-03714-w/MediaObjects/11517_2026_3714_Fig3_HTML.png?as=webp"
+      ],
+      "pmid": "43086535",
+      "doi": "10.1007/s11517-026-03714-w",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 4
+    },
+    {
+      "id": "0dec64072abb83aa5292",
+      "title": "Evaluating the feasibility of a nurse-informed, context-driven large language model pipeline for social determinants of health in heart failure care.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43095285",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Medical",
+        "Education"
+      ],
+      "excerpt": "To develop and evaluate a nurse-informed large language model (LLM)-based pipeline for extracting the presence of social determinants of health (SDOH) from unstructured electronic health record (EHR) clinical notes among patients with heart failure (HF). We evaluated the feasibility and performance of a prompt-based pipeline using 2 deployable LLMs (GPT-4o-mini and LLaMA 3.1 70B). The…",
+      "authors": [
+        "Helen Nhi Dinh",
+        "Zhihong Zhang",
+        "So Hyeon Bang",
+        "Robert Fullilove",
+        "Meghan Reading Turchioe",
+        "Ruth Masterson Creber",
+        "Maryam Zolnoori"
+      ],
+      "venue": "JAMIA open",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "43095285",
+      "doi": "10.1093/jamiaopen/ooag191",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 14
+    },
+    {
+      "id": "4c73ef2de1d739d21e93",
+      "title": "Trustworthiness Evaluation of Medical Vision-Language Models: Scoping Review and Proposed Minimum Evaluation Checklist.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43096762",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Trustworthy AI",
+      "categories": [
+        "Trustworthy AI",
+        "Foundation Models"
+      ],
+      "tags": [
+        "Trustworthy AI",
+        "LLM",
+        "Multimodal",
+        "Safety",
+        "Evaluation",
+        "Medical",
+        "Imaging"
+      ],
+      "excerpt": "Medical vision-language models combine images and text to answer questions, generate reports, and support image interpretation. Task accuracy alone does not establish whether their outputs depend on relevant visual evidence or remain reliable under changes in the input. This study aimed to describe how trustworthiness is evaluated in medical vision-language models, identify gaps in…",
+      "authors": [
+        "Binesh Sadanandan",
+        "Amirhossein Karimi",
+        "Bibek Upadhayay",
+        "Vahid Behzadan"
+      ],
+      "venue": "JMIR AI",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "43096762",
+      "doi": "10.2196/102330",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 5
+    },
+    {
+      "id": "df246298115597ab34a5",
+      "title": "Artificial intelligence for pharmacokinetic drug-drug interaction assessment: from promise to practice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43094325",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Evaluation",
+        "Medical",
+        "Reasoning",
+        "Regulation"
+      ],
+      "excerpt": "Artificial intelligence (AI) is highly prominent in computational drug-drug interaction (DDI) research, yet adoption in real development and regulatory workflows lags publication volume. This gap reflects a mismatch between benchmark-driven method development and the decisions that DDI assessment supports. We synthesize the AI methodology landscape - from shallow learning to large…",
+      "authors": [
+        "Hong-Can Ren"
+      ],
+      "venue": "Expert opinion on drug metabolism & toxicology",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "43094325",
+      "doi": "10.1080/17425255.2026.2771263",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 84.0,
+      "priority_label": "High relevance",
+      "rank": 13
+    },
+    {
+      "id": "dded0776af13acf4fc50",
+      "title": "Machine Learning Versus Clinical Risk Scores for Predicting Contrast-Associated Acute Kidney Injury After Coronary Angiography or Percutaneous Coronary Intervention: A Systematic Review and Meta-Analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43094210",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Risk stratification for contrast-associated acute kidney injury (CA-AKI) before coronary angiography or percutaneous coronary intervention (PCI) may inform procedural planning and preventive management. Machine-learning (ML) models frequently report higher discrimination than established clinical scores, but whether this represents genuine incremental value or unequal comparator…",
+      "authors": [
+        "Liam Munir",
+        "Adele Cai",
+        "Oliver Leslie",
+        "Daud Mutahar",
+        "Joshua Andrews",
+        "Domenico Perrotta",
+        "Alasdair Leslie",
+        "Joshua Kovoor"
+      ],
+      "venue": "Catheterization and cardiovascular interventions : official journal of the Society for Cardiac Angiography & Interventions",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "43094210",
+      "doi": "10.1002/ccd.71066",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 84.2,
+      "priority_label": "High relevance",
+      "rank": 3
+    },
+    {
+      "id": "f3d4a38ea297bd7ad07a",
+      "title": "Research hotspots and trends in machine learning for predicting postoperative outcomes of genitourinary cancers: A visualization analysis based on knowledge graphs.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43095909",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Medical AI",
+      "categories": [
+        "Medical AI"
+      ],
+      "tags": [
+        "Medical AI",
+        "Multimodal",
+        "Evaluation",
+        "Medical"
+      ],
+      "excerpt": "Background Machine learning has been increasingly applied to predicting postoperative outcomes in genitourinary cancers. However, a comprehensive understanding of the research landscape, major hotspots, and emerging trends in this field remains limited.ObjectiveTo analyse the research status, hotspots and future trends of machine learning in predicting postoperative outcomes of…",
+      "authors": [
+        "YaoZhen Zhang",
+        "TengFei Zhang",
+        "XiaoMin Wei",
+        "WenJin Zhang"
+      ],
+      "venue": "Technology and health care : official journal of the European Society for Engineering and Medicine",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "43095909",
+      "doi": "10.1177/09287329261511193",
+      "relevance_score": 78.7,
+      "freshness_score": 100.0,
+      "priority_score": 83.1,
+      "priority_label": "High relevance",
+      "rank": 7
+    },
+    {
+      "id": "f4963be6afb1e2c81ec2",
+      "title": "Feasibility and Acceptability of AI-Generated Formative Assessments for Patient Immunomonitoring Training: Mixed Methods Implementation Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43096326",
+      "source": "PubMed - Medical AI",
+      "source_id": "pubmed_medical_ai",
+      "source_class": "Biomedical Index",
+      "source_tier": 1,
+      "content_type": "Biomedical",
+      "publication_status": "Journal Article",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "Foundation Models",
+      "categories": [
+        "Foundation Models",
+        "Medical AI",
+        "Trustworthy AI"
+      ],
+      "tags": [
+        "Foundation Models",
+        "LLM",
+        "Safety",
+        "Evaluation",
+        "Medical",
+        "Education",
+        "Vision"
+      ],
+      "excerpt": "Traditional formative assessment development in specialized medical education is time-intensive and often poorly aligned with learning outcomes, particularly in highly technical domains such as patient immunomonitoring. Evidence on the feasibility and quality of AI-generated assessments in such specialized biomedical training remains limited. This study aimed to evaluate the…",
+      "authors": [
+        "Carlos Kiyan Tsunami",
+        "Ermias Diro",
+        "Odin Goovaerts",
+        "Aquiles Rodrigo Henríquez-Trujillo",
+        "Karen Ferreira-Meyers",
+        "Bart K M Jacobs",
+        "Ziyanda Mwanda",
+        "Jyotsna Rimal"
+      ],
+      "venue": "JMIR formative research",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "pmid": "43096326",
+      "doi": "10.2196/86309",
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 81.7,
+      "priority_label": "High relevance",
+      "rank": 15
+    },
+    {
+      "id": "819f2bb8e324e5e7f3ab",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face",
+      "source_id": "huggingface",
+      "source_class": "Open Source AI",
+      "source_tier": 2,
+      "content_type": "Engineering",
+      "publication_status": "Engineering",
+      "date": "2026-11-26T00:00:00+00:00",
+      "category": "AI Agents",
+      "categories": [
+        "AI Agents"
+      ],
+      "tags": [
+        "AI Agents",
+        "Agents"
+      ],
+      "excerpt": "",
+      "authors": [],
+      "venue": "",
+      "manual": false,
+      "related": [],
+      "images": [],
+      "relevance_score": 73.8,
+      "freshness_score": 100.0,
+      "priority_score": 77.1,
+      "priority_label": "Relevant",
+      "rank": 51
+    },
+    {
       "id": "f09aeb2897d181487b1d",
       "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
       "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling",
@@ -1786,8 +2499,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2025/10/floating-cubes-768x431.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 100.0,
-      "priority_score": 75.2,
+      "freshness_score": 94.0,
+      "priority_score": 73.9,
       "priority_label": "Relevant",
       "rank": 118
     },
@@ -1821,8 +2534,8 @@
         "https://storage.googleapis.com/gweb-research2023-media/original_images/VerifiableSocialReasoning1-UserMediatedReality.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 81.3,
+      "freshness_score": 94.0,
+      "priority_score": 80.0,
       "priority_label": "High relevance",
       "rank": 16
     },
@@ -1854,8 +2567,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 73.6,
+      "freshness_score": 94.0,
+      "priority_score": 72.2,
       "priority_label": "Relevant",
       "rank": 134
     },
@@ -1889,8 +2602,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 100.0,
-      "priority_score": 76.1,
+      "freshness_score": 94.0,
+      "priority_score": 74.8,
       "priority_label": "Relevant",
       "rank": 135
     },
@@ -8721,8 +9434,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/mit-mcgovern-languages.jpg?itok=wMLbQvpF"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 77.3,
+      "freshness_score": 86.0,
+      "priority_score": 75.5,
       "priority_label": "Relevant",
       "rank": 31
     },
@@ -8755,8 +9468,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2024/06/DatacenterKV-2-768x432.png"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 79.8,
+      "freshness_score": 86.0,
+      "priority_score": 78.0,
       "priority_label": "Relevant",
       "rank": 32
     },
@@ -8787,8 +9500,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 72.2,
+      "freshness_score": 86.0,
+      "priority_score": 70.5,
       "priority_label": "Relevant",
       "rank": 176
     },
@@ -8821,8 +9534,8 @@
       "related": [],
       "images": [],
       "relevance_score": 70.5,
-      "freshness_score": 94.0,
-      "priority_score": 73.8,
+      "freshness_score": 86.0,
+      "priority_score": 72.0,
       "priority_label": "Relevant",
       "rank": 160
     },
@@ -8856,9 +9569,9 @@
         "https://storage.googleapis.com/gweb-research2023-media/images/DeepCrossAttention4_ConnectionsPerplexityResu.width-1250.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 94.0,
-      "priority_score": 80.0,
-      "priority_label": "High relevance",
+      "freshness_score": 86.0,
+      "priority_score": 78.2,
+      "priority_label": "Relevant",
       "rank": 22
     },
     {
@@ -8889,8 +9602,8 @@
       "related": [],
       "images": [],
       "relevance_score": 59.0,
-      "freshness_score": 94.0,
-      "priority_score": 73.9,
+      "freshness_score": 86.0,
+      "priority_score": 72.1,
       "priority_label": "Relevant",
       "rank": 102
     },
@@ -8923,8 +9636,8 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_pContext_Drive_1118.max-600x600.format-webp.webp"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 94.0,
-      "priority_score": 72.8,
+      "freshness_score": 86.0,
+      "priority_score": 71.0,
       "priority_label": "Relevant",
       "rank": 204
     },
@@ -8957,8 +9670,8 @@
         "https://lh3.googleusercontent.com/jIoM2lo98EDqLMQjIaXBlXPmXgPbUPpM2GgtXcDsGekZBOPUY41IjBsnuZIhLac7MSOuRkklNBsp20a5M25oDz-xTIY0BIqoBxUqmmXvEHwlM3MJJw=w528-h297-n-nu-rw-lo"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 94.0,
-      "priority_score": 82.2,
+      "freshness_score": 86.0,
+      "priority_score": 80.4,
       "priority_label": "High relevance",
       "rank": 5
     },
@@ -16881,9 +17594,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 136
     },
     {
@@ -16922,9 +17635,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ml-22416-edit1.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 71.2,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.1,
+      "priority_label": "Latest",
       "rank": 122
     },
     {
@@ -16962,8 +17675,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22098-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.7,
+      "freshness_score": 72.0,
+      "priority_score": 71.6,
       "priority_label": "Relevant",
       "rank": 44
     },
@@ -17001,9 +17714,9 @@
         "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-22432/4-jbarr-switch.mp3?_=4"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 71.2,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.1,
+      "priority_label": "Latest",
       "rank": 122
     },
     {
@@ -17044,8 +17757,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/18/ML-22007-2.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 74.0,
+      "freshness_score": 72.0,
+      "priority_score": 70.9,
       "priority_label": "Relevant",
       "rank": 61
     },
@@ -17084,8 +17797,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/17/ML-22377-4-1.png"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 69.6,
+      "freshness_score": 72.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 150
     },
@@ -17118,9 +17831,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 135
     },
     {
@@ -17153,9 +17866,9 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Tool_retrieval_hero.max-600x600.format-webp.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 80.7,
-      "priority_label": "High relevance",
+      "freshness_score": 72.0,
+      "priority_score": 77.7,
+      "priority_label": "Relevant",
       "rank": 6
     },
     {
@@ -17186,9 +17899,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 70.5,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 136
     },
     {
@@ -17218,9 +17931,9 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues.max-600x600.format-webp.webp"
       ],
       "relevance_score": 47.6,
-      "freshness_score": 86.0,
-      "priority_score": 71.0,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 210
     },
     {
@@ -17253,9 +17966,9 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/electron-energy-loss-spectroscopy-768x432.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 72.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 107
     },
     {
@@ -17289,8 +18002,8 @@
         "https://developer-blogs.nvidia.com/wp-content/uploads/2026/11/agentic-ai-rl-gym-1024x576-1-768x432.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 86.0,
-      "priority_score": 76.5,
+      "freshness_score": 72.0,
+      "priority_score": 73.5,
       "priority_label": "Relevant",
       "rank": 27
     },
@@ -17332,8 +18045,8 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/19/ML-22238-4.jpg"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 69.6,
+      "freshness_score": 72.0,
+      "priority_score": 66.5,
       "priority_label": "Latest",
       "rank": 148
     },
@@ -17368,9 +18081,9 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202611/MIT-Datacenter-Health-01-press.jpg?itok=GrhdbTzT"
       ],
       "relevance_score": 59.0,
-      "freshness_score": 86.0,
-      "priority_score": 71.1,
-      "priority_label": "Relevant",
+      "freshness_score": 72.0,
+      "priority_score": 68.0,
+      "priority_label": "Latest",
       "rank": 193
     },
     {
@@ -36380,8 +37093,8 @@
         "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/10/ResearchFocus-BlogHeroFeature-1400x788-1-scaled-1.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.2,
+      "freshness_score": 56.0,
+      "priority_score": 71.6,
       "priority_label": "Relevant",
       "rank": 21
     },
@@ -36416,8 +37129,8 @@
         "https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202610/mit-lincoln-awards.jpg?itok=LWW0sVfe"
       ],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 73.9,
+      "freshness_score": 56.0,
+      "priority_score": 70.4,
       "priority_label": "Relevant",
       "rank": 36
     },
@@ -36456,9 +37169,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-21479-2.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 58
     },
     {
@@ -36490,8 +37203,8 @@
       "related": [],
       "images": [],
       "relevance_score": 59.0,
-      "freshness_score": 72.0,
-      "priority_score": 65.5,
+      "freshness_score": 56.0,
+      "priority_score": 62.0,
       "priority_label": "Latest",
       "rank": 175
     },
@@ -36520,8 +37233,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 28
     },
@@ -36560,9 +37273,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/08/28/ML-21656-2.png"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 51
     },
     {
@@ -36593,8 +37306,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 69.0,
+      "freshness_score": 56.0,
+      "priority_score": 65.4,
       "priority_label": "Latest",
       "rank": 104
     },
@@ -36624,9 +37337,9 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 70.9,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 67.4,
+      "priority_label": "Latest",
       "rank": 52
     },
     {
@@ -36659,8 +37372,8 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini4Hydrogen-03-Boston-full.width-1200.format-webp.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 77.7,
+      "freshness_score": 56.0,
+      "priority_score": 74.1,
       "priority_label": "Relevant",
       "rank": 9
     },
@@ -36694,8 +37407,8 @@
         "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 75.8,
+      "freshness_score": 56.0,
+      "priority_score": 72.3,
       "priority_label": "Relevant",
       "rank": 15
     },
@@ -36727,8 +37440,8 @@
       "related": [],
       "images": [],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 67.4,
+      "freshness_score": 56.0,
+      "priority_score": 63.9,
       "priority_label": "Latest",
       "rank": 129
     },
@@ -36770,9 +37483,9 @@
         "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/11/10/ML-22085-4.jpg"
       ],
       "relevance_score": 73.8,
-      "freshness_score": 72.0,
-      "priority_score": 72.5,
-      "priority_label": "Relevant",
+      "freshness_score": 56.0,
+      "priority_score": 69.0,
+      "priority_label": "Latest",
       "rank": 33
     },
     {
@@ -36803,8 +37516,8 @@
       "related": [],
       "images": [],
       "relevance_score": 78.7,
-      "freshness_score": 72.0,
-      "priority_score": 68.9,
+      "freshness_score": 56.0,
+      "priority_score": 65.4,
       "priority_label": "Latest",
       "rank": 143
     },
